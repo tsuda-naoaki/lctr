@@ -1,0 +1,25 @@
+lean/RegionLawGluingLeanBridge.lean:22:0: warning: `LawEvalDat`: universes `v`, `w`, `z` only occur together. This usually means there is a `max` expression in the type where none of these universes appear on their own.
+
+Note: This linter can be disabled with `set_option linter.checkUnivs false`
+lean/RegionLawGluingLeanBridge.lean:139:6: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+lean/RegionLawGluingLeanBridge.lean:299:5: warning: Variable name `hLocal` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hLocal
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'LCTR.RegionLawGluingLeanBridgeV1.Law.law_candidate_relation_partial_output_map' depends on axioms: [Classical.choice,
+ Quot.sound]
+'LCTR.RegionLawGluingLeanBridgeV1.Law.law_candidate_relation_literal_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.RegionLawGluingLeanBridgeV1.Law.empty_relation_has_empty_domain' does not depend on any axioms
+'LCTR.RegionLawGluingLeanBridgeV1.Law.no_graph_if_right_uniqueness_fails' does not depend on any axioms
+'LCTR.RegionLawGluingLeanBridgeV1.Gluing.closure_subset_safeSet' does not depend on any axioms
+'LCTR.RegionLawGluingLeanBridgeV1.Gluing.global_gluing_failure_blocks_representation_entry' does not depend on any axioms
+'LCTR.RegionLawGluingLeanBridgeV1.Gluing.supplied_output_remains_generated' does not depend on any axioms

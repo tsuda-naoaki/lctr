@@ -1,0 +1,3 @@
+session LCTR_Core_Continuum_Topology_Alignment = LCTR_Core_Continuum_Topology +
+  options [quick_and_dirty = false]
+  theories Core_Continuum_Topology_Alignment

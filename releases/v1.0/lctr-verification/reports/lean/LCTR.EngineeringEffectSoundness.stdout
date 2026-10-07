@@ -1,0 +1,15 @@
+lean/LCTR/EngineeringEffectSoundness.lean:55:71: warning: This simp argument is unused:
+  verified
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [meaning, exampleData]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'EngineeringEffectSoundness.verified_form' does not depend on any axioms
+'EngineeringEffectSoundness.verified_eval' does not depend on any axioms
+'EngineeringEffectSoundness.verified_boundary_target' does not depend on any axioms
+'EngineeringEffectSoundness.verified_unformed' does not depend on any axioms
+'EngineeringEffectSoundness.verified_formed' does not depend on any axioms
+'EngineeringEffectSoundness.type_alone_is_insufficient' depends on axioms: [propext]
+'EngineeringEffectSoundness.exact_requirement_does_not_force_failure' depends on axioms: [propext]
+'EngineeringEffectSoundness.each_effect_has_a_verified_instance' depends on axioms: [propext]

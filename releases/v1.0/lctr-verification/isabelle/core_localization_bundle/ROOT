@@ -1,0 +1,4 @@
+session LCTR_Core_Localization_Bundle = LCTR_Core_Failure_Multiplicity +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Series_Validity LCTR_Core_Structural_Burden
+  theories Core_Localization_Bundle

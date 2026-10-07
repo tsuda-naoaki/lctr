@@ -1,0 +1,4 @@
+session LCTR_Core_Law_Component_Charts = LCTR_Core_Native_Law_Components +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Local_Charts
+  theories Core_Law_Component_Charts

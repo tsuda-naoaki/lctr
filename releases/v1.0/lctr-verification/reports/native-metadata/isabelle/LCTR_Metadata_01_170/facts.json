@@ -1,0 +1,50 @@
+{
+  "parent_session": "LCTR_Nested_Quotient_Order_Alignment",
+  "records": [
+    {
+      "name": "Nested_Quotient_Order_Alignment.nested_quotient_order_embedding",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "HOL.the_eq_trivial",
+        "Set.Collect_mem_eq",
+        "Set.arity_type_set",
+        "Set.mem_Collect_eq",
+        "HOL.arity_type_bool",
+        "Hilbert_Choice.someI",
+        "Pure.conjunction_def",
+        "Orderings.bot_class_def",
+        "Orderings.ord_class_def",
+        "Orderings.top_class_def",
+        "Orderings.order_class_def",
+        "Typedef.type_definition_def",
+        "Orderings.class.preorder_def",
+        "Orderings.linorder_class_def",
+        "Orderings.preorder_class_def",
+        "Product_Type.arity_type_prod",
+        "Orderings.order_bot_class_def",
+        "Orderings.order_top_class_def",
+        "Product_Type.prod.case_prod_def",
+        "Orderings.class.order_axioms_def",
+        "Orderings.class.linorder_axioms_def",
+        "Orderings.class.order_bot_axioms_def",
+        "Orderings.class.order_top_axioms_def",
+        "Product_Type.prod.type_definition_prod"
+      ],
+      "theorem_dependencies": [
+        "Order_Embedding_Isabelle.nested_quotient_order_embedding"
+      ],
+      "oracle_dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+theory Native_Metadata_01_158
+imports
+  "LCTR_Dynamics_Refinement_Complete_Alignment.Dynamics_Refinement_Complete_Alignment"
+begin
+ML_file "../../ReadNativeMetadata.ML"
+ML \<open>LCTR_Native_Metadata.emit @{theory} [
+  "Dynamics_Refinement_Complete_Alignment.complete_canonical_admissible",
+  "Dynamics_Refinement_Complete_Alignment.complete_missing_projection_surjectivity_control",
+  "Dynamics_Refinement_Complete_Alignment.complete_mutual_factor_inverse",
+  "Dynamics_Refinement_Complete_Alignment.complete_mutual_iff_iso",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_isomorphism_class_partial_order",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_native_canonical_class_greatest",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_native_canonical_greatest",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_refinement_descends",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_refinement_refl",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_refinement_trans",
+  "Dynamics_Refinement_Complete_Alignment.presentation_universe.complete_source_native_canonical_class_greatest"
+]\<close>
+end

@@ -1,0 +1,4 @@
+session LCTR_Core_Nonmonotone_Boundary_Data = HOL +
+  options [quick_and_dirty = false]
+  sessions "HOL-Library"
+  theories Core_Nonmonotone_Boundary_Data

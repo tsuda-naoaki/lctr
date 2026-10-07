@@ -1,0 +1,2 @@
+session LCTR_Core_Preorder_Quotient = HOL +
+  theories Core_Preorder_Quotient

@@ -1,0 +1,4 @@
+session LCTR_Core_Continuum_Input = LCTR_Core_Record_Cells +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Representation_Stages
+  theories Core_Continuum_Input

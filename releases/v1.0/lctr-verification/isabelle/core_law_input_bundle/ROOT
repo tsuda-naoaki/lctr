@@ -1,0 +1,4 @@
+session LCTR_Core_Law_Input_Bundle = LCTR_Core_Native_Observables +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Record_Codes_Aligned "HOL-Library"
+  theories Core_Law_Input_Bundle

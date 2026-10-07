@@ -1,0 +1,3 @@
+session LCTR_Linear_Retraction_Derivatives = LCTR_Zero_Completed_Derivative +
+  options [document = false, quick_and_dirty = false]
+  theories Linear_Retraction_Derivatives

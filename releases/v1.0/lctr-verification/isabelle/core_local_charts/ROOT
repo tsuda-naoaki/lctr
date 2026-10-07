@@ -1,0 +1,3 @@
+session LCTR_Core_Local_Charts = HOL +
+  options [quick_and_dirty = false, timeout = 45]
+  theories Core_Local_Charts

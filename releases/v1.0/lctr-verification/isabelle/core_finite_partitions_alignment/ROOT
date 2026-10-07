@@ -1,0 +1,4 @@
+session LCTR_Core_Finite_Partitions_Alignment = HOL +
+  options [quick_and_dirty = false]
+  directories "../support/core_finite_partitions"
+  theories Core_Finite_Partitions_Alignment

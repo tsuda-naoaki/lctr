@@ -1,0 +1,3 @@
+session LCTR_Core_Continuum_Boundary = HOL +
+  sessions "HOL-Library"
+  theories Core_Continuum_Boundary

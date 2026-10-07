@@ -1,0 +1,4 @@
+session LCTR_Core_Local_Loop_Bridge = LCTR_Core_Local_Loop_Realization +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Local_Loop_Specification
+  theories Core_Local_Loop_Bridge

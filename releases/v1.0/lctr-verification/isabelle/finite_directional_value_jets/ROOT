@@ -1,0 +1,3 @@
+session LCTR_Finite_Directional_Value_Jets = LCTR_Value_Jet_Lift_Algebra +
+  options [document = false, quick_and_dirty = false]
+  theories Finite_Directional_Value_Jets

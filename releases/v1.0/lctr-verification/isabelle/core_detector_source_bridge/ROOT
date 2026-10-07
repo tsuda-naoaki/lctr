@@ -1,0 +1,4 @@
+session LCTR_Core_Detector_Source_Bridge = HOL +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Operational_Configuration
+ theories Core_Detector_Source_Bridge

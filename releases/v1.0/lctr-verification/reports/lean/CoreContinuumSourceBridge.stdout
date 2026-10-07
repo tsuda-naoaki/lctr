@@ -1,0 +1,2 @@
+'LCTR.CoreContinuumSourceBridge.fibre_membership' depends on axioms: [propext]
+'LCTR.CoreContinuumSourceBridge.eight_conditions' depends on axioms: [propext, Classical.choice, Quot.sound]

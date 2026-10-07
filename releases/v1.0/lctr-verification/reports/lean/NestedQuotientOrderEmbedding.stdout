@@ -1,0 +1,2 @@
+'LCTR.NestedQuotientOrderEmbedding.universal_hypotheses_give_factor' depends on axioms: [Classical.choice, Quot.sound]
+'LCTR.NestedQuotientOrderEmbedding.nested_quotient_order_embedding' depends on axioms: [Classical.choice, Quot.sound]

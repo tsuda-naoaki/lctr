@@ -1,0 +1,3 @@
+session LCTR_Value_Jet_Lift_Algebra = LCTR_Zero_Completed_Jet_Germs +
+  options [document = false, quick_and_dirty = false]
+  theories Value_Jet_Lift_Algebra

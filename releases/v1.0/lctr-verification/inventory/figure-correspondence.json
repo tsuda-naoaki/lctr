@@ -1,0 +1,252 @@
+{
+  "figures": [
+    {
+      "label": "fig:recursive-common-input-composition",
+      "scope": "Recursive assembly of the existing role, raw-input, configuration and common-input definitions",
+      "panels": [
+        {
+          "panel": 1,
+          "meaning": "A local scene carries the four role components and their binding witness.",
+          "source_responsibility": "semantic:def:role-instance",
+          "components": [
+            "chapter2-roles/binding-witness",
+            "chapter2-roles/body-abstraction-source",
+            "chapter2-roles/four-role-types",
+            "chapter2-roles/instance-equality-iff-index-equality",
+            "chapter2-roles/local-scene-and-role-carriers",
+            "chapter2-roles/object-specification-index",
+            "chapter2-roles/role-instance-and-bundle"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.role_index_preserved",
+              "isabelle": "role_index_preserved",
+              "role": "role and index projections"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.physical_identity_does_not_merge_roles",
+              "isabelle": "physical_identity_does_not_merge_roles",
+              "role": "index injectivity"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.body_abstraction_retained",
+              "isabelle": "body_abstraction_retained",
+              "role": "tracked object and body component correspondence"
+            }
+          ]
+        },
+        {
+          "panel": 2,
+          "meaning": "The object-specification index identifies the bundle of its four role instances.",
+          "source_responsibility": "semantic:def:role-instance",
+          "components": [
+            "chapter2-roles/binding-witness",
+            "chapter2-roles/body-abstraction-source",
+            "chapter2-roles/four-role-types",
+            "chapter2-roles/instance-equality-iff-index-equality",
+            "chapter2-roles/local-scene-and-role-carriers",
+            "chapter2-roles/object-specification-index",
+            "chapter2-roles/role-instance-and-bundle"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.role_index_preserved",
+              "isabelle": "role_index_preserved",
+              "role": "role and index projections"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.physical_identity_does_not_merge_roles",
+              "isabelle": "physical_identity_does_not_merge_roles",
+              "role": "index injectivity"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.body_abstraction_retained",
+              "isabelle": "body_abstraction_retained",
+              "role": "tracked object and body component correspondence"
+            }
+          ]
+        },
+        {
+          "panel": 3,
+          "meaning": "Restrict the role-instance bundle family to the declared object-index set.",
+          "source_responsibility": "semantic:def:role-instance-family",
+          "components": [
+            "chapter2-roles/body-abstraction-source",
+            "chapter2-roles/object-specification-index",
+            "chapter2-roles/realization-as-additional-structure",
+            "chapter2-roles/realization-role-set",
+            "chapter2-roles/restricted-role-family"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.realization_domain_exact",
+              "isabelle": "realization_domain_exact",
+              "role": "exact selected role-instance image"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.role_index_preserved",
+              "isabelle": "role_index_preserved",
+              "role": "both positions"
+            },
+            {
+              "unit": "CoreCarrierPatterns",
+              "lean": "LCTR.CoreCarrierPatterns.body_abstraction_retained",
+              "isabelle": "body_abstraction_retained",
+              "role": "body source"
+            }
+          ]
+        },
+        {
+          "panel": 4,
+          "meaning": "Combine that family with physical carriers, realization maps, body abstraction sources and the reception network.",
+          "source_responsibility": "semantic:def:raw-operational-input",
+          "components": [
+            "chapter3-source/reception-and-raw-aggregates"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreOperationalConfiguration",
+              "lean": "LCTR.CoreOperationalConfiguration.role_positions_preserved",
+              "isabelle": "role_positions_preserved",
+              "role": "role and object-specification indices"
+            },
+            {
+              "unit": "CoreOperationalConfiguration",
+              "lean": "LCTR.CoreOperationalConfiguration.receiver_is_realized",
+              "isabelle": "receiver_is_realized",
+              "role": "membership in the observer realization image"
+            },
+            {
+              "unit": "CoreOperationalConfiguration",
+              "lean": "LCTR.CoreOperationalConfiguration.pairing_preserves_components",
+              "isabelle": "pairing_preserves_components",
+              "role": "raw component retained"
+            },
+            {
+              "unit": "CoreReceptionInput",
+              "lean": "LCTR.CoreReceptionInput.restriction_exact",
+              "isabelle": "restriction_exact",
+              "role": "The order at a fixed role is the restriction of the same reception order to that tagged fiber."
+            },
+            {
+              "unit": "CoreReceptionInput",
+              "lean": "LCTR.CoreReceptionInput.restriction_partial_order",
+              "isabelle": "restriction_partial_order",
+              "role": "Reflexivity, transitivity and antisymmetry hold on each fiber, in particular on both comparison roles."
+            },
+            {
+              "unit": "CoreReceptionInput",
+              "lean": "LCTR.CoreReceptionInput.total_reception_decomposition",
+              "isabelle": "total_reception_decomposition",
+              "role": "Each total local reception point retains its phase and local reception value."
+            },
+            {
+              "unit": "CoreReceptionInput",
+              "lean": "LCTR.CoreReceptionInput.total_reception_distinct_nodes",
+              "isabelle": "total_reception_distinct_nodes",
+              "role": "Different reception phases remain different points of the tagged total reception space."
+            }
+          ]
+        },
+        {
+          "panel": 5,
+          "meaning": "Pair the raw operational input with the source datum.",
+          "source_responsibility": "semantic:def:realized-operational-configuration",
+          "components": [
+            "chapter3-source/operational-configuration-pair"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreOperationalConfiguration",
+              "lean": "LCTR.CoreOperationalConfiguration.pairing_preserves_components",
+              "isabelle": "pairing_preserves_components",
+              "role": "two projections"
+            },
+            {
+              "unit": "CoreOperationalConfiguration",
+              "lean": "LCTR.CoreOperationalConfiguration.pairing_roundtrip",
+              "isabelle": "pairing_roundtrip",
+              "role": "reconstruction from projections"
+            }
+          ]
+        },
+        {
+          "panel": 6,
+          "meaning": "Pair the realized operational configuration with the typed comparison-rule family.",
+          "source_responsibility": "semantic:def:comparison-rule-dependent-common-input",
+          "components": [
+            "chapter4-input/common-configuration-rule-input",
+            "chapter4-input/common-evaluation-notation"
+          ],
+          "formal_components": [
+            {
+              "unit": "CoreComparisonInterfaces",
+              "lean": "LCTR.CoreComparisonInterfaces.common_evaluation",
+              "isabelle": "common_evaluation",
+              "role": "Common is a product of two possibly distinct input types; evaluate is precisely uncurrying of the two-input evaluation."
+            },
+            {
+              "unit": "CoreConfigurationComparison",
+              "lean": "LCTR.CoreConfigurationComparison.arrival_preserved",
+              "isabelle": "configuration_comparison_seed.arrival_preserved",
+              "role": "When the configuration and typed comparison data are passed into the comparison construction, the configuration's original arrivals are retained."
+            },
+            {
+              "unit": "CoreConfigurationComparison",
+              "lean": "LCTR.CoreConfigurationComparison.relations_preserved",
+              "isabelle": "configuration_comparison_seed.relations_preserved",
+              "role": "The construction retains the configuration's local and source relations rather than replacing them with a new pair."
+            }
+          ]
+        }
+      ],
+      "caption_occurrences": 12,
+      "geometric_role": "Nested boxes represent retained components; arrows indicate the order of assembly.",
+      "pdf_locations": {
+        "jp": {
+          "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+          "label": "fig:recursive-common-input-composition",
+          "locator_kind": "named_figure",
+          "number": "7",
+          "page": 32,
+          "destination": "figure.7",
+          "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=figure.7",
+          "edition_locations": {
+            "main": {
+              "pdf": "pdf/lctr_main_jp.pdf",
+              "page": 32,
+              "printed_page": "32",
+              "url": "pdf/lctr_main_jp.pdf#nameddest=figure.7"
+            }
+          }
+        },
+        "en": {
+          "pdf": "pdf/lctr_main_supp_full_en.pdf",
+          "label": "fig:recursive-common-input-composition",
+          "locator_kind": "named_figure",
+          "number": "7",
+          "page": 38,
+          "destination": "figure.7",
+          "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=figure.7",
+          "edition_locations": {
+            "main": {
+              "pdf": "pdf/lctr_main_en.pdf",
+              "page": 38,
+              "printed_page": "38",
+              "url": "pdf/lctr_main_en.pdf#nameddest=figure.7"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "count": 1
+}

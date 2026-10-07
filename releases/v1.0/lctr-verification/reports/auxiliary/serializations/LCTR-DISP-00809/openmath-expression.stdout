@@ -1,0 +1,1 @@
+<bind name="quant1.forall"><vars><var name="a"/></vars><app name="logic1.implies"><app name="set1.in"><var name="a"/><app name="lctr_law_audit1.law_indices"><var name="LawDat"/></app></app><app name="lctr_law_audit1.right_unique"><app name="lctr_law_audit1.candidate_relation_at"><var name="LawDat"/><var name="a"/></app></app></app></bind>

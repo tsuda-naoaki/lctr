@@ -1,0 +1,3 @@
+session LCTR_Core_Countable_Chart_Boundary = "HOL-Analysis" +
+  options [quick_and_dirty = false]
+  theories Core_Countable_Chart_Boundary

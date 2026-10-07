@@ -1,0 +1,3 @@
+session LCTR_Core_Exact_Input_Assembly = LCTR_Core_Exact_Completion +
+ options [document = false, quick_and_dirty = false]
+ theories Core_Exact_Input_Assembly

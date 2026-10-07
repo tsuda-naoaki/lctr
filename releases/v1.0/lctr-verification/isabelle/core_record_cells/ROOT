@@ -1,0 +1,4 @@
+session LCTR_Core_Record_Cells = LCTR_Core_Exact_Structure +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Affine_Frequency
+ theories Core_Record_Cells

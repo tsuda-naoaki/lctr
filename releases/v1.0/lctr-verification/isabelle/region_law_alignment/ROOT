@@ -1,0 +1,4 @@
+session LCTR_Region_Law_Alignment = LCTR_Region_Law_Gluing_Isabelle +
+  options [quick_and_dirty = false]
+  theories
+    Region_Law_Alignment

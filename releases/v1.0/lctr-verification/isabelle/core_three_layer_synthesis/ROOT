@@ -1,0 +1,4 @@
+session LCTR_Core_Three_Layer_Synthesis = LCTR_Core_Dynamic_Master +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Stage_Boundaries LCTR_Core_Law_Differential_Bundle LCTR_Core_Native_Law_Failure LCTR_Core_Differential_Failure
+ theories Core_Three_Layer_Synthesis

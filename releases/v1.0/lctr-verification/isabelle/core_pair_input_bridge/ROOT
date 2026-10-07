@@ -1,0 +1,4 @@
+session LCTR_Core_Pair_Input_Bridge = HOL +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Configuration_Comparison
+ theories Core_Pair_Input_Bridge

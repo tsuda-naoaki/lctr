@@ -1,0 +1,4 @@
+session LCTR_Core_Continuum_Native_Records_Aligned = LCTR_Core_Continuum_Datum +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Record_Codes_Aligned
+ theories Core_Continuum_Native_Records

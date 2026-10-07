@@ -1,0 +1,3 @@
+session LCTR_Native_Atlas_Certificates = LCTR_Native_Value_Change +
+  options [document = false, quick_and_dirty = false]
+  theories Native_Atlas_Certificates

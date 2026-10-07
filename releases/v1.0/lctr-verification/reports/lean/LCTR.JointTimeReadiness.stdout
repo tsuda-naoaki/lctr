@@ -1,0 +1,10 @@
+'LCTR.JointTimeReadiness.common_domain_projects' does not depend on any axioms
+'LCTR.JointTimeReadiness.joint_component' does not depend on any axioms
+'LCTR.JointTimeReadiness.joint_unique' depends on axioms: [Quot.sound]
+'LCTR.JointTimeReadiness.joint_relation_membership' does not depend on any axioms
+'LCTR.JointTimeReadiness.real_time_unambiguous' does not depend on any axioms
+'LCTR.JointTimeReadiness.individual_domains_can_be_nonempty' does not depend on any axioms
+'LCTR.JointTimeReadiness.common_domain_can_be_empty' does not depend on any axioms
+'LCTR.JointTimeReadiness.state_trajectory_does_not_force_observable_descent' does not depend on any axioms
+'LCTR.JointTimeReadiness.relation_value_curves_need_selection' does not depend on any axioms
+'LCTR.JointTimeReadiness.different_generated_equivalences_are_possible' does not depend on any axioms

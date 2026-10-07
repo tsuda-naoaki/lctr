@@ -1,0 +1,4 @@
+session LCTR_Core_Dag_Recursion = HOL +
+  options [document = false]
+  theories
+    Core_Dag_Recursion

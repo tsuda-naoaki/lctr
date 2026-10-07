@@ -1,0 +1,12 @@
+'LCTR.CoreEvaluation.typed_argument_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.path_nonsat_unformed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.failed_antichain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.coherent_section_edge' does not depend on any axioms
+'LCTR.CoreEvaluation.fibres_cover' depends on axioms: [propext, Quot.sound]
+'LCTR.CoreEvaluation.fibres_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.failed_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.failed_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.failed_set_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.case_exact' depends on axioms: [propext, Quot.sound]
+'LCTR.CoreEvaluation.coherent_section_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreEvaluation.failed_requires_native_domain' depends on axioms: [propext, Classical.choice, Quot.sound]

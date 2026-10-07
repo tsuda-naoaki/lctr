@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "language": "jp",
+      "pages": 1448,
+      "anchors": 908,
+      "sha256": "bcbcf2e73afbcbabddb35f16094ee5739a0967464fd73b0a9337b7307c7e21fe",
+      "accepted": true
+    },
+    {
+      "language": "en",
+      "pages": 1740,
+      "anchors": 908,
+      "sha256": "4463b87a559d87b8e74ed563e217f6baecc8605dcc95657e7e1d8203bd7661b5",
+      "accepted": true
+    }
+  ],
+  "resolved_responsibility_anchors": 1816,
+  "resolved_formula_occurrences": 9066,
+  "resolved_auxiliary_anchors": 36,
+  "resolved_figure_anchors": 2,
+  "resolved_total": 12736,
+  "resolved_proof_body_anchors": 1816,
+  "variant_location_counts": {
+    "main": 12736
+  },
+  "accepted": true
+}

@@ -1,0 +1,4 @@
+session LCTR_Core_Differential_Tokens = LCTR_Core_Differential_Selected +
+  options [quick_and_dirty = false, timeout = 45]
+  sessions LCTR_Core_Finite_Audit
+  theories Core_Differential_Tokens

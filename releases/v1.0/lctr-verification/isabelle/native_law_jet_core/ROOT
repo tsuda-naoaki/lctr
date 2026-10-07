@@ -1,0 +1,4 @@
+session LCTR_Native_Law_Jet_Core = LCTR_Core_Transported_Native_Jets +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Value_Jet_Lift_Algebra
+  theories Native_Law_Jet_Core

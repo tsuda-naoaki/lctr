@@ -1,0 +1,3 @@
+session LCTR_Core_Observable_Descent = HOL +
+  options [document = false, quick_and_dirty = false]
+  theories Core_Observable_Descent

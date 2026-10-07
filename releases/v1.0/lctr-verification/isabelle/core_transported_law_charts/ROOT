@@ -1,0 +1,4 @@
+session LCTR_Core_Transported_Law_Charts = LCTR_Core_Law_Component_Charts +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Law_Transport
+  theories Core_Transported_Law_Charts

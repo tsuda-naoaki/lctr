@@ -1,0 +1,3 @@
+session LCTR_Refinement_Ambiguity_Controls = LCTR_Dynamics_Refinement_Alignment +
+  options [quick_and_dirty = false]
+  theories Refinement_Ambiguity_Controls

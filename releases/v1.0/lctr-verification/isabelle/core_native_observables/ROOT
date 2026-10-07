@@ -1,0 +1,4 @@
+session LCTR_Core_Native_Observables = LCTR_Core_Native_Curves +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Observable_Descent
+  theories Core_Native_Observables

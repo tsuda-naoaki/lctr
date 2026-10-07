@@ -1,0 +1,3 @@
+session LCTR_Core_Native_Curves = LCTR_Core_Observer_Time +
+  options [quick_and_dirty = false]
+  theories Core_Native_Curves

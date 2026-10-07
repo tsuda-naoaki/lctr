@@ -1,0 +1,202 @@
+{
+  "parent_session": "LCTR_Core_Joint_Time_Seed",
+  "records": [
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_maps_inverse",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Set.arity_type_set",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.time_map_def",
+        "HOL.TrueI",
+        "HOL.arity_type_bool",
+        "HOL.eq_reflection",
+        "HOL.simp_thms(6)",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Set.arity_type_set"
+      ],
+      "oracle_dependencies": []
+    },
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_order_agrees",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Set.arity_type_set",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Product_Type.arity_type_prod",
+        "Core_Joint_Time_Seed.common_seed_time_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.generated_order_equal",
+        "Core_Joint_Time_Seed.common_seed_time.time_map_def",
+        "HOL.TrueI",
+        "HOL.arity_type_bool",
+        "HOL.eq_reflection",
+        "HOL.simp_thms(6)",
+        "Product_Type.arity_type_prod",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Set.arity_type_set"
+      ],
+      "oracle_dependencies": []
+    },
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_order_forward",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Set.arity_type_set",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Product_Type.arity_type_prod",
+        "Core_Joint_Time_Seed.common_seed_time_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.generated_order_equal",
+        "Core_Joint_Time_Seed.common_seed_time.time_map_def",
+        "HOL.Eq_TrueI",
+        "HOL.TrueI",
+        "HOL.eq_reflection",
+        "HOL.implies_True_equals",
+        "Product_Type.arity_type_prod",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Set.arity_type_set"
+      ],
+      "oracle_dependencies": []
+    },
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_projection_agrees",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Set.arity_type_set",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Product_Type.arity_type_prod",
+        "Core_Joint_Time_Seed.common_seed_time_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.generated_equiv",
+        "Core_Joint_Time_Seed.common_seed_time.time_map_def",
+        "Core_Observer_Time.observer_seed.time_projection_def",
+        "HOL.TrueI",
+        "HOL.arity_type_bool",
+        "HOL.eq_reflection",
+        "HOL.simp_thms(6)",
+        "Product_Type.arity_type_prod",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Set.arity_type_set"
+      ],
+      "oracle_dependencies": []
+    },
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_quotient_types_equal",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Set.arity_type_set",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Product_Type.arity_type_prod",
+        "Core_Joint_Time_Seed.common_seed_time_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.generated_equiv",
+        "Core_Observer_Time.observer_seed.Time_def",
+        "HOL.TrueI",
+        "HOL.arity_type_bool",
+        "HOL.eq_reflection",
+        "HOL.simp_thms(6)",
+        "Product_Type.arity_type_prod",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Set.arity_type_set"
+      ],
+      "oracle_dependencies": []
+    },
+    {
+      "name": "Core_Joint_Time_Seed.common_seed_time.time_setoids_equal",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Core_Joint_Time_Seed.common_seed_time_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Joint_Time_Seed.common_seed_time.generated_equiv",
+        "Pure.protectD",
+        "Pure.protectI"
+      ],
+      "oracle_dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+session LCTR_Zero_Completed_Curve_Jets = LCTR_Core_Curve_Regularity +
+  options [quick_and_dirty = false]
+  sessions LCTR_Zero_Completed_Derivative
+  theories Zero_Completed_Curve_Jets

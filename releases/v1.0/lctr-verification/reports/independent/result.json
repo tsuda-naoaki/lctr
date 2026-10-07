@@ -1,0 +1,30 @@
+{
+  "scope": "chapters02-through06",
+  "depth": 2,
+  "roots": 1982,
+  "steps": [
+    {
+      "tool": "lean",
+      "exit_code": 0,
+      "elapsed_s": 1.527
+    },
+    {
+      "tool": "export",
+      "exit_code": 0,
+      "elapsed_s": 18.283
+    },
+    {
+      "tool": "nanoda",
+      "exit_code": 0,
+      "elapsed_s": 15.815
+    },
+    {
+      "tool": "con-leche",
+      "exit_code": 0,
+      "elapsed_s": 7.202
+    }
+  ],
+  "accepted": true,
+  "export_sha256": "b75b111aa53a078e20f53c045937434ca8da838f5be552b1587bbc0c7df482fd",
+  "compressed_sha256": "bfde8e8b165c1f22449264015cd1983f6f362312b9fbc18cc0c7a667c01200d2"
+}

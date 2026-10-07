@@ -1,0 +1,12 @@
+user: 'file reports/runs/namespace check/mmt/positive/run.msl '
+  user: 'log console'
+  user: 'log console' finished
+  user: 'mathpath archive tools/mmt'
+    user: opened archive tools/mmt/urtheories
+  user: 'mathpath archive tools/mmt' finished
+  user: 'mathpath archive reports/runs/namespace check/mmt/positive'
+    user: opened archive reports/runs/namespace check/mmt/positive
+  user: 'mathpath archive reports/runs/namespace check/mmt/positive' finished
+  user: 'build lctr-law-semantic-positive mmt-omdoc test.mmt'
+  user: 'build lctr-law-semantic-positive mmt-omdoc test.mmt' finished
+  user: 'exit'

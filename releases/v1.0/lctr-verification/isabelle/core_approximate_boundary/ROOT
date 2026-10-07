@@ -1,0 +1,3 @@
+session LCTR_Core_Approximate_Boundary = LCTR_Core_First_Failure_Report +
+  options [quick_and_dirty = false]
+  theories Core_Approximate_Boundary

@@ -1,0 +1,3 @@
+session LCTR_Core_Trajectory_Descent_Alignment = LCTR_Core_Trajectory_Descent +
+  options [quick_and_dirty = false]
+  theories Core_Trajectory_Descent_Alignment

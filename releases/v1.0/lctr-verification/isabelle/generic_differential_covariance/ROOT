@@ -1,0 +1,4 @@
+session LCTR_Generic_Differential_Covariance = LCTR_Generic_Value_Change +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Representation_Images
+  theories Generic_Differential_Covariance

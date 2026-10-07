@@ -1,0 +1,4 @@
+session LCTR_Core_Record_Burden = HOL +
+  options [quick_and_dirty = false]
+  theories
+    Core_Record_Burden

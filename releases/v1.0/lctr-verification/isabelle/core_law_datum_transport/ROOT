@@ -1,0 +1,4 @@
+session LCTR_Core_Law_Datum_Transport = LCTR_Core_Law_Datum_Assembly +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Law_Transport
+  theories Core_Law_Datum_Transport

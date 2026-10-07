@@ -1,0 +1,4 @@
+session LCTR_Core_Chart_Overlaps = LCTR_Core_Time_Jet_Changes +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Representation_Images
+  theories Core_Chart_Overlaps

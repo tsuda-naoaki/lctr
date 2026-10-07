@@ -1,0 +1,271 @@
+{
+  "tool": "SymPy",
+  "version": "1.14.0",
+  "rows": [
+    {
+      "case": "basis_0_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_0_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_1_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_2_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_3_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_4_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_5_7",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_0",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_1",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_2",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_3",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_4",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_5",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_6",
+      "residual": "0"
+    },
+    {
+      "case": "basis_6_7",
+      "residual": "0"
+    },
+    {
+      "case": "jet_0",
+      "residual": "0"
+    },
+    {
+      "case": "jet_1",
+      "residual": "0"
+    },
+    {
+      "case": "jet_2",
+      "residual": "0"
+    },
+    {
+      "case": "jet_3",
+      "residual": "0"
+    },
+    {
+      "case": "jet_4",
+      "residual": "0"
+    },
+    {
+      "case": "jet_5",
+      "residual": "0"
+    },
+    {
+      "case": "jet_6",
+      "residual": "0"
+    },
+    {
+      "case": "above_degree",
+      "residual": "0"
+    },
+    {
+      "case": "negative_missing_factorial",
+      "residual": "1"
+    },
+    {
+      "case": "negative_reversed_displacement",
+      "residual": "-2"
+    }
+  ],
+  "scope": "Symbolic real scalar polynomials: degrees 0..6, derivative orders 0..7."
+}

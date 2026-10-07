@@ -1,0 +1,4 @@
+session LCTR_Native_Family_Fibre_Conditions = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Native_Family_Certificate_Transport
+  theories Native_Family_Fibre_Conditions

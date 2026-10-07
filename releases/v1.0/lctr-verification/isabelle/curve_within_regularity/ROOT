@@ -1,0 +1,3 @@
+session LCTR_Curve_Within_Regularity = "HOL-Analysis" +
+  options [document = false, quick_and_dirty = false]
+  theories Curve_Within_Regularity

@@ -1,0 +1,3 @@
+session LCTR_Dynamics_Refinement_Complete_Alignment = LCTR_Heterogeneous_Presentation_Isomorphisms +
+  options [quick_and_dirty = false]
+  theories Dynamics_Refinement_Complete_Alignment

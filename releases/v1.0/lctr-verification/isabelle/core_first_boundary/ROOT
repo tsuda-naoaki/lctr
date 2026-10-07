@@ -1,0 +1,3 @@
+session LCTR_Core_First_Boundary = HOL +
+  options [quick_and_dirty = false, timeout = 45]
+  theories Core_First_Boundary

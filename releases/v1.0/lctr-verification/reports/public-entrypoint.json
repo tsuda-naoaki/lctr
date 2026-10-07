@@ -1,0 +1,1708 @@
+{
+  "complete": true,
+  "steps": [
+    "lean",
+    "isabelle",
+    "recheck",
+    "statements",
+    "formal-support",
+    "auxiliary",
+    "native-metadata"
+  ],
+  "commands": [
+    {
+      "check": "lean-Chapter02LeanBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.522,
+      "accepted": true
+    },
+    {
+      "check": "lean-BodyInRealizationDomain",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_s": 0.485,
+      "accepted": true
+    },
+    {
+      "check": "lean-Chapter02PositiveControls",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.506,
+      "accepted": true
+    },
+    {
+      "check": "lean-EraseIndexInjectivity",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_s": 0.48,
+      "accepted": true
+    },
+    {
+      "check": "lean-Chapter03SourceOrderRecovery",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.379,
+      "accepted": true
+    },
+    {
+      "check": "lean-Chapter03NegativeControls",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.679,
+      "accepted": true
+    },
+    {
+      "check": "lean-Chapter03PositiveControls",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.673,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTypedWords",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.625,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAbstractWordEncoding",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.657,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAffineFrequency",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.235,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAffineRealization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.138,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDagRecursion",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.04,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.SelectedInputEvaluation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.806,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreEvaluation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.913,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTokenGraph",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 4.609,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumBoundary",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.186,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumIntegration",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.301,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumTopology",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.341,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumEncoding",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.017,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAuditStateTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.879,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteAudit",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.859,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreApproximateBoundary",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.008,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAuditTags",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.836,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAuditGroups",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.842,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.StructuralBurdenSingletonCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.17,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreStructuralBurden",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.882,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAuditReport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.863,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAuditData",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.891,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreBurdenComparison",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.531,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreCarrierPatterns",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.594,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteJets",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 4.198,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreValueJetChanges",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.271,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTimeJetChanges",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.483,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.RepresentationImageOrderIsomorphismCore",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.181,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRepresentationImages",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.722,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialCovariance",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.563,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreChartOverlaps",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 3.346,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreEngineeringDataInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.515,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreCommunicationDataInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.038,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonFailure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.564,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFirstFailureReport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.043,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonScope",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.992,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonDefinitionInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.007,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.Section4_02MutualArrivalOrdSep",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.173,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePreorderQuotient",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.47,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreSourceMatch",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.873,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonIntegration",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.81,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreSourceLoops",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.884,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePairedComparison",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.816,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalLoopRealization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.777,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonStage",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.901,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePairTransportFactorization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.841,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonFailureWitnesses",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.813,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreComparisonInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.859,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreOperationalConfiguration",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.882,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreConfigurationComparison",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.858,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreConfigurationDynamics",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.807,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.FunctionalRelation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.18,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.LawCandidateRelationPartialOutputMapCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.176,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.CanonicalGraphTrajectoryCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.173,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTrajectoryDescent",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.431,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.GeneratedOrderUniversal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.301,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsFactors",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.578,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.TransitiveIncomparabilityQuotientCore",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.19,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.ImageInverseConstruction",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.278,
+      "accepted": true
+    },
+    {
+      "check": "lean-OrderEmbeddingBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.858,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreObserverTime",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.879,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreConfigurationObserverTime",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.921,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointDescent",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.557,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.RefinementMonotonicity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.271,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.RefinementDecompositionMonotonicity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.274,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.OrderEmbeddingInjectivity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.271,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.ImageInverseComposition",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.266,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.QuotientFactorization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.277,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreUniversalFactorization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.899,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreOrderAtlas",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.909,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreExactStructure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.93,
+      "accepted": true
+    },
+    {
+      "check": "lean-BrokenPremiseNegative",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.689,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRepresentationStages",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.924,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreExactCompletion",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.962,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreExactInputAssembly",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.966,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreConfigurationOrder",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.979,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumFailure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.673,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumDatum",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.242,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRecordCells",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.033,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumInput",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.255,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.ScalarTimeTrajectoryFactorizationCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.301,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.ObservableFactorization",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.291,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.CanonicalObservableTimeFactorizationCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.285,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeCurves",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.991,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRecordCodes",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.908,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumNativeRecords",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.082,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreObserverRecordImages",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.138,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumNativeCells",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.743,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreCountableChartBoundary",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.04,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreCycleCountInput",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.431,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.DifferentialConditionDAG",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.287,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.DifferentialNativeDomains",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.287,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialFailure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.048,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialTokens",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.161,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialExecution",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.203,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRefinementForest",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.971,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialRefinement",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.898,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDifferentialOutput",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.899,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeObservables",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.892,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawInputBundle",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.082,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsBundle",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.353,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicMaster",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.125,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsTokens",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.9,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsExecution",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.75,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.805,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsRecoveryData",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.805,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsRefinement",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.746,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDynamicsStageInterface",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.072,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.EngineeringEffectSoundness",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.215,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreEngineeringEffects",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.016,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreEngineeringEvidence",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.925,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreEngineeringInputBurden",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.078,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreExternalTimeUses",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.916,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFailureMultiplicity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.995,
+      "accepted": true
+    },
+    {
+      "check": "lean-FiniteAuditSmoke",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.956,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreIndexedDeletion",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.794,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeWordFamilies",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.055,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreWordEncoding",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.889,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreIndexedNativeDeletion",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.807,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePureWordDisplays",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.825,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteMixedReduction",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.8,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFinitePartitions",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.024,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteReportComponents",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.812,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteTupleData",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.729,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFrequencyWindows",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.907,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.LawTimeTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.323,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.LawFamilyTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.348,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawTransportIdentity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.284,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreGeneratedLawIdentity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.28,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.JointTimeReadiness",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.287,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointTime",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.077,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeJointRelation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.919,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeLawTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.907,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeLawComponents",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.938,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawConditionGraph",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.987,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeLawGeneration",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.92,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeLawFailure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.001,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointLawEvaluation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.094,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointConditionRoutes",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.487,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalCharts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.725,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawComponentCharts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.123,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTransportedLawCharts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.16,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeLawJets",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 3.491,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTransportedNativeJets",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.453,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeJointJets",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.42,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeChartOverlaps",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.459,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeDifferentialPredicates",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.395,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeAtlasConditions",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.492,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeTimeConditions",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.394,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeDifferentialFamily",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.55,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointCoordinateFlattening",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.44,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointInputData",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.668,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointRealImage",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.105,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJudgmentBoundary",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.045,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawCounterCases",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.015,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawReadinessBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.962,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreStageBoundaries",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.039,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawDatumSemantics",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.06,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawDatumAssembly",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.003,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawDatumTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.033,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawDifferentialBundle",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.13,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawFailureState",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.986,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLawRefinement",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.194,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLeastScaleLift",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.596,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalLoopSpecification",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.572,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalLoopBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.915,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreSeriesValidity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.872,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalizationBundle",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.993,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeCharts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.947,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreThreeLayerSynthesis",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.018,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeDifferentialSynthesis",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.216,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeSelectedDifferential",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.393,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeSpecification",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.889,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNonmonotoneBoundaryData",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.959,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreObservableInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.873,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTaggedLifts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.578,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePartialSequences",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.794,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreQuotientInterface",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.721,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRankReachability",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.456,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRawCanonicalObservables",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.862,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRawComparisonEntry",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.897,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRawLocalizationInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.631,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRawRecordCodes",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.851,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreReceptionInput",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.736,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRecordBurden",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.886,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRefinementPaths",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.901,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRelativeStateProfile",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.951,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.TaggedArrivalPartition",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.174,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRemainingSetContracts",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.786,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreReportCovariance",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.916,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRepresentationFailure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.193,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRepresentationFailureStages",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.971,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreScaleTransport",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.875,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreScopeInputInterfaces",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.555,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreSelectedGeneratedLaw",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.047,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreStrictPartialOrder",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.167,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTokenGraphInspect",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 2.285,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreTypedReportCovariance",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.956,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreValidityMaximum",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.588,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreWordDomainDefinitions",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.552,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.RealTimeOrderEmbeddingInjectivityCurrentPaper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.322,
+      "accepted": true
+    },
+    {
+      "check": "lean-FactorizationBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.881,
+      "accepted": true
+    },
+    {
+      "check": "lean-OrderEmbeddingFactorizationWrapper",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.868,
+      "accepted": true
+    },
+    {
+      "check": "lean-LCTR.GenerationClosure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.285,
+      "accepted": true
+    },
+    {
+      "check": "lean-RegionLawGluingLeanBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.662,
+      "accepted": true
+    },
+    {
+      "check": "lean-NestedQuotientOrderEmbedding",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.287,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreContinuumSourceBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.983,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreAffineOrderBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.795,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreLocalJetMembershipBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.271,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreNativeStateBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.882,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreDetectorSourceBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.743,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePairInputBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.752,
+      "accepted": true
+    },
+    {
+      "check": "lean-CorePartialMapBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.546,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRepresentationPredicateBridge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.532,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreJointTimeSeed",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.546,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRelativeInitial",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.604,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreFiniteClassWitness",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.855,
+      "accepted": true
+    },
+    {
+      "check": "lean-CoreRelativeClassWitness",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.841,
+      "accepted": true
+    },
+    {
+      "check": "lean-core",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 1.527,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-01",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 433.982,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-02",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 8.083,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-03",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 9.012,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-04",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 9.584,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-05",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 10.013,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-06",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 9.586,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-07",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 10.42,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-08",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 11.235,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-09",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 12.441,
+      "accepted": true
+    },
+    {
+      "check": "isabelle-group-10",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 5.936,
+      "accepted": true
+    },
+    {
+      "check": "export",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 18.283,
+      "accepted": true
+    },
+    {
+      "check": "nanoda",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 15.815,
+      "accepted": true
+    },
+    {
+      "check": "con-leche",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 7.202,
+      "accepted": true
+    },
+    {
+      "check": "lean-statements",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 13.004,
+      "accepted": true
+    },
+    {
+      "check": "formal-support",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 19.478,
+      "accepted": true
+    },
+    {
+      "check": "auxiliary",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 23.078,
+      "accepted": true
+    },
+    {
+      "check": "native-metadata",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 765.095,
+      "accepted": true
+    }
+  ]
+}

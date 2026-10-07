@@ -1,0 +1,472 @@
+{
+  "groups": [
+    {
+      "id": "finite_failure_graph_smt",
+      "source_responsibilities": [
+        "semantic:def:failure-dependency-order",
+        "semantic:prop:failure-dependency-order-is-partial",
+        "semantic:prop:failure-dependency-parallel-branches"
+      ],
+      "component_ids": [
+        "chapter6-token-dag/all-six-designated-parallel-groups",
+        "chapter6-token-dag/exact-intra-and-inter-edges",
+        "chapter6-token-dag/rank-increase-acyclic-partial-order",
+        "chapter6-token-dag/reachability-and-incomparability"
+      ],
+      "scope": "Five finite-graph obligations on the explicit 38-token, 214-edge graph, using one-based integer indices. Arithmetic rewrite rules are proved for Int; Boolean rules use Bool or logical equivalence, and equality/ITE rules use a homogeneous carrier. Carcara checks the generated Alethe traces with the listed rules. The only trace transformation removes the outer printer list."
+    },
+    {
+      "id": "four_state_evaluation_smt",
+      "source_responsibilities": [
+        "semantic:def:failure-evaluation-states-and-failed-token-sets"
+      ],
+      "component_ids": [
+        "native-state/allowed-series-pair",
+        "native-state/approximation-failed-set",
+        "native-state/argument-and-state-section",
+        "native-state/direct-predecessors",
+        "native-state/failed-fibre",
+        "native-state/formation-and-evaluation-inputs",
+        "native-state/four-state-recursion",
+        "native-state/identity-and-projection-restrictions",
+        "native-state/native-domain-and-missing-input",
+        "native-state/predecessor-satisfaction",
+        "native-state/restriction-coherence",
+        "native-state/set-map-domains",
+        "native-state/state-fibres",
+        "native-state/state-function-type-and-existence",
+        "native-state/strict-failed-set",
+        "native-state/three-gates",
+        "native-state/typed-predecessor-argument"
+      ],
+      "scope": "The four-state local evaluation formula, with formation f and predecessor satisfaction p jointly gating formation, e gating evaluation, and c giving the evaluated condition. An injective encoding into four distinct integers is linked to the native state datatype by the published transfer theorems. Six unsatisfiable negations and two satisfiable wrong-formula controls are checked. This does not replace the native finite-DAG recursion theorem."
+    },
+    {
+      "id": "frequency_period_hz_cas",
+      "source_responsibilities": [
+        "semantic:def:frequency-representation",
+        "semantic:def:frequency-period-hz-representation-position",
+        "semantic:def:standard-frequency-value-as-representation",
+        "semantic:prop:frequency-representation-stage-position",
+        "semantic:prop:frequency-representation-stage-position#proof"
+      ],
+      "component_ids": [
+        "affine/frequency-period-product",
+        "affine/frequency-stage-assertion",
+        "affine/nonzero-count-step",
+        "affine/positive-window-difference",
+        "affine/realization-bundle",
+        "frequency/admissible-window",
+        "frequency/coordinate-difference",
+        "frequency/count-difference",
+        "frequency/endpoint",
+        "frequency/frequency-invariance",
+        "frequency/hz-number",
+        "frequency/hz-unit",
+        "frequency/period-invariance",
+        "frequency/raw-window",
+        "frequency/source-family",
+        "frequency/source-frequency",
+        "frequency/source-period",
+        "frequency/standard-frequency",
+        "frequency/standard-normalization",
+        "frequency/window-frequency",
+        "frequency/window-period"
+      ],
+      "scope": "Real scalar frequency, reciprocal period, and normalization identities on the stated positive/nonzero domain. Three identities, four positivity results, and two false-identity counterexamples are checked in each CAS. Physical realization, admitted windows and general ordered-field results use their separate native formalizations."
+    },
+    {
+      "id": "finite_jet_polynomial_cas",
+      "source_responsibilities": [
+        "semantic:prop:differential-local-jet-consequences#proof"
+      ],
+      "component_ids": [
+        "local-jet/finite-jet-realization",
+        "local-jet/germ-regularity"
+      ],
+      "scope": "Real polynomial jet witnesses of degrees 0 through 6, with derivative orders 0 through 7: 56 basis residuals, seven jet-coefficient residuals, one above-degree residual and two wrong-formula controls in each CAS. Arbitrary finite order, vector-valued jets and open-neighborhood conditions are covered by the native theorem, not by this finite CAS range."
+    },
+    {
+      "id": "law_partial_output_semantics",
+      "source_responsibilities": [
+        "semantic:prop:law-candidate-relation-partial-output-map"
+      ],
+      "component_ids": [
+        "chapter5-law-relations/unique-partial-output-and-literal-graph",
+        "law-output/graph-equality",
+        "law-output/output-map",
+        "law-output/right-unique",
+        "law-output/whole-statement"
+      ],
+      "scope": "LF typing of the law-candidate partial-output map, with a shared time carrier, the actual evaluation-domain subtype, the relation-domain subtype, right uniqueness, and extensional map uniqueness on that domain. One typed signature and five targeted type-error controls are checked by MMT. The three OpenMath/Content MathML expression pairs serialize the listed formula components; native Lean and Isabelle results provide existence and uniqueness."
+    },
+    {
+      "id": "finite_continuum_margin_smt",
+      "source_responsibilities": [
+        "semantic:def:extended-nonnegative-margin",
+        "semantic:def:dynamic-margin-and-excess",
+        "semantic:def:continuum-approximation-defect-family",
+        "semantic:thm:quantitative-continuum-validity"
+      ],
+      "component_ids": [
+        "continuum/component-excess",
+        "continuum/component-margin",
+        "continuum/condition-inequality",
+        "continuum/defect-family",
+        "continuum/eight-condition-equivalence",
+        "continuum/excess-type",
+        "continuum/extended-margin",
+        "continuum/margin-type",
+        "continuum/validity-margin-excess"
+      ],
+      "scope": "The finite-real branch of margin and excess, with ENNReal finite values represented by toReal. Four Real rewrite rules and four native encoding equalities link seven arithmetic obligations and three wrong-formula controls to the native definitions. Infinity branches and the nine-component validity quantifiers remain in the native proofs."
+    },
+    {
+      "id": "frequency_coordinate_units",
+      "source_responsibilities": [
+        "semantic:def:frequency-representation",
+        "semantic:def:frequency-period-hz-representation-position",
+        "semantic:def:standard-frequency-value-as-representation"
+      ],
+      "component_ids": [
+        "frequency/admissible-window",
+        "frequency/coordinate-difference",
+        "frequency/count-difference",
+        "frequency/endpoint",
+        "frequency/frequency-invariance",
+        "frequency/hz-number",
+        "frequency/hz-unit",
+        "frequency/period-invariance",
+        "frequency/raw-window",
+        "frequency/source-family",
+        "frequency/source-frequency",
+        "frequency/source-period",
+        "frequency/standard-frequency",
+        "frequency/standard-normalization",
+        "frequency/window-frequency",
+        "frequency/window-period"
+      ],
+      "scope": "An explicitly declared generated-coordinate unit U, with dimensionless count and normalization factors. Nine assignments and three rejected operations are checked independently in Pint and Astropy. No SI second is an input; this check concerns units rather than numerical identities or physical realization."
+    }
+  ],
+  "cases": [
+    {
+      "id": "graph/edge_rank",
+      "group": "finite_failure_graph_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/graph/edge_rank/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/graph/edge_rank/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/graph/edge_rank/proof.original.alethe",
+      "required_rare": "auxiliary/smt/graph/edge_rank/required.rare"
+    },
+    {
+      "id": "graph/scalar_lex_equivalence",
+      "group": "finite_failure_graph_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/graph/scalar_lex_equivalence/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/graph/scalar_lex_equivalence/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/graph/scalar_lex_equivalence/proof.original.alethe",
+      "required_rare": "auxiliary/smt/graph/scalar_lex_equivalence/required.rare"
+    },
+    {
+      "id": "graph/edge_series_allowed",
+      "group": "finite_failure_graph_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/graph/edge_series_allowed/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/graph/edge_series_allowed/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/graph/edge_series_allowed/proof.original.alethe",
+      "required_rare": "auxiliary/smt/graph/edge_series_allowed/required.rare"
+    },
+    {
+      "id": "graph/allowed_transitive",
+      "group": "finite_failure_graph_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/graph/allowed_transitive/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/graph/allowed_transitive/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/graph/allowed_transitive/proof.original.alethe",
+      "required_rare": "auxiliary/smt/graph/allowed_transitive/required.rare"
+    },
+    {
+      "id": "graph/approx_vs_law_diff",
+      "group": "finite_failure_graph_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/graph/approx_vs_law_diff/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/graph/approx_vs_law_diff/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/graph/approx_vs_law_diff/proof.original.alethe",
+      "required_rare": "auxiliary/smt/graph/approx_vs_law_diff/required.rare"
+    },
+    {
+      "id": "evaluation/failed_iff",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/failed_iff/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/failed_iff/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/failed_iff/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/failed_iff/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/failed_iff/required.rare"
+    },
+    {
+      "id": "evaluation/sat_iff",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/sat_iff/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/sat_iff/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/sat_iff/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/sat_iff/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/sat_iff/required.rare"
+    },
+    {
+      "id": "evaluation/missing_formation",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/missing_formation/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/missing_formation/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/missing_formation/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/missing_formation/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/missing_formation/required.rare"
+    },
+    {
+      "id": "evaluation/upstream_nonsat",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/upstream_nonsat/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/upstream_nonsat/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/upstream_nonsat/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/upstream_nonsat/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/upstream_nonsat/required.rare"
+    },
+    {
+      "id": "evaluation/unevaluable_iff",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/unevaluable_iff/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/unevaluable_iff/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/unevaluable_iff/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/unevaluable_iff/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/unevaluable_iff/required.rare"
+    },
+    {
+      "id": "evaluation/unformed_iff",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/unformed_iff/check.smt2",
+      "expected": "unsat",
+      "native_input": "auxiliary/smt/evaluation/unformed_iff/native.smt2",
+      "proof_alethe": "auxiliary/smt/evaluation/unformed_iff/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/evaluation/unformed_iff/proof.original.alethe",
+      "required_rare": "auxiliary/smt/evaluation/unformed_iff/required.rare"
+    },
+    {
+      "id": "evaluation/negative_ignore_predecessor",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/negative_ignore_predecessor/check.smt2",
+      "expected": "sat",
+      "native_input": "auxiliary/smt/evaluation/negative_ignore_predecessor/native.smt2"
+    },
+    {
+      "id": "evaluation/negative_evaluation_before_formation",
+      "group": "four_state_evaluation_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/evaluation/negative_evaluation_before_formation/check.smt2",
+      "expected": "sat",
+      "native_input": "auxiliary/smt/evaluation/negative_evaluation_before_formation/native.smt2"
+    },
+    {
+      "id": "margin/margin_nonneg",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/margin_nonneg/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/margin_nonneg/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/margin_nonneg/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/margin_nonneg/required.rare"
+    },
+    {
+      "id": "margin/margin_zero",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/margin_zero/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/margin_zero/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/margin_zero/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/margin_zero/required.rare"
+    },
+    {
+      "id": "margin/margin_positive",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/margin_positive/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/margin_positive/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/margin_positive/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/margin_positive/required.rare"
+    },
+    {
+      "id": "margin/excess_zero",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/excess_zero/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/excess_zero/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/excess_zero/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/excess_zero/required.rare"
+    },
+    {
+      "id": "margin/excess_positive",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/excess_positive/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/excess_positive/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/excess_positive/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/excess_positive/required.rare"
+    },
+    {
+      "id": "margin/boolean_midpoint",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/boolean_midpoint/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/boolean_midpoint/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/boolean_midpoint/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/boolean_midpoint/required.rare"
+    },
+    {
+      "id": "margin/boolean_margin",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/boolean_margin/check.smt2",
+      "expected": "unsat",
+      "proof_alethe": "auxiliary/smt/margin/boolean_margin/proof.alethe",
+      "proof_original_alethe": "auxiliary/smt/margin/boolean_margin/proof.original.alethe",
+      "required_rare": "auxiliary/smt/margin/boolean_margin/required.rare"
+    },
+    {
+      "id": "margin/negative_reverse_margin",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/negative_reverse_margin/check.smt2",
+      "expected": "sat"
+    },
+    {
+      "id": "margin/negative_zero_threshold_robust",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/negative_zero_threshold_robust/check.smt2",
+      "expected": "sat"
+    },
+    {
+      "id": "margin/negative_unit_threshold",
+      "group": "finite_continuum_margin_smt",
+      "kind": "smt",
+      "input": "auxiliary/smt/margin/negative_unit_threshold/check.smt2",
+      "expected": "sat"
+    },
+    {
+      "id": "frequency_period_hz_cas/maxima",
+      "group": "frequency_period_hz_cas",
+      "kind": "maxima",
+      "input": "auxiliary/frequency_period_hz_cas/check_maxima.mac",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "frequency_period_hz_cas/sympy",
+      "group": "frequency_period_hz_cas",
+      "kind": "sympy",
+      "input": "auxiliary/frequency_period_hz_cas/check_sympy.py",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "finite_jet_polynomial_cas/maxima",
+      "group": "finite_jet_polynomial_cas",
+      "kind": "maxima",
+      "input": "auxiliary/finite_jet_polynomial_cas/check_maxima.mac",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "finite_jet_polynomial_cas/sympy",
+      "group": "finite_jet_polynomial_cas",
+      "kind": "sympy",
+      "input": "auxiliary/finite_jet_polynomial_cas/check_sympy.py",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "frequency_coordinate_units/astropy",
+      "group": "frequency_coordinate_units",
+      "kind": "astropy",
+      "input": "auxiliary/frequency_coordinate_units/check_astropy.py",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "frequency_coordinate_units/pint",
+      "group": "frequency_coordinate_units",
+      "kind": "pint",
+      "input": "auxiliary/frequency_coordinate_units/check_pint.py",
+      "expected": "all_declared_checks_pass"
+    },
+    {
+      "id": "mmt/bare_input_domain",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/bare_input_domain/LawCandidate.mmt",
+      "expected": "type_error"
+    },
+    {
+      "id": "mmt/bypass_evaluation_domain",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/bypass_evaluation_domain/LawCandidate.mmt",
+      "expected": "type_error"
+    },
+    {
+      "id": "mmt/positive",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/positive/LawCandidate.mmt",
+      "expected": "accepted"
+    },
+    {
+      "id": "mmt/whole_eval_domain",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/whole_eval_domain/LawCandidate.mmt",
+      "expected": "type_error"
+    },
+    {
+      "id": "mmt/wrong_datum_index",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/wrong_datum_index/LawCandidate.mmt",
+      "expected": "type_error"
+    },
+    {
+      "id": "mmt/wrong_output_index",
+      "group": "law_partial_output_semantics",
+      "kind": "mmt",
+      "input": "auxiliary/mmt/wrong_output_index/LawCandidate.mmt",
+      "expected": "type_error"
+    }
+  ],
+  "serializations": [
+    "auxiliary/semantic/openmath/cd/lctr_law_audit1.ocd",
+    "auxiliary/semantic/openmath/g390/LCTR-DISP-00809.om.xml",
+    "auxiliary/semantic/openmath/g390/LCTR-DISP-00810.om.xml",
+    "auxiliary/semantic/openmath/g390/LCTR-DISP-00811.om.xml",
+    "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00809.cmml.xml",
+    "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00810.cmml.xml",
+    "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00811.cmml.xml"
+  ],
+  "core_responsibility_count": 908,
+  "component_count": 1200
+}

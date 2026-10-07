@@ -1,0 +1,4 @@
+session LCTR_Native_Law_Datum_Semantics = LCTR_Core_Native_Law_Failure +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Law_Readiness LCTR_Core_Stage_Boundaries
+  theories Native_Law_Datum_Semantics

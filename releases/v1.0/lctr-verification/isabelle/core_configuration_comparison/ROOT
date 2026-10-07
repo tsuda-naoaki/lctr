@@ -1,0 +1,4 @@
+session LCTR_Core_Configuration_Comparison = LCTR_Core_Comparison_Stage +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Operational_Configuration LCTR_Core_Pair_Transport_Factorization
+ theories Core_Configuration_Comparison

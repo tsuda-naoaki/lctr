@@ -1,0 +1,26 @@
+theory Law_Datum_Final_Alignment
+  imports "LCTR_Tagged_Native_Selection.Tagged_Native_Selection"
+begin
+
+lemmas selected_condition_exact = Native_Law_Datum_Semantics.selected_condition_exact
+lemmas selected_all_conditions_exact = Native_Law_Datum_Semantics.selected_all_conditions_exact
+lemmas selected_datum_ready = ready_selection.native_selected_datum_ready
+lemmas law_operative_on_selected_datum = ready_native_selection.native_law_operative_on_selected_datum
+lemmas failure_on_selected_datum = ready_native_selection.native_failure_on_selected_datum
+lemmas failure_matches_native_family = ready_native_selection.native_failure_matches_family
+lemmas failure_vs_operative = ready_native_selection.native_failure_vs_operative
+lemmas outside_selection_not_failure = native_outside_selection
+lemmas law_failure_requires_dynamics = ready_native_selection.native_law_failure_requires_dynamics
+lemmas dynamics_law_failures_disjoint = native_dynamics_law_failures_disjoint
+lemmas fixed_carrier_operative_exact = Native_Law_Datum_Semantics.fixed_carrier_operative_exact
+lemmas candidate_condition_vector = native_candidate_condition_vector
+
+ML \<open>
+val roots = @{thms selected_condition_exact selected_all_conditions_exact
+ selected_datum_ready law_operative_on_selected_datum failure_on_selected_datum
+ failure_matches_native_family failure_vs_operative outside_selection_not_failure
+ law_failure_requires_dynamics dynamics_law_failures_disjoint
+ fixed_carrier_operative_exact candidate_condition_vector};
+val _ = if null (Thm_Deps.all_oracles roots) then () else error "Unexpected oracle dependency";
+\<close>
+end

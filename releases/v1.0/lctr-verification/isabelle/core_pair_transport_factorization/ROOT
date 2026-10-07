@@ -1,0 +1,4 @@
+session LCTR_Core_Pair_Transport_Factorization = HOL +
+  options [quick_and_dirty = false]
+  sessions "HOL-Library"
+  theories Core_Pair_Transport_Factorization

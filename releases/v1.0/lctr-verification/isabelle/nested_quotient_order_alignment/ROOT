@@ -1,0 +1,3 @@
+session LCTR_Nested_Quotient_Order_Alignment = LCTR_Order_Embedding_Isabelle +
+  options [quick_and_dirty = false]
+  theories Nested_Quotient_Order_Alignment

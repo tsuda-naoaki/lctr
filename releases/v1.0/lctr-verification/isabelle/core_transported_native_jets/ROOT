@@ -1,0 +1,4 @@
+session LCTR_Core_Transported_Native_Jets = LCTR_Core_Curve_Regularity +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Transported_Law_Charts
+  theories Core_Transported_Native_Jets

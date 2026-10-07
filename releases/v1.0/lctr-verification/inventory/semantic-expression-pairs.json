@@ -1,0 +1,182 @@
+{
+  "expressions": [
+    {
+      "id": "LCTR-DISP-00809",
+      "reviewed_expression": [
+        "bind",
+        "quant1.forall",
+        [
+          "a"
+        ],
+        [
+          "app",
+          "logic1.implies",
+          [
+            "app",
+            "set1.in",
+            [
+              "var",
+              "a"
+            ],
+            [
+              "app",
+              "lctr_law_audit1.law_indices",
+              [
+                "var",
+                "LawDat"
+              ]
+            ]
+          ],
+          [
+            "app",
+            "lctr_law_audit1.right_unique",
+            [
+              "app",
+              "lctr_law_audit1.candidate_relation_at",
+              [
+                "var",
+                "LawDat"
+              ],
+              [
+                "var",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "environment": {
+        "LawDat": [
+          "LawDatum"
+        ]
+      },
+      "openmath": "auxiliary/semantic/openmath/g390/LCTR-DISP-00809.om.xml",
+      "content_mathml": "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00809.cmml.xml",
+      "openmath_sha256": "09bcee8d0d0391ae633d0bcf96ff7a793a29edc40079c0280a467c7944767e37",
+      "content_mathml_sha256": "5f83ea4d12c6137c53f6bbe1317cb86c20b12c5b65a320835e67208371cad166"
+    },
+    {
+      "id": "LCTR-DISP-00810",
+      "reviewed_expression": [
+        "app",
+        "lctr_law_audit1.typed_map",
+        [
+          "app",
+          "lctr_law_audit1.candidate_relation_output_map",
+          [
+            "var",
+            "a"
+          ],
+          [
+            "var",
+            "LawDat"
+          ]
+        ],
+        [
+          "app",
+          "lctr_law_audit1.candidate_relation_domain",
+          [
+            "var",
+            "a"
+          ],
+          [
+            "var",
+            "LawDat"
+          ]
+        ],
+        [
+          "app",
+          "lctr_law_audit1.output_value_space",
+          [
+            "app",
+            "lctr_law_audit1.index",
+            [
+              "var",
+              "LawDat"
+            ],
+            [
+              "var",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "environment": {
+        "LawDat": [
+          "LawDatum"
+        ],
+        "a": [
+          "Index",
+          "LawDat"
+        ]
+      },
+      "openmath": "auxiliary/semantic/openmath/g390/LCTR-DISP-00810.om.xml",
+      "content_mathml": "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00810.cmml.xml",
+      "openmath_sha256": "bbd1f40f348752d59436282bb68f2a0232c68ee7ca8e1a402490733cf64bd94c",
+      "content_mathml_sha256": "a140ad852ff6959096098567b1e5a88ad471f30f0b242ec4f1f86cd528de51fe"
+    },
+    {
+      "id": "LCTR-DISP-00811",
+      "reviewed_expression": [
+        "app",
+        "relation1.eq",
+        [
+          "app",
+          "lctr_law_audit1.candidate_relation_at",
+          [
+            "var",
+            "LawDat"
+          ],
+          [
+            "var",
+            "a"
+          ]
+        ],
+        [
+          "app",
+          "lctr_law_audit1.graph_on",
+          [
+            "app",
+            "lctr_law_audit1.candidate_relation_output_map",
+            [
+              "var",
+              "a"
+            ],
+            [
+              "var",
+              "LawDat"
+            ]
+          ],
+          [
+            "app",
+            "lctr_law_audit1.candidate_relation_domain",
+            [
+              "var",
+              "a"
+            ],
+            [
+              "var",
+              "LawDat"
+            ]
+          ]
+        ]
+      ],
+      "environment": {
+        "LawDat": [
+          "LawDatum"
+        ],
+        "a": [
+          "Index",
+          "LawDat"
+        ]
+      },
+      "openmath": "auxiliary/semantic/openmath/g390/LCTR-DISP-00811.om.xml",
+      "content_mathml": "auxiliary/semantic/content-mathml/g390/LCTR-DISP-00811.cmml.xml",
+      "openmath_sha256": "5f6059d35b6b9a3931e04f7407e3f1df5a7e5f60dc48b4e17ac30571482e2df4",
+      "content_mathml_sha256": "6962ecb444d40cc7c8c7878e8d8dc981d454e36ed09df739a94ad1ed18f173a4"
+    }
+  ],
+  "count": 3,
+  "source_responsibility": "semantic:prop:law-candidate-relation-partial-output-map",
+  "expression_correspondence": "The recorded common expression tree is the reviewed interpretation of both serializations."
+}

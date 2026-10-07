@@ -1,0 +1,4 @@
+session LCTR_Generic_Value_Jet_Alignment = LCTR_Generic_Value_Jet_Lifts +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Value_Jet_Analytic_Realization
+  theories Generic_Value_Jet_Alignment

@@ -1,0 +1,4 @@
+session LCTR_Generic_Value_Change = LCTR_Generic_Value_Jet_Lifts +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Native_Value_Change
+  theories Generic_Value_Change

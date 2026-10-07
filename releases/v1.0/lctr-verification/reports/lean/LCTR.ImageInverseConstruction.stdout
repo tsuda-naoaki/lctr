@@ -1,0 +1,6 @@
+'LCTR.ImageInverseConstruction.inverse_right' depends on axioms: [Classical.choice]
+'LCTR.ImageInverseConstruction.inverse_left' depends on axioms: [Classical.choice]
+'LCTR.ImageInverseConstruction.inverse_characterization' depends on axioms: [Classical.choice]
+'LCTR.ImageInverseConstruction.inverse_exists_unique' depends on axioms: [Classical.choice, Quot.sound]
+'LCTR.ImageInverseConstruction.empty_source_image_inverse_exists' depends on axioms: [Classical.choice]
+'LCTR.ImageInverseConstruction.total_inverse_for_empty_source_impossible' does not depend on any axioms

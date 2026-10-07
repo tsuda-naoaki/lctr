@@ -1,0 +1,4 @@
+session LCTR_Core_Dynamics_Interfaces = LCTR_Core_Operational_Configuration +
+ options [quick_and_dirty = false]
+ sessions "HOL-Library"
+ theories Core_Dynamics_Interfaces

@@ -1,0 +1,3 @@
+session LCTR_Zero_Completed_Jet_Germs = LCTR_Zero_Completed_Curve_Jets +
+  options [document = false, quick_and_dirty = false]
+  theories Zero_Completed_Jet_Germs

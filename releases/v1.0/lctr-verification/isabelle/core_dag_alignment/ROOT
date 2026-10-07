@@ -1,0 +1,4 @@
+session LCTR_Core_Dag_Alignment = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_dag_recursion"
+  theories Core_Dag_Alignment

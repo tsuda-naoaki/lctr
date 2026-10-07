@@ -1,0 +1,77 @@
+{
+  "editions": [
+    {
+      "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+      "links": {
+        "other": 10,
+        "local": 4252
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_jp.pdf",
+      "links": {
+        "other": 9,
+        "local": 2467,
+        "full_edition": 435
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_jp.pdf",
+      "links": {
+        "full_edition": 316,
+        "other": 9,
+        "local": 1036
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_supp_full_en.pdf",
+      "links": {
+        "other": 10,
+        "local": 4252
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_en.pdf",
+      "links": {
+        "other": 9,
+        "local": 2467,
+        "full_edition": 435
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_en.pdf",
+      "links": {
+        "full_edition": 316,
+        "other": 9,
+        "local": 1036
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_jp.pdf",
+      "links": {
+        "other": 1,
+        "full_edition": 5
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_en.pdf",
+      "links": {
+        "other": 1,
+        "full_edition": 5
+      },
+      "accepted": true
+    }
+  ],
+  "split_pages_byte_identical_to_full_content_streams": true,
+  "page_boxes_identical": true,
+  "printed_page_labels_preserved": true,
+  "named_destination_page_mapping_verified": true,
+  "accepted": true
+}

@@ -1,0 +1,3 @@
+session LCTR_Presentation_Quotient_Universe = LCTR_Heterogeneous_Canonical_Refinement +
+  options [quick_and_dirty = false]
+  theories Presentation_Quotient_Universe

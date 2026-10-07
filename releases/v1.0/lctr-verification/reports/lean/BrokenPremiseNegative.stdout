@@ -1,0 +1,8 @@
+lean/BrokenPremiseNegative.lean:35:2: warning: Try `simp at h02` instead of `simpa using h02`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'LCTR.OrderEmbeddingBridgeV1.Negative.brokenStrict_irreflexive' depends on axioms: [propext, Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.Negative.brokenStrict_transitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.Negative.brokenStrict_incomparability_not_transitive' depends on axioms: [propext]

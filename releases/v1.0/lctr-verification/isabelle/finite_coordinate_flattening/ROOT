@@ -1,0 +1,3 @@
+session LCTR_Finite_Coordinate_Flattening = "HOL-Analysis" +
+  options [quick_and_dirty = false]
+  theories Finite_Coordinate_Flattening

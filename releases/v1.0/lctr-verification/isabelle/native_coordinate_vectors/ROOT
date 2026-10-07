@@ -1,0 +1,3 @@
+session LCTR_Native_Coordinate_Vectors = LCTR_Finite_Coordinate_Sup_Norm +
+  options [document = false, quick_and_dirty = false]
+  theories Native_Coordinate_Vectors

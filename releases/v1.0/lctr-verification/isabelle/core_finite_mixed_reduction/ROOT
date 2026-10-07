@@ -1,0 +1,4 @@
+session LCTR_Core_Finite_Mixed_Reduction = LCTR_Core_Indexed_Native_Deletion +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Pure_Word_Displays
+ theories Core_Finite_Mixed_Reduction

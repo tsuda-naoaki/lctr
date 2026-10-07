@@ -1,0 +1,328 @@
+{
+  "count": 46,
+  "pairs": [
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_elim_gt",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_gt",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_elim_leq",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_leq",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_elim_lt",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_lt",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_eq_elim_int",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_eq_elim_int",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_geq_ite_lift",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_ite_lift",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_geq_norm1_int",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_norm1_int",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_geq_tighten",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_tighten",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_leq_ite_lift",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_leq_ite_lift",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.arith_leq_norm",
+      "isabelle": "Core_SMT_Rewrite_Rules.arith_leq_norm",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.bool_double_not_elim",
+      "isabelle": "Core_SMT_Rewrite_Rules.bool_double_not_elim",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.bool_eq_true",
+      "isabelle": "Core_SMT_Rewrite_Rules.bool_eq_true",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.bool_impl_false1",
+      "isabelle": "Core_SMT_Rewrite_Rules.bool_impl_false1",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.eq_refl",
+      "isabelle": "Core_SMT_Rewrite_Rules.eq_refl",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.eq_symm",
+      "isabelle": "Core_SMT_Rewrite_Rules.eq_symm",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.ite_eq",
+      "isabelle": "Core_SMT_Rewrite_Rules.ite_eq",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.ite_not_cond",
+      "isabelle": "Core_SMT_Rewrite_Rules.ite_not_cond",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.ite_then_true",
+      "isabelle": "Core_SMT_Rewrite_Rules.ite_then_true",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.reject_non_strict_tighten",
+      "isabelle": "Core_SMT_Rewrite_Rules.reject_non_strict_tighten",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTRewriteRules.reject_swapped_ite_eq",
+      "isabelle": "Core_SMT_Rewrite_Rules.reject_swapped_ite_eq",
+      "lean_module": "CoreSMTRewriteRules",
+      "isabelle_session": "LCTR_Core_SMT_Rewrite_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTBooleanRules.bool_eq_false",
+      "isabelle": "Core_SMT_Boolean_Rules.bool_eq_false",
+      "lean_module": "CoreSMTBooleanRules",
+      "isabelle_session": "LCTR_Core_SMT_Boolean_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreSMTBooleanRules.ite_false_cond",
+      "isabelle": "Core_SMT_Boolean_Rules.ite_false_cond",
+      "lean_module": "CoreSMTBooleanRules",
+      "isabelle_session": "LCTR_Core_SMT_Boolean_Rules",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.encode_injective",
+      "isabelle": "Core_Evaluation_SMT_Bridge.encode_injective",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.encode_eq_iff",
+      "isabelle": "Core_Evaluation_SMT_Bridge.encode_eq_iff",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.encode_image",
+      "isabelle": "Core_Evaluation_SMT_Bridge.encode_image",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.state_commutes",
+      "isabelle": "Core_Evaluation_SMT_Bridge.state_commutes",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.failed_iff_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.failed_iff_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.sat_iff_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.sat_iff_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.missing_formation_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.missing_formation_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.upstream_nonsat_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.upstream_nonsat_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.unevaluable_iff_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.unevaluable_iff_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.unformed_iff_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.unformed_iff_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.wrong_prior_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.wrong_prior_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.wrong_order_transfer",
+      "isabelle": "Core_Evaluation_SMT_Bridge.wrong_order_transfer",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.reject_ignored_predecessor",
+      "isabelle": "Core_Evaluation_SMT_Bridge.reject_ignored_predecessor",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreEvaluationSMTBridge.reject_early_evaluation",
+      "isabelle": "Core_Evaluation_SMT_Bridge.reject_early_evaluation",
+      "lean_module": "CoreEvaluationSMTBridge",
+      "isabelle_session": "LCTR_Core_Evaluation_SMT_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_gt",
+      "isabelle": "Core_Finite_Margin_Bridge.arith_elim_gt",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_leq",
+      "isabelle": "Core_Finite_Margin_Bridge.arith_elim_leq",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_lt",
+      "isabelle": "Core_Finite_Margin_Bridge.arith_elim_lt",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.arith_eq_elim_real",
+      "isabelle": "Core_Finite_Margin_Bridge.arith_eq_elim_real",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.finite_margin",
+      "isabelle": "Core_Finite_Margin_Bridge.finite_margin",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.finite_excess",
+      "isabelle": "Core_Finite_Margin_Bridge.finite_excess",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.bool_defect_real",
+      "isabelle": "Core_Finite_Margin_Bridge.bool_defect_real",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.half_real",
+      "isabelle": "Core_Finite_Margin_Bridge.half_real",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.reject_reverse_margin",
+      "isabelle": "Core_Finite_Margin_Bridge.reject_reverse_margin",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.reject_zero_threshold_robust",
+      "isabelle": "Core_Finite_Margin_Bridge.reject_zero_threshold_robust",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    },
+    {
+      "lean": "LCTR.CoreFiniteMarginBridge.reject_unit_threshold",
+      "isabelle": "Core_Finite_Margin_Bridge.reject_unit_threshold",
+      "lean_module": "CoreFiniteMarginBridge",
+      "isabelle_session": "LCTR_Core_Finite_Margin_Bridge",
+      "role": "auxiliary checking infrastructure, not an additional manuscript obligation"
+    }
+  ],
+  "core_roots": 1982
+}

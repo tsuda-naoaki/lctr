@@ -1,0 +1,3 @@
+session LCTR_Core_Joint_Real_Image = LCTR_Core_Joint_Law_Evaluation +
+ options [quick_and_dirty = false]
+ theories Core_Joint_Real_Image

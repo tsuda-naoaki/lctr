@@ -1,0 +1,85 @@
+Auxiliary checks
+================
+
+Scope and correspondence
+------------------------
+inventory/auxiliary-correspondence.json identifies the manuscript responsibility,
+the mathematical domain, the checked clauses, and the native formal results for
+each of seven groups. The surrounding component links are navigation links;
+the stated scope and case bindings determine each auxiliary result's coverage.
+
+There are 35 tool inputs: 23 SMT cases, four CAS inputs, two unit-system inputs,
+and six MMT signatures. Eighteen SMT cases have unsatisfiable negations and
+checked proof traces; five have satisfiable wrong-formula controls. Two further
+Carcara controls reject missing rules and a false ITE rule. Three pairs of
+OpenMath/Content MathML serializations have a recorded common expression tree.
+
+The 46 auxiliary Lean/Isabelle roots prove rewriting rules, native-to-SMT
+encoding equalities and wrong-formula counterexamples. They are separate from
+the 1,982 paired roots corresponding to the 908 manuscript responsibilities.
+
+Replay
+------
+Set the following variables to tools at the versions recorded in
+environment/auxiliary.json, in addition to the core variables in README.txt:
+
+  LCTR_CVC5            cvc5 1.3.4 executable
+  LCTR_Z3              Z3 5.1.0 executable
+  LCTR_CARCARA         Carcara executable at the recorded source commit
+  LCTR_CAS_PYTHON      Python with the pinned SymPy, Pint and Astropy versions
+  LCTR_MAXIMA          Maxima 5.50.0 executable
+  LCTR_JAVA            Java executable for MMT
+  LCTR_MMT_JAR         tools/mmt/mmt.jar (MMT v27.0.0)
+  LCTR_MMT_FOUNDATION  tools/mmt/urtheories at the recorded commit
+  LCTR_XSLTPROC        libxslt's xsltproc executable
+  LCTR_XMLLINT         libxml2's xmllint executable
+
+The complete entry point runs these checks. To run only auxiliary tool inputs:
+
+  python3 reproduce.py --steps auxiliary --output reports/runs/auxiliary-01
+
+The corresponding direct commands are:
+
+  cvc5 --lang=smt2 --dump-proofs --proof-format-mode=alethe \
+    --proof-granularity=dsl-rewrite --proof-check=eager \
+    --proof-alethe-res-pivots INPUT.smt2
+  z3 INPUT.smt2
+  carcara check PROOF.alethe INPUT.smt2 --rare-file RULES.rare
+  python CHECK.py
+  maxima --very-quiet -b CHECK.mac
+  java -jar MMT.jar file RUN.msl
+  xmllint --nonet --noout EXPRESSION.xml
+  xsltproc --nonet queries/openmath-tree.xsl EXPRESSION.om.xml
+  xsltproc --nonet queries/mathml-tree.xsl EXPRESSION.cmml.xml
+
+For cvc5 output, the first line is the solver verdict. The outer list around
+the subsequent proof is a printer wrapper; removing that one wrapper produces
+the Alethe input to Carcara. No proof step is added, deleted or admitted.
+Both the generated and the supplied traces are checked with Carcara.
+
+run_auxiliary.py creates RUN.msl in each result directory. It registers the
+pinned urtheories checkout and the one-case source archive, then invokes MMT's
+mmt-omdoc build. Rejected signatures must fail at their deliberately ill-typed
+`bad` declaration, not at parsing, loading or an unrelated declaration.
+The generated script uses relative paths within the extracted tree. Its native
+working directory is the case directory; recorded paths use the extracted root.
+Result directory names may contain spaces.
+
+The XSLT files express only the element correspondence between the two XML
+serializations. libxslt transforms both into the recorded expression tree.
+This checks serialization identity; MMT checks the associated LF signature,
+and the named Lean/Isabelle theorems establish the mathematical proposition.
+The local content dictionary is auxiliary/semantic/openmath/cd/lctr_law_audit1.ocd.
+Its URN identifies the dictionary without depending on a hosting account.
+
+Native metadata
+---------------
+lean/RootDependencies.lean queries Lean's constant and axiom interfaces.
+queries/ReadNativeMetadata.ML queries Isabelle's native derivation graph,
+its named axiomatic facts and its direct theorem/oracle dependencies.
+Definitional axioms are retained in Isabelle's axiomatic dependency output.
+queries/group*/ introduce no definitions, assumptions, lemmas or theorems.
+They import the checked theories and export the query results.
+
+The native outputs record derivation data. The componentwise inventory records
+the mathematical interpretation and its correspondence to the manuscript.

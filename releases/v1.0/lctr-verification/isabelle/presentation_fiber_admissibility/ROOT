@@ -1,0 +1,4 @@
+session LCTR_Presentation_Fiber_Admissibility = LCTR_Dynamics_Refinement_Alignment +
+  options [quick_and_dirty = false]
+  sessions LCTR_Presentation_Fiber_Transport
+  theories Presentation_Fiber_Admissibility

@@ -1,0 +1,34 @@
+lean/LCTR/GeneratedOrderUniversal.lean:78:9: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+lean/LCTR/GeneratedOrderUniversal.lean:78:27: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+lean/LCTR/GeneratedOrderUniversal.lean:78:29: warning: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+lean/LCTR/GeneratedOrderUniversal.lean:78:31: warning: Variable name `c` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _c
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'LCTR.GeneratedOrderUniversal.reflexive' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.transitive' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.source_monotone' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.least_preorder' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.factor_on_source' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.factor_surjective' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.factor_unique' depends on axioms: [Quot.sound]
+'LCTR.GeneratedOrderUniversal.factor_monotone' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.partial_order_iff_antisymmetric' does not depend on any axioms
+'LCTR.GeneratedOrderUniversal.direct_invariance_forces_identity' does not depend on any axioms

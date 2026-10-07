@@ -1,0 +1,7 @@
+session LCTR_Metadata_04_001 in "s001" = LCTR_Core_Abstract_Word_Encoding +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_04_001
+
+session LCTR_Metadata_04_002 in "s002" = LCTR_Core_Audit_Report +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_04_002

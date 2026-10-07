@@ -1,0 +1,3 @@
+session LCTR_Tagged_Native_Law_Family = LCTR_Tagged_Law_Carriers +
+  options [quick_and_dirty = false]
+  theories Tagged_Native_Law_Family

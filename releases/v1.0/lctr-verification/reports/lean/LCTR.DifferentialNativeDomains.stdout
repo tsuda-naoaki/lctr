@@ -1,0 +1,10 @@
+'LCTR.DifferentialNativeDomains.third_requires_second' depends on axioms: [Classical.choice]
+'LCTR.DifferentialNativeDomains.fourth_requires_first' depends on axioms: [Classical.choice]
+'LCTR.DifferentialNativeDomains.fifth_requires_first' depends on axioms: [Classical.choice]
+'LCTR.DifferentialNativeDomains.third_restricts' does not depend on any axioms
+'LCTR.DifferentialNativeDomains.fourth_restricts' does not depend on any axioms
+'LCTR.DifferentialNativeDomains.fifth_restricts' does not depend on any axioms
+'LCTR.DifferentialNativeDomains.second_need_not_require_first' does not depend on any axioms
+'LCTR.DifferentialNativeDomains.five_failure_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.DifferentialNativeDomains.extension_restricts' does not depend on any axioms
+'LCTR.DifferentialNativeDomains.extension_false_outside' does not depend on any axioms

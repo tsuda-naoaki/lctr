@@ -1,0 +1,4 @@
+session LCTR_Tagged_Native_Selection = LCTR_Tagged_Native_Law_Family +
+  options [quick_and_dirty = false]
+  sessions LCTR_Native_Law_Datum_Semantics
+  theories Tagged_Native_Selection

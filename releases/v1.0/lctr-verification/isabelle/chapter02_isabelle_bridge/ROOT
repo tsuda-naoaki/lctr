@@ -1,0 +1,5 @@
+session LCTR_Chapter02_Isabelle_Bridge = HOL +
+  options [document = false]
+  theories
+    Chapter02_Isabelle_Bridge
+    Chapter02_Isabelle_Controls

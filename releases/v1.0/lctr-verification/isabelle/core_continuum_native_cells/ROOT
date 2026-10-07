@@ -1,0 +1,4 @@
+session LCTR_Core_Continuum_Native_Cells = LCTR_Core_Observer_Record_Images +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Record_Cells
+ theories Core_Continuum_Native_Cells

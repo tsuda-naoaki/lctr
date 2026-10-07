@@ -1,0 +1,2 @@
+'LCTR.CurrentPaperCorrespondence.law_candidate_relation_partial_output_map' depends on axioms: [Classical.choice,
+ Quot.sound]

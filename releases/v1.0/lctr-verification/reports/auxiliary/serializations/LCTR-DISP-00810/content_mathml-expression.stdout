@@ -1,0 +1,1 @@
+<app name="lctr_law_audit1.typed_map"><app name="lctr_law_audit1.candidate_relation_output_map"><var name="a"/><var name="LawDat"/></app><app name="lctr_law_audit1.candidate_relation_domain"><var name="a"/><var name="LawDat"/></app><app name="lctr_law_audit1.output_value_space"><app name="lctr_law_audit1.index"><var name="LawDat"/><var name="a"/></app></app></app>

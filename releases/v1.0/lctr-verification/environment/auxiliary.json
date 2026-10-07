@@ -1,0 +1,63 @@
+{
+  "cvc5": {
+    "version_output": "cvc5 1.3.4 [git f3b21c4 on branch HEAD]\ncompiled with GCC version Apple LLVM 17.0.0 (clang-1700.0.13.5) on May  7 2026 15:33:28\n\nCopyright (c) 2009-2026 by the authors and their institutional\naffiliations listed at https://cvc5.github.io/people.html\n\ncvc5 is open-source and is covered by the BSD license (modified).\n\nTHIS SOFTWARE IS PROVIDED AS-IS, WITHOUT ANY WARRANTIES.\nUSE AT YOUR OWN RISK.\n\nThis version of cvc5 is linked against the following non-(L)GPL'ed\nthird party libraries.\n\n  CaDiCaL - Simplified Satisfiability Solver\n  See https://github.com/arminbiere/cadical for copyright information.\n\n  Editline Library\n  See https://thrysoee.dk/editline\n  for copyright information.\n\n  SymFPU - The Symbolic Floating Point Unit\n  See https://github.com/martin-cs/symfpu/tree/CVC4 for copyright information.\n\nThis version of cvc5 is linked against the following third party\nlibraries covered by the LGPLv3 license.\nSee licenses/lgpl-3.0.txt for more information.\n\n  GMP - Gnu Multi Precision Arithmetic Library\n  See http://gmplib.org for copyright information.\n\n  LibPoly polynomial library\n  See https://github.com/SRI-CSL/libpoly for copyright and\n  licensing information.\n\ncvc5 is statically linked against these libraries. To recompile\nthis version of cvc5 with different versions of these libraries\nfollow the instructions on https://github.com/cvc5/cvc5/blob/main/INSTALL.md\n\nSee the file COPYING (distributed with the source code, and with\nall binaries) for the full cvc5 copyright, licensing, and (lack of)\nwarranty information.",
+    "binary_sha256": "76677e62998e673622edc8ad2df168cb2445177ab7a336c5a25ce149bad836e1",
+    "repository": "https://github.com/cvc5/cvc5",
+    "version": "1.3.4"
+  },
+  "z3": {
+    "version_output": "Z3 version 5.1.0 - 64 bit",
+    "binary_sha256": "164c85de5f5dcb7d57cbab64b1a11580a982c1658384120b2b65358f41847418",
+    "repository": "https://github.com/Z3Prover/z3",
+    "version": "5.1.0"
+  },
+  "carcara": {
+    "version_output": "carcara 1.1.0 [git 0b38c86]",
+    "binary_sha256": "bdfae5a00a0d200bab98f5215ffe48bd5ce7fc53a0b650299a0c6dee059f02a6",
+    "repository": "https://github.com/ufmg-smite/carcara",
+    "commit": "0b38c8600d425e1d3d54677fe197b1777f9160fb"
+  },
+  "mmt": {
+    "version": "27.0.0",
+    "repository": "https://github.com/UniFormal/MMT",
+    "jar_sha256": "e481c037e5785f3e6da4fa3110b683a98aced3ea9a0a7499f374a7d194565c3d",
+    "foundation": {
+      "repository": "https://gl.mathhub.info/MMT/urtheories.git",
+      "commit": "6ec8abac5e3bdab1eb6ee47dddbf8a7402934181"
+    }
+  },
+  "java": {
+    "version_output": "openjdk 25.0.1 2025-10-21\nOpenJDK Runtime Environment Homebrew (build 25.0.1)\nOpenJDK 64-Bit Server VM Homebrew (build 25.0.1, mixed mode, sharing)",
+    "binary_sha256": "56ebffb62af25d7cdf630681e5da7fa4b1be48e048dee2f081ff7ed396b094b8"
+  },
+  "python": {
+    "version": "Python 3.13.5",
+    "packages": {
+      "numpy": "2.5.3",
+      "packaging": "26.3",
+      "platformdirs": "4.12.2",
+      "flexcache": "0.3",
+      "pip": "25.1.1",
+      "Pint": "0.25.3",
+      "astropy": "8.0.1",
+      "sympy": "1.14.0",
+      "pyerfa": "2.0.1.5",
+      "astropy-iers-data": "0.2026.9.28.0.59.37",
+      "mpmath": "1.3.0",
+      "PyYAML": "6.0.3",
+      "flexparser": "0.4",
+      "typing_extensions": "4.16.0"
+    }
+  },
+  "maxima": {
+    "version": "5.50.0",
+    "runtime": "SBCL 2.6.9",
+    "repository": "https://sourceforge.net/projects/maxima/"
+  },
+  "libxml2": {
+    "version_output": "xmllint: using libxml version 20913\n   compiled with: Threads Tree Output Push Reader Patterns Writer SAXv1 FTP HTTP DTDValid HTML Legacy C14N Catalog XPath XPointer XInclude ICU ISO8859X Unicode Regexps Automata Schemas Schematron Modules Debug Zlib"
+  },
+  "libxslt": {
+    "version_output": "Using libxml 20913, libxslt 10135 and libexslt 820\nxsltproc was compiled against libxml 20913, libxslt 10135 and libexslt 820\nlibxslt 10135 was compiled against libxml 20913\nlibexslt 820 was compiled against libxml 20913"
+  }
+}

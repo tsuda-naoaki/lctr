@@ -1,0 +1,10 @@
+'LCTR.LawTimeTransport.unlift_lift' does not depend on any axioms
+'LCTR.LawTimeTransport.lift_unlift' does not depend on any axioms
+'LCTR.LawTimeTransport.transported_value_pair' does not depend on any axioms
+'LCTR.LawTimeTransport.individual_admissibility_preserved' does not depend on any axioms
+'LCTR.LawTimeTransport.right_uniqueness_preserved' does not depend on any axioms
+'LCTR.LawTimeTransport.generated_membership_preserved' does not depend on any axioms
+'LCTR.LawTimeTransport.valid_time_transport' does not depend on any axioms
+'LCTR.LawTimeTransport.common_valid_nonempty_preserved' depends on axioms: [propext]
+'LCTR.LawTimeTransport.conjugated_invariance' does not depend on any axioms
+'LCTR.LawTimeTransport.fixed_zero_not_in_shifted_nat_image' depends on axioms: [propext, Classical.choice, Quot.sound]

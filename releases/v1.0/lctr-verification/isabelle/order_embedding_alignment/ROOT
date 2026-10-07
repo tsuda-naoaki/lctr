@@ -1,0 +1,4 @@
+session LCTR_Order_Embedding_Alignment = LCTR_Order_Embedding_Isabelle +
+  options [quick_and_dirty = false]
+  theories
+    Order_Embedding_Alignment

@@ -1,0 +1,4 @@
+session LCTR_Core_Configuration_Order = LCTR_Core_Exact_Input_Assembly +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Configuration_Comparison
+ theories Core_Configuration_Order

@@ -1,0 +1,4 @@
+session LCTR_Core_Operational_Configuration = LCTR_Core_Carrier_Patterns +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Source_Recovery
+ theories Core_Operational_Configuration

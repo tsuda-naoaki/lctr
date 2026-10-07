@@ -1,0 +1,3 @@
+session LCTR_Core_Joint_Descent = HOL +
+  sessions "HOL-Library"
+  theories Core_Joint_Descent

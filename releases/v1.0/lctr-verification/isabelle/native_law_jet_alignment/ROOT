@@ -1,0 +1,4 @@
+session LCTR_Native_Law_Jet_Alignment = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Modeled_Source_Value_Change
+  theories Native_Law_Jet_Alignment

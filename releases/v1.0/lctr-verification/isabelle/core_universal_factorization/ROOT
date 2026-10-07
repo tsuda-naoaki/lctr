@@ -1,0 +1,4 @@
+session LCTR_Core_Universal_Factorization = LCTR_Core_Representation_Images +
+ options [quick_and_dirty = false]
+ sessions LCTR_Order_Embedding_Isabelle
+ theories Core_Universal_Factorization

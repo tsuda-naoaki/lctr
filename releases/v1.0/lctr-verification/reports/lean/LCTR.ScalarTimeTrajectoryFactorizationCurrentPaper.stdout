@@ -1,0 +1,1 @@
+'LCTR.CurrentPaperCorrespondence.scalar_time_trajectory_factorization' depends on axioms: [Classical.choice, Quot.sound]

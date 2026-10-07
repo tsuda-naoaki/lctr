@@ -1,0 +1,4 @@
+session LCTR_Core_Native_Joint_Relation = LCTR_Core_Joint_Time +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Joint_Descent_Alignment
+ theories Core_Native_Joint_Relation

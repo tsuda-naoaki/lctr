@@ -1,0 +1,4 @@
+session LCTR_Native_Time_Change = LCTR_Native_Law_Jet_Core +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Zero_Time_Jet_Transport
+  theories Native_Time_Change

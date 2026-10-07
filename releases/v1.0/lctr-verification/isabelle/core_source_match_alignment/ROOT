@@ -1,0 +1,4 @@
+session LCTR_Core_Source_Match_Alignment = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_source_match"
+  theories Core_Source_Match_Alignment

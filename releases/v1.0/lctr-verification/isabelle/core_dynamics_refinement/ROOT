@@ -1,0 +1,3 @@
+session LCTR_Core_Dynamics_Refinement = LCTR_Core_Dynamics_Factors +
+  sessions LCTR_Core_Preorder_Quotient
+  theories Core_Dynamics_Refinement

@@ -1,0 +1,2 @@
+'LCTR.CurrentPaperCorrespondence.canonical_graph_trajectory_existence_and_uniqueness' depends on axioms: [Classical.choice,
+ Quot.sound]

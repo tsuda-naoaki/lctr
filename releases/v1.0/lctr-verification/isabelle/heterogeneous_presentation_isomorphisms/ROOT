@@ -1,0 +1,3 @@
+session LCTR_Heterogeneous_Presentation_Isomorphisms = LCTR_Presentation_Quotient_Universe +
+  options [quick_and_dirty = false]
+  theories Heterogeneous_Presentation_Isomorphisms

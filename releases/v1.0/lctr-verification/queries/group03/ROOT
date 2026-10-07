@@ -1,0 +1,7 @@
+session LCTR_Metadata_03_001 in "s001" = LCTR_Core_Audit_Groups +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_03_001
+
+session LCTR_Metadata_03_002 in "s002" = LCTR_Core_Word_Domain_Definitions +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_03_002

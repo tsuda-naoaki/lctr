@@ -1,0 +1,62 @@
+{
+  "complete": true,
+  "paired_roots": 46,
+  "results": [
+    {
+      "check": "lean-CoreSMTRewriteRules",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 0.532
+    },
+    {
+      "check": "lean-CoreSMTBooleanRules",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 0.285
+    },
+    {
+      "check": "lean-CoreEvaluationSMTBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 0.587
+    },
+    {
+      "check": "lean-CoreFiniteMarginBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.035
+    },
+    {
+      "check": "lean-auxiliary",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.049
+    },
+    {
+      "check": "isabelle-auxiliary",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 7.037
+    },
+    {
+      "check": "export",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 5.677
+    },
+    {
+      "check": "nanoda",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.315
+    },
+    {
+      "check": "con-leche",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 0.984
+    }
+  ],
+  "export_sha256": "6306ebca912b831370e6def23b36d2636c052fe4d41ee9b9e7ed285fe15b7d4c",
+  "compressed_sha256": "34aec4fa4d2e7ce32604da1f9c553aa34d02125ffe714f2086179460a737cead"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <bind>
+    <csymbol cd="quant1">forall</csymbol>
+    <bvar><ci>a</ci></bvar>
+    <apply>
+      <csymbol cd="logic1">implies</csymbol>
+      <apply>
+        <csymbol cd="set1">in</csymbol>
+        <ci>a</ci>
+        <apply><csymbol cd="lctr_law_audit1">law_indices</csymbol><ci>LawDat</ci></apply>
+      </apply>
+      <apply>
+        <csymbol cd="lctr_law_audit1">right_unique</csymbol>
+        <apply><csymbol cd="lctr_law_audit1">candidate_relation_at</csymbol><ci>LawDat</ci><ci>a</ci></apply>
+      </apply>
+    </apply>
+  </bind>
+</math>

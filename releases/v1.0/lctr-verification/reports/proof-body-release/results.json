@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "check": "nanoda",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 17.124,
+      "accepted": true
+    },
+    {
+      "check": "con-leche",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 7.995,
+      "accepted": true
+    },
+    {
+      "check": "survey",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.06,
+      "accepted": true
+    }
+  ],
+  "complete": true,
+  "steps": [
+    "recheck",
+    "survey"
+  ]
+}

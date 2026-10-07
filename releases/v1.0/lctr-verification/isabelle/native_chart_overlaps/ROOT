@@ -1,0 +1,3 @@
+session LCTR_Native_Chart_Overlaps = LCTR_Native_Time_Change +
+  options [document = false, quick_and_dirty = false]
+  theories Native_Chart_Overlaps

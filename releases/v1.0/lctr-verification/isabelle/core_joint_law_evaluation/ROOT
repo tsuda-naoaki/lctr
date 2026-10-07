@@ -1,0 +1,4 @@
+session LCTR_Core_Joint_Law_Evaluation = LCTR_Core_Native_Joint_Relation +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Failure
+  theories Core_Joint_Law_Evaluation

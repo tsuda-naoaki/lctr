@@ -1,0 +1,4 @@
+session LCTR_Core_Observer_Record_Images = LCTR_Core_Continuum_Native_Records_Aligned +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Observer_Time
+ theories Core_Observer_Record_Images

@@ -1,0 +1,4 @@
+session LCTR_Core_Continuum_Failure = LCTR_Core_Continuum_Encoding +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Dynamics_Execution
+ theories Core_Continuum_Failure

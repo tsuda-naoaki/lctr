@@ -1,0 +1,4 @@
+session LCTR_Core_Partial_Sequences = LCTR_Core_Typed_Words +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Source_Match
+ theories Core_Partial_Sequences

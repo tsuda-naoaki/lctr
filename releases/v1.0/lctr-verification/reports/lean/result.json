@@ -1,0 +1,2030 @@
+{
+  "scope": "chapters02-through06",
+  "depth": 2,
+  "phase": "clean_publication_tree_lean_replay",
+  "total": 224,
+  "complete": 224,
+  "failed": 0,
+  "pending": 0,
+  "running": 0,
+  "results": [
+    {
+      "module": "Chapter02LeanBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "55b23b130dff065d3dfa2d63e18327b2c5d99d99fb7ef3f5566695a256f7fb7b",
+      "elapsed_s": 2.522
+    },
+    {
+      "module": "Chapter03SourceOrderRecovery",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "856be99412bda4467be803299327be5d621e009865af186578efa8f401fe6c0b",
+      "elapsed_s": 2.379
+    },
+    {
+      "module": "CoreAffineFrequency",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "0f35971dd331fdafa765deffd727f7ebde46c6f85154d8a13c73f5966d7f9c92",
+      "elapsed_s": 1.235
+    },
+    {
+      "module": "CoreAffineRealization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1a3e02f282f9992953eb388a94d080a02c24c74c1804d6f840e9781d3cb7c12b",
+      "elapsed_s": 1.138
+    },
+    {
+      "module": "BodyInRealizationDomain",
+      "exit_code": 1,
+      "accepted": true,
+      "kind": "expected_rejection_control",
+      "style_warnings_present": false,
+      "source_sha256": "c4b47e5243fb04aeb51d3682bb1aa7ca9e9a90fa969b9bf04ae013136537c89d",
+      "elapsed_s": 0.485
+    },
+    {
+      "module": "Chapter02PositiveControls",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "351a832b7b77fc5e60a2481f04dadf53b2cd3ca4030ad59e1c5a0f7f92728a5d",
+      "elapsed_s": 0.506
+    },
+    {
+      "module": "Chapter03NegativeControls",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "1d16be07c046ea5aacc9bbdf4c940a65cad15f40e8c244b92288ab35c0daf7a7",
+      "elapsed_s": 0.679
+    },
+    {
+      "module": "Chapter03PositiveControls",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "527940c0e57d59d86615fc94f2a940e1ce0cb3e79d07ee0d567b940bb65ab06a",
+      "elapsed_s": 0.673
+    },
+    {
+      "module": "CoreBurdenComparison",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1ac43fe42eb3948ea69057c06801cee3db60ad5aeee721fa6d815c38082b6bfb",
+      "elapsed_s": 0.531
+    },
+    {
+      "module": "CoreAffineOrderBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a48687ae367c11d78916b3c2af78a87ef16a716eb4deb9b0b7192fe14ee4377a",
+      "elapsed_s": 0.795
+    },
+    {
+      "module": "CoreCarrierPatterns",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3d7e7c2ea7579a0749ddabe5ec5b5adcf425e22a711a742e79db258770a0d0f7",
+      "elapsed_s": 0.594
+    },
+    {
+      "module": "CoreCycleCountInput",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "0322c34c826df0da8d3202de50b7479c3b0cafbc1157ded048e47b204b2016d7",
+      "elapsed_s": 0.431
+    },
+    {
+      "module": "CoreComparisonInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b47c456e6ee42716497b2403ceb8317dd2213b68811f2189432ec77413937f68",
+      "elapsed_s": 0.859
+    },
+    {
+      "module": "CoreContinuumBoundary",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "22a72b8d6f5f178619c35289a58b50315a74c2be8c743be74853c43c0df1fd93",
+      "elapsed_s": 1.186
+    },
+    {
+      "module": "CoreDagRecursion",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5b73c02f1546ea0cdc2a7fcd7a183c0a7f01e2e99e4f8be239dc73d35ea04791",
+      "elapsed_s": 1.04
+    },
+    {
+      "module": "CoreFiniteClassWitness",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6047dd1ba77db65af15cf1376607e3c74700affb40a10fa601a94b694bab115e",
+      "elapsed_s": 0.855
+    },
+    {
+      "module": "CoreFinitePartitions",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9735236685aa8a649591c144fb3c5f2e32bcb89e30ff5f3a4aa8bb83c33d37fc",
+      "elapsed_s": 1.024
+    },
+    {
+      "module": "CoreFiniteReportComponents",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "97c62181633fa3c0145492f172e6b5bdb170267349326a2642191bf946d652b1",
+      "elapsed_s": 0.812
+    },
+    {
+      "module": "CoreCountableChartBoundary",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6bc228460fbf5a422e72ecad625941562bd4804be8ebfae51bf37850938bb8a7",
+      "elapsed_s": 2.04
+    },
+    {
+      "module": "CoreFiniteTupleData",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "069d44750fbe06d8abd0e0b01d95a7b0c6fd9bdbc0397628cb6a41f5dfd69a83",
+      "elapsed_s": 0.729
+    },
+    {
+      "module": "CoreFrequencyWindows",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1ad841b8216605b5590e2d3a99cc819b8ffa6017db97dbb23fd2e7410944a037",
+      "elapsed_s": 0.907
+    },
+    {
+      "module": "CoreJointDescent",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2415b07aae9362cd42ab923ea2bb50810120da73b481233e294d66845fcc16c5",
+      "elapsed_s": 0.557
+    },
+    {
+      "module": "CoreJointInputData",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "14424015f79169179784d403151abdaf507b0ad7f34db0514d44195c2a0b0c2b",
+      "elapsed_s": 0.668
+    },
+    {
+      "module": "CoreFiniteJets",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5f6a46544e339bdc90f31c38baa98e6516d00f95c54cb378a7c19f13edaa1a9a",
+      "elapsed_s": 4.198
+    },
+    {
+      "module": "CoreLeastScaleLift",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "f14b3a7bd8b4aaf76f815373d5697d8180ca7fa32f7c3a2b20884bf178e3aff0",
+      "elapsed_s": 0.596
+    },
+    {
+      "module": "CoreNonmonotoneBoundaryData",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "42c9c3224c5caeec85315fa2f4b35c4c9b743cd647714bd4d1bfdc5034ceaa01",
+      "elapsed_s": 0.959
+    },
+    {
+      "module": "CoreOperationalConfiguration",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "dc6ba47f302028e06c2ab55403b1428281e7c8d9140006b476c2ae553f5caf28",
+      "elapsed_s": 0.882
+    },
+    {
+      "module": "CorePartialMapBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "52b8ff095643a0b6b32197f842cbd8d7623b9c1f112257c70a3e0544adf49c93",
+      "elapsed_s": 0.546
+    },
+    {
+      "module": "CorePairTransportFactorization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "27d728d452c7b78fa81ed45743600193ea7b89d767fdad0f29969f96a8293986",
+      "elapsed_s": 0.841
+    },
+    {
+      "module": "CorePreorderQuotient",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6504ef1a6e627b12b60e1de751bc6cc8e508c015d1d5d9b635b4403a493bc564",
+      "elapsed_s": 0.47
+    },
+    {
+      "module": "CoreRankReachability",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "aa2c7cacb73a0891c42bceefa343bc78a6e551e495cec94029d57e449b4b4f10",
+      "elapsed_s": 0.456
+    },
+    {
+      "module": "CoreDetectorSourceBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "dc3e9121d81063fd2f6a62daf9617e7f60ffc32079e694344f74e5f070ef82ff",
+      "elapsed_s": 0.743
+    },
+    {
+      "module": "CoreRawLocalizationInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ce20f5969a5fc3e446c7d7044482a37238781db77ebd7d1c19fe99dc5817c7ca",
+      "elapsed_s": 0.631
+    },
+    {
+      "module": "CoreReceptionInput",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2d7eff3bc40f0f43d0cc6c0c5df101abb75553a946f2805b0e82c1498b70febf",
+      "elapsed_s": 0.736
+    },
+    {
+      "module": "CoreRelativeClassWitness",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "49899d0207e32b561488e4a5d229ff12c0e4f357cedd3e6633a388a4f0a22aaa",
+      "elapsed_s": 0.841
+    },
+    {
+      "module": "CoreRepresentationPredicateBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4a1fdc75f47c12a40e0438a405eb4fa4bde20edda4dedc12e9b6f88686ef96ad",
+      "elapsed_s": 0.532
+    },
+    {
+      "module": "CoreRelativeInitial",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ea0a0fde6573a8b52e8fae97d6050e8009e21f0034909ad9e38cefbc6790e8cf",
+      "elapsed_s": 0.604
+    },
+    {
+      "module": "CoreStrictPartialOrder",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2134a255b8a460d88b75ffced1e4742687722d49edaaef73aabc05c2829f4689",
+      "elapsed_s": 0.167
+    },
+    {
+      "module": "CoreScopeInputInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e74f6b424a7661269041b6cf8b22f71d9d61b871a07902f0bb88db71b10e9dac",
+      "elapsed_s": 0.555
+    },
+    {
+      "module": "CoreTaggedLifts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "efdad8b5b4e0dfa038a3ebfb6a91fe69a1a08271ceeba7cbb8a8a1eeb71750a9",
+      "elapsed_s": 0.578
+    },
+    {
+      "module": "CoreScaleTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cb5a3b828d3836cccad92d7f851d515807d6cd2d0616dba749105a66e48c507c",
+      "elapsed_s": 0.875
+    },
+    {
+      "module": "CoreTypedWords",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3a79a7c5f93f89a3f22daedcf1fa1489b06bfaac0f4aefb3f3d62bc4423ce597",
+      "elapsed_s": 0.625
+    },
+    {
+      "module": "CoreValidityMaximum",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "764c147aadbd81466661440dbfbd36dfe5d4987e7a6beb7fefd3ef3495714765",
+      "elapsed_s": 0.588
+    },
+    {
+      "module": "EraseIndexInjectivity",
+      "exit_code": 1,
+      "accepted": true,
+      "kind": "expected_rejection_control",
+      "style_warnings_present": false,
+      "source_sha256": "c4ebbc01fc28b7200d6721294e4e8125aa80f6457667fe9c689aaaaa6f0a1ec3",
+      "elapsed_s": 0.48
+    },
+    {
+      "module": "CoreAbstractWordEncoding",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "08f2e6d500f9b241899ad65c2c5db8c6a64eae583c94c4453bb8bcb73c455cb1",
+      "elapsed_s": 0.657
+    },
+    {
+      "module": "CoreWordDomainDefinitions",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4b95298de8181ee97db714e5d67a832e678acfe15c81deff7053a10fbc6969d8",
+      "elapsed_s": 0.552
+    },
+    {
+      "module": "CoreValueJetChanges",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d0191bd8358896c64f6fc86c0f88e183668ae071eb398bc4a2019b64b82c6351",
+      "elapsed_s": 1.271
+    },
+    {
+      "module": "LCTR.DifferentialConditionDAG",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2200cf43a5185d1ad0a44037e649e3cba8517cfec9ab68023c6247e5a5ac0353",
+      "elapsed_s": 0.287
+    },
+    {
+      "module": "CoreLocalLoopSpecification",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "31a597e187d4766c25137de6bb976fbe9be390334071b1498008bd24ec09c154",
+      "elapsed_s": 0.572
+    },
+    {
+      "module": "LCTR.DifferentialNativeDomains",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2a4dd3b33e3544de66ced2e145e1f57fde822cd66229b5f2c388c09dddd9ba67",
+      "elapsed_s": 0.287
+    },
+    {
+      "module": "CoreIndexedDeletion",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a7d2a0dbbd484915fa8f335ac7eb2401fed9f198808fa428cbf2beba69d66c14",
+      "elapsed_s": 0.794
+    },
+    {
+      "module": "LCTR.FunctionalRelation",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "883ff72f418ace1b33d4eb6149f79e7c751c8b474ac1bbca7fa18fe36f076d9c",
+      "elapsed_s": 0.18
+    },
+    {
+      "module": "LCTR.EngineeringEffectSoundness",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "60320cd594ea90136aa0eb20a6090e170948b539afc503a869d90035f9b50afd",
+      "elapsed_s": 0.215
+    },
+    {
+      "module": "LCTR.GeneratedOrderUniversal",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "e7177bd7659d99f8cfefb1bd2f7eee6d60634ab8a683ba81d8df3b457b0d5f5f",
+      "elapsed_s": 0.301
+    },
+    {
+      "module": "LCTR.GenerationClosure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6a6d836bde2f525f0b5a57782fe9b2cb563299fab548a7fef00ddbd3b7982533",
+      "elapsed_s": 0.285
+    },
+    {
+      "module": "LCTR.ImageInverseConstruction",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4520bf0063153f59ff95bafa6100f801a533a2aa3e7caf641c8612e1317ada39",
+      "elapsed_s": 0.278
+    },
+    {
+      "module": "LCTR.JointTimeReadiness",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "77a9b0f675efa3ce32c25f92fdb181befd95216995ea8de9123f078cc0d47a05",
+      "elapsed_s": 0.287
+    },
+    {
+      "module": "LCTR.LawCandidateRelationPartialOutputMapCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1a6ce5cafa9a67560eb5c6efecdd9c109b281bea9e634423dd9e2b370829a109",
+      "elapsed_s": 0.176
+    },
+    {
+      "module": "LCTR.LawTimeTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "639f5ca14fec04a8ed14068dafacefe69fcbea106af0144d12cd8429d5a39c7e",
+      "elapsed_s": 0.323
+    },
+    {
+      "module": "LCTR.CanonicalGraphTrajectoryCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a093fa0dc5b478ffb78ce25f4d3938544b3511ddf70de79d8dbd763d2a5ea4f1",
+      "elapsed_s": 0.173
+    },
+    {
+      "module": "LCTR.RefinementMonotonicity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "bcc3316e9327e3272462c39c4d92d63682e5b04e224f535b9888b5d1c4a11d49",
+      "elapsed_s": 0.271
+    },
+    {
+      "module": "CoreTimeJetChanges",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a32dc2cd523552e8ec94aaaf5ff34ead11d3c80ca56514230423228c9acba7f9",
+      "elapsed_s": 1.483
+    },
+    {
+      "module": "LCTR.RepresentationImageOrderIsomorphismCore",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d3e8c4d74f5dec422fa1d6d3a46af147949c9fcec1343c1010726328a368960c",
+      "elapsed_s": 0.181
+    },
+    {
+      "module": "LCTR.LawFamilyTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8c5af2be82059de04ae8f66e8ea7a1fe69291b9a8eac8227ffd39d8cbc3bf67d",
+      "elapsed_s": 0.348
+    },
+    {
+      "module": "LCTR.RefinementDecompositionMonotonicity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "959b81332aa56a161f8089ec0aa9a52394a68b04f54a7fb6c66fa902e0bec4ab",
+      "elapsed_s": 0.274
+    },
+    {
+      "module": "CoreTrajectoryDescent",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "7d1541e09088d11d5c2514482633b0f09be377c873dc9b9c156e477cc77805b3",
+      "elapsed_s": 0.431
+    },
+    {
+      "module": "LCTR.OrderEmbeddingInjectivity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "64f0fe8670141bed816fa28c95104217ce26282eb963152b66978f0de67402e1",
+      "elapsed_s": 0.271
+    },
+    {
+      "module": "CoreLawTransportIdentity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6ba7f6c42bd8a201a66a3973e1bc01943ac340280b917c23c46b69a733641088",
+      "elapsed_s": 0.284
+    },
+    {
+      "module": "CoreRepresentationImages",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1be62a79ca33cab84fd6e1b774926ec99645eb8e4f0c80852ca06104286c311e",
+      "elapsed_s": 0.722
+    },
+    {
+      "module": "LCTR.ImageInverseComposition",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9685f954e878efda6cbfeaaebab76965e4b9c37831448dc5b7ab9ccc5a90d521",
+      "elapsed_s": 0.266
+    },
+    {
+      "module": "CoreGeneratedLawIdentity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "f97eea4187e451dd067637e74ccfbc67f06c2b9d4c8ee5d6947ce3fa9d224b57",
+      "elapsed_s": 0.28
+    },
+    {
+      "module": "CoreDynamicsFactors",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a0848234ccce49851e3fb095c3d92bc2b2a0dccd11676a6a5830f03ab2896440",
+      "elapsed_s": 0.578
+    },
+    {
+      "module": "LCTR.QuotientFactorization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5f0271944c0d1f60ab6bcbdbae2484c9f9cdabb827ba6132f4ee75c2f808bf9f",
+      "elapsed_s": 0.277
+    },
+    {
+      "module": "CoreDynamicsRefinement",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d344ab3d98e616da2cefd0608724cbdded40048e7fa5cdc1da23e185b97ff0a2",
+      "elapsed_s": 0.746
+    },
+    {
+      "module": "CoreJointTimeSeed",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "36490a23b06ead79be4076f32d52eb847b978f5c3e0bc334dff7f13e218217ab",
+      "elapsed_s": 0.546
+    },
+    {
+      "module": "LCTR.ObservableFactorization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ce796d8b86e55302ab7ebc982c629af4a52d8a0acd07bb005860cd4222957452",
+      "elapsed_s": 0.291
+    },
+    {
+      "module": "CoreLocalCharts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8bf625ab6ebb5098c9e3dbb9a7b7a866dc354c0e32ea963e71c5c05561359e84",
+      "elapsed_s": 1.725
+    },
+    {
+      "module": "LCTR.RealTimeOrderEmbeddingInjectivityCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b262712454bdacfee9f8469273da92ac7e52dcdf94fc79845e01b1f960faa4ef",
+      "elapsed_s": 0.322
+    },
+    {
+      "module": "LCTR.Section4_02MutualArrivalOrdSep",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "be5cb9f392bb5f84322993cc3f9bb5a0887be094283f17d1cff2abaddbf41073",
+      "elapsed_s": 0.173
+    },
+    {
+      "module": "LCTR.CanonicalObservableTimeFactorizationCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b3779a8c6ceeae1e02f4f3654cf3c500d37e479f58e4199fddf25282224b5e5f",
+      "elapsed_s": 0.285
+    },
+    {
+      "module": "LCTR.ScalarTimeTrajectoryFactorizationCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e344b2ef85a7a1f5776a59e43813f15d9c1930acd8f269ae7a86a8f67897006e",
+      "elapsed_s": 0.301
+    },
+    {
+      "module": "CoreDifferentialCovariance",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a3977b8118063c247e48e3c434526ebfc241a0ad918bc823af3bb80da1f09dc6",
+      "elapsed_s": 2.563
+    },
+    {
+      "module": "LCTR.SelectedInputEvaluation",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "0355184fadf3a53f936568ffad2a69d9fde2644a25ab8ba3dd6ea70616e6a340",
+      "elapsed_s": 0.806
+    },
+    {
+      "module": "CoreSourceMatch",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "56249d54992243c192a8b5f8a700d8c313f407ee780a4a91fe71730ab17843c1",
+      "elapsed_s": 0.873
+    },
+    {
+      "module": "FactorizationBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "af3273c7154339b9d524b7eb61709162a39260be1cc2f3685e3870ac8c71dee1",
+      "elapsed_s": 0.881
+    },
+    {
+      "module": "CoreEvaluation",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c955b63c5013598c6b6adf2966982fcc630c380ecc567300d8b8a2f9f1c00af2",
+      "elapsed_s": 0.913
+    },
+    {
+      "module": "CoreComparisonIntegration",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cb6c64c6128a9289e09af7be3b4ccdfbf57d4f428da9645e0d110d12f6d94bb6",
+      "elapsed_s": 0.81
+    },
+    {
+      "module": "CoreChartOverlaps",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "bf8bd28f4cdd6d57eef21780025734dba8e02f9e189f265617c85e01b8c2d9df",
+      "elapsed_s": 3.346
+    },
+    {
+      "module": "CoreConfigurationDynamics",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2f525f9c7ac009b6aa889b843dedb56c62c80455d7fb31b1bb67eb0be2193c7e",
+      "elapsed_s": 0.807
+    },
+    {
+      "module": "CoreAuditStateTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e8ad6be8bb8134c0568e583dee9bcb756ac30d3a5a646e6e93331001f72ac138",
+      "elapsed_s": 0.879
+    },
+    {
+      "module": "CoreDynamicsInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "0611ec30d9ef1799b4df47014e1bf0e578587c25beee71b6d1e48f8165ca8d43",
+      "elapsed_s": 0.805
+    },
+    {
+      "module": "CorePartialSequences",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "910a484bc675ce954f9266da175ca359fed3355b9fbd3e146c4b91d78831b7e2",
+      "elapsed_s": 0.794
+    },
+    {
+      "module": "CoreSourceLoops",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "653f3e621f62a139f5dc478f93f42ad4adaddaaf19204eac96eef6ef39d716e4",
+      "elapsed_s": 0.884
+    },
+    {
+      "module": "CoreAuditTags",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d2b78a83f74af27ae0ee73a6bdb3c6f464d786da6ac05878165098d0e7cd992b",
+      "elapsed_s": 0.836
+    },
+    {
+      "module": "CoreDynamicsRecoveryData",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "38e33382f7a8b5b1820464dce574271bd9b4aba3181fd713846553a7c778d345",
+      "elapsed_s": 0.805
+    },
+    {
+      "module": "CoreLocalLoopRealization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3826290786c45e3fc2a7f8c6d88d48ca2ac0609249d7a5a724abdd57a38ca9b7",
+      "elapsed_s": 0.777
+    },
+    {
+      "module": "CoreEngineeringDataInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e21a254186803540578b73b9a8f06c7ade5fa021c0d1b28d82a23a00a46348fd",
+      "elapsed_s": 1.515
+    },
+    {
+      "module": "CorePairedComparison",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "682b955cb7e159f0e8b64634db672fef8aaa76852dde3ab97903b3c7243d24ca",
+      "elapsed_s": 0.816
+    },
+    {
+      "module": "CoreNativeWordFamilies",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "285a8a4562333fc9dbfe26e7a58f48c2a3a49a882a30a43d817be7158bb4269f",
+      "elapsed_s": 1.055
+    },
+    {
+      "module": "CoreLocalLoopBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "639bc99004b42e12d075078582ffc63f1bd54463392c7cf3e7fffbef17c0ae9e",
+      "elapsed_s": 0.915
+    },
+    {
+      "module": "CoreCommunicationDataInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8b1171886d6374ce72193927b62ad1875ffbf41507fb8ca7e73b2e47128481b6",
+      "elapsed_s": 1.038
+    },
+    {
+      "module": "CoreComparisonStage",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "37583921ebd6621a1c9bbafe73c539807726b1be8074c1915f6e84ceeb67c258",
+      "elapsed_s": 0.901
+    },
+    {
+      "module": "CoreQuotientInterface",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d10218c906f3be6099fa7325a426998aad024e2e1d4607c7cd4da04f8ddeffa0",
+      "elapsed_s": 0.721
+    },
+    {
+      "module": "CoreEngineeringInputBurden",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2645983b7cfe18b977adbb20081632ea2a300fcab7967da24b646fb448c8d8a8",
+      "elapsed_s": 1.078
+    },
+    {
+      "module": "CoreComparisonFailureWitnesses",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "bd7c010a6451586975f992c599856199012db322b77715966bafd33abdebc99c",
+      "elapsed_s": 0.813
+    },
+    {
+      "module": "LCTR.StructuralBurdenSingletonCurrentPaper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cb27cd12610364f45137c8f7ad78e828a7884aa293457a39de98f875247b8233",
+      "elapsed_s": 0.17
+    },
+    {
+      "module": "CoreConfigurationComparison",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "77f84277ea5b47dcebf05c4c7de6898c265ef31d1fb1f8d1c7c6f9fc3142070b",
+      "elapsed_s": 0.858
+    },
+    {
+      "module": "LCTR.TaggedArrivalPartition",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "aeceeab45d7ef2cb8ae442663b6aee4367d7d8f7dc86e17f7e59ecb529db0fd4",
+      "elapsed_s": 0.174
+    },
+    {
+      "module": "CoreWordEncoding",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e801d50d17206e6fceae4b22ae8e3375dc5df08b75e174019e02e63014105aa1",
+      "elapsed_s": 0.889
+    },
+    {
+      "module": "CorePairInputBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e17362bfc53716f019062385aa586e5d75f1c11f50168853b88a50c66746dcf5",
+      "elapsed_s": 0.752
+    },
+    {
+      "module": "CoreRemainingSetContracts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "127a4d73188fbd7feacfe647efee5fcc0b02748f6cb85bcaee70ed5e4852871f",
+      "elapsed_s": 0.786
+    },
+    {
+      "module": "LCTR.TransitiveIncomparabilityQuotientCore",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ef7d86775c307d211de13eb92678050d612dc391312a03a5294539a384bbc883",
+      "elapsed_s": 0.19
+    },
+    {
+      "module": "CoreIndexedNativeDeletion",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "dcd9041536a771030f6e864a25051a1596f7cbc00c2890d285a4b08211220fa3",
+      "elapsed_s": 0.807
+    },
+    {
+      "module": "NestedQuotientOrderEmbedding",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b6e2a09e304911e98a37ee80362be689c1ce01153de1ba7eaf4c57b1760607ea",
+      "elapsed_s": 0.287
+    },
+    {
+      "module": "CorePureWordDisplays",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6ed83e973fd034f9993714c927cc11cffc2d3e928bbfb80d8f84743152ff046f",
+      "elapsed_s": 0.825
+    },
+    {
+      "module": "BrokenPremiseNegative",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "e06330005fd8a884e1b6029b85edc5a09abb0e0dc5b1b43e112c2ce45f787eb5",
+      "elapsed_s": 0.689
+    },
+    {
+      "module": "OrderEmbeddingBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "61191736f5ca4c7dfabfa3f25de9ef4e41cc7e4365614538c22352198fb76ad6",
+      "elapsed_s": 0.858
+    },
+    {
+      "module": "RegionLawGluingLeanBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": true,
+      "source_sha256": "e9f55ae9f5ee9f78469cbcb162e537fd290198fa26614f3977ef388071448260",
+      "elapsed_s": 0.662
+    },
+    {
+      "module": "CoreFiniteMixedReduction",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "f588b9849b2c2ccfe5806cd346c8a33335a912b5d282314ae4e435f144e35da0",
+      "elapsed_s": 0.8
+    },
+    {
+      "module": "CoreObserverTime",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e12de20c9ff4f4cbd79b2ffdccfd1c9584f5757a7c3d231e6a57a4629cb4de43",
+      "elapsed_s": 0.879
+    },
+    {
+      "module": "OrderEmbeddingFactorizationWrapper",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1618f55a1f49e7422befa2564024cd3e2861a7d58f1137bbabb2b3f35f73fd6e",
+      "elapsed_s": 0.868
+    },
+    {
+      "module": "CoreUniversalFactorization",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "89308d07310c54a00318e1b5b51df27b3a599466dd279ca43c943510aef92a27",
+      "elapsed_s": 0.899
+    },
+    {
+      "module": "CoreTokenGraph",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c29fdb2c6f5d32e6e5b28c1b5514e3e141f979ab5655ade8867c799aa1bd5de6",
+      "elapsed_s": 4.609
+    },
+    {
+      "module": "CoreConfigurationObserverTime",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4a659584e69f30cd10d548176b0ba5d3f24ffa311b3ec62fb7b782ff8733f923",
+      "elapsed_s": 0.921
+    },
+    {
+      "module": "CoreNativeCurves",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "775e23d3cc087f06b3d9583a89039c27dc16c3b05afb9930110f2a014970de51",
+      "elapsed_s": 0.991
+    },
+    {
+      "module": "CoreOrderAtlas",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3f02014b10311a0a71e03ecb17717c5f3c32fbbe0c996b97e703a1412ae15c78",
+      "elapsed_s": 0.909
+    },
+    {
+      "module": "CoreFiniteAudit",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d21efb2da5202804a7954645becfc1a80bca71baf4028d85c1043233746d7755",
+      "elapsed_s": 0.859
+    },
+    {
+      "module": "CoreExactStructure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e77b75e8927c9b6e1a8c8178d7900878f7c886e399b670557df69cdebd60c2df",
+      "elapsed_s": 0.93
+    },
+    {
+      "module": "CoreDifferentialFailure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "319ea2a0b4d4cd173777f303c2eb8a4b674f55c67ba05aa1e53c716edabf81be",
+      "elapsed_s": 1.048
+    },
+    {
+      "module": "CoreContinuumIntegration",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "7579c6f4b4204815953d91f84e58a2b6223e87914c11583034591e4e6f64e64e",
+      "elapsed_s": 1.301
+    },
+    {
+      "module": "CoreAuditGroups",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9fbdce7a66069b382e894ac2d9289eda4436db11c4f28b1561e76571c70ea43b",
+      "elapsed_s": 0.842
+    },
+    {
+      "module": "CoreDifferentialTokens",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "edcf96bed739305a8236479f547b8f309ab2f2c83c642e0a2914520db2c176cd",
+      "elapsed_s": 1.161
+    },
+    {
+      "module": "CoreContinuumTopology",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "fa2bb2bb991676a3c0474c6a389fe82a937602e95228de1535ae14bc38dc1bb8",
+      "elapsed_s": 1.341
+    },
+    {
+      "module": "CoreComparisonFailure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "760fc068222eb554946e1580511c782e7743f770589824af889e817262b0453e",
+      "elapsed_s": 1.564
+    },
+    {
+      "module": "CoreDynamicsTokens",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1e744375eb4dc67b179db6b93228dc6e31c738c2689ec3641eecc509056423cd",
+      "elapsed_s": 1.9
+    },
+    {
+      "module": "CoreEngineeringEffects",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "968430ecafa9fbd96b562fabbce6aebde27ef17c526cfb5dfab6fde97ce56b12",
+      "elapsed_s": 1.016
+    },
+    {
+      "module": "CoreContinuumEncoding",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "366c40f64d497ae7df03df604f03c12f8fda6103ed01880a9a86d300a8a65c08",
+      "elapsed_s": 1.017
+    },
+    {
+      "module": "CoreDifferentialExecution",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9a97872498f23c9849850bf260d92dfb995ffe2868d1d477e14464592c1f2d7b",
+      "elapsed_s": 2.203
+    },
+    {
+      "module": "CoreApproximateBoundary",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "72f2447438eb8fa8f11a14746b3a11a96c20bda857a5bcc3d55bce64338f62ea",
+      "elapsed_s": 1.008
+    },
+    {
+      "module": "CoreDynamicsStageInterface",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b4dd1e8cfa2562d04ed2a90ffebdc69bea32c0ecc59f8897ba7ad8245214d369",
+      "elapsed_s": 1.072
+    },
+    {
+      "module": "CoreDynamicsExecution",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9297df3c8427d6443caf73a3bb80f5aebc89c9353c14cd38129c692368f66c7f",
+      "elapsed_s": 1.75
+    },
+    {
+      "module": "CoreExternalTimeUses",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8ee0a21edfae6faf5d6d220f898417a8e36e69e0c60a5708802fddad5676bb6d",
+      "elapsed_s": 0.916
+    },
+    {
+      "module": "CoreContinuumSourceBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "de18069b682817d5eec85e6ead7d0281aec666a40284a2c46a44fcd090adcae7",
+      "elapsed_s": 0.983
+    },
+    {
+      "module": "CoreFirstFailureReport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "49ec111df71bc3b47cd44da2100fd1a8111c238f5ffc7757af19410e69f954ad",
+      "elapsed_s": 1.043
+    },
+    {
+      "module": "CoreJointTime",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "af119e60d3be04f5bec71e3aa42d631d94870cb0839e9b7d22544260fcaea426",
+      "elapsed_s": 1.077
+    },
+    {
+      "module": "CoreContinuumFailure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9ad3742c0aa9e1a4acf3b6bc2c74385780afc2000d37a172654b210a9b29a6ae",
+      "elapsed_s": 2.673
+    },
+    {
+      "module": "CoreNativeCharts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b28db554bcfe8aeacc8711f798506dcfa0a1efab66980222aa5af485b0880438",
+      "elapsed_s": 0.947
+    },
+    {
+      "module": "CoreComparisonScope",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4360a87b2b7e2158cbc4808e23921ba3041e769cb62b04961a18200ff9914894",
+      "elapsed_s": 0.992
+    },
+    {
+      "module": "CoreNativeJointRelation",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "63ef18dba348842eddba0617c5f02127851f8ada87dad6c07244d3897c6103ff",
+      "elapsed_s": 0.919
+    },
+    {
+      "module": "CoreFailureMultiplicity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8912f7476c8087aebd5a67f6302d8bf2c35f0cbb4f8eb7c8a7e373b7d2f2c19e",
+      "elapsed_s": 0.995
+    },
+    {
+      "module": "CoreContinuumDatum",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "8003a451729e12691b55abcfb6781a488c7fe689b89ed6ac72825c45b0eb683e",
+      "elapsed_s": 1.242
+    },
+    {
+      "module": "CoreComparisonDefinitionInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ee21fd421bdfdef350a66dd980ce64b09034d2336a16f5be69fd7ed0583c708d",
+      "elapsed_s": 1.007
+    },
+    {
+      "module": "CoreNativeLawTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "17650e3f68b077ac39ebc0f5dae970dc4e8a867cc3e0cab41aeff47e77b8d683",
+      "elapsed_s": 0.907
+    },
+    {
+      "module": "CoreNativeObservables",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9583f65eaf59b0b7237fc54de88b7f9c616d2b6fb5362e201613f0768a024cb2",
+      "elapsed_s": 0.892
+    },
+    {
+      "module": "CoreNativeSpecification",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e134c0b9d63361d72fbda7680cf0c0599941a14556cbc27a6335ae034300c196",
+      "elapsed_s": 0.889
+    },
+    {
+      "module": "CoreRecordCells",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ab58a3e3f8ba5be70f71b5dbe3ac1c1e79abb6ff96922f6d15b2efc7d6027dab",
+      "elapsed_s": 1.033
+    },
+    {
+      "module": "CoreObservableInterfaces",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2e47df24109bd819a02ba0a5bb95211e83da79d8bf1a9b5e09af5cc3a2eb7a8c",
+      "elapsed_s": 0.873
+    },
+    {
+      "module": "CoreNativeLawComponents",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a494d392d8dfafea0fc95406f4d7e806f76a2a0850875faa40e814c46a085231",
+      "elapsed_s": 0.938
+    },
+    {
+      "module": "CoreNativeStateBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "f93f444be188beded7c179cbd2b7650ac380e1fe4fc16c16066e79359971df26",
+      "elapsed_s": 0.882
+    },
+    {
+      "module": "CoreRecordCodes",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a9941ecf0c41b769869796ce131c52f1ac78de08d9ab510745f23506cec9fd8a",
+      "elapsed_s": 0.908
+    },
+    {
+      "module": "CoreRawCanonicalObservables",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "07a0bcbc8984df045208556a1cf39d4ca14e74e3e991be9a0decfadc4446d60a",
+      "elapsed_s": 0.862
+    },
+    {
+      "module": "CoreLawConditionGraph",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "34cd9763a04c5d407cfd2c9b598e1183de5e23dfc95f1f7858aad51e85a0651f",
+      "elapsed_s": 0.987
+    },
+    {
+      "module": "CoreNativeLawGeneration",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "04e6368119eaa8fca104be6cc9f7ba658eb471c42c0f6714f228bec4256ae61f",
+      "elapsed_s": 0.92
+    },
+    {
+      "module": "CoreLawInputBundle",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3c74ae3d5fc034c820509338ff5d2d71d39cf9e0b2c64e04287e04cfd68e57ba",
+      "elapsed_s": 1.082
+    },
+    {
+      "module": "CoreContinuumNativeRecords",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a7a06d95299dd334c8a52b0c9f23cea0934e0cce995194679b813719b0bd7f42",
+      "elapsed_s": 1.082
+    },
+    {
+      "module": "CoreJudgmentBoundary",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "afe3dff931ecbd923cec3437d9823c4bdc617738156e6a8b9cfdfb786c54ed3c",
+      "elapsed_s": 1.045
+    },
+    {
+      "module": "CoreLawComponentCharts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c06539245a000b1abe4d53bd99854faf2dcdf1465746bf3bca960dff9d050844",
+      "elapsed_s": 1.123
+    },
+    {
+      "module": "CoreNativeLawFailure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cead0a79fcf6200dd13355c7bf89a723148d76af8369591faf67d3bd1380f0c5",
+      "elapsed_s": 1.001
+    },
+    {
+      "module": "CoreObserverRecordImages",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "72380f92f2c9a17511d76f29d52bcc5c9e9ded34a1953dd9b34d8251e6bf1a3b",
+      "elapsed_s": 1.138
+    },
+    {
+      "module": "CoreDynamicsBundle",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c20b9bab38236ac25a8ae4ab08e73f52f7c5281a970b24531309ad02df48d2b5",
+      "elapsed_s": 1.353
+    },
+    {
+      "module": "CoreDynamicMaster",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a4d795cc82e355b770b192d0c3cc58f5c7173def1f0c6b0d536485c973a75281",
+      "elapsed_s": 1.125
+    },
+    {
+      "module": "CoreJointLawEvaluation",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "dfd4cb4a4a1539c2f49234fc58cbd7d09bf0c2445eea861375c44b97d7eaab3f",
+      "elapsed_s": 1.094
+    },
+    {
+      "module": "CoreContinuumNativeCells",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "ac31a4a1e376b5080dd7c0c6584aebd630c99d86ec84ecba1bf3e8651dda4dc0",
+      "elapsed_s": 1.743
+    },
+    {
+      "module": "CoreLawCounterCases",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "45f9903dae5a7c7a5d8ed25c285d5c2e1cc1f10ab7a6cd6a1c60a03481319667",
+      "elapsed_s": 1.015
+    },
+    {
+      "module": "CoreJointConditionRoutes",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "441340a6233a712289a9cc8152bc8b5996706580c8b3df87ac5da17334b1385b",
+      "elapsed_s": 1.487
+    },
+    {
+      "module": "CoreJointRealImage",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "75da475f0b8e4a774cc1862b39fb0c0701752d71be64d7b524347028db684c65",
+      "elapsed_s": 1.105
+    },
+    {
+      "module": "CoreNativeLawJets",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "52880b834326b38156e1fb7f0426257bfd576197ce55a539e384ad7286f07de4",
+      "elapsed_s": 3.491
+    },
+    {
+      "module": "CoreLawFailureState",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "eee564c1f2991dbf571793e95e699b7d562f3e24be30a14b1dcf997ac00bdf53",
+      "elapsed_s": 0.986
+    },
+    {
+      "module": "CoreLawDifferentialBundle",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "082c70a3889ae0e0beb97988fd4f8a379effa8457b974f5d468d72a8fcd2c3e3",
+      "elapsed_s": 1.13
+    },
+    {
+      "module": "CoreLawReadinessBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "295a100144ecfebf0c215334615af36f8a799a69a63959652557979d901b537c",
+      "elapsed_s": 0.962
+    },
+    {
+      "module": "CoreRawRecordCodes",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "944b303f504f7f892ec47b7214b7ff2a2d1e2a3e144a6d0be74b1e40ce8c30f3",
+      "elapsed_s": 0.851
+    },
+    {
+      "module": "CoreRefinementForest",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "1e83455250d6fde66650075e282cfa817a0ef404599b03c3059d288ea952563e",
+      "elapsed_s": 0.971
+    },
+    {
+      "module": "CoreRepresentationStages",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c0b14076d9efaa4cb805e5e91bf4106ddb9f7fb3347684d218a5e5d386b13f38",
+      "elapsed_s": 0.924
+    },
+    {
+      "module": "CoreSeriesValidity",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b66a2a3a5b4f89eb93be7789fe9c94681571b46ab61d2e1b4416a9fec7a67ee9",
+      "elapsed_s": 0.872
+    },
+    {
+      "module": "CoreStageBoundaries",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "76583f8ba1359d4eae9036b7f0249f22b74aa039f0313edadaf119d4ec388e30",
+      "elapsed_s": 1.039
+    },
+    {
+      "module": "CoreDifferentialRefinement",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2bdf3021d827d9a8f9f9f2b9c855d8647bfb0884e49d27e8ab8d60e7879b46bb",
+      "elapsed_s": 0.898
+    },
+    {
+      "module": "CoreExactCompletion",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "b30c663ff956ab78d451273bddebb60261d6b4c7e03a53f44ed022b0ddf00275",
+      "elapsed_s": 0.962
+    },
+    {
+      "module": "CoreContinuumInput",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d177044ad5e2b6ca543bf4185dc2f441b32eef9523c3218317549df9eb4fc1ac",
+      "elapsed_s": 1.255
+    },
+    {
+      "module": "CoreLawDatumSemantics",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "dc82167cfe88cafde75bde9f49a646f5c0683a6ffc822e6df93ff235aea86c48",
+      "elapsed_s": 1.06
+    },
+    {
+      "module": "CoreDifferentialOutput",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9701807ccc9cc0560febb11850ad5fe92887ff66a5ea7944448a72d75ff456ef",
+      "elapsed_s": 0.899
+    },
+    {
+      "module": "CoreExactInputAssembly",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5f463168a0d5d63c815e7e24a9b6cfb4060d6e958d0bac9c79d1d1ec30005fa5",
+      "elapsed_s": 0.966
+    },
+    {
+      "module": "CoreLawRefinement",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5f881c0712db3b806c1d2c3fee8bf655ff0f0e09bf2859d5304feddf05312bb2",
+      "elapsed_s": 1.194
+    },
+    {
+      "module": "CoreLawDatumAssembly",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "e8295d0f16ae01b01040a552414f9f494bacbc2375c03c4f4f62af2aeb9f1aed",
+      "elapsed_s": 1.003
+    },
+    {
+      "module": "CoreRawComparisonEntry",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "9719d4fec91e33ec8b678346ccdb44f2dd9dd401bb51e584c92492111d0d12a3",
+      "elapsed_s": 0.897
+    },
+    {
+      "module": "CoreConfigurationOrder",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d59a1ce47bd73886e4ea14a7d1fcc8d9580a1c0ef71ed5f0dbf0904612c0d5ef",
+      "elapsed_s": 0.979
+    },
+    {
+      "module": "CoreRefinementPaths",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2a279cb1d847ff8fcde9ee27723ba885d7f1b17041299733fe456c6d4a97985d",
+      "elapsed_s": 0.901
+    },
+    {
+      "module": "CoreLawDatumTransport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "03319f55bf9c23207202dcbd9c5490ff1366754734251c53dc074cd99ec2d334",
+      "elapsed_s": 1.033
+    },
+    {
+      "module": "CoreSelectedGeneratedLaw",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2fef6e3f5d71c191871b791a29a666b540d8d1736e591df22ce331855275dfad",
+      "elapsed_s": 1.047
+    },
+    {
+      "module": "CoreRepresentationFailure",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "74b78fd598b1b4f9c9995e30647a621fad9795f69ab7e97e98bc824a8092f4ad",
+      "elapsed_s": 1.193
+    },
+    {
+      "module": "CoreStructuralBurden",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "103e642be38c77300d97d0ba30ce163826230fc8c7d8bd454286aacf123b6f5d",
+      "elapsed_s": 0.882
+    },
+    {
+      "module": "CoreThreeLayerSynthesis",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c596cf343c7b1428d94561bb226accf0982fed5aed167f13155d6dc7ca026f52",
+      "elapsed_s": 1.018
+    },
+    {
+      "module": "CoreRepresentationFailureStages",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "62440cca17b51083d7bd2c9c5344752120ec1ee72ac754bb144d2fad06d19433",
+      "elapsed_s": 0.971
+    },
+    {
+      "module": "CoreAuditReport",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d2bee00464e6f5aac392b32801a180003d242bc5ec3bd8612fb5cef02df96e12",
+      "elapsed_s": 0.863
+    },
+    {
+      "module": "CoreEngineeringEvidence",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5f91e92ff6cfcd5e0b0138abdbd37607e468f79aa5a08e62b17397621e58c639",
+      "elapsed_s": 0.925
+    },
+    {
+      "module": "CoreLocalizationBundle",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "90d04ddb6d760b5824d64de4562a589c38e46525bada2bfdbf31f5447a538226",
+      "elapsed_s": 0.993
+    },
+    {
+      "module": "CoreAuditData",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "10feb6bb8ceabcb85d63b5ca61d36349e100be7b5ff19bf93a1b8b9a0902c22f",
+      "elapsed_s": 0.891
+    },
+    {
+      "module": "CoreTokenGraphInspect",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cbb4ef0de19d10e83adc05e99732a07c58701924185d02a3a445c65c1c021ec1",
+      "elapsed_s": 2.285
+    },
+    {
+      "module": "CoreRecordBurden",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5ef77ecc7a1f4242041577fa5c634f42f06e35ff0a326c16a697a64b7fdaebaf",
+      "elapsed_s": 0.886
+    },
+    {
+      "module": "CoreRelativeStateProfile",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "782e846e156bfd7fdf404980151794413d9dc3b286980e3a6864c7dcb0a5a289",
+      "elapsed_s": 0.951
+    },
+    {
+      "module": "CoreReportCovariance",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "4f5993d92bc14c0236f058ff8c26de5eb2b180112915652a6bc8fecd818c7d1b",
+      "elapsed_s": 0.916
+    },
+    {
+      "module": "CoreTransportedLawCharts",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "add5b76631556b807204d3f1d349099e133c88c5d57c9702ec28745e9f664f99",
+      "elapsed_s": 1.16
+    },
+    {
+      "module": "FiniteAuditSmoke",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "31f769723af6dda0cf769de052e1d4b84355f4f815fce6b2a08ed3c2dfbe8f35",
+      "elapsed_s": 0.956
+    },
+    {
+      "module": "CoreTypedReportCovariance",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "83705bf49efffe7406efe45d77c48b69c776fde0b8cfdf9f456a1eee38d83808",
+      "elapsed_s": 0.956
+    },
+    {
+      "module": "CoreTransportedNativeJets",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "a71d27994f61e14e2fb01f312843918c90e0d0b01e56715a733afb982bcce2c4",
+      "elapsed_s": 1.453
+    },
+    {
+      "module": "CoreNativeJointJets",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "23c3875e66247b7e424d563c81cafc16f07c938f2f651b79d2ee3b0f6f480e94",
+      "elapsed_s": 1.42
+    },
+    {
+      "module": "CoreNativeDifferentialPredicates",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "6c7a89efdc6115fdffa29ee93994b0de888c2a16af2a3d5ebddcbe9d06150208",
+      "elapsed_s": 1.395
+    },
+    {
+      "module": "CoreNativeChartOverlaps",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "3562aae02f06b34c827007ced6a7fde83a24ff3e228858b9d62c606b86492c5e",
+      "elapsed_s": 1.459
+    },
+    {
+      "module": "CoreLocalJetMembershipBridge",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "563b72c83b91c91b150f4466a48b198a62728bab6ae2a3f3bee922401e08200f",
+      "elapsed_s": 1.271
+    },
+    {
+      "module": "CoreNativeAtlasConditions",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "d8f7b306e6b057a822b7ba7a1abe5d7bace04b879d54092f64d0497e6ee82ac7",
+      "elapsed_s": 1.492
+    },
+    {
+      "module": "CoreNativeTimeConditions",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5fa2a713af634f262e84529c59f1f1d5d98f570a59b627f2f68c3c6777f2825f",
+      "elapsed_s": 1.394
+    },
+    {
+      "module": "CoreNativeDifferentialFamily",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "2f3c76a476f155d4d5b17dd74ea9e36961e2485e725e77b581c3ba1a69196c0f",
+      "elapsed_s": 1.55
+    },
+    {
+      "module": "CoreJointCoordinateFlattening",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "c66fd16cde9eb6cef2a4c76fcc82fc9cecdb0c17f0f92dceab1453cad1db0dea",
+      "elapsed_s": 1.44
+    },
+    {
+      "module": "CoreNativeDifferentialSynthesis",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "5650b85c104f797a78d44e6fd9dedbda43c6fd23564c9265ef620cd20b0def90",
+      "elapsed_s": 2.216
+    },
+    {
+      "module": "CoreNativeSelectedDifferential",
+      "exit_code": 0,
+      "accepted": true,
+      "kind": "compiled_formal_source",
+      "style_warnings_present": false,
+      "source_sha256": "cacd41ac9490140a77eeb927911c4a865bbdb31ba3e23a03c779f68ebe4abc4d",
+      "elapsed_s": 1.393
+    }
+  ],
+  "elapsed_s": 214.634,
+  "accepted": true
+}

@@ -1,0 +1,52 @@
+{
+  "parent_session": "LCTR_Core_Local_Jet_Membership_Bridge",
+  "records": [
+    {
+      "name": "Core_Local_Jet_Membership_Bridge.generated_image_member",
+      "fact_instances": 1,
+      "axiomatic_dependencies": [
+        "HOL.mp",
+        "HOL.ext",
+        "HOL.impI",
+        "HOL.refl",
+        "HOL.subst",
+        "HOL.fun_arity",
+        "Pure.prop_def",
+        "Pure.symmetric",
+        "Pure.equal_elim",
+        "HOL.True_or_False",
+        "HOL.eq_reflection",
+        "Nat.arity_type_nat",
+        "Set.arity_type_set",
+        "Set.mem_Collect_eq",
+        "HOL.arity_type_bool",
+        "Pure.conjunction_def",
+        "Real.arity_type_real",
+        "Groups.minus_class_def",
+        "Product_Type.arity_type_prod",
+        "Real_Vector_Spaces.dist_norm_class_def",
+        "Real_Vector_Spaces.real_normed_vector_class_def"
+      ],
+      "theorem_dependencies": [
+        "Core_Native_Differential_Predicates.diff3_restricts",
+        "Groups.minus_class.super",
+        "HOL.allE",
+        "HOL.arity_type_fun",
+        "HOL.atomize_all",
+        "HOL.iffCE",
+        "HOL.notE",
+        "Nat.arity_type_nat",
+        "Product_Type.arity_type_prod",
+        "Pure.protectD",
+        "Pure.protectI",
+        "Real.arity_type_real",
+        "Real_Vector_Spaces.dist_norm_class.super(1)",
+        "Real_Vector_Spaces.real_normed_vector_class.super(1)",
+        "Set.arity_type_set",
+        "Set.ballE",
+        "Set.imageI"
+      ],
+      "oracle_dependencies": []
+    }
+  ]
+}

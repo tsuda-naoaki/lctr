@@ -1,0 +1,3 @@
+session LCTR_Core_Strict_Partial_Order = HOL +
+  options [quick_and_dirty = false]
+  theories Core_Strict_Partial_Order

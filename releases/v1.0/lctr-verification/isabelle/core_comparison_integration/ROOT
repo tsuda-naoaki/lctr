@@ -1,0 +1,3 @@
+session LCTR_Core_Comparison_Integration = LCTR_Core_Typed_Words +
+  sessions LCTR_Core_Source_Match LCTR_Core_Preorder_Quotient
+  theories Core_Comparison_Integration

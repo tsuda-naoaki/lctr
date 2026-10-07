@@ -1,0 +1,3 @@
+session LCTR_Core_Raw_Canonical_Observables = LCTR_Core_Observable_Interfaces +
+ options [quick_and_dirty = false]
+ theories Core_Raw_Canonical_Observables

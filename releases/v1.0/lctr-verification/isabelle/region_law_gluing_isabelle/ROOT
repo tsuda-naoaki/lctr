@@ -1,0 +1,8 @@
+session LCTR_Region_Law_Gluing_Isabelle = HOL +
+  theories
+    Region_Refinement_Isabelle
+    Law_Candidate_Relation_Isabelle
+    Global_Gluing_Isabelle
+    Negative_Controls
+    Abstract_Gluing_Isabelle
+    LawEvalDatSp_Adapter_Isabelle

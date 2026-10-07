@@ -1,0 +1,4 @@
+session LCTR_Core_Engineering_Input_Burden = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_audit_state_transport"
+  theories Core_Engineering_Input_Burden

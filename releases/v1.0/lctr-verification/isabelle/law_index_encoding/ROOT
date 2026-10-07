@@ -1,0 +1,3 @@
+session LCTR_Law_Index_Encoding = LCTR_Full_Carrier_Family_Transport +
+  options [quick_and_dirty = false]
+  theories Law_Index_Encoding

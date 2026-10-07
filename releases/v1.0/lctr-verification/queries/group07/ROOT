@@ -1,0 +1,3 @@
+session LCTR_Metadata_07_001 in "s001" = LCTR_Core_Typed_Report_Covariance +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_07_001

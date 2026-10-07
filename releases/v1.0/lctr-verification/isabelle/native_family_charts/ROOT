@@ -1,0 +1,5 @@
+session LCTR_Native_Family_Charts = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Native_Family_Values LCTR_Core_Native_Differential_Predicates
+    LCTR_Core_Native_Time_Conditions
+  theories Native_Family_Charts

@@ -1,0 +1,16 @@
+'LCTR.LawFamilyTransport.image_membership' does not depend on any axioms
+'LCTR.LawFamilyTransport.evaluation_tuple_transport' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.relation_image_transport' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.image_invariance_iff' does not depend on any axioms
+'LCTR.LawFamilyTransport.conjugate_image_invariance' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.admissible_family_is_image' depends on axioms: [propext, Quot.sound]
+'LCTR.LawFamilyTransport.common_is_image' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.common_pullback' depends on axioms: [propext, Quot.sound]
+'LCTR.LawFamilyTransport.condition1_preserved' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.condition2_preserved' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.condition3_preserved' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.condition4_preserved' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.condition5_preserved' depends on axioms: [propext, Quot.sound]
+'LCTR.LawFamilyTransport.five_conditions_preserved' depends on axioms: [propext, Quot.sound]
+'LCTR.LawFamilyTransport.example_conditions_nonvacuous' depends on axioms: [propext]
+'LCTR.LawFamilyTransport.shifted_example_conditions' depends on axioms: [propext, Quot.sound]

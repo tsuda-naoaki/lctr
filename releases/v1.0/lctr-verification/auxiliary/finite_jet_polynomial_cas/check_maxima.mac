@@ -1,0 +1,17 @@
+display2d:false$
+printf(true,"LCTR_VERSION ~a~%",build_info())$
+for ii:0 thru 6 do (
+  basis:(x-a)^ii/factorial(ii),
+  for nn:0 thru 7 do (
+    expected:if nn=ii then 1 else 0,
+    residual:ratsimp(subst(a,x,diff(basis,x,nn))-expected),
+    printf(true,"LCTR_CASE basis_~a_~a ~a~%",ii,nn,residual)
+  )
+)$
+jetcoeff:[v0,v1,v2,v3,v4,v5,v6]$
+curve:sum((x-a)^ii/factorial(ii)*jetcoeff[ii+1],ii,0,6)$
+for nn:0 thru 6 do printf(true,"LCTR_CASE jet_~a ~a~%",nn,ratsimp(subst(a,x,diff(curve,x,nn))-jetcoeff[nn+1]))$
+printf(true,"LCTR_CASE above_degree ~a~%",ratsimp(diff(curve,x,7)))$
+printf(true,"LCTR_CASE negative_missing_factorial ~a~%",ratsimp(subst(a,x,diff((x-a)^2,x,2))-1))$
+printf(true,"LCTR_CASE negative_reversed_displacement ~a~%",ratsimp(subst(a,x,diff(a-x,x))-1))$
+quit();

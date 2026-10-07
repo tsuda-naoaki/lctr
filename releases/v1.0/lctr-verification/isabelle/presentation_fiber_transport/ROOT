@@ -1,0 +1,4 @@
+session LCTR_Presentation_Fiber_Transport = LCTR_Presentation_Fiber_Encoding +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Preorder_Quotient
+  theories Presentation_Fiber_Transport

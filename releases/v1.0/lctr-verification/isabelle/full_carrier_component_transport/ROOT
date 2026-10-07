@@ -1,0 +1,3 @@
+session LCTR_Full_Carrier_Component_Transport = LCTR_Core_Law_Transport +
+  options [quick_and_dirty = false]
+  theories Full_Carrier_Component_Transport

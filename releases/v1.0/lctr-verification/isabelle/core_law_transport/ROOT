@@ -1,0 +1,3 @@
+session LCTR_Core_Law_Transport = LCTR_Core_Native_Law_Family +
+  options [quick_and_dirty = false]
+  theories Core_Law_Transport Core_Law_Family_Transport

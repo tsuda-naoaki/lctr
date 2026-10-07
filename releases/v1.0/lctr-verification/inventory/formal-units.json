@@ -1,0 +1,2197 @@
+{
+  "units": [
+    {
+      "id": "CoreValueJetChanges",
+      "lean_sources": [
+        "lean/CoreValueJetChanges.lean"
+      ],
+      "isabelle_build_jobs": [
+        1
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreTimeJetChanges",
+      "lean_sources": [
+        "lean/CoreTimeJetChanges.lean"
+      ],
+      "isabelle_build_jobs": [
+        2
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreDifferentialCovariance",
+      "lean_sources": [
+        "lean/CoreDifferentialCovariance.lean"
+      ],
+      "isabelle_build_jobs": [
+        3
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreChartOverlaps",
+      "lean_sources": [
+        "lean/CoreChartOverlaps.lean"
+      ],
+      "isabelle_build_jobs": [
+        4
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreAuditStateTransport",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean"
+      ],
+      "isabelle_build_jobs": [
+        5
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreStructuralBurden",
+      "lean_sources": [
+        "lean/CoreStructuralBurden.lean"
+      ],
+      "isabelle_build_jobs": [
+        6
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreScaleTransport",
+      "lean_sources": [
+        "lean/CoreScaleTransport.lean"
+      ],
+      "isabelle_build_jobs": [
+        7
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreAuditTags",
+      "lean_sources": [
+        "lean/CoreAuditTags.lean"
+      ],
+      "isabelle_build_jobs": [
+        8
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreFiniteAudit",
+      "lean_sources": [
+        "lean/CoreFiniteAudit.lean"
+      ],
+      "isabelle_build_jobs": [
+        9
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreAuditGroups",
+      "lean_sources": [
+        "lean/CoreAuditGroups.lean"
+      ],
+      "isabelle_build_jobs": [
+        10
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreAuditReport",
+      "lean_sources": [
+        "lean/CoreAuditReport.lean"
+      ],
+      "isabelle_build_jobs": [
+        11
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreAuditData",
+      "lean_sources": [
+        "lean/CoreAuditData.lean"
+      ],
+      "isabelle_build_jobs": [
+        12
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreReportCovariance",
+      "lean_sources": [
+        "lean/CoreReportCovariance.lean"
+      ],
+      "isabelle_build_jobs": [
+        13
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreTypedReportCovariance",
+      "lean_sources": [
+        "lean/CoreTypedReportCovariance.lean"
+      ],
+      "isabelle_build_jobs": [
+        14
+      ],
+      "root_count": 5
+    },
+    {
+      "id": "CoreCarrierPatterns",
+      "lean_sources": [
+        "lean/CoreCarrierPatterns.lean"
+      ],
+      "isabelle_build_jobs": [
+        15
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreOperationalConfiguration",
+      "lean_sources": [
+        "lean/CoreOperationalConfiguration.lean"
+      ],
+      "isabelle_build_jobs": [
+        16
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreUniversalFactorization",
+      "lean_sources": [
+        "lean/CoreUniversalFactorization.lean"
+      ],
+      "isabelle_build_jobs": [
+        17
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreOrderAtlas",
+      "lean_sources": [
+        "lean/CoreOrderAtlas.lean"
+      ],
+      "isabelle_build_jobs": [
+        18
+      ],
+      "root_count": 18
+    },
+    {
+      "id": "CoreExactStructure",
+      "lean_sources": [
+        "lean/CoreExactStructure.lean"
+      ],
+      "isabelle_build_jobs": [
+        19
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreRepresentationStages",
+      "lean_sources": [
+        "lean/CoreRepresentationStages.lean"
+      ],
+      "isabelle_build_jobs": [
+        20
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreSourceLoops",
+      "lean_sources": [
+        "lean/CoreSourceLoops.lean"
+      ],
+      "isabelle_build_jobs": [
+        21
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CorePairedComparison",
+      "lean_sources": [
+        "lean/CorePairedComparison.lean"
+      ],
+      "isabelle_build_jobs": [
+        22
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLocalLoopRealization",
+      "lean_sources": [
+        "lean/CoreLocalLoopRealization.lean"
+      ],
+      "isabelle_build_jobs": [
+        23
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreComparisonStage",
+      "lean_sources": [
+        "lean/CoreComparisonStage.lean"
+      ],
+      "isabelle_build_jobs": [
+        24
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreTaggedLifts",
+      "lean_sources": [
+        "lean/CoreTaggedLifts.lean"
+      ],
+      "isabelle_build_jobs": [
+        25
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreQuotientInterface",
+      "lean_sources": [
+        "lean/CoreQuotientInterface.lean"
+      ],
+      "isabelle_build_jobs": [
+        26
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreNativeCharts",
+      "lean_sources": [
+        "lean/CoreNativeCharts.lean"
+      ],
+      "isabelle_build_jobs": [
+        27
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CoreObserverTime",
+      "lean_sources": [
+        "lean/CoreObserverTime.lean"
+      ],
+      "isabelle_build_jobs": [
+        28
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreNativeCurves",
+      "lean_sources": [
+        "lean/CoreNativeCurves.lean"
+      ],
+      "isabelle_build_jobs": [
+        29
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreNativeLawTransport",
+      "lean_sources": [
+        "lean/CoreNativeLawTransport.lean"
+      ],
+      "isabelle_build_jobs": [
+        30
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreNativeLawComponents",
+      "lean_sources": [
+        "lean/CoreNativeLawComponents.lean"
+      ],
+      "isabelle_build_jobs": [
+        31
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeObservables",
+      "lean_sources": [
+        "lean/CoreNativeObservables.lean"
+      ],
+      "isabelle_build_jobs": [
+        32
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreJointTime",
+      "lean_sources": [
+        "lean/CoreJointTime.lean"
+      ],
+      "isabelle_build_jobs": [
+        33
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreRecordCodes",
+      "lean_sources": [
+        "lean/CoreRecordCodes.lean"
+      ],
+      "isabelle_build_jobs": [
+        34
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreNativeJointRelation",
+      "lean_sources": [
+        "lean/CoreNativeJointRelation.lean"
+      ],
+      "isabelle_build_jobs": [
+        35
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreLawConditionGraph",
+      "lean_sources": [
+        "lean/CoreLawConditionGraph.lean"
+      ],
+      "isabelle_build_jobs": [
+        36
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeLawGeneration",
+      "lean_sources": [
+        "lean/CoreNativeLawGeneration.lean"
+      ],
+      "isabelle_build_jobs": [
+        37
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreNativeLawFailure",
+      "lean_sources": [
+        "lean/CoreNativeLawFailure.lean"
+      ],
+      "isabelle_build_jobs": [
+        38
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreLawFailureState",
+      "lean_sources": [
+        "lean/CoreLawFailureState.lean"
+      ],
+      "isabelle_build_jobs": [
+        39
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreValidityMaximum",
+      "lean_sources": [
+        "lean/CoreValidityMaximum.lean"
+      ],
+      "isabelle_build_jobs": [
+        40
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreSeriesValidity",
+      "lean_sources": [
+        "lean/CoreSeriesValidity.lean"
+      ],
+      "isabelle_build_jobs": [
+        41
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreApproximateBoundary",
+      "lean_sources": [
+        "lean/CoreApproximateBoundary.lean"
+      ],
+      "isabelle_build_jobs": [
+        42
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CoreComparisonFailure",
+      "lean_sources": [
+        "lean/CoreComparisonFailure.lean"
+      ],
+      "isabelle_build_jobs": [
+        43
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CoreRefinementForest",
+      "lean_sources": [
+        "lean/CoreRefinementForest.lean"
+      ],
+      "isabelle_build_jobs": [
+        44
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeWordFamilies",
+      "lean_sources": [
+        "lean/CoreNativeWordFamilies.lean"
+      ],
+      "isabelle_build_jobs": [
+        45
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreWordEncoding",
+      "lean_sources": [
+        "lean/CoreWordEncoding.lean"
+      ],
+      "isabelle_build_jobs": [
+        46
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CorePureWordDisplays",
+      "lean_sources": [
+        "lean/CorePureWordDisplays.lean"
+      ],
+      "isabelle_build_jobs": [
+        47
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreAffineFrequency",
+      "lean_sources": [
+        "lean/CoreAffineFrequency.lean"
+      ],
+      "isabelle_build_jobs": [
+        48
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CorePartialSequences",
+      "lean_sources": [
+        "lean/CorePartialSequences.lean"
+      ],
+      "isabelle_build_jobs": [
+        49
+      ],
+      "root_count": 18
+    },
+    {
+      "id": "CoreRecordCells",
+      "lean_sources": [
+        "lean/CoreRecordCells.lean"
+      ],
+      "isabelle_build_jobs": [
+        50
+      ],
+      "root_count": 19
+    },
+    {
+      "id": "CoreContinuumInput",
+      "lean_sources": [
+        "lean/CoreContinuumInput.lean"
+      ],
+      "isabelle_build_jobs": [
+        51
+      ],
+      "root_count": 23
+    },
+    {
+      "id": "CoreExactCompletion",
+      "lean_sources": [
+        "lean/CoreExactCompletion.lean"
+      ],
+      "isabelle_build_jobs": [
+        52
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreRepresentationFailure",
+      "lean_sources": [
+        "lean/CoreRepresentationFailure.lean"
+      ],
+      "isabelle_build_jobs": [
+        53
+      ],
+      "root_count": 24
+    },
+    {
+      "id": "CoreRepresentationFailureStages",
+      "lean_sources": [
+        "lean/CoreRepresentationFailureStages.lean"
+      ],
+      "isabelle_build_jobs": [
+        54
+      ],
+      "root_count": 18
+    },
+    {
+      "id": "CoreContinuumFailure",
+      "lean_sources": [
+        "lean/CoreContinuumFailure.lean"
+      ],
+      "isabelle_build_jobs": [
+        55
+      ],
+      "root_count": 31
+    },
+    {
+      "id": "CoreContinuumDatum",
+      "lean_sources": [
+        "lean/CoreContinuumDatum.lean"
+      ],
+      "isabelle_build_jobs": [
+        56
+      ],
+      "root_count": 21
+    },
+    {
+      "id": "CoreContinuumNativeRecords",
+      "lean_sources": [
+        "lean/CoreContinuumNativeRecords.lean"
+      ],
+      "isabelle_build_jobs": [
+        57
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreObserverRecordImages",
+      "lean_sources": [
+        "lean/CoreObserverRecordImages.lean"
+      ],
+      "isabelle_build_jobs": [
+        58
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CoreContinuumNativeCells",
+      "lean_sources": [
+        "lean/CoreContinuumNativeCells.lean"
+      ],
+      "isabelle_build_jobs": [
+        59
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreDifferentialFailure",
+      "lean_sources": [
+        "lean/CoreDifferentialFailure.lean"
+      ],
+      "isabelle_build_jobs": [
+        60
+      ],
+      "root_count": 19
+    },
+    {
+      "id": "CoreDifferentialTokens",
+      "lean_sources": [
+        "lean/CoreDifferentialTokens.lean"
+      ],
+      "isabelle_build_jobs": [
+        61
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreDifferentialExecution",
+      "lean_sources": [
+        "lean/CoreDifferentialExecution.lean"
+      ],
+      "isabelle_build_jobs": [
+        62
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreLawCounterCases",
+      "lean_sources": [
+        "lean/CoreLawCounterCases.lean"
+      ],
+      "isabelle_build_jobs": [
+        63
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreDifferentialRefinement",
+      "lean_sources": [
+        "lean/CoreDifferentialRefinement.lean"
+      ],
+      "isabelle_build_jobs": [
+        64
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreLawRefinement",
+      "lean_sources": [
+        "lean/CoreLawRefinement.lean"
+      ],
+      "isabelle_build_jobs": [
+        65
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreLawInputBundle",
+      "lean_sources": [
+        "lean/CoreLawInputBundle.lean"
+      ],
+      "isabelle_build_jobs": [
+        66
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreDynamicsBundle",
+      "lean_sources": [
+        "lean/CoreDynamicsBundle.lean"
+      ],
+      "isabelle_build_jobs": [
+        67
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLawDifferentialBundle",
+      "lean_sources": [
+        "lean/CoreLawDifferentialBundle.lean"
+      ],
+      "isabelle_build_jobs": [
+        68
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLocalCharts",
+      "lean_sources": [
+        "lean/CoreLocalCharts.lean"
+      ],
+      "isabelle_build_jobs": [
+        69
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLawComponentCharts",
+      "lean_sources": [
+        "lean/CoreLawComponentCharts.lean"
+      ],
+      "isabelle_build_jobs": [
+        70
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreDynamicMaster",
+      "lean_sources": [
+        "lean/CoreDynamicMaster.lean"
+      ],
+      "isabelle_build_jobs": [
+        71
+      ],
+      "root_count": 2
+    },
+    {
+      "id": "CoreJointLawEvaluation",
+      "lean_sources": [
+        "lean/CoreJointLawEvaluation.lean"
+      ],
+      "isabelle_build_jobs": [
+        72
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreDynamicsTokens",
+      "lean_sources": [
+        "lean/CoreDynamicsTokens.lean"
+      ],
+      "isabelle_build_jobs": [
+        73
+      ],
+      "root_count": 17
+    },
+    {
+      "id": "CoreDynamicsExecution",
+      "lean_sources": [
+        "lean/CoreDynamicsExecution.lean"
+      ],
+      "isabelle_build_jobs": [
+        74
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreStageBoundaries",
+      "lean_sources": [
+        "lean/CoreStageBoundaries.lean"
+      ],
+      "isabelle_build_jobs": [
+        75
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreFirstFailureReport",
+      "lean_sources": [
+        "lean/CoreFirstFailureReport.lean"
+      ],
+      "isabelle_build_jobs": [
+        76
+      ],
+      "root_count": 17
+    },
+    {
+      "id": "CoreFailureMultiplicity",
+      "lean_sources": [
+        "lean/CoreFailureMultiplicity.lean"
+      ],
+      "isabelle_build_jobs": [
+        77
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreLocalizationBundle",
+      "lean_sources": [
+        "lean/CoreLocalizationBundle.lean"
+      ],
+      "isabelle_build_jobs": [
+        78
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreRelativeStateProfile",
+      "lean_sources": [
+        "lean/CoreRelativeStateProfile.lean"
+      ],
+      "isabelle_build_jobs": [
+        79
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreComparisonScope",
+      "lean_sources": [
+        "lean/CoreComparisonScope.lean"
+      ],
+      "isabelle_build_jobs": [
+        80
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreDifferentialOutput",
+      "lean_sources": [
+        "lean/CoreDifferentialOutput.lean"
+      ],
+      "isabelle_build_jobs": [
+        81
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreEngineeringEffects",
+      "lean_sources": [
+        "lean/CoreEngineeringEffects.lean"
+      ],
+      "isabelle_build_jobs": [
+        82
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreExternalTimeUses",
+      "lean_sources": [
+        "lean/CoreExternalTimeUses.lean"
+      ],
+      "isabelle_build_jobs": [
+        83
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreEngineeringEvidence",
+      "lean_sources": [
+        "lean/CoreEngineeringEvidence.lean"
+      ],
+      "isabelle_build_jobs": [
+        84
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreRecordBurden",
+      "lean_sources": [
+        "lean/CoreRecordBurden.lean"
+      ],
+      "isabelle_build_jobs": [
+        85
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreJudgmentBoundary",
+      "lean_sources": [
+        "lean/CoreJudgmentBoundary.lean"
+      ],
+      "isabelle_build_jobs": [
+        86
+      ],
+      "root_count": 16
+    },
+    {
+      "id": "CoreJointConditionRoutes",
+      "lean_sources": [
+        "lean/CoreJointConditionRoutes.lean"
+      ],
+      "isabelle_build_jobs": [
+        87
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreThreeLayerSynthesis",
+      "lean_sources": [
+        "lean/CoreThreeLayerSynthesis.lean"
+      ],
+      "isabelle_build_jobs": [
+        88
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreExactInputAssembly",
+      "lean_sources": [
+        "lean/CoreExactInputAssembly.lean"
+      ],
+      "isabelle_build_jobs": [
+        89
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreNativeLawJets",
+      "lean_sources": [
+        "lean/CoreNativeLawJets.lean"
+      ],
+      "isabelle_build_jobs": [
+        90
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreTransportedLawCharts",
+      "lean_sources": [
+        "lean/CoreTransportedLawCharts.lean"
+      ],
+      "isabelle_build_jobs": [
+        91
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreRemainingSetContracts",
+      "lean_sources": [
+        "lean/CoreRemainingSetContracts.lean"
+      ],
+      "isabelle_build_jobs": [
+        92
+      ],
+      "root_count": 3
+    },
+    {
+      "id": "CoreTransportedNativeJets",
+      "lean_sources": [
+        "lean/CoreTransportedNativeJets.lean"
+      ],
+      "isabelle_build_jobs": [
+        93
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeJointJets",
+      "lean_sources": [
+        "lean/CoreNativeJointJets.lean"
+      ],
+      "isabelle_build_jobs": [
+        94
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreNativeDifferentialPredicates",
+      "lean_sources": [
+        "lean/CoreNativeDifferentialPredicates.lean"
+      ],
+      "isabelle_build_jobs": [
+        95
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreNativeChartOverlaps",
+      "lean_sources": [
+        "lean/CoreNativeChartOverlaps.lean"
+      ],
+      "isabelle_build_jobs": [
+        96
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreNativeAtlasConditions",
+      "lean_sources": [
+        "lean/CoreNativeAtlasConditions.lean"
+      ],
+      "isabelle_build_jobs": [
+        97
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreNativeTimeConditions",
+      "lean_sources": [
+        "lean/CoreNativeTimeConditions.lean"
+      ],
+      "isabelle_build_jobs": [
+        98
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreNativeDifferentialFamily",
+      "lean_sources": [
+        "lean/CoreNativeDifferentialFamily.lean"
+      ],
+      "isabelle_build_jobs": [
+        99
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreJointCoordinateFlattening",
+      "lean_sources": [
+        "lean/CoreJointCoordinateFlattening.lean"
+      ],
+      "isabelle_build_jobs": [
+        100
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeDifferentialSynthesis",
+      "lean_sources": [
+        "lean/CoreNativeDifferentialSynthesis.lean"
+      ],
+      "isabelle_build_jobs": [
+        101
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreNativeSelectedDifferential",
+      "lean_sources": [
+        "lean/CoreNativeSelectedDifferential.lean"
+      ],
+      "isabelle_build_jobs": [
+        102
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CorePairTransportFactorization",
+      "lean_sources": [
+        "lean/CorePairTransportFactorization.lean"
+      ],
+      "isabelle_build_jobs": [
+        103
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreConfigurationComparison",
+      "lean_sources": [
+        "lean/CoreConfigurationComparison.lean"
+      ],
+      "isabelle_build_jobs": [
+        104
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreConfigurationOrder",
+      "lean_sources": [
+        "lean/CoreConfigurationOrder.lean"
+      ],
+      "isabelle_build_jobs": [
+        105
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreConfigurationDynamics",
+      "lean_sources": [
+        "lean/CoreConfigurationDynamics.lean"
+      ],
+      "isabelle_build_jobs": [
+        106
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreConfigurationObserverTime",
+      "lean_sources": [
+        "lean/CoreConfigurationObserverTime.lean"
+      ],
+      "isabelle_build_jobs": [
+        107
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreDagRecursion",
+      "lean_sources": [
+        "lean/CoreDagRecursion.lean"
+      ],
+      "isabelle_build_jobs": [
+        108
+      ],
+      "root_count": 5
+    },
+    {
+      "id": "CoreEvaluation",
+      "lean_sources": [
+        "lean/CoreEvaluation.lean"
+      ],
+      "isabelle_build_jobs": [
+        109
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreTokenGraph",
+      "lean_sources": [
+        "lean/CoreTokenGraph.lean"
+      ],
+      "isabelle_build_jobs": [
+        110
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreFinitePartitions",
+      "lean_sources": [
+        "lean/CoreFinitePartitions.lean"
+      ],
+      "isabelle_build_jobs": [
+        111
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CorePreorderQuotient",
+      "lean_sources": [
+        "lean/CorePreorderQuotient.lean"
+      ],
+      "isabelle_build_jobs": [
+        112
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreSourceMatch",
+      "lean_sources": [
+        "lean/CoreSourceMatch.lean"
+      ],
+      "isabelle_build_jobs": [
+        113
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "CoreTypedWords",
+      "lean_sources": [
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        114
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreComparisonIntegration",
+      "lean_sources": [
+        "lean/CoreComparisonIntegration.lean"
+      ],
+      "isabelle_build_jobs": [
+        115
+      ],
+      "root_count": 5
+    },
+    {
+      "id": "CoreContinuumBoundary",
+      "lean_sources": [
+        "lean/CoreContinuumBoundary.lean"
+      ],
+      "isabelle_build_jobs": [
+        116
+      ],
+      "root_count": 23
+    },
+    {
+      "id": "CoreContinuumIntegration",
+      "lean_sources": [
+        "lean/CoreContinuumIntegration.lean"
+      ],
+      "isabelle_build_jobs": [
+        117
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreContinuumTopology",
+      "lean_sources": [
+        "lean/CoreContinuumTopology.lean"
+      ],
+      "isabelle_build_jobs": [
+        118
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreContinuumEncoding",
+      "lean_sources": [
+        "lean/CoreContinuumEncoding.lean"
+      ],
+      "isabelle_build_jobs": [
+        119
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreRepresentationImages",
+      "lean_sources": [
+        "lean/CoreRepresentationImages.lean"
+      ],
+      "isabelle_build_jobs": [
+        120
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreTrajectoryDescent",
+      "lean_sources": [
+        "lean/CoreTrajectoryDescent.lean"
+      ],
+      "isabelle_build_jobs": [
+        121
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreJointDescent",
+      "lean_sources": [
+        "lean/CoreJointDescent.lean"
+      ],
+      "isabelle_build_jobs": [
+        122
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreDynamicsFactors",
+      "lean_sources": [
+        "lean/CoreDynamicsFactors.lean"
+      ],
+      "isabelle_build_jobs": [
+        123
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreDynamicsRefinement",
+      "lean_sources": [
+        "lean/CoreDynamicsRefinement.lean"
+      ],
+      "isabelle_build_jobs": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "root_count": 11
+    },
+    {
+      "id": "CoreFiniteJets",
+      "lean_sources": [
+        "lean/CoreFiniteJets.lean"
+      ],
+      "isabelle_build_jobs": [
+        128
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "OrderEmbeddingBridge",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        129
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "RegionLawGluingBridge",
+      "lean_sources": [
+        "lean/RegionLawGluingLeanBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        130
+      ],
+      "root_count": 16
+    },
+    {
+      "id": "FactorizationBridge",
+      "lean_sources": [
+        "lean/FactorizationBridge.lean",
+        "lean/OrderEmbeddingFactorizationWrapper.lean"
+      ],
+      "isabelle_build_jobs": [
+        131
+      ],
+      "root_count": 14
+    },
+    {
+      "id": "Chapter02RoleConstruction",
+      "lean_sources": [
+        "lean/BodyInRealizationDomain.lean",
+        "lean/Chapter02LeanBridge.lean",
+        "lean/Chapter02PositiveControls.lean",
+        "lean/EraseIndexInjectivity.lean"
+      ],
+      "isabelle_build_jobs": [
+        132
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "Chapter03SourceOrderRecovery",
+      "lean_sources": [
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean"
+      ],
+      "isabelle_build_jobs": [
+        133
+      ],
+      "root_count": 21
+    },
+    {
+      "id": "CoreLawReadinessBridge",
+      "lean_sources": [
+        "lean/CoreLawReadinessBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        134
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreLawDatumSemantics",
+      "lean_sources": [
+        "lean/CoreLawDatumSemantics.lean"
+      ],
+      "isabelle_build_jobs": [
+        135
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreStrictPartialOrder",
+      "lean_sources": [
+        "lean/CoreStrictPartialOrder.lean"
+      ],
+      "isabelle_build_jobs": [
+        136
+      ],
+      "root_count": 1
+    },
+    {
+      "id": "NestedQuotientOrderEmbedding",
+      "lean_sources": [
+        "lean/NestedQuotientOrderEmbedding.lean"
+      ],
+      "isabelle_build_jobs": [
+        137
+      ],
+      "root_count": 1
+    },
+    {
+      "id": "CoreRawComparisonEntry",
+      "lean_sources": [
+        "lean/BodyInRealizationDomain.lean",
+        "lean/BrokenPremiseNegative.lean",
+        "lean/Chapter02LeanBridge.lean",
+        "lean/Chapter02PositiveControls.lean",
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreCarrierPatterns.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreComparisonStage.lean",
+        "lean/CoreConfigurationComparison.lean",
+        "lean/CoreExactCompletion.lean",
+        "lean/CoreExactStructure.lean",
+        "lean/CoreJointDescent.lean",
+        "lean/CoreLocalLoopRealization.lean",
+        "lean/CoreOperationalConfiguration.lean",
+        "lean/CoreOrderAtlas.lean",
+        "lean/CorePairTransportFactorization.lean",
+        "lean/CorePairedComparison.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreRawComparisonEntry.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreRepresentationStages.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean",
+        "lean/CoreUniversalFactorization.lean",
+        "lean/EraseIndexInjectivity.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        138
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreLawDatumAssembly",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreContinuumBoundary.lean",
+        "lean/CoreContinuumIntegration.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreDifferentialFailure.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreDynamicsTokens.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreLawConditionGraph.lean",
+        "lean/CoreLawDatumAssembly.lean",
+        "lean/CoreLawDatumSemantics.lean",
+        "lean/CoreLawReadinessBridge.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeLawComponents.lean",
+        "lean/CoreNativeLawFailure.lean",
+        "lean/CoreNativeLawGeneration.lean",
+        "lean/CoreNativeLawTransport.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreStageBoundaries.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/FiniteAuditSmoke.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        139
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLawDatumTransport",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreContinuumBoundary.lean",
+        "lean/CoreContinuumIntegration.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreDifferentialFailure.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreDynamicsTokens.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreLawConditionGraph.lean",
+        "lean/CoreLawDatumAssembly.lean",
+        "lean/CoreLawDatumSemantics.lean",
+        "lean/CoreLawDatumTransport.lean",
+        "lean/CoreLawReadinessBridge.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeLawComponents.lean",
+        "lean/CoreNativeLawFailure.lean",
+        "lean/CoreNativeLawGeneration.lean",
+        "lean/CoreNativeLawTransport.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreStageBoundaries.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/FiniteAuditSmoke.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        140
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreRankReachability",
+      "lean_sources": [
+        "lean/CoreRankReachability.lean"
+      ],
+      "isabelle_build_jobs": [
+        141
+      ],
+      "root_count": 3
+    },
+    {
+      "id": "CoreBurdenComparison",
+      "lean_sources": [
+        "lean/CoreBurdenComparison.lean"
+      ],
+      "isabelle_build_jobs": [
+        142
+      ],
+      "root_count": 3
+    },
+    {
+      "id": "CoreFiniteReportComponents",
+      "lean_sources": [
+        "lean/CoreFiniteReportComponents.lean"
+      ],
+      "isabelle_build_jobs": [
+        143
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreLawTransportIdentity",
+      "lean_sources": [
+        "lean/CoreLawTransportIdentity.lean"
+      ],
+      "isabelle_build_jobs": [
+        144
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreGeneratedLawIdentity",
+      "lean_sources": [
+        "lean/CoreGeneratedLawIdentity.lean",
+        "lean/CoreLawTransportIdentity.lean"
+      ],
+      "isabelle_build_jobs": [
+        145
+      ],
+      "root_count": 5
+    },
+    {
+      "id": "CoreWordDomainDefinitions",
+      "lean_sources": [
+        "lean/CoreTypedWords.lean",
+        "lean/CoreWordDomainDefinitions.lean"
+      ],
+      "isabelle_build_jobs": [
+        146
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreAbstractWordEncoding",
+      "lean_sources": [
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        147
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreAffineRealization",
+      "lean_sources": [
+        "lean/CoreAffineRealization.lean"
+      ],
+      "isabelle_build_jobs": [
+        148
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreFrequencyWindows",
+      "lean_sources": [
+        "lean/CoreAffineFrequency.lean",
+        "lean/CoreAffineRealization.lean",
+        "lean/CoreFrequencyWindows.lean"
+      ],
+      "isabelle_build_jobs": [
+        149
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreComparisonInterfaces",
+      "lean_sources": [
+        "lean/CoreComparisonInterfaces.lean"
+      ],
+      "isabelle_build_jobs": [
+        150
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreLocalLoopSpecification",
+      "lean_sources": [
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreLocalLoopSpecification.lean",
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        151
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreLocalLoopBridge",
+      "lean_sources": [
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreLocalLoopBridge.lean",
+        "lean/CoreLocalLoopRealization.lean",
+        "lean/CoreLocalLoopSpecification.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        152
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreIndexedDeletion",
+      "lean_sources": [
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreIndexedDeletion.lean",
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        153
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreIndexedNativeDeletion",
+      "lean_sources": [
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreIndexedDeletion.lean",
+        "lean/CoreIndexedNativeDeletion.lean",
+        "lean/CoreNativeWordFamilies.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean",
+        "lean/CoreWordEncoding.lean"
+      ],
+      "isabelle_build_jobs": [
+        154
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreFiniteMixedReduction",
+      "lean_sources": [
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreAbstractWordEncoding.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreFiniteMixedReduction.lean",
+        "lean/CoreIndexedDeletion.lean",
+        "lean/CoreIndexedNativeDeletion.lean",
+        "lean/CoreNativeWordFamilies.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CorePureWordDisplays.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean",
+        "lean/CoreWordEncoding.lean"
+      ],
+      "isabelle_build_jobs": [
+        155
+      ],
+      "root_count": 9
+    },
+    {
+      "id": "CoreDynamicsInterfaces",
+      "lean_sources": [
+        "lean/BodyInRealizationDomain.lean",
+        "lean/Chapter02LeanBridge.lean",
+        "lean/Chapter02PositiveControls.lean",
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreCarrierPatterns.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreComparisonStage.lean",
+        "lean/CoreDynamicsInterfaces.lean",
+        "lean/CoreLocalLoopRealization.lean",
+        "lean/CoreOperationalConfiguration.lean",
+        "lean/CorePairTransportFactorization.lean",
+        "lean/CorePairedComparison.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean",
+        "lean/EraseIndexInjectivity.lean"
+      ],
+      "isabelle_build_jobs": [
+        156
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreObservableInterfaces",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeObservables.lean",
+        "lean/CoreObservableInterfaces.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        157
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreRawCanonicalObservables",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeObservables.lean",
+        "lean/CoreObservableInterfaces.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRawCanonicalObservables.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        158
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreJointRealImage",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreJointDescent.lean",
+        "lean/CoreJointLawEvaluation.lean",
+        "lean/CoreJointRealImage.lean",
+        "lean/CoreJointTime.lean",
+        "lean/CoreLawConditionGraph.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeJointRelation.lean",
+        "lean/CoreNativeLawComponents.lean",
+        "lean/CoreNativeLawFailure.lean",
+        "lean/CoreNativeLawGeneration.lean",
+        "lean/CoreNativeLawTransport.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        159
+      ],
+      "root_count": 4
+    },
+    {
+      "id": "CoreComparisonDefinitionInterfaces",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreComparisonDefinitionInterfaces.lean",
+        "lean/CoreComparisonFailure.lean",
+        "lean/CoreComparisonScope.lean",
+        "lean/CoreContinuumBoundary.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreFirstFailureReport.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/FiniteAuditSmoke.lean"
+      ],
+      "isabelle_build_jobs": [
+        160
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreRawLocalizationInterfaces",
+      "lean_sources": [
+        "lean/CoreRawLocalizationInterfaces.lean"
+      ],
+      "isabelle_build_jobs": [
+        161
+      ],
+      "root_count": 19
+    },
+    {
+      "id": "CoreRefinementPaths",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreComparisonFailure.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreRefinementForest.lean",
+        "lean/CoreRefinementPaths.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/FiniteAuditSmoke.lean"
+      ],
+      "isabelle_build_jobs": [
+        162
+      ],
+      "root_count": 16
+    },
+    {
+      "id": "CoreLeastScaleLift",
+      "lean_sources": [
+        "lean/CoreLeastScaleLift.lean"
+      ],
+      "isabelle_build_jobs": [
+        163
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreNativeSpecification",
+      "lean_sources": [
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreNativeSpecification.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean"
+      ],
+      "isabelle_build_jobs": [
+        164
+      ],
+      "root_count": 16
+    },
+    {
+      "id": "CoreDynamicsStageInterface",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreContinuumBoundary.lean",
+        "lean/CoreContinuumIntegration.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreDynamicsStageInterface.lean",
+        "lean/CoreDynamicsTokens.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/FiniteAuditSmoke.lean"
+      ],
+      "isabelle_build_jobs": [
+        165
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreEngineeringDataInterfaces",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEngineeringDataInterfaces.lean",
+        "lean/CoreEvaluation.lean"
+      ],
+      "isabelle_build_jobs": [
+        166
+      ],
+      "root_count": 18
+    },
+    {
+      "id": "CoreCommunicationDataInterfaces",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreCommunicationDataInterfaces.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEngineeringDataInterfaces.lean",
+        "lean/CoreEvaluation.lean"
+      ],
+      "isabelle_build_jobs": [
+        167
+      ],
+      "root_count": 19
+    },
+    {
+      "id": "CoreEngineeringInputBurden",
+      "lean_sources": [
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreEngineeringDataInterfaces.lean",
+        "lean/CoreEngineeringInputBurden.lean",
+        "lean/CoreEvaluation.lean"
+      ],
+      "isabelle_build_jobs": [
+        168
+      ],
+      "root_count": 22
+    },
+    {
+      "id": "CoreNonmonotoneBoundaryData",
+      "lean_sources": [
+        "lean/CoreNonmonotoneBoundaryData.lean"
+      ],
+      "isabelle_build_jobs": [
+        169
+      ],
+      "root_count": 15
+    },
+    {
+      "id": "CoreJointInputData",
+      "lean_sources": [
+        "lean/CoreJointInputData.lean"
+      ],
+      "isabelle_build_jobs": [
+        170
+      ],
+      "root_count": 13
+    },
+    {
+      "id": "CoreFiniteTupleData",
+      "lean_sources": [
+        "lean/CoreFiniteTupleData.lean"
+      ],
+      "isabelle_build_jobs": [
+        171
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreDynamicsRecoveryData",
+      "lean_sources": [
+        "lean/BodyInRealizationDomain.lean",
+        "lean/Chapter02LeanBridge.lean",
+        "lean/Chapter02PositiveControls.lean",
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreCarrierPatterns.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreComparisonStage.lean",
+        "lean/CoreDynamicsInterfaces.lean",
+        "lean/CoreDynamicsRecoveryData.lean",
+        "lean/CoreLocalLoopRealization.lean",
+        "lean/CoreOperationalConfiguration.lean",
+        "lean/CorePairTransportFactorization.lean",
+        "lean/CorePairedComparison.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean",
+        "lean/EraseIndexInjectivity.lean"
+      ],
+      "isabelle_build_jobs": [
+        172
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreCycleCountInput",
+      "lean_sources": [
+        "lean/CoreCycleCountInput.lean"
+      ],
+      "isabelle_build_jobs": [
+        173
+      ],
+      "root_count": 5
+    },
+    {
+      "id": "CoreSelectedGeneratedLaw",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreAuditStateTransport.lean",
+        "lean/CoreContinuumBoundary.lean",
+        "lean/CoreContinuumIntegration.lean",
+        "lean/CoreDagRecursion.lean",
+        "lean/CoreDifferentialFailure.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreDynamicsTokens.lean",
+        "lean/CoreEvaluation.lean",
+        "lean/CoreFiniteAudit.lean",
+        "lean/CoreLawConditionGraph.lean",
+        "lean/CoreLawDatumAssembly.lean",
+        "lean/CoreLawDatumSemantics.lean",
+        "lean/CoreLawReadinessBridge.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreNativeLawComponents.lean",
+        "lean/CoreNativeLawFailure.lean",
+        "lean/CoreNativeLawGeneration.lean",
+        "lean/CoreNativeLawTransport.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreSelectedGeneratedLaw.lean",
+        "lean/CoreStageBoundaries.lean",
+        "lean/CoreTokenGraph.lean",
+        "lean/CoreTokenGraphInspect.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/FiniteAuditSmoke.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        174
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CoreReceptionInput",
+      "lean_sources": [
+        "lean/BodyInRealizationDomain.lean",
+        "lean/Chapter02LeanBridge.lean",
+        "lean/Chapter02PositiveControls.lean",
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreCarrierPatterns.lean",
+        "lean/CoreOperationalConfiguration.lean",
+        "lean/CoreReceptionInput.lean",
+        "lean/EraseIndexInjectivity.lean"
+      ],
+      "isabelle_build_jobs": [
+        175
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreCountableChartBoundary",
+      "lean_sources": [
+        "lean/CoreCountableChartBoundary.lean"
+      ],
+      "isabelle_build_jobs": [
+        176
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreComparisonFailureWitnesses",
+      "lean_sources": [
+        "lean/Chapter03NegativeControls.lean",
+        "lean/Chapter03PositiveControls.lean",
+        "lean/Chapter03SourceOrderRecovery.lean",
+        "lean/CoreComparisonFailureWitnesses.lean",
+        "lean/CoreComparisonIntegration.lean",
+        "lean/CoreComparisonStage.lean",
+        "lean/CoreLocalLoopRealization.lean",
+        "lean/CorePairTransportFactorization.lean",
+        "lean/CorePairedComparison.lean",
+        "lean/CorePreorderQuotient.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreSourceLoops.lean",
+        "lean/CoreSourceMatch.lean",
+        "lean/CoreTypedWords.lean"
+      ],
+      "isabelle_build_jobs": [
+        177
+      ],
+      "root_count": 12
+    },
+    {
+      "id": "CoreScopeInputInterfaces",
+      "lean_sources": [
+        "lean/CoreScopeInputInterfaces.lean"
+      ],
+      "isabelle_build_jobs": [
+        178
+      ],
+      "root_count": 4
+    },
+    {
+      "id": "CoreRawRecordCodes",
+      "lean_sources": [
+        "lean/BrokenPremiseNegative.lean",
+        "lean/CoreDynamicsFactors.lean",
+        "lean/CoreNativeCurves.lean",
+        "lean/CoreObserverTime.lean",
+        "lean/CoreRawRecordCodes.lean",
+        "lean/CoreRecordCodes.lean",
+        "lean/CoreRepresentationImages.lean",
+        "lean/CoreTrajectoryDescent.lean",
+        "lean/OrderEmbeddingBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        179
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CoreAffineOrderBridge",
+      "lean_sources": [
+        "lean/CoreAffineOrderBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        190
+      ],
+      "root_count": 1
+    },
+    {
+      "id": "CoreContinuumSourceBridge",
+      "lean_sources": [
+        "lean/CoreContinuumSourceBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        189
+      ],
+      "root_count": 2
+    },
+    {
+      "id": "CoreDetectorSourceBridge",
+      "lean_sources": [
+        "lean/CoreDetectorSourceBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        181
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreFiniteClassWitness",
+      "lean_sources": [
+        "lean/CoreFiniteClassWitness.lean"
+      ],
+      "isabelle_build_jobs": [
+        187
+      ],
+      "root_count": 2
+    },
+    {
+      "id": "CoreJointTimeSeed",
+      "lean_sources": [
+        "lean/CoreJointTimeSeed.lean"
+      ],
+      "isabelle_build_jobs": [
+        185
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreLocalJetMembershipBridge",
+      "lean_sources": [
+        "lean/CoreLocalJetMembershipBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        191
+      ],
+      "root_count": 1
+    },
+    {
+      "id": "CoreNativeStateBridge",
+      "lean_sources": [
+        "lean/CoreNativeStateBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        180
+      ],
+      "root_count": 10
+    },
+    {
+      "id": "CorePairInputBridge",
+      "lean_sources": [
+        "lean/CorePairInputBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        182
+      ],
+      "root_count": 8
+    },
+    {
+      "id": "CorePartialMapBridge",
+      "lean_sources": [
+        "lean/CorePartialMapBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        183
+      ],
+      "root_count": 7
+    },
+    {
+      "id": "CoreRelativeClassWitness",
+      "lean_sources": [
+        "lean/CoreRelativeClassWitness.lean"
+      ],
+      "isabelle_build_jobs": [
+        188
+      ],
+      "root_count": 3
+    },
+    {
+      "id": "CoreRelativeInitial",
+      "lean_sources": [
+        "lean/CoreRelativeInitial.lean"
+      ],
+      "isabelle_build_jobs": [
+        40,
+        186
+      ],
+      "root_count": 6
+    },
+    {
+      "id": "CoreRepresentationPredicateBridge",
+      "lean_sources": [
+        "lean/CoreRepresentationPredicateBridge.lean"
+      ],
+      "isabelle_build_jobs": [
+        184
+      ],
+      "root_count": 8
+    }
+  ],
+  "count": 188
+}
