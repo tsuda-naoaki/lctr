@@ -76,8 +76,14 @@ class Document(HTMLParser):
             self.analytics_body = None
 
 
+verification = SITE / "googlef9fa91ecc9252ce3.html"
+assert verification.is_file() and not verification.is_symlink(), verification
+assert verification.read_bytes() == b"google-site-verification: googlef9fa91ecc9252ce3.html", verification
+
 docs = {}
 for path in sorted(SITE.rglob("*.html")):
+    if path == verification:
+        continue
     doc = Document()
     doc.feed(path.read_text())
     assert doc.lang in ("ja", "en"), path
