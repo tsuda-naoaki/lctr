@@ -14,18 +14,31 @@
 <a class="skip" href="#overview">解説本文へ</a>
 <header class="masthead"><a class="wordmark" href="../">LCTR</a><nav aria-label="Language"><a href="./" lang="ja" aria-current="page">日本語</a><a href="en.html" lang="en">English</a></nav></header>
 <main><article class="overview"><header class="paper-head"><p class="eyebrow">LCTR 解説</p><h1>時間の謎は解けたのか<span class="subtitle">LCTRによる時間生成と謎の消滅</span></h1><p><a href="../">論文・要旨へ</a></p></header>
-<nav class="section-nav overview-nav" aria-label="この解説の内容"><a href="#establishing-time">時間を使う前に、その成立を問う</a><a href="#clocks-time-aging">時計、時間、加齢を結ぶ説明では、何が実証されているのか</a><a href="#generating-time">時間を生成すると、謎はどうなるのか</a><a href="#continuity-differentiation">連続と微分に「動作保証書」を与える</a><a href="#arrow-and-quantum-gravity">時間の矢や量子重力の時間問題との関係</a><a href="#source-audit">72資料の監査と、既存成果の再使用</a></nav>
+<nav class="section-nav overview-nav" aria-label="この解説の内容"><a href="#establishing-time">時間を法則の前提から生成の帰結へ</a><a href="#defining-time">ファインマンの時間定義の問題に、構成的定義で答える</a><a href="#computer-science">計算機科学の設計原理を、物理時間を規定する数理構造へ</a><a href="#clocks-time-aging">時間伸縮説の二段階の誤認と、生命適用を伴う三段階誤認</a><a href="#evidence-inheritance">限定成果の無制限継承を、証拠効力域から監査する</a><a href="#generating-time">未生成時間に依存する謎は、時間生成によって消滅する</a><a href="#continuity-differentiation">連続と微分に「動作保証書」を与える</a><a href="#arrow-and-quantum-gravity">時間の矢や量子重力の時間問題との関係</a><a href="#result-preserving">既存成果を保持して再基礎化する</a><a href="#source-audit">72資料を同じ基準で監査する</a></nav>
 <div id="overview"><p class="overview-lead">時間参照の局所比較理論（LCTR）は、物理法則で使う時間を、非時間的な物理入力から生成する。時間が成立する条件と、その条件が失われる位置を明らかにすることで、未生成時間への依存によって成立していた謎の基盤を取り除く。</p>
 <figure id="figure-29" class="paper-figure"><a href="../assets/figures/figure-29-jp.png" aria-label="ブラックボックスとして前提化された時間から、生成条件・有効域・失効位置の監査への転換"><img src="../assets/figures/figure-29-jp.png" width="1849" height="836" loading="lazy" alt="ブラックボックスとして前提化された時間から、生成条件・有効域・失効位置の監査への転換"></a><figcaption><strong>図 29.</strong> 生成経路を示さずブラックボックスとして前提化された時間変数 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> は、時間問題、時間伸縮、初期境界、時間の矢、観測量問題、測定問題、ブラックホール情報問題および時空創発が、互いに独立した謎として現れる基盤となる。時間内容と成立根拠構造を非時間的物理入力から生成すると、これらの謎の成立基盤は失われ、各問題は生成条件、尺度付き有効域、六破綻系列および監査報告へ移される。</figcaption></figure>
-<section id="establishing-time" class="page-section"><h2>時間を使う前に、その成立を問う</h2>
+<section id="establishing-time" class="page-section"><h2>時間を法則の前提から生成の帰結へ</h2>
 <p>物理法則の計算が成功することと、その計算で使う時間が物理的に成立することは、別の問題である。LCTRは、時間変数を法則へ投入する前に、その時間内容と物理的成立根拠を構成することを求める。</p>
-<p>ファインマンは『ファインマン物理学』第一巻第五章で、自身を含む「私たち」が時間を辞書的な意味ではおそらく定義できないと述べ、時間をどのように測るかへ議論を移した。LCTRは、そこで残された時間の成立の問題に対し、物理的な材料と関係から時間参照を構成する条件を与える。</p>
+
 </section>
-<section id="clocks-time-aging" class="page-section"><h2>時計、時間、加齢を結ぶ説明では、何が実証されているのか</h2>
+<section id="defining-time" class="page-section"><h2>ファインマンの時間定義の問題に、構成的定義で答える</h2>
+<p>ファインマンは<a href="https://www.feynmanlectures.caltech.edu/I_05.html#Ch5-S2">『ファインマン物理学』第一巻第5章第2節</a>で、自身を含む「われわれ」を主語として、時間は辞書的な意味ではおそらく定義できないものの一つだと述べた。そして、時間をどう定義するかから、どう測るかへ議論を移した。</p>
+<p>LCTRは、物理時間を成立条件によって構成的に定義する。非時間的な物理入力から、時間内容の同一性、前後関係、比較可能性と比較不能性、線形順序、実数値表現を順に成立させる。この構成によって、物理法則で使う時間がどの条件で成立するかを与える。</p>
+</section>
+<section id="computer-science" class="page-section"><h2>計算機科学の設計原理を、物理時間を規定する数理構造へ</h2>
+<p>LCTRは、計算機科学の型、依存、状態および変更影響に関する設計原理を、物理時間の生成、使用資格、失効局在化および下流再生成を規定する数理構造として統合する。</p>
+<p>監査は、生成依存上で最初に失われた条件と、その失効が依存関係を通じて到達する下流成果を特定する。これによって、時間表現を使用できる条件と、修復後に再生成または再計算すべき対象を接続する。</p>
+</section>
+<section id="clocks-time-aging" class="page-section"><h2>時間伸縮説の二段階の誤認と、生命適用を伴う三段階誤認</h2>
+<ol class="misrecognition-stages"><li><strong>第一段階：</strong>物理的成立根拠が生成されていない時間を、時計、振動子、信号、記録などの物理担体から独立した「時間そのもの」として法則に先行させる。</li><li><strong>第二段階：</strong>重力や運動に応答した物理担体上の比較差を、その「時間そのもの」の伸縮へ帰属させる。</li><li><strong>生命適用を伴う第三段階：</strong>その時間属性を生命過程へ移し、物理担体についての実験成果の効力を生命過程の直接実証へ拡張する。</li></ol>
 <p>時計の表示差や率の差、物理担体から独立した「時間そのもの」の伸縮、生命過程の変化は、異なる対象についての主張である。時計について得られた実験結果を加齢の説明へ接続するには、その接続を支える物理関係と、証拠が直接支持する範囲を明らかにする必要がある。LCTRは、時計から時間そのものへ、さらに生命過程へと説明対象が移る各段階を監査する。</p>
 <p>「時間は存在しない」と「時間そのものが伸縮する」という言明にも、対象の同定が必要となる。同じ時間内容と適用域について述べているなら両者は両立しない。異なる対象について述べているなら、何を指す「時間」なのか、その切替を明示する必要がある。</p>
 </section>
-<section id="generating-time" class="page-section"><h2>時間を生成すると、謎はどうなるのか</h2>
+<section id="evidence-inheritance" class="page-section"><h2>限定成果の無制限継承を、証拠効力域から監査する</h2>
+<p>限定された計算、予測、模型適合または実験の成功が、数式全体の物理的成立、未生成時間の資格、未測定対象への適用、時間に関する存在論的主張へ移される。LCTRは、複数分野で反復するこの越境を「限定成果の無制限継承」として特定する。</p>
+<p>証拠効力域とは、測定、予測、模型適合または計算の成功が直接支持する範囲である。成果の効力は、その成果が直接支持する対象、述語、証拠の型、成立条件および適用域に限定される。LCTRは、成果をその範囲の外へ移す主張を監査する。</p>
+</section>
+<section id="generating-time" class="page-section"><h2>未生成時間に依存する謎は、時間生成によって消滅する</h2>
 <p>LCTRの構成は、装置の表示や対象の状態差を記録として保持し、比較に必要な情報がどこで結び付くかを、時間量を用いずに確定するところから始まる。そこから、時間内容の同一性、前後関係、比較可能性と比較不能性、線形順序、実数値による時間表現の成立条件を順に与える。この構成によって、LCTRは物理時間を成立条件から定義する。</p>
 <p>時間を構成するための材料や関係が成立しない場合、あるいは生成条件が失われた場合、その条件に依存する時間表現は成立しない。LCTRは、この不成立を、何が不足し、どの条件が最初に失われたのかという形で特定する。</p>
 <p>この生成によって、未生成時間への依存を成立条件とする謎は、独立した問題としての成立根拠を失い、消滅する。その後に取り組む課題は、時間表現の成立条件、使用できる範囲、失効位置、修復の順序、および次に取得すべき証拠の確定となる。</p>
@@ -38,10 +51,14 @@
 <section id="arrow-and-quantum-gravity" class="page-section"><h2>時間の矢や量子重力の時間問題との関係</h2>
 <p>LCTRは、量子重力の時間問題を、法則で時間を使用する資格の問題へ変更する。時間の矢については、生成済みの時間表現に向きを与える後続の条件として定める。宇宙の初期境界、ブラックホール情報問題、観測量、量子測定記録、時空創発に関わる時間記述も、各時間内容の生成条件と有効域へ接続する。</p>
 </section>
-<section id="source-audit" class="page-section"><h2>72資料の監査と、既存成果の再使用</h2>
+<section id="result-preserving" class="page-section"><h2>既存成果を保持して再基礎化する</h2>
+<p>LCTRは、既存の数学的・実験的・工学的成果を、それぞれの証拠が支持する範囲で保持する。そのうえで時間内容と成立根拠を生成し、有効域と失効位置を監査することで、既存成果を安全に再使用できる範囲を定める。</p>
+<p>原始時間入力が使用に必要な条件を背景化し、独立証拠が同じ条件の実失効と下流成果への依存到達を確定する場合、その成果自体も当該評価領域で使用資格を失う。この場合は、修復後の再生成または再計算を要する。</p>
+</section>
+<section id="source-audit" class="page-section"><h2>72資料を同じ基準で監査する</h2>
 <p>LCTRは、使用する時間内容を非時間的な物理入力から成立させる完全な生成経路を欠いたまま、その時間内容を法則の演算や成果の導出に用いることを「原始時間入力」と呼ぶ。</p>
 <p>この基準で、古代から現代までの理論、実験、計量標準、工学にまたがる代表的72資料を監査した。全72資料に原始時間入力が残り、使用する時間内容の全体を非時間的な物理入力から生成した資料は0件だった。</p>
-<p>LCTRは、既存の数学的・実験的・工学的成果を、それぞれの証拠が支持する範囲で保持する。そのうえで時間内容と成立根拠を生成し、有効域と失効位置を監査することで、既存成果を安全に再使用できる範囲を定める。</p>
+
 </section></div>
 <section id="read-more" class="page-section"><h2>論文・監査資料・検証資産</h2><ul><li><a href="../#abstract">要旨を読む</a></li><li><a href="../sources/">72資料の一覧と監査結果</a></li><li><a href="../#materials-title">論文・補遺・図集のPDF</a></li><li><a href="../#verification">検証資産の説明</a></li></ul></section>
 </article></main>
