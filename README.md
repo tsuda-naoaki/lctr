@@ -11,6 +11,11 @@ Local Comparison and Failure Classification
 日本語を原典とし、英語版を併せて収録しています。
 The Japanese version is the original; an English version is provided alongside it.
 
+## 論文ページ / Paper pages
+
+- [日本語原典の要旨](https://tsuda-naoaki.github.io/lctr/)
+- [English abstract](https://tsuda-naoaki.github.io/lctr/en.html)
+
 ## 論文 / Paper
 
 | 内容 / Edition | 日本語 | English |

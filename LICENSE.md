@@ -9,7 +9,8 @@ LCTRの日本語・英語の8PDF、著者による説明文および監査デー
 
 ## 検証コード・形式化
 
-著者が作成した検証プログラム、実行用スクリプトおよび形式化コードには、
+著者が作成した検証プログラム、実行用スクリプト、形式化コード、
+サイトの実装および検査コードには、
 [BSD-3-Clause](LICENSES/BSD-3-Clause.txt)を適用します。
 
 ## Third-party materials / 第三者資料
@@ -21,5 +22,6 @@ LCTRの日本語・英語の8PDF、著者による説明文および監査デー
 These terms apply to the separately distributed archive and its expanded files
 as well as to this repository. The author's PDFs, documentation, and audit data
 are licensed under CC BY-NC-ND 4.0. The author's verification programs, execution
-scripts, and formalization code are licensed under BSD-3-Clause. Third-party
+scripts, formalization code, and site implementation and checking code are
+licensed under BSD-3-Clause. Third-party
 materials retain their own copyright notices and license terms.
