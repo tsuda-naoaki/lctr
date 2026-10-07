@@ -1,5 +1,7 @@
 """Check the static site's document structure and local navigation."""
 import json
+import re
+import struct
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -23,6 +25,7 @@ class Document(HTMLParser):
         self.schema = []
         self.script = None
         self.analytics_scripts = 0
+        self.ga4_scripts = 0
         self.analytics_body = None
 
     def handle_starttag(self, tag, attrs):
@@ -45,6 +48,11 @@ class Document(HTMLParser):
         if tag == "script":
             if a.get("type") == "application/ld+json":
                 self.script = ""
+            elif a.get("src") in {"assets/analytics.js", "../assets/analytics.js", "../../assets/analytics.js"}:
+                assert set(a) == {"defer", "src"}, "Unexpected GA4 loader attributes"
+                self.ga4_scripts += 1
+                self.links.append(a["src"])
+                self.analytics_body = ""
             else:
                 assert set(a) == {"type", "src", "data-cf-beacon"}, "Unexpected script attributes"
                 assert a["type"] == "module", "Unexpected executable script"
@@ -78,6 +86,8 @@ for path in sorted(SITE.rglob("*.html")):
     assert doc.meta.get("viewport"), path
     assert doc.meta.get("description"), path
     assert doc.analytics_scripts == 1, (path, "expected one Cloudflare analytics script")
+    assert doc.ga4_scripts == 1, (path, "expected one consent-controlled GA4 loader")
+    assert {"analytics-privacy", "analytics-panel"} <= doc.ids, path
     docs[path.resolve()] = doc
 
 for path, doc in docs.items():
@@ -111,8 +121,46 @@ for filename, lang in (("index.html", "ja"), ("en.html", "en")):
     assert article["author"]["name"] == "Naoaki Tsuda"
     assert len(article["abstract"].split("\n\n")) == 11
     assert doc.meta["robots"] == "index,follow"
+    assert re.fullmatch(r"\d{4}(?:/\d{2}/\d{2})?", doc.meta["citation_publication_date"])
+    pdf_name = "lctr_main_jp.pdf" if lang == "ja" else "lctr_main_en.pdf"
+    assert doc.meta["citation_pdf_url"] == BASE + pdf_name
+    pdf = SITE / pdf_name
+    assert pdf.is_file() and 0 < pdf.stat().st_size < 5_000_000
+    assert pdf.read_bytes().startswith(b"%PDF-")
+    assert pdf_name in doc.links, "The main PDF must also be visibly linked"
+    assert article["encoding"]["contentUrl"] == doc.meta["citation_pdf_url"]
+    assert article["encoding"]["inLanguage"] == lang
+
+
+# Corpus numbering, visible metadata, and image dimensions must agree.
+for filename in ("index.html", "en.html"):
+    landing = (SITE / filename).read_text()
+    visible_terms = [__import__("html").unescape(x) for x in re.findall(r'<li class="keyword">(.*?)</li>', landing)]
+    assert visible_terms == docs[(SITE / filename).resolve()].schema[0]["keywords"]
+    assert len(visible_terms) == len(set(visible_terms)), "Duplicate keyword"
+    source = SITE / "sources" / filename
+    text = source.read_text()
+    numbers = [int(x) for x in re.findall(r'data-source-number="(\d+)"', text)]
+    assert numbers == list(range(1, 73)), "Source numbering must be complete and ordered"
+    items = docs[source.resolve()].schema[0]["mainEntity"]
+    assert items["numberOfItems"] == len(numbers)
+    assert [x["position"] for x in items["itemListElement"]] == numbers
+    assert all(x["url"].endswith(f'#source-{n:02}') for n, x in zip(numbers, items["itemListElement"]))
+
+images_checked = 0
+for path in docs:
+    for tag in re.findall(r'<img\s+[^>]+>', path.read_text()):
+        attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', tag))
+        assert attrs.get("alt", "").strip(), (path, "Missing image description")
+        image = (path.parent / attrs["src"]).resolve()
+        assert image.is_relative_to(SITE.resolve()) and image.is_file()
+        header = image.read_bytes()[:24]
+        assert header[:8] == b"\x89PNG\r\n\x1a\n"
+        assert struct.unpack(">II", header[16:24]) == (int(attrs["width"]), int(attrs["height"]))
+        images_checked += 1
+assert images_checked == 8
 
 sitemap = ET.parse(SITE / "sitemap.xml")
 urls = [item.text for item in sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
 assert set(urls) == {doc.canonical[0] for doc in docs.values()}
-print(json.dumps({"status": "pass", "html_documents": len(docs), "local_links_checked": sum(len(d.links) for d in docs.values()), "abstract_paragraphs": {"ja": 11, "en": 11}, "sitemap_urls": len(urls), "analytics_scripts": sum(d.analytics_scripts for d in docs.values())}))
+print(json.dumps({"status": "pass", "html_documents": len(docs), "local_links_checked": sum(len(d.links) for d in docs.values()), "abstract_paragraphs": {"ja": 11, "en": 11}, "sitemap_urls": len(urls), "source_entries_per_language": 72, "figure_images": images_checked, "cloudflare_scripts": sum(d.analytics_scripts for d in docs.values()), "ga4_loaders": sum(d.ga4_scripts for d in docs.values())}))

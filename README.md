@@ -8,6 +8,8 @@ Local Comparison and Failure Classification
 
 著者 / Author: Naoaki Tsuda
 
+ORCID: [0009-0007-2506-4026](https://orcid.org/0009-0007-2506-4026)
+
 日本語を原典とし、英語版を併せて収録しています。
 The Japanese version is the original; an English version is provided alongside it.
 
@@ -15,6 +17,10 @@ The Japanese version is the original; an English version is provided alongside i
 
 - [日本語原典の要旨](https://tsuda-naoaki.github.io/lctr/)
 - [English abstract](https://tsuda-naoaki.github.io/lctr/en.html)
+- [時間の謎と連続・微分の動作保証](https://tsuda-naoaki.github.io/lctr/time-mysteries/)
+- [Time mysteries and operational guarantees](https://tsuda-naoaki.github.io/lctr/time-mysteries/en.html)
+- [監査した72資料](https://tsuda-naoaki.github.io/lctr/sources/)
+- [The 72 audited sources](https://tsuda-naoaki.github.io/lctr/sources/en.html)
 
 ## 論文 / Paper
 
