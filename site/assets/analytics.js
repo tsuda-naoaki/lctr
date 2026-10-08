@@ -2,16 +2,42 @@
 (() => {
   'use strict';
   const id = 'G-4MHM8N068S';
-  const key = 'lctr.analytics-consent.v1';
+  const key = 'research.analytics-consent.v1';
+  const legacyKey = 'lctr.analytics-consent.v1';
   const panel = document.querySelector('[data-analytics-panel]');
   const settings = document.querySelector('[data-analytics-settings]');
   const status = document.querySelector('[data-analytics-status]');
   if (!panel || !settings || !status) return;
+  const allow = panel.querySelector('[data-analytics-allow]');
+  const deny = panel.querySelector('[data-analytics-deny]');
+  const privacyLink = panel.querySelector('a');
+  const privacy = document.getElementById('analytics-privacy');
+  if (!allow || !deny || !privacyLink || !privacy) return;
   const ja = document.documentElement.lang === 'ja';
   let choice = null;
   let started = false;
-  try { choice = localStorage.getItem(key); } catch (_) { /* No persistence. */ }
-  if (choice !== 'allow' && choice !== 'deny') choice = null;
+  try {
+    const saved = localStorage.getItem(key);
+    if (saved === 'allow' || saved === 'deny') choice = saved;
+    // An old refusal remains valid; an LCTR-only grant does not cover the root.
+    else if (localStorage.getItem(legacyKey) === 'deny') {
+      choice = 'deny';
+      localStorage.setItem(key, choice);
+    }
+  } catch (_) { /* No persistence. */ }
+
+  function expireCookies(names, path) {
+    for (const name of names) {
+      for (const domain of ['', '; Domain=' + location.hostname]) {
+        document.cookie = name + '=; Max-Age=0; Path=' + path + domain + '; SameSite=Lax; Secure';
+      }
+    }
+  }
+
+  function clearLegacyCookies() {
+    // These cookies are not visible from /, so remove their known names directly.
+    expireCookies(['lctr_ga', 'lctr_ga_4MHM8N068S'], '/lctr/');
+  }
 
   function render() {
     status.textContent = choice === 'allow'
@@ -23,9 +49,12 @@
   }
 
   function start() {
+    clearLegacyCookies();
     // Preview and private-test hosts must never contribute production traffic.
-    if (started || location.hostname !== 'tsuda-naoaki.github.io' ||
-        !location.pathname.startsWith('/lctr/')) return;
+    const includedPath = location.pathname === '/' || location.pathname === '/index.html' ||
+      location.pathname.startsWith('/lctr/');
+    if (started || location.protocol !== 'https:' ||
+        location.hostname !== 'tsuda-naoaki.github.io' || !includedPath) return;
     started = true;
     window['ga-disable-' + id] = false;
     window.dataLayer = window.dataLayer || [];
@@ -39,8 +68,8 @@
       allow_google_signals: false,
       allow_ad_personalization_signals: false,
       cookie_domain: location.hostname,
-      cookie_path: '/lctr/',
-      cookie_prefix: 'lctr',
+      cookie_path: '/',
+      cookie_prefix: 'research',
       cookie_flags: 'SameSite=Lax;Secure'
     });
     const script = document.createElement('script');
@@ -51,14 +80,13 @@
 
   function stop() {
     window['ga-disable-' + id] = true;
+    const names = new Set(['research_ga', 'research_ga_4MHM8N068S']);
     for (const cookie of document.cookie.split(';')) {
       const name = cookie.trim().split('=')[0];
-      if (/^lctr_ga(?:_|$)/.test(name)) {
-        for (const domain of ['', '; Domain=' + location.hostname]) {
-          document.cookie = name + '=; Max-Age=0; Path=/lctr/' + domain + '; SameSite=Lax; Secure';
-        }
-      }
+      if (/^research_ga(?:_|$)/.test(name)) names.add(name);
     }
+    expireCookies(names, '/');
+    clearLegacyCookies();
   }
 
   function choose(value) {
@@ -75,18 +103,18 @@
   settings.addEventListener('click', () => {
     panel.hidden = !panel.hidden;
     settings.setAttribute('aria-expanded', String(!panel.hidden));
-    if (!panel.hidden) panel.querySelector('button').focus();
+    if (!panel.hidden) allow.focus();
   });
-  panel.querySelector('[data-analytics-allow]').addEventListener('click', () => choose('allow'));
-  panel.querySelector('[data-analytics-deny]').addEventListener('click', () => choose('deny'));
-  panel.querySelector('a').addEventListener('click', () => {
-    document.getElementById('analytics-privacy').open = true;
+  allow.addEventListener('click', () => choose('allow'));
+  deny.addEventListener('click', () => choose('deny'));
+  privacyLink.addEventListener('click', () => {
+    privacy.open = true;
     panel.hidden = true;
     settings.setAttribute('aria-expanded', 'false');
   });
-  // Revoke immediately in other open LCTR tabs as well.
+  // Revocation, key removal, and localStorage.clear() also stop other open tabs.
   window.addEventListener('storage', (event) => {
-    if (event.key === key && event.newValue !== 'allow') {
+    if ((event.key === key || event.key === null) && event.newValue !== 'allow') {
       choice = event.newValue === 'deny' ? 'deny' : null;
       stop(); render();
       if (started) location.reload();
@@ -94,4 +122,5 @@
   });
   render();
   if (choice === 'allow') start();
+  else stop();
 })();
