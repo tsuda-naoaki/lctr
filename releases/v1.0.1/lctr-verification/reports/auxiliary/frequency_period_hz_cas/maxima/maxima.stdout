@@ -1,0 +1,30 @@
+batch("auxiliary/frequency_period_hz_cas/check_maxima.mac")
+display2d:false
+assume(n > 0,d > 0,v > 0,u > 0,nn > 0)
+declare(nn,integer)
+frequency:n/d
+period:1/frequency
+hzunit:v/nn
+printf(true,"LCTR_VERSION ~a~%",build_info())
+LCTR_VERSION %build_info("5.50.0","2026-09-27 03:34:58","arm-apple-darwin25.6.0","SBCL","2.6.9","<host-path omitted>","<host-path omitted>","<host-path omitted>",false,false)
+printf(true,"LCTR_CASE reciprocal_quotient ~a~%",ratsimp(period-d/n))
+LCTR_CASE reciprocal_quotient 0
+printf(true,"LCTR_CASE frequency_period_product ~a~%",
+       ratsimp(frequency*period-1))
+LCTR_CASE frequency_period_product 0
+printf(true,"LCTR_CASE standard_normalization ~a~%",ratsimp(v/hzunit-nn))
+LCTR_CASE standard_normalization 0
+printf(true,"LCTR_CASE frequency_positive ~a~%",is(frequency > 0))
+LCTR_CASE frequency_positive true
+printf(true,"LCTR_CASE period_positive ~a~%",is(period > 0))
+LCTR_CASE period_positive true
+printf(true,"LCTR_CASE hz_unit_positive ~a~%",is(hzunit > 0))
+LCTR_CASE hz_unit_positive true
+printf(true,"LCTR_CASE relative_hz_number_positive ~a~%",is(v/u > 0))
+LCTR_CASE relative_hz_number_positive true
+printf(true,"LCTR_CASE period_replaced_by_frequency ~a~%",ratsimp((2/3)^2-1))
+LCTR_CASE period_replaced_by_frequency -(5/9)
+printf(true,"LCTR_CASE hz_unit_multiplied_instead_of_divided ~a~%",
+       ratsimp(10/(10*2)-2))
+LCTR_CASE hz_unit_multiplied_instead_of_divided -(3/2)
+quit()

@@ -1,0 +1,1519 @@
+{
+  "status": "validated",
+  "native_execution_inputs_unchanged": true,
+  "native_tools_rerun_for_this_assembly": false,
+  "formal_number_and_destination_identity_checks": 1290,
+  "auxiliary_page_differences": [],
+  "primary_pdf_locations": {
+    "inventory/correspondence.json": 1816,
+    "inventory/formula-occurrences.json": 9066,
+    "inventory/auxiliary-correspondence.json": 36,
+    "inventory/figure-correspondence.json": 2,
+    "inventory/proof-body-correspondence.json": 1816
+  },
+  "alternate_location_counts": {
+    "main": 12736
+  },
+  "survey_heading_checks": [
+    {
+      "source": 1,
+      "reference": "AriPhys4",
+      "language": "jp",
+      "number": "S.2.1",
+      "destination": "subsubsection.supp.2.1",
+      "full_page": 463,
+      "supplement_page": 11,
+      "printed_page": "463"
+    },
+    {
+      "source": 1,
+      "reference": "AriPhys4",
+      "language": "en",
+      "number": "S.2.1",
+      "destination": "subsubsection.supp.2.1",
+      "full_page": 528,
+      "supplement_page": 12,
+      "printed_page": "528"
+    },
+    {
+      "source": 2,
+      "reference": "New1687P",
+      "language": "jp",
+      "number": "S.2.2",
+      "destination": "subsubsection.supp.2.2",
+      "full_page": 472,
+      "supplement_page": 20,
+      "printed_page": "472"
+    },
+    {
+      "source": 2,
+      "reference": "New1687P",
+      "language": "en",
+      "number": "S.2.2",
+      "destination": "subsubsection.supp.2.2",
+      "full_page": 539,
+      "supplement_page": 23,
+      "printed_page": "539"
+    },
+    {
+      "source": 3,
+      "reference": "Ein05ED",
+      "language": "jp",
+      "number": "S.2.3",
+      "destination": "subsubsection.supp.2.3",
+      "full_page": 488,
+      "supplement_page": 36,
+      "printed_page": "488"
+    },
+    {
+      "source": 3,
+      "reference": "Ein05ED",
+      "language": "en",
+      "number": "S.2.3",
+      "destination": "subsubsection.supp.2.3",
+      "full_page": 561,
+      "supplement_page": 45,
+      "printed_page": "561"
+    },
+    {
+      "source": 4,
+      "reference": "Min09RZ",
+      "language": "jp",
+      "number": "S.2.4",
+      "destination": "subsubsection.supp.2.4",
+      "full_page": 503,
+      "supplement_page": 51,
+      "printed_page": "503"
+    },
+    {
+      "source": 4,
+      "reference": "Min09RZ",
+      "language": "en",
+      "number": "S.2.4",
+      "destination": "subsubsection.supp.2.4",
+      "full_page": 583,
+      "supplement_page": 67,
+      "printed_page": "583"
+    },
+    {
+      "source": 5,
+      "reference": "Ein16GR",
+      "language": "jp",
+      "number": "S.2.5",
+      "destination": "subsubsection.supp.2.5",
+      "full_page": 518,
+      "supplement_page": 66,
+      "printed_page": "518"
+    },
+    {
+      "source": 5,
+      "reference": "Ein16GR",
+      "language": "en",
+      "number": "S.2.5",
+      "destination": "subsubsection.supp.2.5",
+      "full_page": 603,
+      "supplement_page": 87,
+      "printed_page": "603"
+    },
+    {
+      "source": 6,
+      "reference": "Bri27LM",
+      "language": "jp",
+      "number": "S.2.6",
+      "destination": "subsubsection.supp.2.6",
+      "full_page": 536,
+      "supplement_page": 84,
+      "printed_page": "536"
+    },
+    {
+      "source": 6,
+      "reference": "Bri27LM",
+      "language": "en",
+      "number": "S.2.6",
+      "destination": "subsubsection.supp.2.6",
+      "full_page": 626,
+      "supplement_page": 110,
+      "printed_page": "626"
+    },
+    {
+      "source": 7,
+      "reference": "VN32MQ",
+      "language": "jp",
+      "number": "S.2.7",
+      "destination": "subsubsection.supp.2.7",
+      "full_page": 553,
+      "supplement_page": 101,
+      "printed_page": "553"
+    },
+    {
+      "source": 7,
+      "reference": "VN32MQ",
+      "language": "en",
+      "number": "S.2.7",
+      "destination": "subsubsection.supp.2.7",
+      "full_page": 648,
+      "supplement_page": 132,
+      "printed_page": "648"
+    },
+    {
+      "source": 8,
+      "reference": "NBSC476",
+      "language": "jp",
+      "number": "S.2.8",
+      "destination": "subsubsection.supp.2.8",
+      "full_page": 565,
+      "supplement_page": 113,
+      "printed_page": "565"
+    },
+    {
+      "source": 8,
+      "reference": "NBSC476",
+      "language": "en",
+      "number": "S.2.8",
+      "destination": "subsubsection.supp.2.8",
+      "full_page": 666,
+      "supplement_page": 150,
+      "printed_page": "666"
+    },
+    {
+      "source": 9,
+      "reference": "Dir58GH",
+      "language": "jp",
+      "number": "S.2.9",
+      "destination": "subsubsection.supp.2.9",
+      "full_page": 573,
+      "supplement_page": 121,
+      "printed_page": "573"
+    },
+    {
+      "source": 9,
+      "reference": "Dir58GH",
+      "language": "en",
+      "number": "S.2.9",
+      "destination": "subsubsection.supp.2.9",
+      "full_page": 676,
+      "supplement_page": 160,
+      "printed_page": "676"
+    },
+    {
+      "source": 10,
+      "reference": "PR60AWP",
+      "language": "jp",
+      "number": "S.2.10",
+      "destination": "subsubsection.supp.2.10",
+      "full_page": 587,
+      "supplement_page": 135,
+      "printed_page": "587"
+    },
+    {
+      "source": 10,
+      "reference": "PR60AWP",
+      "language": "en",
+      "number": "S.2.10",
+      "destination": "subsubsection.supp.2.10",
+      "full_page": 692,
+      "supplement_page": 176,
+      "printed_page": "692"
+    },
+    {
+      "source": 11,
+      "reference": "ADM62Dyn",
+      "language": "jp",
+      "number": "S.2.11",
+      "destination": "subsubsection.supp.2.11",
+      "full_page": 602,
+      "supplement_page": 150,
+      "printed_page": "602"
+    },
+    {
+      "source": 11,
+      "reference": "ADM62Dyn",
+      "language": "en",
+      "number": "S.2.11",
+      "destination": "subsubsection.supp.2.11",
+      "full_page": 711,
+      "supplement_page": 195,
+      "printed_page": "711"
+    },
+    {
+      "source": 12,
+      "reference": "FLS63T",
+      "language": "jp",
+      "number": "S.2.12",
+      "destination": "subsubsection.supp.2.12",
+      "full_page": 613,
+      "supplement_page": 161,
+      "printed_page": "613"
+    },
+    {
+      "source": 12,
+      "reference": "FLS63T",
+      "language": "en",
+      "number": "S.2.12",
+      "destination": "subsubsection.supp.2.12",
+      "full_page": 726,
+      "supplement_page": 210,
+      "printed_page": "726"
+    },
+    {
+      "source": 13,
+      "reference": "TW92SP",
+      "language": "jp",
+      "number": "S.2.13",
+      "destination": "subsubsection.supp.2.13",
+      "full_page": 632,
+      "supplement_page": 180,
+      "printed_page": "632"
+    },
+    {
+      "source": 13,
+      "reference": "TW92SP",
+      "language": "en",
+      "number": "S.2.13",
+      "destination": "subsubsection.supp.2.13",
+      "full_page": 749,
+      "supplement_page": 233,
+      "printed_page": "749"
+    },
+    {
+      "source": 14,
+      "reference": "DeW67QG1",
+      "language": "jp",
+      "number": "S.2.14",
+      "destination": "subsubsection.supp.2.14",
+      "full_page": 653,
+      "supplement_page": 201,
+      "printed_page": "653"
+    },
+    {
+      "source": 14,
+      "reference": "DeW67QG1",
+      "language": "en",
+      "number": "S.2.14",
+      "destination": "subsubsection.supp.2.14",
+      "full_page": 775,
+      "supplement_page": 259,
+      "printed_page": "775"
+    },
+    {
+      "source": 15,
+      "reference": "EPS72GFL",
+      "language": "jp",
+      "number": "S.2.15",
+      "destination": "subsubsection.supp.2.15",
+      "full_page": 669,
+      "supplement_page": 217,
+      "printed_page": "669"
+    },
+    {
+      "source": 15,
+      "reference": "EPS72GFL",
+      "language": "en",
+      "number": "S.2.15",
+      "destination": "subsubsection.supp.2.15",
+      "full_page": 793,
+      "supplement_page": 277,
+      "printed_page": "793"
+    },
+    {
+      "source": 16,
+      "reference": "HK72Obs",
+      "language": "jp",
+      "number": "S.2.16",
+      "destination": "subsubsection.supp.2.16",
+      "full_page": 686,
+      "supplement_page": 234,
+      "printed_page": "686"
+    },
+    {
+      "source": 16,
+      "reference": "HK72Obs",
+      "language": "en",
+      "number": "S.2.16",
+      "destination": "subsubsection.supp.2.16",
+      "full_page": 813,
+      "supplement_page": 297,
+      "printed_page": "813"
+    },
+    {
+      "source": 17,
+      "reference": "HK72Pred",
+      "language": "jp",
+      "number": "S.2.17",
+      "destination": "subsubsection.supp.2.17",
+      "full_page": 700,
+      "supplement_page": 248,
+      "printed_page": "700"
+    },
+    {
+      "source": 17,
+      "reference": "HK72Pred",
+      "language": "en",
+      "number": "S.2.17",
+      "destination": "subsubsection.supp.2.17",
+      "full_page": 833,
+      "supplement_page": 317,
+      "printed_page": "833"
+    },
+    {
+      "source": 18,
+      "reference": "Bek73BHE",
+      "language": "jp",
+      "number": "S.2.18",
+      "destination": "subsubsection.supp.2.18",
+      "full_page": 717,
+      "supplement_page": 265,
+      "printed_page": "717"
+    },
+    {
+      "source": 18,
+      "reference": "Bek73BHE",
+      "language": "en",
+      "number": "S.2.18",
+      "destination": "subsubsection.supp.2.18",
+      "full_page": 854,
+      "supplement_page": 338,
+      "printed_page": "854"
+    },
+    {
+      "source": 19,
+      "reference": "MTW73Grav",
+      "language": "jp",
+      "number": "S.2.19",
+      "destination": "subsubsection.supp.2.19",
+      "full_page": 735,
+      "supplement_page": 283,
+      "printed_page": "735"
+    },
+    {
+      "source": 19,
+      "reference": "MTW73Grav",
+      "language": "en",
+      "number": "S.2.19",
+      "destination": "subsubsection.supp.2.19",
+      "full_page": 875,
+      "supplement_page": 359,
+      "printed_page": "875"
+    },
+    {
+      "source": 20,
+      "reference": "Haw75PCB",
+      "language": "jp",
+      "number": "S.2.20",
+      "destination": "subsubsection.supp.2.20",
+      "full_page": 759,
+      "supplement_page": 307,
+      "printed_page": "759"
+    },
+    {
+      "source": 20,
+      "reference": "Haw75PCB",
+      "language": "en",
+      "number": "S.2.20",
+      "destination": "subsubsection.supp.2.20",
+      "full_page": 901,
+      "supplement_page": 385,
+      "printed_page": "901"
+    },
+    {
+      "source": 21,
+      "reference": "Haw76BP",
+      "language": "jp",
+      "number": "S.2.21",
+      "destination": "subsubsection.supp.2.21",
+      "full_page": 780,
+      "supplement_page": 328,
+      "printed_page": "780"
+    },
+    {
+      "source": 21,
+      "reference": "Haw76BP",
+      "language": "en",
+      "number": "S.2.21",
+      "destination": "subsubsection.supp.2.21",
+      "full_page": 926,
+      "supplement_page": 410,
+      "printed_page": "926"
+    },
+    {
+      "source": 22,
+      "reference": "Bai77TD",
+      "language": "jp",
+      "number": "S.2.22",
+      "destination": "subsubsection.supp.2.22",
+      "full_page": 800,
+      "supplement_page": 348,
+      "printed_page": "800"
+    },
+    {
+      "source": 22,
+      "reference": "Bai77TD",
+      "language": "en",
+      "number": "S.2.22",
+      "destination": "subsubsection.supp.2.22",
+      "full_page": 952,
+      "supplement_page": 436,
+      "printed_page": "952"
+    },
+    {
+      "source": 23,
+      "reference": "Rin77ER",
+      "language": "jp",
+      "number": "S.2.23",
+      "destination": "subsubsection.supp.2.23",
+      "full_page": 809,
+      "supplement_page": 357,
+      "printed_page": "809"
+    },
+    {
+      "source": 23,
+      "reference": "Rin77ER",
+      "language": "en",
+      "number": "S.2.23",
+      "destination": "subsubsection.supp.2.23",
+      "full_page": 964,
+      "supplement_page": 448,
+      "printed_page": "964"
+    },
+    {
+      "source": 24,
+      "reference": "Pen79STA",
+      "language": "jp",
+      "number": "S.2.24",
+      "destination": "subsubsection.supp.2.24",
+      "full_page": 821,
+      "supplement_page": 369,
+      "printed_page": "821"
+    },
+    {
+      "source": 24,
+      "reference": "Pen79STA",
+      "language": "en",
+      "number": "S.2.24",
+      "destination": "subsubsection.supp.2.24",
+      "full_page": 978,
+      "supplement_page": 462,
+      "printed_page": "978"
+    },
+    {
+      "source": 25,
+      "reference": "HH83WFU",
+      "language": "jp",
+      "number": "S.2.25",
+      "destination": "subsubsection.supp.2.25",
+      "full_page": 835,
+      "supplement_page": 383,
+      "printed_page": "835"
+    },
+    {
+      "source": 25,
+      "reference": "HH83WFU",
+      "language": "en",
+      "number": "S.2.25",
+      "destination": "subsubsection.supp.2.25",
+      "full_page": 995,
+      "supplement_page": 479,
+      "printed_page": "995"
+    },
+    {
+      "source": 26,
+      "reference": "PW83EwE",
+      "language": "jp",
+      "number": "S.2.26",
+      "destination": "subsubsection.supp.2.26",
+      "full_page": 853,
+      "supplement_page": 401,
+      "printed_page": "853"
+    },
+    {
+      "source": 26,
+      "reference": "PW83EwE",
+      "language": "en",
+      "number": "S.2.26",
+      "destination": "subsubsection.supp.2.26",
+      "full_page": 1017,
+      "supplement_page": 501,
+      "printed_page": "1017"
+    },
+    {
+      "source": 27,
+      "reference": "Bom87CS",
+      "language": "jp",
+      "number": "S.2.27",
+      "destination": "subsubsection.supp.2.27",
+      "full_page": 866,
+      "supplement_page": 414,
+      "printed_page": "866"
+    },
+    {
+      "source": 27,
+      "reference": "Bom87CS",
+      "language": "en",
+      "number": "S.2.27",
+      "destination": "subsubsection.supp.2.27",
+      "full_page": 1032,
+      "supplement_page": 516,
+      "printed_page": "1032"
+    },
+    {
+      "source": 28,
+      "reference": "Wei89CCP",
+      "language": "jp",
+      "number": "S.2.28",
+      "destination": "subsubsection.supp.2.28",
+      "full_page": 876,
+      "supplement_page": 424,
+      "printed_page": "876"
+    },
+    {
+      "source": 28,
+      "reference": "Wei89CCP",
+      "language": "en",
+      "number": "S.2.28",
+      "destination": "subsubsection.supp.2.28",
+      "full_page": 1045,
+      "supplement_page": 529,
+      "printed_page": "1045"
+    },
+    {
+      "source": 29,
+      "reference": "Ish93POT",
+      "language": "jp",
+      "number": "S.2.29",
+      "destination": "subsubsection.supp.2.29",
+      "full_page": 890,
+      "supplement_page": 438,
+      "printed_page": "890"
+    },
+    {
+      "source": 29,
+      "reference": "Ish93POT",
+      "language": "en",
+      "number": "S.2.29",
+      "destination": "subsubsection.supp.2.29",
+      "full_page": 1062,
+      "supplement_page": 546,
+      "printed_page": "1062"
+    },
+    {
+      "source": 30,
+      "reference": "Kuc92TIQG",
+      "language": "jp",
+      "number": "S.2.30",
+      "destination": "subsubsection.supp.2.30",
+      "full_page": 910,
+      "supplement_page": 458,
+      "printed_page": "910"
+    },
+    {
+      "source": 30,
+      "reference": "Kuc92TIQG",
+      "language": "en",
+      "number": "S.2.30",
+      "destination": "subsubsection.supp.2.30",
+      "full_page": 1087,
+      "supplement_page": 571,
+      "printed_page": "1087"
+    },
+    {
+      "source": 31,
+      "reference": "Leb93ETA",
+      "language": "jp",
+      "number": "S.2.31",
+      "destination": "subsubsection.supp.2.31",
+      "full_page": 931,
+      "supplement_page": 479,
+      "printed_page": "931"
+    },
+    {
+      "source": 31,
+      "reference": "Leb93ETA",
+      "language": "en",
+      "number": "S.2.31",
+      "destination": "subsubsection.supp.2.31",
+      "full_page": 1114,
+      "supplement_page": 598,
+      "printed_page": "1114"
+    },
+    {
+      "source": 32,
+      "reference": "Pag93IBH",
+      "language": "jp",
+      "number": "S.2.32",
+      "destination": "subsubsection.supp.2.32",
+      "full_page": 947,
+      "supplement_page": 495,
+      "printed_page": "947"
+    },
+    {
+      "source": 32,
+      "reference": "Pag93IBH",
+      "language": "en",
+      "number": "S.2.32",
+      "destination": "subsubsection.supp.2.32",
+      "full_page": 1133,
+      "supplement_page": 617,
+      "printed_page": "1133"
+    },
+    {
+      "source": 33,
+      "reference": "Bar94TQ1",
+      "language": "jp",
+      "number": "S.2.33",
+      "destination": "subsubsection.supp.2.33",
+      "full_page": 959,
+      "supplement_page": 507,
+      "printed_page": "959"
+    },
+    {
+      "source": 33,
+      "reference": "Bar94TQ1",
+      "language": "en",
+      "number": "S.2.33",
+      "destination": "subsubsection.supp.2.33",
+      "full_page": 1149,
+      "supplement_page": 633,
+      "printed_page": "1149"
+    },
+    {
+      "source": 34,
+      "reference": "Bar94TQ2",
+      "language": "jp",
+      "number": "S.2.34",
+      "destination": "subsubsection.supp.2.34",
+      "full_page": 972,
+      "supplement_page": 520,
+      "printed_page": "972"
+    },
+    {
+      "source": 34,
+      "reference": "Bar94TQ2",
+      "language": "en",
+      "number": "S.2.34",
+      "destination": "subsubsection.supp.2.34",
+      "full_page": 1165,
+      "supplement_page": 649,
+      "printed_page": "1165"
+    },
+    {
+      "source": 35,
+      "reference": "CR94TT",
+      "language": "jp",
+      "number": "S.2.35",
+      "destination": "subsubsection.supp.2.35",
+      "full_page": 985,
+      "supplement_page": 533,
+      "printed_page": "985"
+    },
+    {
+      "source": 35,
+      "reference": "CR94TT",
+      "language": "en",
+      "number": "S.2.35",
+      "destination": "subsubsection.supp.2.35",
+      "full_page": 1180,
+      "supplement_page": 664,
+      "printed_page": "1180"
+    },
+    {
+      "source": 36,
+      "reference": "NISTSP905",
+      "language": "jp",
+      "number": "S.2.36",
+      "destination": "subsubsection.supp.2.36",
+      "full_page": 999,
+      "supplement_page": 547,
+      "printed_page": "999"
+    },
+    {
+      "source": 36,
+      "reference": "NISTSP905",
+      "language": "en",
+      "number": "S.2.36",
+      "destination": "subsubsection.supp.2.36",
+      "full_page": 1197,
+      "supplement_page": 681,
+      "printed_page": "1197"
+    },
+    {
+      "source": 37,
+      "reference": "Mal98LN",
+      "language": "jp",
+      "number": "S.2.37",
+      "destination": "subsubsection.supp.2.37",
+      "full_page": 1007,
+      "supplement_page": 555,
+      "printed_page": "1007"
+    },
+    {
+      "source": 37,
+      "reference": "Mal98LN",
+      "language": "en",
+      "number": "S.2.37",
+      "destination": "subsubsection.supp.2.37",
+      "full_page": 1207,
+      "supplement_page": 691,
+      "printed_page": "1207"
+    },
+    {
+      "source": 38,
+      "reference": "Per99OL",
+      "language": "jp",
+      "number": "S.2.38",
+      "destination": "subsubsection.supp.2.38",
+      "full_page": 1021,
+      "supplement_page": 569,
+      "printed_page": "1021"
+    },
+    {
+      "source": 38,
+      "reference": "Per99OL",
+      "language": "en",
+      "number": "S.2.38",
+      "destination": "subsubsection.supp.2.38",
+      "full_page": 1223,
+      "supplement_page": 707,
+      "printed_page": "1223"
+    },
+    {
+      "source": 39,
+      "reference": "Rie98OE",
+      "language": "jp",
+      "number": "S.2.39",
+      "destination": "subsubsection.supp.2.39",
+      "full_page": 1033,
+      "supplement_page": 581,
+      "printed_page": "1033"
+    },
+    {
+      "source": 39,
+      "reference": "Rie98OE",
+      "language": "en",
+      "number": "S.2.39",
+      "destination": "subsubsection.supp.2.39",
+      "full_page": 1237,
+      "supplement_page": 721,
+      "printed_page": "1237"
+    },
+    {
+      "source": 40,
+      "reference": "Adl03MP",
+      "language": "jp",
+      "number": "S.2.40",
+      "destination": "subsubsection.supp.2.40",
+      "full_page": 1045,
+      "supplement_page": 593,
+      "printed_page": "1045"
+    },
+    {
+      "source": 40,
+      "reference": "Adl03MP",
+      "language": "en",
+      "number": "S.2.40",
+      "destination": "subsubsection.supp.2.40",
+      "full_page": 1252,
+      "supplement_page": 736,
+      "printed_page": "1252"
+    },
+    {
+      "source": 41,
+      "reference": "And01DW",
+      "language": "jp",
+      "number": "S.2.41",
+      "destination": "subsubsection.supp.2.41",
+      "full_page": 1056,
+      "supplement_page": 604,
+      "printed_page": "1056"
+    },
+    {
+      "source": 41,
+      "reference": "And01DW",
+      "language": "en",
+      "number": "S.2.41",
+      "destination": "subsubsection.supp.2.41",
+      "full_page": 1265,
+      "supplement_page": 749,
+      "printed_page": "1265"
+    },
+    {
+      "source": 42,
+      "reference": "NISTSP958",
+      "language": "jp",
+      "number": "S.2.42",
+      "destination": "subsubsection.supp.2.42",
+      "full_page": 1065,
+      "supplement_page": 613,
+      "printed_page": "1065"
+    },
+    {
+      "source": 42,
+      "reference": "NISTSP958",
+      "language": "en",
+      "number": "S.2.42",
+      "destination": "subsubsection.supp.2.42",
+      "full_page": 1276,
+      "supplement_page": 760,
+      "printed_page": "1276"
+    },
+    {
+      "source": 43,
+      "reference": "Rov02PO",
+      "language": "jp",
+      "number": "S.2.43",
+      "destination": "subsubsection.supp.2.43",
+      "full_page": 1074,
+      "supplement_page": 622,
+      "printed_page": "1074"
+    },
+    {
+      "source": 43,
+      "reference": "Rov02PO",
+      "language": "en",
+      "number": "S.2.43",
+      "destination": "subsubsection.supp.2.43",
+      "full_page": 1287,
+      "supplement_page": 771,
+      "printed_page": "1287"
+    },
+    {
+      "source": 44,
+      "reference": "Zur03DEQ",
+      "language": "jp",
+      "number": "S.2.44",
+      "destination": "subsubsection.supp.2.44",
+      "full_page": 1086,
+      "supplement_page": 634,
+      "printed_page": "1086"
+    },
+    {
+      "source": 44,
+      "reference": "Zur03DEQ",
+      "language": "en",
+      "number": "S.2.44",
+      "destination": "subsubsection.supp.2.44",
+      "full_page": 1302,
+      "supplement_page": 786,
+      "printed_page": "1302"
+    },
+    {
+      "source": 45,
+      "reference": "DL04EC",
+      "language": "jp",
+      "number": "S.2.45",
+      "destination": "subsubsection.supp.2.45",
+      "full_page": 1101,
+      "supplement_page": 649,
+      "printed_page": "1101"
+    },
+    {
+      "source": 45,
+      "reference": "DL04EC",
+      "language": "en",
+      "number": "S.2.45",
+      "destination": "subsubsection.supp.2.45",
+      "full_page": 1321,
+      "supplement_page": 805,
+      "printed_page": "1321"
+    },
+    {
+      "source": 46,
+      "reference": "Sch05DMP",
+      "language": "jp",
+      "number": "S.2.46",
+      "destination": "subsubsection.supp.2.46",
+      "full_page": 1113,
+      "supplement_page": 661,
+      "printed_page": "1113"
+    },
+    {
+      "source": 46,
+      "reference": "Sch05DMP",
+      "language": "en",
+      "number": "S.2.46",
+      "destination": "subsubsection.supp.2.46",
+      "full_page": 1335,
+      "supplement_page": 819,
+      "printed_page": "1335"
+    },
+    {
+      "source": 47,
+      "reference": "Kie05QCAT",
+      "language": "jp",
+      "number": "S.2.47",
+      "destination": "subsubsection.supp.2.47",
+      "full_page": 1127,
+      "supplement_page": 675,
+      "printed_page": "1127"
+    },
+    {
+      "source": 47,
+      "reference": "Kie05QCAT",
+      "language": "en",
+      "number": "S.2.47",
+      "destination": "subsubsection.supp.2.47",
+      "full_page": 1352,
+      "supplement_page": 836,
+      "printed_page": "1352"
+    },
+    {
+      "source": 48,
+      "reference": "GE07FE",
+      "language": "jp",
+      "number": "S.2.48",
+      "destination": "subsubsection.supp.2.48",
+      "full_page": 1140,
+      "supplement_page": 688,
+      "printed_page": "1140"
+    },
+    {
+      "source": 48,
+      "reference": "GE07FE",
+      "language": "en",
+      "number": "S.2.48",
+      "destination": "subsubsection.supp.2.48",
+      "full_page": 1368,
+      "supplement_page": 852,
+      "printed_page": "1368"
+    },
+    {
+      "source": 49,
+      "reference": "RT06HE",
+      "language": "jp",
+      "number": "S.2.49",
+      "destination": "subsubsection.supp.2.49",
+      "full_page": 1155,
+      "supplement_page": 703,
+      "printed_page": "1155"
+    },
+    {
+      "source": 49,
+      "reference": "RT06HE",
+      "language": "en",
+      "number": "S.2.49",
+      "destination": "subsubsection.supp.2.49",
+      "full_page": 1384,
+      "supplement_page": 868,
+      "printed_page": "1384"
+    },
+    {
+      "source": 50,
+      "reference": "FBJL07ES",
+      "language": "jp",
+      "number": "S.2.50",
+      "destination": "subsubsection.supp.2.50",
+      "full_page": 1167,
+      "supplement_page": 715,
+      "printed_page": "1167"
+    },
+    {
+      "source": 50,
+      "reference": "FBJL07ES",
+      "language": "en",
+      "number": "S.2.50",
+      "destination": "subsubsection.supp.2.50",
+      "full_page": 1398,
+      "supplement_page": 882,
+      "printed_page": "1398"
+    },
+    {
+      "source": 51,
+      "reference": "CookBurns09Metric",
+      "language": "jp",
+      "number": "S.2.51",
+      "destination": "subsubsection.supp.2.51",
+      "full_page": 1181,
+      "supplement_page": 729,
+      "printed_page": "1181"
+    },
+    {
+      "source": 51,
+      "reference": "CookBurns09Metric",
+      "language": "en",
+      "number": "S.2.51",
+      "destination": "subsubsection.supp.2.51",
+      "full_page": 1415,
+      "supplement_page": 899,
+      "printed_page": "1415"
+    },
+    {
+      "source": 52,
+      "reference": "Pea08ES",
+      "language": "jp",
+      "number": "S.2.52",
+      "destination": "subsubsection.supp.2.52",
+      "full_page": 1194,
+      "supplement_page": 742,
+      "printed_page": "1194"
+    },
+    {
+      "source": 52,
+      "reference": "Pea08ES",
+      "language": "en",
+      "number": "S.2.52",
+      "destination": "subsubsection.supp.2.52",
+      "full_page": 1430,
+      "supplement_page": 914,
+      "printed_page": "1430"
+    },
+    {
+      "source": 53,
+      "reference": "Bun09Red",
+      "language": "jp",
+      "number": "S.2.53",
+      "destination": "subsubsection.supp.2.53",
+      "full_page": 1206,
+      "supplement_page": 754,
+      "printed_page": "1206"
+    },
+    {
+      "source": 53,
+      "reference": "Bun09Red",
+      "language": "en",
+      "number": "S.2.53",
+      "destination": "subsubsection.supp.2.53",
+      "full_page": 1444,
+      "supplement_page": 928,
+      "printed_page": "1444"
+    },
+    {
+      "source": 54,
+      "reference": "Kie09TQG",
+      "language": "jp",
+      "number": "S.2.54",
+      "destination": "subsubsection.supp.2.54",
+      "full_page": 1220,
+      "supplement_page": 768,
+      "printed_page": "1220"
+    },
+    {
+      "source": 54,
+      "reference": "Kie09TQG",
+      "language": "en",
+      "number": "S.2.54",
+      "destination": "subsubsection.supp.2.54",
+      "full_page": 1462,
+      "supplement_page": 946,
+      "printed_page": "1462"
+    },
+    {
+      "source": 55,
+      "reference": "Rov11FT",
+      "language": "jp",
+      "number": "S.2.55",
+      "destination": "subsubsection.supp.2.55",
+      "full_page": 1237,
+      "supplement_page": 785,
+      "printed_page": "1237"
+    },
+    {
+      "source": 55,
+      "reference": "Rov11FT",
+      "language": "en",
+      "number": "S.2.55",
+      "destination": "subsubsection.supp.2.55",
+      "full_page": 1482,
+      "supplement_page": 966,
+      "printed_page": "1482"
+    },
+    {
+      "source": 56,
+      "reference": "VR10BS",
+      "language": "jp",
+      "number": "S.2.56",
+      "destination": "subsubsection.supp.2.56",
+      "full_page": 1248,
+      "supplement_page": 796,
+      "printed_page": "1248"
+    },
+    {
+      "source": 56,
+      "reference": "VR10BS",
+      "language": "en",
+      "number": "S.2.56",
+      "destination": "subsubsection.supp.2.56",
+      "full_page": 1495,
+      "supplement_page": 979,
+      "printed_page": "1495"
+    },
+    {
+      "source": 57,
+      "reference": "Gre11FoC",
+      "language": "jp",
+      "number": "S.2.57",
+      "destination": "subsubsection.supp.2.57",
+      "full_page": 1258,
+      "supplement_page": 806,
+      "printed_page": "1258"
+    },
+    {
+      "source": 57,
+      "reference": "Gre11FoC",
+      "language": "en",
+      "number": "S.2.57",
+      "destination": "subsubsection.supp.2.57",
+      "full_page": 1507,
+      "supplement_page": 991,
+      "printed_page": "1507"
+    },
+    {
+      "source": 58,
+      "reference": "Wolf11CF",
+      "language": "jp",
+      "number": "S.2.58",
+      "destination": "subsubsection.supp.2.58",
+      "full_page": 1268,
+      "supplement_page": 816,
+      "printed_page": "1268"
+    },
+    {
+      "source": 58,
+      "reference": "Wolf11CF",
+      "language": "en",
+      "number": "S.2.58",
+      "destination": "subsubsection.supp.2.58",
+      "full_page": 1519,
+      "supplement_page": 1003,
+      "printed_page": "1519"
+    },
+    {
+      "source": 59,
+      "reference": "And12PT",
+      "language": "jp",
+      "number": "S.2.59",
+      "destination": "subsubsection.supp.2.59",
+      "full_page": 1284,
+      "supplement_page": 832,
+      "printed_page": "1284"
+    },
+    {
+      "source": 59,
+      "reference": "And12PT",
+      "language": "en",
+      "number": "S.2.59",
+      "destination": "subsubsection.supp.2.59",
+      "full_page": 1541,
+      "supplement_page": 1025,
+      "printed_page": "1541"
+    },
+    {
+      "source": 60,
+      "reference": "Ell12PT",
+      "language": "jp",
+      "number": "S.2.60",
+      "destination": "subsubsection.supp.2.60",
+      "full_page": 1297,
+      "supplement_page": 845,
+      "printed_page": "1297"
+    },
+    {
+      "source": 60,
+      "reference": "Ell12PT",
+      "language": "en",
+      "number": "S.2.60",
+      "destination": "subsubsection.supp.2.60",
+      "full_page": 1556,
+      "supplement_page": 1040,
+      "printed_page": "1556"
+    },
+    {
+      "source": 61,
+      "reference": "Ton13DR",
+      "language": "jp",
+      "number": "S.2.61",
+      "destination": "subsubsection.supp.2.61",
+      "full_page": 1311,
+      "supplement_page": 859,
+      "printed_page": "1311"
+    },
+    {
+      "source": 61,
+      "reference": "Ton13DR",
+      "language": "en",
+      "number": "S.2.61",
+      "destination": "subsubsection.supp.2.61",
+      "full_page": 1574,
+      "supplement_page": 1058,
+      "printed_page": "1574"
+    },
+    {
+      "source": 62,
+      "reference": "Lew16RR",
+      "language": "jp",
+      "number": "S.2.62",
+      "destination": "subsubsection.supp.2.62",
+      "full_page": 1321,
+      "supplement_page": 869,
+      "printed_page": "1321"
+    },
+    {
+      "source": 62,
+      "reference": "Lew16RR",
+      "language": "en",
+      "number": "S.2.62",
+      "destination": "subsubsection.supp.2.62",
+      "full_page": 1586,
+      "supplement_page": 1070,
+      "printed_page": "1586"
+    },
+    {
+      "source": 63,
+      "reference": "Smo18TR",
+      "language": "jp",
+      "number": "S.2.63",
+      "destination": "subsubsection.supp.2.63",
+      "full_page": 1329,
+      "supplement_page": 877,
+      "printed_page": "1329"
+    },
+    {
+      "source": 63,
+      "reference": "Smo18TR",
+      "language": "en",
+      "number": "S.2.63",
+      "destination": "subsubsection.supp.2.63",
+      "full_page": 1596,
+      "supplement_page": 1080,
+      "printed_page": "1596"
+    },
+    {
+      "source": 64,
+      "reference": "BIPM19SI",
+      "language": "jp",
+      "number": "S.2.64",
+      "destination": "subsubsection.supp.2.64",
+      "full_page": 1344,
+      "supplement_page": 892,
+      "printed_page": "1344"
+    },
+    {
+      "source": 64,
+      "reference": "BIPM19SI",
+      "language": "en",
+      "number": "S.2.64",
+      "destination": "subsubsection.supp.2.64",
+      "full_page": 1614,
+      "supplement_page": 1098,
+      "printed_page": "1614"
+    },
+    {
+      "source": 65,
+      "reference": "ESA19CGR",
+      "language": "jp",
+      "number": "S.2.65",
+      "destination": "subsubsection.supp.2.65",
+      "full_page": 1359,
+      "supplement_page": 907,
+      "printed_page": "1359"
+    },
+    {
+      "source": 65,
+      "reference": "ESA19CGR",
+      "language": "en",
+      "number": "S.2.65",
+      "destination": "subsubsection.supp.2.65",
+      "full_page": 1631,
+      "supplement_page": 1115,
+      "printed_page": "1631"
+    },
+    {
+      "source": 66,
+      "reference": "NASA20TT",
+      "language": "jp",
+      "number": "S.2.66",
+      "destination": "subsubsection.supp.2.66",
+      "full_page": 1369,
+      "supplement_page": 917,
+      "printed_page": "1369"
+    },
+    {
+      "source": 66,
+      "reference": "NASA20TT",
+      "language": "en",
+      "number": "S.2.66",
+      "destination": "subsubsection.supp.2.66",
+      "full_page": 1645,
+      "supplement_page": 1129,
+      "printed_page": "1645"
+    },
+    {
+      "source": 67,
+      "reference": "Poe21LC",
+      "language": "jp",
+      "number": "S.2.67",
+      "destination": "subsubsection.supp.2.67",
+      "full_page": 1381,
+      "supplement_page": 929,
+      "printed_page": "1381"
+    },
+    {
+      "source": 67,
+      "reference": "Poe21LC",
+      "language": "en",
+      "number": "S.2.67",
+      "destination": "subsubsection.supp.2.67",
+      "full_page": 1659,
+      "supplement_page": 1143,
+      "printed_page": "1659"
+    },
+    {
+      "source": 68,
+      "reference": "PDG23Res",
+      "language": "jp",
+      "number": "S.2.68",
+      "destination": "subsubsection.supp.2.68",
+      "full_page": 1392,
+      "supplement_page": 940,
+      "printed_page": "1392"
+    },
+    {
+      "source": 68,
+      "reference": "PDG23Res",
+      "language": "en",
+      "number": "S.2.68",
+      "destination": "subsubsection.supp.2.68",
+      "full_page": 1673,
+      "supplement_page": 1157,
+      "printed_page": "1673"
+    },
+    {
+      "source": 69,
+      "reference": "NIST25E",
+      "language": "jp",
+      "number": "S.2.69",
+      "destination": "subsubsection.supp.2.69",
+      "full_page": 1400,
+      "supplement_page": 948,
+      "printed_page": "1400"
+    },
+    {
+      "source": 69,
+      "reference": "NIST25E",
+      "language": "en",
+      "number": "S.2.69",
+      "destination": "subsubsection.supp.2.69",
+      "full_page": 1683,
+      "supplement_page": 1167,
+      "printed_page": "1683"
+    },
+    {
+      "source": 70,
+      "reference": "Fey95LG",
+      "language": "jp",
+      "number": "S.2.70",
+      "destination": "subsubsection.supp.2.70",
+      "full_page": 1413,
+      "supplement_page": 961,
+      "printed_page": "1413"
+    },
+    {
+      "source": 70,
+      "reference": "Fey95LG",
+      "language": "en",
+      "number": "S.2.70",
+      "destination": "subsubsection.supp.2.70",
+      "full_page": 1700,
+      "supplement_page": 1184,
+      "printed_page": "1700"
+    },
+    {
+      "source": 71,
+      "reference": "Nar10IR",
+      "language": "jp",
+      "number": "S.2.71",
+      "destination": "subsubsection.supp.2.71",
+      "full_page": 1424,
+      "supplement_page": 972,
+      "printed_page": "1424"
+    },
+    {
+      "source": 71,
+      "reference": "Nar10IR",
+      "language": "en",
+      "number": "S.2.71",
+      "destination": "subsubsection.supp.2.71",
+      "full_page": 1713,
+      "supplement_page": 1197,
+      "printed_page": "1713"
+    },
+    {
+      "source": 72,
+      "reference": "Hei58PP",
+      "language": "jp",
+      "number": "S.2.72",
+      "destination": "subsubsection.supp.2.72",
+      "full_page": 1432,
+      "supplement_page": 980,
+      "printed_page": "1432"
+    },
+    {
+      "source": 72,
+      "reference": "Hei58PP",
+      "language": "en",
+      "number": "S.2.72",
+      "destination": "subsubsection.supp.2.72",
+      "full_page": 1723,
+      "supplement_page": 1207,
+      "printed_page": "1723"
+    }
+  ],
+  "old_appendix_reference_matches": [],
+  "pdf_link_checks": [
+    {
+      "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+      "links": {
+        "other": 4262
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_jp.pdf",
+      "links": {
+        "other": 2911
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_jp.pdf",
+      "links": {
+        "other": 1361
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_supp_full_en.pdf",
+      "links": {
+        "other": 4262
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_en.pdf",
+      "links": {
+        "other": 2911
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_en.pdf",
+      "links": {
+        "other": 1361
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_jp.pdf",
+      "links": {
+        "other": 6
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_en.pdf",
+      "links": {
+        "other": 6
+      },
+      "accepted": true
+    }
+  ],
+  "scope": "PDF binding and numbering checks; preserves existing native execution evidence."
+}

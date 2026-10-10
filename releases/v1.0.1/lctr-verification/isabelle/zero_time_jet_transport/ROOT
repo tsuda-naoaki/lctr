@@ -1,0 +1,4 @@
+session LCTR_Zero_Time_Jet_Transport = LCTR_Value_Jet_Lift_Algebra +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Time_Jet_Changes
+  theories Zero_Time_Jet_Transport

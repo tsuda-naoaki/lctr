@@ -1,0 +1,15 @@
+'LCTR.FactorizationBridgeV1.restrictedProjection_surjective' does not depend on any axioms
+'LCTR.FactorizationBridgeV1.scalar_time_trajectory_factorization_adapter' depends on axioms: [Classical.choice,
+ Quot.sound]
+'LCTR.FactorizationBridgeV1.selectedOrderTrajectory_factorization' depends on axioms: [Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.selectedOrderTrajectory_unique' depends on axioms: [Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.rho_injective_from_ordEmbSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.restrictedEmbedding_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.realImageInverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.realImageInverse_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.canonical_observable_time_factorization_adapter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.FactorizationBridgeV1.empty_canonical_carrier_supported' depends on axioms: [Classical.choice, Quot.sound]
+'LCTR.FactorizationBridgeV1.Negative.no_factor_without_equality_kernel' does not depend on any axioms
+'LCTR.FactorizationBridgeV1.Negative.no_left_inverse_without_embedding_injectivity' does not depend on any axioms

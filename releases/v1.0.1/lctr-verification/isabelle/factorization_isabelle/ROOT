@@ -1,0 +1,3 @@
+session LCTR_Factorization_Isabelle = HOL +
+  theories
+    Factorization_Isabelle

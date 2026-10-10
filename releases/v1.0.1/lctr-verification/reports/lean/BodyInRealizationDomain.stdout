@@ -1,0 +1,3 @@
+lean/BodyInRealizationDomain.lean:8:13: error: Tactic `decide` proved that the proposition
+  Role.body ≠ Role.body
+is false

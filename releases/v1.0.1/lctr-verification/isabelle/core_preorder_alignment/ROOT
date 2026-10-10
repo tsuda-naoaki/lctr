@@ -1,0 +1,4 @@
+session LCTR_Core_Preorder_Alignment = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_preorder_quotient"
+  theories Core_Preorder_Alignment

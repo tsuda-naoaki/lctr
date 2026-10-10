@@ -1,0 +1,63 @@
+namespace https://tsuda-naoaki.github.io/lctr/verification/law-candidate ❚
+theory LawCandidate : http://cds.omdoc.org/urtheories?LF =
+prop : type ❙
+conj : prop ⟶ prop ⟶ prop ❙
+impl : prop ⟶ prop ⟶ prop ❙
+iff : prop ⟶ prop ⟶ prop ❙
+LawDatum : type ❙
+Index : LawDatum ⟶ type ❙
+Time : LawDatum ⟶ type ❙
+InVal : {d:LawDatum} Index d ⟶ type ❙
+OutVal : {d:LawDatum} Index d ⟶ type ❙
+RawEvalPoint : {d:LawDatum} Index d ⟶ type ❙
+mkRawEval : {d:LawDatum} {a:Index d} Time d ⟶ InVal d a ⟶ RawEvalPoint d a ❙
+EvalDom : {d:LawDatum} {a:Index d} RawEvalPoint d a ⟶ prop ❙
+evalSubtype : {d:LawDatum} {a:Index d} (RawEvalPoint d a ⟶ prop) ⟶ type ❙
+evalValue : {d:LawDatum} {a:Index d} {p:RawEvalPoint d a ⟶ prop} evalSubtype d a p ⟶ RawEvalPoint d a ❙
+EvalPoint : {d:LawDatum} Index d ⟶ type ❘ = [d:LawDatum] [a:Index d]
+  evalSubtype d a (EvalDom d a) ❙
+rawPoint : {d:LawDatum} {a:Index d} EvalPoint d a ⟶ RawEvalPoint d a ❘ =
+  [d:LawDatum] [a:Index d] evalValue d a (EvalDom d a) ❙
+allDatum : (LawDatum ⟶ prop) ⟶ prop ❙
+allIndex : {d:LawDatum} (Index d ⟶ prop) ⟶ prop ❙
+allEval : {d:LawDatum} {a:Index d} (EvalPoint d a ⟶ prop) ⟶ prop ❙
+allOut : {d:LawDatum} {a:Index d} (OutVal d a ⟶ prop) ⟶ prop ❙
+exOut : {d:LawDatum} {a:Index d} (OutVal d a ⟶ prop) ⟶ prop ❙
+eqEval : {d:LawDatum} {a:Index d} EvalPoint d a ⟶ EvalPoint d a ⟶ prop ❙
+eqOut : {d:LawDatum} {a:Index d} OutVal d a ⟶ OutVal d a ⟶ prop ❙
+CandRel : {d:LawDatum} {a:Index d} EvalPoint d a ⟶ OutVal d a ⟶ prop ❙
+RightUnique : {d:LawDatum} Index d ⟶ prop ❘ = [d:LawDatum] [a:Index d]
+  allEval d a [x:EvalPoint d a] allOut d a [y:OutVal d a] allOut d a [z:OutVal d a]
+    impl (conj (CandRel d a x y) (CandRel d a x z)) (eqOut d a y z) ❙
+FamilyRightUnique : LawDatum ⟶ prop ❘ = [d:LawDatum]
+  allIndex d [a:Index d] RightUnique d a ❙
+domainSubtype : {d:LawDatum} {a:Index d} (EvalPoint d a ⟶ prop) ⟶ type ❙
+domainValue : {d:LawDatum} {a:Index d} {p:EvalPoint d a ⟶ prop} domainSubtype d a p ⟶ EvalPoint d a ❙
+DomainPredicate : {d:LawDatum} {a:Index d} EvalPoint d a ⟶ prop ❘ =
+  [d:LawDatum] [a:Index d] [x:EvalPoint d a] exOut d a [y:OutVal d a] CandRel d a x y ❙
+LawDom : {d:LawDatum} Index d ⟶ type ❘ = [d:LawDatum] [a:Index d]
+  domainSubtype d a (DomainPredicate d a) ❙
+domVal : {d:LawDatum} {a:Index d} LawDom d a ⟶ EvalPoint d a ❘ =
+  [d:LawDatum] [a:Index d] domainValue d a (DomainPredicate d a) ❙
+allDom : {d:LawDatum} {a:Index d} (LawDom d a ⟶ prop) ⟶ prop ❙
+exDom : {d:LawDatum} {a:Index d} (LawDom d a ⟶ prop) ⟶ prop ❙
+OutMap : {d:LawDatum} Index d ⟶ type ❘ = [d:LawDatum] [a:Index d]
+  LawDom d a ⟶ OutVal d a ❙
+allMap : {d:LawDatum} {a:Index d} (OutMap d a ⟶ prop) ⟶ prop ❙
+exMap : {d:LawDatum} {a:Index d} (OutMap d a ⟶ prop) ⟶ prop ❙
+GraphEquality : {d:LawDatum} {a:Index d} OutMap d a ⟶ prop ❘ =
+  [d:LawDatum] [a:Index d] [f:OutMap d a]
+  allEval d a [x:EvalPoint d a] allOut d a [y:OutVal d a]
+  iff (CandRel d a x y)
+    (exDom d a [q:LawDom d a] conj (eqEval d a (domVal d a q) x) (eqOut d a (f q) y)) ❙
+MapEquality : {d:LawDatum} {a:Index d} OutMap d a ⟶ OutMap d a ⟶ prop ❘ =
+  [d:LawDatum] [a:Index d] [f:OutMap d a] [g:OutMap d a]
+  allDom d a [q:LawDom d a] eqOut d a (f q) (g q) ❙
+UniqueGraph : {d:LawDatum} {a:Index d} OutMap d a ⟶ prop ❘ =
+  [d:LawDatum] [a:Index d] [f:OutMap d a]
+  conj (GraphEquality d a f)
+    (allMap d a [g:OutMap d a] impl (GraphEquality d a g) (MapEquality d a f g)) ❙
+PaperStatement : prop ❘ = allDatum [d:LawDatum]
+  impl (FamilyRightUnique d) (allIndex d [a:Index d] exMap d a [f:OutMap d a] UniqueGraph d a f) ❙
+bad : {d:LawDatum}{a:Index d} OutMap d a ⟶ InVal d a ⟶ OutVal d a ❘ = [d:LawDatum][a:Index d][f:OutMap d a][x:InVal d a] f x ❙
+❚

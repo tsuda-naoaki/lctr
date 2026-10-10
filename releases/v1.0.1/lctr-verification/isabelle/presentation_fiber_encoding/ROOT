@@ -1,0 +1,3 @@
+session LCTR_Presentation_Fiber_Encoding = HOL +
+  options [quick_and_dirty = false]
+  theories Presentation_Fiber_Encoding

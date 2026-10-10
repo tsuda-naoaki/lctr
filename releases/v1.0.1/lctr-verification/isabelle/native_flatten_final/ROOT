@@ -1,0 +1,4 @@
+session LCTR_Native_Flatten_Final = LCTR_Native_Coordinate_Linear +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Linear_Retraction_Derivatives LCTR_Carrier_Jet_Transport
+  theories Native_Flatten_Final

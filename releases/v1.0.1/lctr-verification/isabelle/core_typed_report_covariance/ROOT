@@ -1,0 +1,8 @@
+session LCTR_Core_Typed_Report_Covariance = HOL +
+  options [quick_and_dirty = false]
+  directories "../support/core_finite_audit" "../core_audit_state_transport"
+    "../core_audit_groups" "../core_audit_tags"
+    "../core_structural_burden" "../core_audit_report"
+    "../core_audit_data" "../core_report_covariance"
+    "../support/core_report_equivalences"
+  theories Core_Typed_Report_Covariance

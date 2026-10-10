@@ -1,0 +1,4 @@
+session LCTR_Core_Exact_Completion = LCTR_Core_Exact_Structure +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Comparison_Stage
+  theories Core_Exact_Completion

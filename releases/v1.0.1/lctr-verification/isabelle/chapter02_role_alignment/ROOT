@@ -1,0 +1,3 @@
+session LCTR_Chapter02_Role_Alignment = LCTR_Core_Carrier_Patterns +
+  options [document = false, quick_and_dirty = false]
+  theories Chapter02_Role_Alignment

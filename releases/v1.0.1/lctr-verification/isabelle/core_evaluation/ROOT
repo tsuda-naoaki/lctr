@@ -1,0 +1,3 @@
+session LCTR_Core_Evaluation = LCTR_Core_Dag_Recursion +
+  options [document = false]
+  theories Core_Evaluation

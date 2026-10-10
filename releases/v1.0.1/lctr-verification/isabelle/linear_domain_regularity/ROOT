@@ -1,0 +1,3 @@
+session LCTR_Linear_Domain_Regularity = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  theories Linear_Domain_Regularity

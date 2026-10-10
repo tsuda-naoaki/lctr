@@ -1,0 +1,13 @@
+user: 'file reports/runs/namespace check/mmt/wrong_output_index/run.msl '
+  user: 'log console'
+  user: 'log console' finished
+  user: 'mathpath archive tools/mmt'
+    user: opened archive tools/mmt/urtheories
+  user: 'mathpath archive tools/mmt' finished
+  user: 'mathpath archive reports/runs/namespace check/mmt/wrong_output_index'
+    user: opened archive reports/runs/namespace check/mmt/wrong_output_index
+  user: 'mathpath archive reports/runs/namespace check/mmt/wrong_output_index' finished
+  user: 'build lctr-law-semantic-wrong_output_index mmt-omdoc test.mmt'
+          error: (error) [34;103minvalid unit: https://tsuda-naoaki.github.io/lctr/verification/law-candidate?LawCandidate?bad?definition: Judgment   |--  [d:LawDatum][a:Index d][b:Index d][f:OutMap d a][x:LawDom d a]f x  ::  {d:LawDatum}{a:Index d}{b:Index d}OutMap d a⟶LawDom d a⟶OutVal d b[0m
+  user: 'build lctr-law-semantic-wrong_output_index mmt-omdoc test.mmt' finished
+  user: 'exit'

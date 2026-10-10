@@ -1,0 +1,4 @@
+session LCTR_Core_Law_Datum_Assembly = LCTR_Core_Native_Law_Components +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Law_Readiness
+  theories Core_Law_Datum_Assembly

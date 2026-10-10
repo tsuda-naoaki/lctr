@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+  <OMA>
+    <OMS cd="lctr_law_audit1" name="typed_map"/>
+    <OMA>
+      <OMS cd="lctr_law_audit1" name="candidate_relation_output_map"/>
+      <OMV name="a"/><OMV name="LawDat"/>
+    </OMA>
+    <OMA>
+      <OMS cd="lctr_law_audit1" name="candidate_relation_domain"/>
+      <OMV name="a"/><OMV name="LawDat"/>
+    </OMA>
+    <OMA>
+      <OMS cd="lctr_law_audit1" name="output_value_space"/>
+      <OMA>
+        <OMS cd="lctr_law_audit1" name="index"/>
+        <OMV name="LawDat"/><OMV name="a"/>
+      </OMA>
+    </OMA>
+  </OMA>
+</OMOBJ>

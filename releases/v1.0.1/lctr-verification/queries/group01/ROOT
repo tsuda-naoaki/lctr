@@ -1,0 +1,691 @@
+session LCTR_Metadata_01_001 in "s001" = LCTR_Chapter02_Role_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_001
+
+session LCTR_Metadata_01_002 in "s002" = LCTR_Core_Affine_Frequency +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_002
+
+session LCTR_Metadata_01_003 in "s003" = LCTR_Core_Affine_Order_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_003
+
+session LCTR_Metadata_01_004 in "s004" = LCTR_Core_Affine_Realization +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_004
+
+session LCTR_Metadata_01_005 in "s005" = LCTR_Core_Approximate_Boundary +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_005
+
+session LCTR_Metadata_01_006 in "s006" = LCTR_Core_Audit_State_Transport +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_006
+
+session LCTR_Metadata_01_007 in "s007" = LCTR_Core_Burden_Comparison +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_007
+
+session LCTR_Metadata_01_008 in "s008" = LCTR_Core_Carrier_Patterns +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_008
+
+session LCTR_Metadata_01_009 in "s009" = LCTR_Core_Chart_Overlaps +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_009
+
+session LCTR_Metadata_01_010 in "s010" = LCTR_Core_Comparison_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_010
+
+session LCTR_Metadata_01_011 in "s011" = LCTR_Core_Comparison_Definition_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_011
+
+session LCTR_Metadata_01_012 in "s012" = LCTR_Core_Comparison_Failure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_012
+
+session LCTR_Metadata_01_013 in "s013" = LCTR_Core_Comparison_Failure_Witnesses +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_013
+
+session LCTR_Metadata_01_014 in "s014" = LCTR_Core_Comparison_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_014
+
+session LCTR_Metadata_01_015 in "s015" = LCTR_Core_Comparison_Scope +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_015
+
+session LCTR_Metadata_01_016 in "s016" = LCTR_Core_Comparison_Stage +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_016
+
+session LCTR_Metadata_01_017 in "s017" = LCTR_Core_Configuration_Comparison +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_017
+
+session LCTR_Metadata_01_018 in "s018" = LCTR_Core_Configuration_Dynamics +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_018
+
+session LCTR_Metadata_01_019 in "s019" = LCTR_Core_Configuration_Observer_Time +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_019
+
+session LCTR_Metadata_01_020 in "s020" = LCTR_Core_Configuration_Order +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_020
+
+session LCTR_Metadata_01_021 in "s021" = LCTR_Core_Continuum_Boundary_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_021
+
+session LCTR_Metadata_01_022 in "s022" = LCTR_Core_Continuum_Datum +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_022
+
+session LCTR_Metadata_01_023 in "s023" = LCTR_Core_Continuum_Encoding_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_023
+
+session LCTR_Metadata_01_024 in "s024" = LCTR_Core_Continuum_Failure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_024
+
+session LCTR_Metadata_01_025 in "s025" = LCTR_Core_Continuum_Input +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_025
+
+session LCTR_Metadata_01_026 in "s026" = LCTR_Core_Continuum_Integration_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_026
+
+session LCTR_Metadata_01_027 in "s027" = LCTR_Core_Continuum_Native_Cells +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_027
+
+session LCTR_Metadata_01_028 in "s028" = LCTR_Core_Continuum_Native_Records_Aligned +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_028
+
+session LCTR_Metadata_01_029 in "s029" = LCTR_Core_Continuum_Source_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_029
+
+session LCTR_Metadata_01_030 in "s030" = LCTR_Core_Continuum_Topology_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_030
+
+session LCTR_Metadata_01_031 in "s031" = LCTR_Core_Countable_Chart_Boundary +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_031
+
+session LCTR_Metadata_01_032 in "s032" = LCTR_Core_Cycle_Count_Input +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_032
+
+session LCTR_Metadata_01_033 in "s033" = LCTR_Core_Detector_Source_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_033
+
+session LCTR_Metadata_01_034 in "s034" = LCTR_Core_Differential_Execution +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_034
+
+session LCTR_Metadata_01_035 in "s035" = LCTR_Core_Differential_Output +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_035
+
+session LCTR_Metadata_01_036 in "s036" = LCTR_Core_Differential_Refinement +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_036
+
+session LCTR_Metadata_01_037 in "s037" = LCTR_Core_Differential_Selected +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_037
+
+session LCTR_Metadata_01_038 in "s038" = LCTR_Core_Differential_Tokens +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_038
+
+session LCTR_Metadata_01_039 in "s039" = LCTR_Core_Dynamic_Master +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_039
+
+session LCTR_Metadata_01_040 in "s040" = LCTR_Core_Dynamics_Bundle +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_040
+
+session LCTR_Metadata_01_041 in "s041" = LCTR_Core_Dynamics_Execution +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_041
+
+session LCTR_Metadata_01_042 in "s042" = LCTR_Core_Dynamics_Factors_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_042
+
+session LCTR_Metadata_01_043 in "s043" = LCTR_Core_Dynamics_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_043
+
+session LCTR_Metadata_01_044 in "s044" = LCTR_Core_Dynamics_Recovery_Data +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_044
+
+session LCTR_Metadata_01_045 in "s045" = LCTR_Core_Dynamics_Stage_Interface +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_045
+
+session LCTR_Metadata_01_046 in "s046" = LCTR_Core_Dynamics_Tokens +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_046
+
+session LCTR_Metadata_01_047 in "s047" = LCTR_Core_Engineering_Effects +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_047
+
+session LCTR_Metadata_01_048 in "s048" = LCTR_Core_Engineering_Evidence +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_048
+
+session LCTR_Metadata_01_049 in "s049" = LCTR_Core_Evaluation_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_049
+
+session LCTR_Metadata_01_050 in "s050" = LCTR_Core_Exact_Completion +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_050
+
+session LCTR_Metadata_01_051 in "s051" = LCTR_Core_Exact_Input_Assembly +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_051
+
+session LCTR_Metadata_01_052 in "s052" = LCTR_Core_Exact_Structure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_052
+
+session LCTR_Metadata_01_053 in "s053" = LCTR_Core_External_Time_Uses +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_053
+
+session LCTR_Metadata_01_054 in "s054" = LCTR_Core_Failure_Multiplicity +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_054
+
+session LCTR_Metadata_01_055 in "s055" = LCTR_Core_Finite_Audit +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_055
+
+session LCTR_Metadata_01_056 in "s056" = LCTR_Core_Finite_Class_Witness +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_056
+
+session LCTR_Metadata_01_057 in "s057" = LCTR_Core_Finite_Jets_Vector +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_057
+
+session LCTR_Metadata_01_058 in "s058" = LCTR_Core_Finite_Mixed_Reduction +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_058
+
+session LCTR_Metadata_01_059 in "s059" = LCTR_Core_Finite_Partitions_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_059
+
+session LCTR_Metadata_01_060 in "s060" = LCTR_Core_Finite_Report_Components +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_060
+
+session LCTR_Metadata_01_061 in "s061" = LCTR_Core_Finite_Tuple_Data +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_061
+
+session LCTR_Metadata_01_062 in "s062" = LCTR_Core_First_Failure_Report +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_062
+
+session LCTR_Metadata_01_063 in "s063" = LCTR_Core_Frequency_Windows +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_063
+
+session LCTR_Metadata_01_064 in "s064" = LCTR_Core_Generated_Law_Identity +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_064
+
+session LCTR_Metadata_01_065 in "s065" = LCTR_Core_Indexed_Deletion +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_065
+
+session LCTR_Metadata_01_066 in "s066" = LCTR_Core_Indexed_Native_Deletion +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_066
+
+session LCTR_Metadata_01_067 in "s067" = LCTR_Core_Joint_Condition_Routes +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_067
+
+session LCTR_Metadata_01_068 in "s068" = LCTR_Core_Joint_Descent_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_068
+
+session LCTR_Metadata_01_069 in "s069" = LCTR_Core_Joint_Input_Data +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_069
+
+session LCTR_Metadata_01_070 in "s070" = LCTR_Core_Joint_Law_Evaluation +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_070
+
+session LCTR_Metadata_01_071 in "s071" = LCTR_Core_Joint_Real_Image +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_071
+
+session LCTR_Metadata_01_072 in "s072" = LCTR_Core_Joint_Time +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_072
+
+session LCTR_Metadata_01_073 in "s073" = LCTR_Core_Joint_Time_Seed +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_073
+
+session LCTR_Metadata_01_074 in "s074" = LCTR_Core_Judgment_Boundary +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_074
+
+session LCTR_Metadata_01_075 in "s075" = LCTR_Core_Law_Component_Charts +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_075
+
+session LCTR_Metadata_01_076 in "s076" = LCTR_Core_Law_Countercases +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_076
+
+session LCTR_Metadata_01_077 in "s077" = LCTR_Core_Law_Datum_Assembly +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_077
+
+session LCTR_Metadata_01_078 in "s078" = LCTR_Core_Law_Datum_Transport +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_078
+
+session LCTR_Metadata_01_079 in "s079" = LCTR_Core_Law_Differential_Bundle +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_079
+
+session LCTR_Metadata_01_080 in "s080" = LCTR_Core_Law_Failure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_080
+
+session LCTR_Metadata_01_081 in "s081" = LCTR_Core_Law_Input_Bundle +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_081
+
+session LCTR_Metadata_01_082 in "s082" = LCTR_Core_Law_Readiness +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_082
+
+session LCTR_Metadata_01_083 in "s083" = LCTR_Core_Law_Refinement +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_083
+
+session LCTR_Metadata_01_084 in "s084" = LCTR_Core_Law_State +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_084
+
+session LCTR_Metadata_01_085 in "s085" = LCTR_Core_Law_Transport_Identity +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_085
+
+session LCTR_Metadata_01_086 in "s086" = LCTR_Core_Least_Scale_Lift +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_086
+
+session LCTR_Metadata_01_087 in "s087" = LCTR_Core_Local_Charts +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_087
+
+session LCTR_Metadata_01_088 in "s088" = LCTR_Core_Local_Jet_Membership_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_088
+
+session LCTR_Metadata_01_089 in "s089" = LCTR_Core_Local_Loop_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_089
+
+session LCTR_Metadata_01_090 in "s090" = LCTR_Core_Local_Loop_Realization +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_090
+
+session LCTR_Metadata_01_091 in "s091" = LCTR_Core_Local_Loop_Specification +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_091
+
+session LCTR_Metadata_01_092 in "s092" = LCTR_Core_Localization_Bundle +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_092
+
+session LCTR_Metadata_01_093 in "s093" = LCTR_Core_Native_Charts +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_093
+
+session LCTR_Metadata_01_094 in "s094" = LCTR_Core_Native_Curves +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_094
+
+session LCTR_Metadata_01_095 in "s095" = LCTR_Core_Native_Differential_Predicates +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_095
+
+session LCTR_Metadata_01_096 in "s096" = LCTR_Core_Native_Joint_Jets +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_096
+
+session LCTR_Metadata_01_097 in "s097" = LCTR_Core_Native_Joint_Relation +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_097
+
+session LCTR_Metadata_01_098 in "s098" = LCTR_Core_Native_Law_Components +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_098
+
+session LCTR_Metadata_01_099 in "s099" = LCTR_Core_Native_Law_Failure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_099
+
+session LCTR_Metadata_01_100 in "s100" = LCTR_Core_Native_Law_Family +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_100
+
+session LCTR_Metadata_01_101 in "s101" = LCTR_Core_Native_Law_Generation +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_101
+
+session LCTR_Metadata_01_102 in "s102" = LCTR_Core_Native_Law_Transport +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_102
+
+session LCTR_Metadata_01_103 in "s103" = LCTR_Core_Native_Observables +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_103
+
+session LCTR_Metadata_01_104 in "s104" = LCTR_Core_Native_Specification +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_104
+
+session LCTR_Metadata_01_105 in "s105" = LCTR_Core_Native_State_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_105
+
+session LCTR_Metadata_01_106 in "s106" = LCTR_Core_Native_Time_Conditions +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_106
+
+session LCTR_Metadata_01_107 in "s107" = LCTR_Core_Native_Word_Families +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_107
+
+session LCTR_Metadata_01_108 in "s108" = LCTR_Core_Nonmonotone_Boundary_Data +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_108
+
+session LCTR_Metadata_01_109 in "s109" = LCTR_Core_Observable_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_109
+
+session LCTR_Metadata_01_110 in "s110" = LCTR_Core_Observer_Record_Images +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_110
+
+session LCTR_Metadata_01_111 in "s111" = LCTR_Core_Observer_Time +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_111
+
+session LCTR_Metadata_01_112 in "s112" = LCTR_Core_Operational_Configuration +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_112
+
+session LCTR_Metadata_01_113 in "s113" = LCTR_Core_Order_Atlas +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_113
+
+session LCTR_Metadata_01_114 in "s114" = LCTR_Core_Pair_Input_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_114
+
+session LCTR_Metadata_01_115 in "s115" = LCTR_Core_Pair_Transport_Factorization +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_115
+
+session LCTR_Metadata_01_116 in "s116" = LCTR_Core_Paired_Comparison +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_116
+
+session LCTR_Metadata_01_117 in "s117" = LCTR_Core_Partial_Map_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_117
+
+session LCTR_Metadata_01_118 in "s118" = LCTR_Core_Partial_Sequences +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_118
+
+session LCTR_Metadata_01_119 in "s119" = LCTR_Core_Pure_Word_Displays +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_119
+
+session LCTR_Metadata_01_120 in "s120" = LCTR_Core_Quotient_Interface +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_120
+
+session LCTR_Metadata_01_121 in "s121" = LCTR_Core_Rank_Reachability +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_121
+
+session LCTR_Metadata_01_122 in "s122" = LCTR_Core_Raw_Canonical_Observables +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_122
+
+session LCTR_Metadata_01_123 in "s123" = LCTR_Core_Raw_Comparison_Entry +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_123
+
+session LCTR_Metadata_01_124 in "s124" = LCTR_Core_Raw_Localization_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_124
+
+session LCTR_Metadata_01_125 in "s125" = LCTR_Core_Reception_Input +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_125
+
+session LCTR_Metadata_01_126 in "s126" = LCTR_Core_Record_Burden +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_126
+
+session LCTR_Metadata_01_127 in "s127" = LCTR_Core_Record_Cells +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_127
+
+session LCTR_Metadata_01_128 in "s128" = LCTR_Core_Record_Codes_Aligned +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_128
+
+session LCTR_Metadata_01_129 in "s129" = LCTR_Core_Refinement_Forest +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_129
+
+session LCTR_Metadata_01_130 in "s130" = LCTR_Core_Refinement_Paths +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_130
+
+session LCTR_Metadata_01_131 in "s131" = LCTR_Core_Relative_Class_Witness +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_131
+
+session LCTR_Metadata_01_132 in "s132" = LCTR_Core_Relative_Initial +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_132
+
+session LCTR_Metadata_01_133 in "s133" = LCTR_Core_Relative_State_Profile +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_133
+
+session LCTR_Metadata_01_134 in "s134" = LCTR_Core_Remaining_Sets +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_134
+
+session LCTR_Metadata_01_135 in "s135" = LCTR_Core_Representation_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_135
+
+session LCTR_Metadata_01_136 in "s136" = LCTR_Core_Representation_Failure +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_136
+
+session LCTR_Metadata_01_137 in "s137" = LCTR_Core_Representation_Failure_Stages +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_137
+
+session LCTR_Metadata_01_138 in "s138" = LCTR_Core_Representation_Predicate_Bridge +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_138
+
+session LCTR_Metadata_01_139 in "s139" = LCTR_Core_Representation_Stages +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_139
+
+session LCTR_Metadata_01_140 in "s140" = LCTR_Core_Scale_Transport +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_140
+
+session LCTR_Metadata_01_141 in "s141" = LCTR_Core_Scope_Input_Interfaces +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_141
+
+session LCTR_Metadata_01_142 in "s142" = LCTR_Core_Selected_Generated_Law +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_142
+
+session LCTR_Metadata_01_143 in "s143" = LCTR_Core_Series_Validity +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_143
+
+session LCTR_Metadata_01_144 in "s144" = LCTR_Core_Source_Loops +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_144
+
+session LCTR_Metadata_01_145 in "s145" = LCTR_Core_Source_Recovery +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_145
+
+session LCTR_Metadata_01_146 in "s146" = LCTR_Core_Stage_Boundaries +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_146
+
+session LCTR_Metadata_01_147 in "s147" = LCTR_Core_Strict_Partial_Order +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_147
+
+session LCTR_Metadata_01_148 in "s148" = LCTR_Core_Structural_Burden +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_148
+
+session LCTR_Metadata_01_149 in "s149" = LCTR_Core_Three_Layer_Synthesis +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_149
+
+session LCTR_Metadata_01_150 in "s150" = LCTR_Core_Time_Jet_Changes +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_150
+
+session LCTR_Metadata_01_151 in "s151" = LCTR_Core_Token_Graph_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_151
+
+session LCTR_Metadata_01_152 in "s152" = LCTR_Core_Trajectory_Descent_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_152
+
+session LCTR_Metadata_01_153 in "s153" = LCTR_Core_Transported_Law_Charts +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_153
+
+session LCTR_Metadata_01_154 in "s154" = LCTR_Core_Transported_Native_Jets +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_154
+
+session LCTR_Metadata_01_155 in "s155" = LCTR_Core_Universal_Factorization +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_155
+
+session LCTR_Metadata_01_156 in "s156" = LCTR_Core_Validity_Maximum +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_156
+
+session LCTR_Metadata_01_157 in "s157" = LCTR_Core_Word_Encoding +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_157
+
+session LCTR_Metadata_01_158 in "s158" = LCTR_Dynamics_Refinement_Complete_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_158
+
+session LCTR_Metadata_01_159 in "s159" = LCTR_Factorization_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_159
+
+session LCTR_Metadata_01_160 in "s160" = LCTR_Generic_Differential_Covariance +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_160
+
+session LCTR_Metadata_01_161 in "s161" = LCTR_Generic_Native_Overlap_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_161
+
+session LCTR_Metadata_01_162 in "s162" = LCTR_Generic_Value_Jet_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_162
+
+session LCTR_Metadata_01_163 in "s163" = LCTR_Law_Datum_Final_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_163
+
+session LCTR_Metadata_01_164 in "s164" = LCTR_Native_Atlas_Certificates +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_164
+
+session LCTR_Metadata_01_165 in "s165" = LCTR_Native_Differential_Synthesis_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_165
+
+session LCTR_Metadata_01_166 in "s166" = LCTR_Native_Family_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_166
+
+session LCTR_Metadata_01_167 in "s167" = LCTR_Native_Flatten_Final +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_167
+
+session LCTR_Metadata_01_168 in "s168" = LCTR_Native_Law_Jet_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_168
+
+session LCTR_Metadata_01_169 in "s169" = LCTR_Native_Selected_Differential_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_169
+
+session LCTR_Metadata_01_170 in "s170" = LCTR_Nested_Quotient_Order_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_170
+
+session LCTR_Metadata_01_171 in "s171" = LCTR_Order_Embedding_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_171
+
+session LCTR_Metadata_01_172 in "s172" = LCTR_Region_Law_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_172
+
+session LCTR_Metadata_01_173 in "s173" = LCTR_Tagged_Lifts_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_01_173

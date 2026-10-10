@@ -1,0 +1,16 @@
+{
+  "controls": [
+    {
+      "module": "BodyInRealizationDomain",
+      "expected_exit_code": 1,
+      "expected_diagnostic": "Tactic `decide` proved that the proposition",
+      "expected_final_text": "is false"
+    },
+    {
+      "module": "EraseIndexInjectivity",
+      "expected_exit_code": 1,
+      "expected_diagnostic": "Tactic `decide` proved that the proposition",
+      "expected_final_text": "is false"
+    }
+  ]
+}

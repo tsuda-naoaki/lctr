@@ -1,0 +1,3 @@
+session LCTR_Core_Generated_Law_Identity = LCTR_Core_Law_Transport_Identity +
+  options [quick_and_dirty = false]
+  theories Core_Generated_Law_Identity

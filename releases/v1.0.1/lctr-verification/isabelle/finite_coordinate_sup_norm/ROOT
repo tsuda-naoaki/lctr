@@ -1,0 +1,3 @@
+session LCTR_Finite_Coordinate_Sup_Norm = LCTR_Finite_Coordinate_Flattening +
+  options [quick_and_dirty = false]
+  theories Finite_Coordinate_Sup_Norm

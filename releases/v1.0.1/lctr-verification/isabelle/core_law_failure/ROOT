@@ -1,0 +1,3 @@
+session LCTR_Core_Law_Failure = HOL +
+  options [document = false, quick_and_dirty = false]
+  theories Core_Law_Failure

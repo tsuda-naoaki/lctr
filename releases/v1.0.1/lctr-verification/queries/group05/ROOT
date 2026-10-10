@@ -1,0 +1,3 @@
+session LCTR_Metadata_05_001 in "s001" = LCTR_Core_Audit_Data +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_05_001

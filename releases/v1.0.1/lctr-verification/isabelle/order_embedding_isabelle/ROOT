@@ -1,0 +1,5 @@
+session LCTR_Order_Embedding_Isabelle = HOL +
+  theories
+    Order_Embedding_Isabelle
+    Empty_Carrier_Cases
+    Negative_Cases

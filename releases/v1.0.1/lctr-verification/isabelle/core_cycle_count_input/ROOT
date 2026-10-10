@@ -1,0 +1,3 @@
+session LCTR_Core_Cycle_Count_Input = HOL +
+  options [quick_and_dirty = false]
+  theories Core_Cycle_Count_Input

@@ -1,0 +1,88 @@
+{
+  "tool": "Astropy",
+  "version": "8.0.1",
+  "coordinate_unit": "lctr_coordinate",
+  "physical_time_unit_assumed": false,
+  "numerical_identity_credit": false,
+  "rows": [
+    {
+      "case": "count_difference",
+      "status": "compatible",
+      "coordinate_power": 0,
+      "dimensionality": {}
+    },
+    {
+      "case": "coordinate_difference",
+      "status": "compatible",
+      "coordinate_power": 1,
+      "dimensionality": {
+        "lctr_coordinate": 1
+      }
+    },
+    {
+      "case": "window_frequency",
+      "status": "compatible",
+      "coordinate_power": -1,
+      "dimensionality": {
+        "lctr_coordinate": -1
+      }
+    },
+    {
+      "case": "window_period",
+      "status": "compatible",
+      "coordinate_power": 1,
+      "dimensionality": {
+        "lctr_coordinate": 1
+      }
+    },
+    {
+      "case": "frequency_period_product",
+      "status": "compatible",
+      "coordinate_power": 0,
+      "dimensionality": {}
+    },
+    {
+      "case": "standard_frequency",
+      "status": "compatible",
+      "coordinate_power": -1,
+      "dimensionality": {
+        "lctr_coordinate": -1
+      }
+    },
+    {
+      "case": "hz_unit",
+      "status": "compatible",
+      "coordinate_power": -1,
+      "dimensionality": {
+        "lctr_coordinate": -1
+      }
+    },
+    {
+      "case": "hz_number",
+      "status": "compatible",
+      "coordinate_power": 0,
+      "dimensionality": {}
+    },
+    {
+      "case": "standard_normalization",
+      "status": "compatible",
+      "coordinate_power": 0,
+      "dimensionality": {}
+    },
+    {
+      "case": "add_frequency_and_period",
+      "status": "dimension_rejected",
+      "exception": "UnitConversionError"
+    },
+    {
+      "case": "multiply_hz_normalization",
+      "status": "dimension_rejected",
+      "exception": "UnitConversionError"
+    },
+    {
+      "case": "frequency_as_period",
+      "status": "dimension_rejected",
+      "exception": "UnitConversionError"
+    }
+  ]
+}

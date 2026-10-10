@@ -1,0 +1,1 @@
+<app name="relation1.eq"><app name="lctr_law_audit1.candidate_relation_at"><var name="LawDat"/><var name="a"/></app><app name="lctr_law_audit1.graph_on"><app name="lctr_law_audit1.candidate_relation_output_map"><var name="a"/><var name="LawDat"/></app><app name="lctr_law_audit1.candidate_relation_domain"><var name="a"/><var name="LawDat"/></app></app></app>

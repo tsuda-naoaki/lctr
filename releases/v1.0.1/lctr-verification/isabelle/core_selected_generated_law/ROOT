@@ -1,0 +1,4 @@
+session LCTR_Core_Selected_Generated_Law = LCTR_Native_Law_Datum_Semantics +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Law_Datum_Assembly
+  theories Core_Selected_Generated_Law

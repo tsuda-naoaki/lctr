@@ -1,0 +1,4 @@
+session LCTR_Core_Exact_Structure = LCTR_Core_Order_Atlas +
+ options [quick_and_dirty = false]
+ sessions LCTR_Core_Comparison_Integration
+ theories Core_Exact_Structure

@@ -1,0 +1,39 @@
+theory Native_Metadata_01_024
+imports
+  "LCTR_Core_Continuum_Failure.Core_Continuum_Failure"
+begin
+ML_file "../../ReadNativeMetadata.ML"
+ML \<open>LCTR_Native_Metadata.emit @{theory} [
+  "Core_Continuum_Failure.all_failures_minimal",
+  "Core_Continuum_Failure.extension_failure_blocks_final",
+  "Core_Continuum_Failure.failed_set_exact",
+  "Core_Continuum_Failure.failure_disjunction",
+  "Core_Continuum_Failure.final_incoming_exact",
+  "Core_Continuum_Failure.final_incomparable",
+  "Core_Continuum_Failure.final_pair",
+  "Core_Continuum_Failure.final_pair_execution",
+  "Core_Continuum_Failure.final_pred",
+  "Core_Continuum_Failure.first_failure_blocks_extension",
+  "Core_Continuum_Failure.first_failures_card",
+  "Core_Continuum_Failure.first_incoming_exact",
+  "Core_Continuum_Failure.first_incomparable",
+  "Core_Continuum_Failure.first_pair_execution",
+  "Core_Continuum_Failure.first_ready",
+  "Core_Continuum_Failure.incoming_exact",
+  "Core_Continuum_Failure.ninth_not_dependent_on_eighth",
+  "Core_Continuum_Failure.quantitative_failure",
+  "Core_Continuum_Failure.quantitative_first_pair",
+  "Core_Continuum_Failure.ready_failure_iff",
+  "Core_Continuum_Failure.ready_sat_iff",
+  "Core_Continuum_Failure.recursive_failure",
+  "Core_Continuum_Failure.seventh_incoming_exact",
+  "Core_Continuum_Failure.seventh_pred",
+  "Core_Continuum_Failure.source_first_witness",
+  "Core_Continuum_Failure.source_nine_witnesses",
+  "Core_Continuum_Failure.test_extension_sat",
+  "Core_Continuum_Failure.test_final_failure",
+  "Core_Continuum_Failure.test_first_failure",
+  "Core_Continuum_Failure.test_first_sat",
+  "Core_Continuum_Failure.test_input_sat"
+]\<close>
+end

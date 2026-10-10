@@ -1,0 +1,9 @@
+{"check": "lean-CoreSMTRewriteRules", "exit_code": 0, "accepted": true, "elapsed_s": 0.494}
+{"check": "lean-CoreSMTBooleanRules", "exit_code": 0, "accepted": true, "elapsed_s": 0.273}
+{"check": "lean-CoreEvaluationSMTBridge", "exit_code": 0, "accepted": true, "elapsed_s": 0.572}
+{"check": "lean-CoreFiniteMarginBridge", "exit_code": 0, "accepted": true, "elapsed_s": 0.983}
+{"check": "lean-auxiliary", "exit_code": 0, "accepted": true, "elapsed_s": 0.902}
+{"check": "isabelle-auxiliary", "exit_code": 0, "accepted": true, "elapsed_s": 4.676}
+{"check": "export", "exit_code": 0, "accepted": true, "elapsed_s": 1.939}
+{"check": "nanoda", "exit_code": 0, "accepted": true, "elapsed_s": 1.326}
+{"check": "con-leche", "exit_code": 0, "accepted": true, "elapsed_s": 0.993}

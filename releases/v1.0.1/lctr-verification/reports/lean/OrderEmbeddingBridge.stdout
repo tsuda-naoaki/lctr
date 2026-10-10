@@ -1,0 +1,14 @@
+'LCTR.OrderEmbeddingBridgeV1.incSetoid' does not depend on any axioms
+'LCTR.OrderEmbeddingBridgeV1.proj_surjective' does not depend on any axioms
+'LCTR.OrderEmbeddingBridgeV1.proj_eq_iff_inc' depends on axioms: [propext, Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.quotientLt_proj_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.quotient_strict_linear_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.real_order_iff_map_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.real_embedding_image_inverse_compositions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.OrderEmbeddingBridgeV1.real_embedding_image_inverse_characterization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -2,7 +2,7 @@
 
 > LCTR transfers the time variable in physical laws from a primitive premise to a representation whose physical grounds are generated through local comparison. The paper provides generation conditions, validity domains, failure classification, and an audit of 72 sources.
 
-Author: Naoaki Tsuda. The Japanese paper is the original; an English translation is available. Release: v1.0. DOI: https://doi.org/10.5281/zenodo.23207308. ORCID: https://orcid.org/0009-0007-2506-4026.
+Author: Naoaki Tsuda. The Japanese paper is the original; an English translation is available. Release: v1.0.1. DOI: https://doi.org/10.5281/zenodo.23273388. ORCID: https://orcid.org/0009-0007-2506-4026.
 
 The Markdown abstracts reproduce the published abstracts and the website's verification-asset descriptions. The complete paper, mathematical definitions, arguments, figures, and source audits are in the linked PDFs and verification assets.
 
@@ -13,15 +13,15 @@ The Markdown abstracts reproduce the published abstracts and the website's verif
 
 ## Complete paper
 
-- [日本語原典：本文と補遺](https://zenodo.org/records/23207308/files/lctr_main_supp_full_jp.pdf?download=1): Complete Japanese paper and supplement, PDF.
-- [English translation: main paper and supplement](https://zenodo.org/records/23207308/files/lctr_main_supp_full_en.pdf?download=1): Complete English paper and supplement, PDF.
-- [Versioned publication record](https://zenodo.org/records/23207308): v1.0 metadata, eight PDF editions, and verification archive.
+- [日本語原典：本文と補遺](https://zenodo.org/records/23273388/files/lctr_main_supp_full_jp.pdf?download=1): Complete Japanese paper and supplement, PDF.
+- [English translation: main paper and supplement](https://zenodo.org/records/23273388/files/lctr_main_supp_full_en.pdf?download=1): Complete English paper and supplement, PDF.
+- [Versioned publication record](https://zenodo.org/records/23273388): v1.0.1 metadata, eight PDF editions, and verification archive.
 
 ## Source audit and verification
 
 - [72資料の一覧と監査結果](https://tsuda-naoaki.github.io/lctr/sources/): Japanese source inventory and audit results.
 - [The 72 audited sources](https://tsuda-naoaki.github.io/lctr/sources/en.html): English source inventory and audit results.
-- [Verification assets and reproduction instructions](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0/lctr-verification): Lean 4, Isabelle/HOL, independent checking, auxiliary tools, correspondence inventories, and source-audit recomputation.
+- [Verification assets and reproduction instructions](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0.1/lctr-verification): Lean 4, Isabelle/HOL, independent checking, auxiliary tools, correspondence inventories, and source-audit recomputation.
 - [MMT namespace](https://tsuda-naoaki.github.io/lctr/verification/law-candidate/): Entry page for the law-candidate formalization namespace.
 
 ## Optional

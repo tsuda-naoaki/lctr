@@ -1,0 +1,6 @@
+session LCTR_Core_Audit_Report = HOL +
+  options [quick_and_dirty = false]
+  directories "../support/core_finite_audit" "../core_audit_state_transport"
+    "../core_audit_groups" "../core_audit_tags"
+    "../core_structural_burden"
+  theories Core_Audit_Report

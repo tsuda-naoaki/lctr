@@ -1,0 +1,64 @@
+{
+  "tool": "SymPy",
+  "version": "1.14.0",
+  "variables": {
+    "n": "positive count difference",
+    "d": "positive represented coordinate difference",
+    "v": "positive frequency",
+    "u": "positive frequency unit",
+    "N": "positive integer normalization"
+  },
+  "rows": [
+    {
+      "case": "reciprocal_quotient",
+      "kind": "rational_identity",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "case": "frequency_period_product",
+      "kind": "rational_identity",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "case": "standard_normalization",
+      "kind": "rational_identity",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "case": "frequency",
+      "kind": "positive_on_stated_domain",
+      "passed": true
+    },
+    {
+      "case": "period",
+      "kind": "positive_on_stated_domain",
+      "passed": true
+    },
+    {
+      "case": "hz_unit",
+      "kind": "positive_on_stated_domain",
+      "passed": true
+    },
+    {
+      "case": "relative_hz_number",
+      "kind": "positive_on_stated_domain",
+      "passed": true
+    },
+    {
+      "case": "period_replaced_by_frequency",
+      "kind": "false_identity_counterexample",
+      "residual": "-5/9",
+      "passed": true
+    },
+    {
+      "case": "hz_unit_multiplied_instead_of_divided",
+      "kind": "false_identity_counterexample",
+      "residual": "-3/2",
+      "passed": true
+    }
+  ],
+  "scope": "Real scalar algebra under the stated positivity and nonzero conditions."
+}

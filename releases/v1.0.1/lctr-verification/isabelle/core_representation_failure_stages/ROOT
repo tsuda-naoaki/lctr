@@ -1,0 +1,4 @@
+session LCTR_Core_Representation_Failure_Stages = LCTR_Core_Representation_Stages +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Representation_Failure
+  theories Core_Representation_Failure_Stages

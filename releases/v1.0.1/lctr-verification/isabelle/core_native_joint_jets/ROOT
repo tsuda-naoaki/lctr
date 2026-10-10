@@ -1,0 +1,4 @@
+session LCTR_Core_Native_Joint_Jets = LCTR_Core_Transported_Native_Jets +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Transport
+  theories Core_Native_Joint_Jets

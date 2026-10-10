@@ -1,0 +1,87 @@
+batch("auxiliary/finite_jet_polynomial_cas/check_maxima.mac")
+display2d:false
+printf(true,"LCTR_VERSION ~a~%",build_info())
+LCTR_VERSION %build_info("5.50.0","2026-09-27 03:34:58","arm-apple-darwin25.6.0","SBCL","2.6.9","<host-path omitted>","<host-path omitted>","<host-path omitted>",false,false)
+for ii from 0 thru 6 do
+    (basis:(x-a)^ii/ii!,
+     for nn from 0 thru 7 do
+         (expected:if nn = ii then 1 else 0,
+          residual:ratsimp(subst(a,x,diff(basis,x,nn))-expected),
+          printf(true,"LCTR_CASE basis_~a_~a ~a~%",ii,nn,residual)))
+LCTR_CASE basis_0_0 0
+LCTR_CASE basis_0_1 0
+LCTR_CASE basis_0_2 0
+LCTR_CASE basis_0_3 0
+LCTR_CASE basis_0_4 0
+LCTR_CASE basis_0_5 0
+LCTR_CASE basis_0_6 0
+LCTR_CASE basis_0_7 0
+LCTR_CASE basis_1_0 0
+LCTR_CASE basis_1_1 0
+LCTR_CASE basis_1_2 0
+LCTR_CASE basis_1_3 0
+LCTR_CASE basis_1_4 0
+LCTR_CASE basis_1_5 0
+LCTR_CASE basis_1_6 0
+LCTR_CASE basis_1_7 0
+LCTR_CASE basis_2_0 0
+LCTR_CASE basis_2_1 0
+LCTR_CASE basis_2_2 0
+LCTR_CASE basis_2_3 0
+LCTR_CASE basis_2_4 0
+LCTR_CASE basis_2_5 0
+LCTR_CASE basis_2_6 0
+LCTR_CASE basis_2_7 0
+LCTR_CASE basis_3_0 0
+LCTR_CASE basis_3_1 0
+LCTR_CASE basis_3_2 0
+LCTR_CASE basis_3_3 0
+LCTR_CASE basis_3_4 0
+LCTR_CASE basis_3_5 0
+LCTR_CASE basis_3_6 0
+LCTR_CASE basis_3_7 0
+LCTR_CASE basis_4_0 0
+LCTR_CASE basis_4_1 0
+LCTR_CASE basis_4_2 0
+LCTR_CASE basis_4_3 0
+LCTR_CASE basis_4_4 0
+LCTR_CASE basis_4_5 0
+LCTR_CASE basis_4_6 0
+LCTR_CASE basis_4_7 0
+LCTR_CASE basis_5_0 0
+LCTR_CASE basis_5_1 0
+LCTR_CASE basis_5_2 0
+LCTR_CASE basis_5_3 0
+LCTR_CASE basis_5_4 0
+LCTR_CASE basis_5_5 0
+LCTR_CASE basis_5_6 0
+LCTR_CASE basis_5_7 0
+LCTR_CASE basis_6_0 0
+LCTR_CASE basis_6_1 0
+LCTR_CASE basis_6_2 0
+LCTR_CASE basis_6_3 0
+LCTR_CASE basis_6_4 0
+LCTR_CASE basis_6_5 0
+LCTR_CASE basis_6_6 0
+LCTR_CASE basis_6_7 0
+jetcoeff:[v0,v1,v2,v3,v4,v5,v6]
+curve:sum(((x-a)^ii/ii!)*jetcoeff[ii+1],ii,0,6)
+for nn from 0 thru 6 do
+    printf(true,"LCTR_CASE jet_~a ~a~%",nn,
+           ratsimp(subst(a,x,diff(curve,x,nn))-jetcoeff[nn+1]))
+LCTR_CASE jet_0 0
+LCTR_CASE jet_1 0
+LCTR_CASE jet_2 0
+LCTR_CASE jet_3 0
+LCTR_CASE jet_4 0
+LCTR_CASE jet_5 0
+LCTR_CASE jet_6 0
+printf(true,"LCTR_CASE above_degree ~a~%",ratsimp(diff(curve,x,7)))
+LCTR_CASE above_degree 0
+printf(true,"LCTR_CASE negative_missing_factorial ~a~%",
+       ratsimp(subst(a,x,diff((x-a)^2,x,2))-1))
+LCTR_CASE negative_missing_factorial 1
+printf(true,"LCTR_CASE negative_reversed_displacement ~a~%",
+       ratsimp(subst(a,x,diff(a-x,x))-1))
+LCTR_CASE negative_reversed_displacement -2
+quit()

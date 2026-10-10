@@ -1,0 +1,4 @@
+session LCTR_Core_Judgment_Boundary = "HOL-Analysis" +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Native_Law_Family LCTR_Core_Continuum_Datum LCTR_Core_Differential_Failure
+ theories Core_Judgment_Boundary

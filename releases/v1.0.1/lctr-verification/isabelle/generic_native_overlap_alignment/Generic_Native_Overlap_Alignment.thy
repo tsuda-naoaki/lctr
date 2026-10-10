@@ -1,0 +1,20 @@
+theory Generic_Native_Overlap_Alignment
+  imports "LCTR_Generic_Value_Change.Generic_Value_Change"
+begin
+lemmas overlap_value_injective = Native_Chart_Overlaps.actual_chart_overlaps.overlap_value_injective
+lemmas overlap_image_formula = Native_Chart_Overlaps.actual_chart_overlaps.overlap_image_formula
+lemmas overlap_image_in_target = Native_Chart_Overlaps.actual_chart_overlaps.overlap_image_in_target
+lemmas chart_change_formula = Native_Chart_Overlaps.actual_chart_overlaps.chart_change_formula
+lemmas chart_change_bijective = Native_Chart_Overlaps.actual_chart_overlaps.chart_change_bijective
+lemmas chart_change_inverse = Native_Chart_Overlaps.actual_chart_overlaps.chart_change_inverse
+lemmas value_change_from_actual_charts = Native_Chart_Overlaps.actual_chart_overlaps.value_change_from_actual_charts
+lemmas bound_value_relation_image = Generic_Value_Change.bound_value_relation_image
+lemmas time_change_from_actual_charts = Native_Chart_Overlaps.actual_chart_overlaps.time_change_from_actual_charts
+lemmas bound_time_relation_image = Native_Chart_Overlaps.bound_time_relation_image
+lemmas product_chart_region = Native_Chart_Overlaps.product_chart_region
+lemmas product_chart_at_generated_values = Native_Chart_Overlaps.coordinate_atlas.product_chart_at_generated_values
+ML \<open>
+val roots = @{thms overlap_value_injective overlap_image_formula overlap_image_in_target chart_change_formula chart_change_bijective chart_change_inverse value_change_from_actual_charts bound_value_relation_image time_change_from_actual_charts bound_time_relation_image product_chart_region product_chart_at_generated_values};
+val _ = if null (Thm_Deps.all_oracles roots) then () else error "Unexpected oracle dependency";
+\<close>
+end

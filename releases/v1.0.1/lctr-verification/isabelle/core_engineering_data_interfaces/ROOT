@@ -1,0 +1,5 @@
+session LCTR_Core_Engineering_Data_Interfaces = HOL +
+  options [quick_and_dirty = false]
+  sessions "HOL-Library"
+  directories "../core_audit_state_transport"
+  theories Core_Engineering_Data_Interfaces

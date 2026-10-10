@@ -1,0 +1,4 @@
+session LCTR_Core_Word_Domain_Definitions = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_typed_words"
+  theories Core_Word_Domain_Definitions

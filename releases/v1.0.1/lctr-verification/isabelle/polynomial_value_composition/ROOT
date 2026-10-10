@@ -1,0 +1,4 @@
+session LCTR_Polynomial_Value_Composition = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Value_Jet_Lift_Algebra
+  theories Polynomial_Value_Composition

@@ -1,0 +1,4 @@
+session LCTR_Core_Comparison_Stage = LCTR_Core_Paired_Comparison +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Local_Loop_Realization
+  theories Core_Comparison_Stage

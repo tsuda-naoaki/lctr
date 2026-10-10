@@ -1,0 +1,3 @@
+session LCTR_Core_Stage_Boundaries = HOL +
+  options [quick_and_dirty = false, timeout = 45]
+  theories Core_Stage_Boundaries

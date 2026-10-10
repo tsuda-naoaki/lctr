@@ -1,0 +1,3 @@
+session LCTR_Core_Dynamics_Bundle = LCTR_Core_Law_Input_Bundle +
+  options [quick_and_dirty = false]
+  theories Core_Dynamics_Bundle

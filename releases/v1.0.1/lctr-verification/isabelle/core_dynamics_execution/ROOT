@@ -1,0 +1,4 @@
+session LCTR_Core_Dynamics_Execution = LCTR_Core_Dynamics_Tokens +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Finite_Audit
+ theories Core_Dynamics_Execution

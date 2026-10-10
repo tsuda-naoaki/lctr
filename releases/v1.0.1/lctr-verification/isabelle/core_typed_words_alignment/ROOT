@@ -1,0 +1,4 @@
+session LCTR_Core_Typed_Words_Alignment = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_typed_words"
+  theories Core_Typed_Words_Alignment

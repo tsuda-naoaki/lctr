@@ -1,0 +1,4 @@
+session LCTR_Core_Frequency_Windows = HOL +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Affine_Realization LCTR_Core_Affine_Frequency
+  theories Core_Frequency_Windows

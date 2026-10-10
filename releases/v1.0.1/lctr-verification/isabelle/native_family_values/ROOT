@@ -1,0 +1,4 @@
+session LCTR_Native_Family_Values = LCTR_Core_Native_Law_Transport +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Components
+  theories Native_Family_Values

@@ -1,10 +1,10 @@
 # Moving the Time Variable from a Premise of Physical Law to a Consequence: A General Theory of the Complete Description of Time Establishment through Local Comparison and Failure Classification
 
-English translation of the Japanese original · v1.0
+English translation of the Japanese original · v1.0.1
 
 Naoaki Tsuda · [ORCID: 0009-0007-2506-4026](https://orcid.org/0009-0007-2506-4026)
 
-DOI: [10.5281/zenodo.23207308](https://doi.org/10.5281/zenodo.23207308)
+DOI: [10.5281/zenodo.23273388](https://doi.org/10.5281/zenodo.23273388)
 
 ## Abstract
 
@@ -41,8 +41,8 @@ For Chapters 7 and 8 and the supplement, the archive includes a checker that rec
 ## Materials
 
 - [Paper page](https://tsuda-naoaki.github.io/lctr/en.html)
-- [Main paper and supplement (PDF)](https://zenodo.org/records/23207308/files/lctr_main_supp_full_en.pdf?download=1)
+- [Main paper and supplement (PDF)](https://zenodo.org/records/23273388/files/lctr_main_supp_full_en.pdf?download=1)
 - [Audit of 72 sources](https://tsuda-naoaki.github.io/lctr/sources/en.html)
-- [Verification assets and reproduction instructions](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0/lctr-verification)
+- [Verification assets and reproduction instructions](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0.1/lctr-verification)
 
 CC BY-NC-ND 4.0

@@ -1,0 +1,4 @@
+{
+  "policy": "Native diagnostic output is retained. Release-root paths become relative; host/time and installed-component path lines use placeholders.",
+  "mathematical_statements_or_proof_export_changed": false
+}

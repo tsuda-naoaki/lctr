@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD xmlns="http://www.openmath.org/OpenMathCD">
+  <CDName>lctr_law_audit1</CDName>
+  <CDBase>urn:lctr:openmath:cd</CDBase>
+  <CDURL>urn:lctr:openmath:cd:lctr_law_audit1</CDURL>
+  <CDDate>2026-09-04</CDDate>
+  <CDReviewDate>2026-09-04</CDReviewDate>
+  <CDStatus>experimental</CDStatus>
+  <CDVersion>1</CDVersion>
+  <CDRevision>1</CDRevision>
+  <Description>Semantic operators for the LCTR law-candidate relation audit.</Description>
+  <CDDefinition><Name>right_unique</Name><Description>Right uniqueness of a binary relation.</Description></CDDefinition>
+  <CDDefinition><Name>candidate_relation</Name><Description>The law-candidate relation determined by a law evaluation datum.</Description></CDDefinition>
+  <CDDefinition><Name>typed_map</Name><Description>A map together with its domain and codomain.</Description></CDDefinition>
+  <CDDefinition><Name>candidate_relation_output_map</Name><Description>The unique output map induced by a right-unique law-candidate relation.</Description></CDDefinition>
+  <CDDefinition><Name>candidate_relation_domain</Name><Description>The first-coordinate domain of a law-candidate relation.</Description></CDDefinition>
+  <CDDefinition><Name>output_value_space</Name><Description>The output-value space of an indexed law datum component.</Description></CDDefinition>
+  <CDDefinition><Name>index</Name><Description>Indexing of a structured datum by a component index.</Description></CDDefinition>
+  <CDDefinition><Name>candidate_relation_at</Name><Description>The law-candidate relation at an indexed law datum component.</Description></CDDefinition>
+  <CDDefinition><Name>graph_on</Name><Description>The graph of a map restricted to its typed domain.</Description></CDDefinition>
+  <CDDefinition><Name>law_indices</Name><Description>The law-index set owned by a law evaluation datum.</Description></CDDefinition>
+</CD>

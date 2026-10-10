@@ -1,0 +1,9 @@
+lean/Chapter03SourceOrderRecovery.lean:85:8: warning: Try `simp at hLt` instead of `simpa using hLt`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+lean/Chapter03SourceOrderRecovery.lean:91:8: warning: Try `simp at hLt` instead of `simpa using hLt`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+lean/Chapter03SourceOrderRecovery.lean:197:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

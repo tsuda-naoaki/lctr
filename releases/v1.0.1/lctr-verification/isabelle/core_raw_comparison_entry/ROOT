@@ -1,0 +1,3 @@
+session LCTR_Core_Raw_Comparison_Entry = LCTR_Core_Configuration_Comparison +
+ options [quick_and_dirty = false]
+ theories Core_Raw_Comparison_Entry

@@ -1,0 +1,4 @@
+error: the conclusion (= (ite (! (and (not (>= i 8)) (>= i 7)) :named @p_0) (= (! (ite @p_0 1 2) :named @p_1) 1) (= @p_1 2)) false) isn't equal to (= (ite (! (and (not (>= i 8)) (>= i 7)) :named @p_0) (= (! (ite @p_0 1 2) :named @p_1) 1) (= @p_1 2)) true)
+  [34m-->[0m in file [4;34mreports/runs/namespace check/graph/edge_rank/proof.alethe[0m
+  [1mnote:[0m checking failed on step [33mt63[0m with rule [33mrare_rewrite[0m
+

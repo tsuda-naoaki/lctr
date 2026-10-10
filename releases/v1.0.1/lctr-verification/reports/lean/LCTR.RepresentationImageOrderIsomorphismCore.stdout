@@ -1,0 +1,3 @@
+'LCTR.RepresentationImageOrderIsomorphismCore.equality_and_order_criteria_transfer' does not depend on any axioms
+'LCTR.RepresentationImageOrderIsomorphismCore.commuting_factor_map_is_unique' depends on axioms: [Quot.sound]
+'LCTR.RepresentationImageOrderIsomorphismCore.commuting_factor_map_is_bijective' does not depend on any axioms

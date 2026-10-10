@@ -1,0 +1,4 @@
+session LCTR_Core_Differential_Refinement = LCTR_Core_Differential_Output +
+  options [quick_and_dirty = false, timeout = 45]
+  sessions LCTR_Core_Refinement_Forest
+  theories Core_Differential_Refinement

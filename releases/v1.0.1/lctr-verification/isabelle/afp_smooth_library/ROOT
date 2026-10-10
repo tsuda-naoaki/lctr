@@ -1,0 +1,4 @@
+session LCTR_AFP_Smooth_Library = "HOL-Analysis" +
+ options [document = false, quick_and_dirty = false]
+ sessions "HOL-Library" "HOL-Types_To_Sets"
+ theories AFP_Smooth_Check

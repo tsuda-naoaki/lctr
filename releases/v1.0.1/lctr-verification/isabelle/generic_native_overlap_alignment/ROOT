@@ -1,0 +1,3 @@
+session LCTR_Generic_Native_Overlap_Alignment = LCTR_Generic_Value_Change +
+  options [document = false, quick_and_dirty = false]
+  theories Generic_Native_Overlap_Alignment

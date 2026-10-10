@@ -1,0 +1,14 @@
+'LCTR.CoreFinitePartitions.tagged_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.tagged_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.tagged_partition' does not depend on any axioms
+'LCTR.CoreFinitePartitions.classification_on_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.classification_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.first_failure_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.first_failure_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.first_failure_sets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.first_failure_components_disjoint' does not depend on any axioms
+'LCTR.CoreFinitePartitions.bounded_extensionality' does not depend on any axioms
+'LCTR.CoreFinitePartitions.empty_sequence' depends on axioms: [propext, Quot.sound]
+'LCTR.CoreFinitePartitions.minimum_index' does not depend on any axioms
+'LCTR.CoreFinitePartitions.omitted_prefix_not_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreFinitePartitions.injection_is_necessary' does not depend on any axioms

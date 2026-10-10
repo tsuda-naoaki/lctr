@@ -1,0 +1,3 @@
+session LCTR_Core_Dynamics_Factors = LCTR_Core_Trajectory_Descent +
+  sessions LCTR_Factorization_Isabelle
+  theories Core_Dynamics_Factors

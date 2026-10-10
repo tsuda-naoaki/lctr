@@ -1,0 +1,3 @@
+session LCTR_Law_Datum_Final_Alignment = LCTR_Tagged_Native_Selection +
+  options [quick_and_dirty = false]
+  theories Law_Datum_Final_Alignment

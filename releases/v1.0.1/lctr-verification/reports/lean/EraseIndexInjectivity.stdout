@@ -1,0 +1,3 @@
+lean/EraseIndexInjectivity.lean:18:2: error: Tactic `decide` proved that the proposition
+  eraseZetaFromActualClockRI true ≠ eraseZetaFromActualClockRI false
+is false

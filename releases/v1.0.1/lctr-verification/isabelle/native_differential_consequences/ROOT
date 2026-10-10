@@ -1,0 +1,4 @@
+session LCTR_Native_Differential_Consequences = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Native_Family_Alignment
+  theories Native_Differential_Consequences

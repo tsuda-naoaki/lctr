@@ -1,0 +1,13 @@
+user: 'file reports/runs/namespace check/mmt/bypass_evaluation_domain/run.msl '
+  user: 'log console'
+  user: 'log console' finished
+  user: 'mathpath archive tools/mmt'
+    user: opened archive tools/mmt/urtheories
+  user: 'mathpath archive tools/mmt' finished
+  user: 'mathpath archive reports/runs/namespace check/mmt/bypass_evaluation_domain'
+    user: opened archive reports/runs/namespace check/mmt/bypass_evaluation_domain
+  user: 'mathpath archive reports/runs/namespace check/mmt/bypass_evaluation_domain' finished
+  user: 'build lctr-law-semantic-bypass_evaluation_domain mmt-omdoc test.mmt'
+          error: (error) [34;103minvalid unit: https://tsuda-naoaki.github.io/lctr/verification/law-candidate?LawCandidate?bad?definition: Judgment   |--  [d:LawDatum][a:Index d][x:RawEvalPoint d a]x  ::  {d:LawDatum}{a:Index d}RawEvalPoint d a⟶EvalPoint d a[0m
+  user: 'build lctr-law-semantic-bypass_evaluation_domain mmt-omdoc test.mmt' finished
+  user: 'exit'

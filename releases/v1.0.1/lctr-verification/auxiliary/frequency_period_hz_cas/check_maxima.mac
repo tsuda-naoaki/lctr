@@ -1,0 +1,17 @@
+display2d:false$
+assume(n>0,d>0,v>0,u>0,nn>0)$
+declare(nn,integer)$
+frequency:n/d$
+period:1/frequency$
+hzunit:v/nn$
+printf(true,"LCTR_VERSION ~a~%",build_info())$
+printf(true,"LCTR_CASE reciprocal_quotient ~a~%",ratsimp(period-d/n))$
+printf(true,"LCTR_CASE frequency_period_product ~a~%",ratsimp(frequency*period-1))$
+printf(true,"LCTR_CASE standard_normalization ~a~%",ratsimp(v/hzunit-nn))$
+printf(true,"LCTR_CASE frequency_positive ~a~%",is(frequency>0))$
+printf(true,"LCTR_CASE period_positive ~a~%",is(period>0))$
+printf(true,"LCTR_CASE hz_unit_positive ~a~%",is(hzunit>0))$
+printf(true,"LCTR_CASE relative_hz_number_positive ~a~%",is(v/u>0))$
+printf(true,"LCTR_CASE period_replaced_by_frequency ~a~%",ratsimp((2/3)^2-1))$
+printf(true,"LCTR_CASE hz_unit_multiplied_instead_of_divided ~a~%",ratsimp(10/(10*2)-2))$
+quit();

@@ -1,0 +1,4 @@
+error: the rule bool-double-not-elim wasn`t found
+  [34m-->[0m in file [4;34mreports/runs/namespace check/graph/edge_rank/proof.alethe[0m
+  [1mnote:[0m checking failed on step [33mt1[0m with rule [33mrare_rewrite[0m
+

@@ -1,0 +1,13 @@
+'LCTR.SelectedInputEvaluation.extension_on_domain' does not depend on any axioms
+'LCTR.SelectedInputEvaluation.extension_outside_domain' does not depend on any axioms
+'LCTR.SelectedInputEvaluation.selection_defines_unique_value' does not depend on any axioms
+'LCTR.SelectedInputEvaluation.matching_law_projection' does not depend on any axioms
+'LCTR.SelectedInputEvaluation.missing_input_unformed' depends on axioms: [propext]
+'LCTR.SelectedInputEvaluation.missing_input_never_failed' depends on axioms: [propext]
+'LCTR.SelectedInputEvaluation.failed_requires_available_input' does not depend on any axioms
+'LCTR.SelectedInputEvaluation.law_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.SelectedInputEvaluation.no_law_failure_without_selection' depends on axioms: [propext]
+'LCTR.SelectedInputEvaluation.differential_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.SelectedInputEvaluation.no_differential_failure_without_selection' depends on axioms: [propext]
+'LCTR.SelectedInputEvaluation.failure_series_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.SelectedInputEvaluation.false_extension_alone_is_not_failure' depends on axioms: [propext]

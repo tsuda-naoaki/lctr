@@ -1,0 +1,3 @@
+session LCTR_Core_Differential_Selected = HOL +
+  options [quick_and_dirty = false, timeout = 45]
+  theories Core_Differential_Selected

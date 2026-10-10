@@ -1,0 +1,3 @@
+session LCTR_Core_Time_Jet_Changes = LCTR_Core_Curve_Regularity +
+  options [document = false, quick_and_dirty = false]
+  theories Core_Time_Jet_Changes

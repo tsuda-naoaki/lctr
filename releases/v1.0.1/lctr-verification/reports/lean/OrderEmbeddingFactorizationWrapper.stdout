@@ -1,0 +1,6 @@
+'LCTR.FactorizationBridgeV1.PaperFacing.quotient_trichotomy_from_order_embedding_bridge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LCTR.FactorizationBridgeV1.PaperFacing.canonical_observable_time_factorization_paper_wrapper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

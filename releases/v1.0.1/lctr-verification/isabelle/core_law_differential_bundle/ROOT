@@ -1,0 +1,4 @@
+session LCTR_Core_Law_Differential_Bundle = LCTR_Core_Dynamics_Bundle +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Generation
+  theories Core_Law_Differential_Bundle

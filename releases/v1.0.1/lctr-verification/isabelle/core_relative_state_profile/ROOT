@@ -1,0 +1,3 @@
+session LCTR_Core_Relative_State_Profile = LCTR_Core_Localization_Bundle +
+  options [quick_and_dirty = false]
+  theories Core_Relative_State_Profile

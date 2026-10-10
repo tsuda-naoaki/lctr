@@ -1,0 +1,4 @@
+session LCTR_Core_Dynamics_Tokens = LCTR_Core_Continuum_Integration +
+ options [document = false, quick_and_dirty = false]
+ sessions LCTR_Core_Evaluation_Alignment
+ theories Core_Dynamics_Tokens

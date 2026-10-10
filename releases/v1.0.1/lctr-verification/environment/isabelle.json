@@ -1,0 +1,11 @@
+{
+  "version": "Isabelle2025-2",
+  "logic": "HOL",
+  "native_runtime": "polyml-5.9.2",
+  "recorded_platform": "arm64_32-darwin",
+  "source_files": 283,
+  "session_directories": 268,
+  "build_jobs": 191,
+  "configuration": "Each published ROOT retains its own options and dependencies.",
+  "execution_groups": 10
+}

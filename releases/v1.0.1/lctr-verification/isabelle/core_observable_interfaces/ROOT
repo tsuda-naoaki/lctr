@@ -1,0 +1,3 @@
+session LCTR_Core_Observable_Interfaces = LCTR_Core_Native_Observables +
+ options [quick_and_dirty = false]
+ theories Core_Observable_Interfaces

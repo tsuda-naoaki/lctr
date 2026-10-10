@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "check": "survey",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_s": 0.061,
+      "accepted": true
+    }
+  ],
+  "complete": true,
+  "steps": [
+    "survey"
+  ]
+}

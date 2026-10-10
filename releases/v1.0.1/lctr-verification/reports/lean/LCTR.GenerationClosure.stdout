@@ -1,0 +1,8 @@
+'LCTR.GenerationClosure.input_mem' does not depend on any axioms
+'LCTR.GenerationClosure.least_closed' does not depend on any axioms
+'LCTR.GenerationClosure.closure_closed' does not depend on any axioms
+'LCTR.GenerationClosure.inputs_monotone' does not depend on any axioms
+'LCTR.GenerationClosure.rules_monotone' does not depend on any axioms
+'LCTR.GenerationClosure.gate_blocks_unsupplied_outputs' does not depend on any axioms
+'LCTR.GenerationClosure.supplied_input_is_never_blocked' does not depend on any axioms
+'LCTR.GenerationClosure.canonical_four_layer_failure' does not depend on any axioms

@@ -1,0 +1,14 @@
+'LCTR.CoreEvaluationSMTBridge.encode_injective' depends on axioms: [propext]
+'LCTR.CoreEvaluationSMTBridge.encode_eq_iff' depends on axioms: [propext]
+'LCTR.CoreEvaluationSMTBridge.encode_image' depends on axioms: [propext]
+'LCTR.CoreEvaluationSMTBridge.state_commutes' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.failed_iff_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.sat_iff_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.missing_formation_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.upstream_nonsat_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.unevaluable_iff_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.unformed_iff_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.wrong_prior_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.wrong_order_transfer' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.reject_ignored_predecessor' does not depend on any axioms
+'LCTR.CoreEvaluationSMTBridge.reject_early_evaluation' does not depend on any axioms

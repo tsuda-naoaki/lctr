@@ -1,0 +1,4 @@
+session LCTR_Core_Burden_Comparison = HOL +
+  options [quick_and_dirty = false]
+  theories
+    Core_Burden_Comparison

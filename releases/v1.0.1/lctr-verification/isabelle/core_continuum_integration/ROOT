@@ -1,0 +1,3 @@
+session LCTR_Core_Continuum_Integration = LCTR_Core_Continuum_Boundary +
+  sessions LCTR_Core_Token_Graph
+  theories Core_Continuum_Integration

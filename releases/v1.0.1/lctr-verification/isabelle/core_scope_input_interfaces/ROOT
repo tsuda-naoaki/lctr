@@ -1,0 +1,3 @@
+session LCTR_Core_Scope_Input_Interfaces = HOL +
+  options [quick_and_dirty = false]
+  theories Core_Scope_Input_Interfaces

@@ -1,0 +1,4 @@
+session LCTR_Native_Differential_Law_Binding = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Three_Layer_Synthesis LCTR_Native_Differential_Consequences
+  theories Native_Differential_Law_Binding

@@ -1,10 +1,10 @@
 # 時間変数を物理法則の前提から帰結へ移す：局所比較による時間成立の完全記述と破綻分類の一般理論
 
-日本語原典 · v1.0
+日本語原典 · v1.0.1
 
 Naoaki Tsuda · [ORCID: 0009-0007-2506-4026](https://orcid.org/0009-0007-2506-4026)
 
-DOI: [10.5281/zenodo.23207308](https://doi.org/10.5281/zenodo.23207308)
+DOI: [10.5281/zenodo.23273388](https://doi.org/10.5281/zenodo.23273388)
 
 ## 要旨
 
@@ -41,8 +41,8 @@ DOI: [10.5281/zenodo.23207308](https://doi.org/10.5281/zenodo.23207308)
 ## 公開資料
 
 - [論文ページ](https://tsuda-naoaki.github.io/lctr/)
-- [本文と補遺（PDF）](https://zenodo.org/records/23207308/files/lctr_main_supp_full_jp.pdf?download=1)
+- [本文と補遺（PDF）](https://zenodo.org/records/23273388/files/lctr_main_supp_full_jp.pdf?download=1)
 - [72資料の監査](https://tsuda-naoaki.github.io/lctr/sources/)
-- [検証資産・再実行手順](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0/lctr-verification)
+- [検証資産・再実行手順](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0.1/lctr-verification)
 
 CC BY-NC-ND 4.0

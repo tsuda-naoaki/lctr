@@ -1,0 +1,4 @@
+session LCTR_Core_Native_Law_Transport = LCTR_Core_Native_Curves +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Law_Transport
+  theories Core_Native_Law_Transport

@@ -1,0 +1,137 @@
+{
+  "complete": true,
+  "lean_roots": 1982,
+  "isabelle_roots": 1982,
+  "isabelle_native_facts": 2011,
+  "isabelle_query_sessions": 189,
+  "responsibilities_per_system": 908,
+  "oracle_dependencies": 0,
+  "results": [
+    {
+      "check": "lean-native-dependencies",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 7.572
+    },
+    {
+      "check": "isabelle-native-1",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 590.992
+    },
+    {
+      "check": "isabelle-export-1",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 2.292
+    },
+    {
+      "check": "isabelle-native-2",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 17.346
+    },
+    {
+      "check": "isabelle-export-2",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.879
+    },
+    {
+      "check": "isabelle-native-3",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 14.857
+    },
+    {
+      "check": "isabelle-export-3",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.653
+    },
+    {
+      "check": "isabelle-native-4",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 15.673
+    },
+    {
+      "check": "isabelle-export-4",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.851
+    },
+    {
+      "check": "isabelle-native-5",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 16.31
+    },
+    {
+      "check": "isabelle-export-5",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.817
+    },
+    {
+      "check": "isabelle-native-6",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 14.712
+    },
+    {
+      "check": "isabelle-export-6",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.825
+    },
+    {
+      "check": "isabelle-native-7",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 15.487
+    },
+    {
+      "check": "isabelle-export-7",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.811
+    },
+    {
+      "check": "isabelle-native-8",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 20.887
+    },
+    {
+      "check": "isabelle-export-8",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.812
+    },
+    {
+      "check": "isabelle-native-9",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 22.38
+    },
+    {
+      "check": "isabelle-export-9",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.82
+    },
+    {
+      "check": "isabelle-native-10",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 9.441
+    },
+    {
+      "check": "isabelle-export-10",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_s": 1.683
+    }
+  ]
+}

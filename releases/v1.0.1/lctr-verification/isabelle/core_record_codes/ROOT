@@ -1,0 +1,4 @@
+session LCTR_Core_Record_Codes = HOL +
+  options [quick_and_dirty = false]
+  directories "../core_trajectory_descent"
+  theories Core_Record_Codes

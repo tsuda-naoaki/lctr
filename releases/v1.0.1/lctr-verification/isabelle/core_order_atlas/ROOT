@@ -1,0 +1,3 @@
+session LCTR_Core_Order_Atlas = LCTR_Core_Universal_Factorization +
+ options [quick_and_dirty = false]
+ theories Core_Order_Atlas

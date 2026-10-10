@@ -1,0 +1,4 @@
+session LCTR_Dynamics_Refinement_Alignment = LCTR_Core_Dynamics_Refinement +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Dynamics_Factors_Alignment
+  theories Dynamics_Refinement_Alignment

@@ -1,0 +1,4 @@
+session LCTR_Native_Coordinate_Linear = LCTR_Native_Coordinate_Vectors +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Curve_Within_Regularity
+  theories Native_Coordinate_Linear

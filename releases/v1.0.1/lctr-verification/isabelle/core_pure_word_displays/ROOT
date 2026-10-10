@@ -1,0 +1,3 @@
+session LCTR_Core_Pure_Word_Displays = LCTR_Core_Word_Encoding +
+ options [quick_and_dirty = false]
+ theories Core_Pure_Word_Displays

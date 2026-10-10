@@ -1,0 +1,3 @@
+session LCTR_Tagged_Law_Carriers = LCTR_Law_Index_Encoding +
+  options [quick_and_dirty = false]
+  theories Tagged_Law_Carriers

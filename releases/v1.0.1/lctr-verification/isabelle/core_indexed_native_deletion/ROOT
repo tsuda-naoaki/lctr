@@ -1,0 +1,4 @@
+session LCTR_Core_Indexed_Native_Deletion = LCTR_Core_Word_Encoding +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Indexed_Deletion
+  theories Core_Indexed_Native_Deletion

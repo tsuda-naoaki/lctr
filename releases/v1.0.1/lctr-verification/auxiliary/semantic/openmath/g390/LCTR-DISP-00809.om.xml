@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+  <OMBIND>
+    <OMS cd="quant1" name="forall"/>
+    <OMBVAR><OMV name="a"/></OMBVAR>
+    <OMA>
+      <OMS cd="logic1" name="implies"/>
+      <OMA>
+        <OMS cd="set1" name="in"/>
+        <OMV name="a"/>
+        <OMA><OMS cd="lctr_law_audit1" name="law_indices"/><OMV name="LawDat"/></OMA>
+      </OMA>
+      <OMA>
+        <OMS cd="lctr_law_audit1" name="right_unique"/>
+        <OMA><OMS cd="lctr_law_audit1" name="candidate_relation_at"/><OMV name="LawDat"/><OMV name="a"/></OMA>
+      </OMA>
+    </OMA>
+  </OMBIND>
+</OMOBJ>

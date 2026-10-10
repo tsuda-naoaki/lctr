@@ -1,0 +1,1704 @@
+{
+  "groups": [
+    {
+      "id": "finite_failure_graph_smt",
+      "source_responsibilities": [
+        "semantic:def:failure-dependency-order",
+        "semantic:prop:failure-dependency-order-is-partial",
+        "semantic:prop:failure-dependency-parallel-branches"
+      ],
+      "navigation_component_ids": [
+        "chapter6-token-dag/all-six-designated-parallel-groups",
+        "chapter6-token-dag/exact-intra-and-inter-edges",
+        "chapter6-token-dag/rank-increase-acyclic-partial-order",
+        "chapter6-token-dag/reachability-and-incomparability"
+      ],
+      "scope": "Five finite-graph obligations on the explicit 38-token, 214-edge graph, using one-based integer indices. Arithmetic rewrite rules are proved for Int; Boolean rules use Bool or logical equivalence, and equality/ITE rules use a homogeneous carrier. Carcara checks the generated Alethe traces with the listed rules. The only trace transformation removes the outer printer list.",
+      "cases": [
+        "graph/edge_rank",
+        "graph/scalar_lex_equivalence",
+        "graph/edge_series_allowed",
+        "graph/allowed_transitive",
+        "graph/approx_vs_law_diff"
+      ],
+      "pdf_locations": {
+        "semantic:def:failure-dependency-order": {
+          "jp": {
+            "number": "6.17",
+            "page": 171,
+            "destination": "definition.6.17",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:failure-dependency-order",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.17",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 171,
+                "printed_page": "171",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.17"
+              }
+            }
+          },
+          "en": {
+            "number": "6.17",
+            "page": 184,
+            "destination": "definition.6.17",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:failure-dependency-order",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.17",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 184,
+                "printed_page": "184",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.17"
+              }
+            }
+          }
+        },
+        "semantic:prop:failure-dependency-order-is-partial": {
+          "jp": {
+            "number": "6.18",
+            "page": 172,
+            "destination": "definition.6.18",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:failure-dependency-order-is-partial",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.18",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 172,
+                "printed_page": "172",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.18"
+              }
+            }
+          },
+          "en": {
+            "number": "6.18",
+            "page": 185,
+            "destination": "definition.6.18",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:failure-dependency-order-is-partial",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.18",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 185,
+                "printed_page": "185",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.18"
+              }
+            }
+          }
+        },
+        "semantic:prop:failure-dependency-parallel-branches": {
+          "jp": {
+            "number": "6.19",
+            "page": 173,
+            "destination": "definition.6.19",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:failure-dependency-parallel-branches",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.19",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 173,
+                "printed_page": "173",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.19"
+              }
+            }
+          },
+          "en": {
+            "number": "6.19",
+            "page": 186,
+            "destination": "definition.6.19",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:failure-dependency-parallel-branches",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.19",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 186,
+                "printed_page": "186",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.19"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "rewrite_correspondence": [
+        {
+          "rule": "arith-elim-gt",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_elim_gt",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_gt",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-elim-leq",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_elim_leq",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_leq",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-elim-lt",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_elim_lt",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_elim_lt",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-eq-elim-int",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_eq_elim_int",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_eq_elim_int",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-geq-ite-lift",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_geq_ite_lift",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_ite_lift",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-geq-norm1-int",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_geq_norm1_int",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_norm1_int",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-geq-tighten",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_geq_tighten",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_geq_tighten",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-leq-ite-lift",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_leq_ite_lift",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_leq_ite_lift",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "arith-leq-norm",
+          "lean": "LCTR.CoreSMTRewriteRules.arith_leq_norm",
+          "isabelle": "Core_SMT_Rewrite_Rules.arith_leq_norm",
+          "premises": [],
+          "domain": "integers; Boolean branch selectors"
+        },
+        {
+          "rule": "bool-double-not-elim",
+          "lean": "LCTR.CoreSMTRewriteRules.bool_double_not_elim",
+          "isabelle": "Core_SMT_Rewrite_Rules.bool_double_not_elim",
+          "premises": [],
+          "domain": "Booleans"
+        },
+        {
+          "rule": "bool-eq-true",
+          "lean": "LCTR.CoreSMTRewriteRules.bool_eq_true",
+          "isabelle": "Core_SMT_Rewrite_Rules.bool_eq_true",
+          "premises": [],
+          "domain": "Booleans"
+        },
+        {
+          "rule": "bool-impl-false1",
+          "lean": "LCTR.CoreSMTRewriteRules.bool_impl_false1",
+          "isabelle": "Core_SMT_Rewrite_Rules.bool_impl_false1",
+          "premises": [],
+          "domain": "Booleans"
+        },
+        {
+          "rule": "eq-refl",
+          "lean": "LCTR.CoreSMTRewriteRules.eq_refl",
+          "isabelle": "Core_SMT_Rewrite_Rules.eq_refl",
+          "premises": [],
+          "domain": "arbitrary homogeneous sort"
+        },
+        {
+          "rule": "eq-symm",
+          "lean": "LCTR.CoreSMTRewriteRules.eq_symm",
+          "isabelle": "Core_SMT_Rewrite_Rules.eq_symm",
+          "premises": [],
+          "domain": "arbitrary homogeneous sort"
+        },
+        {
+          "rule": "ite-eq",
+          "lean": "LCTR.CoreSMTRewriteRules.ite_eq",
+          "isabelle": "Core_SMT_Rewrite_Rules.ite_eq",
+          "premises": [],
+          "domain": "arbitrary homogeneous sort"
+        },
+        {
+          "rule": "ite-not-cond",
+          "lean": "LCTR.CoreSMTRewriteRules.ite_not_cond",
+          "isabelle": "Core_SMT_Rewrite_Rules.ite_not_cond",
+          "premises": [],
+          "domain": "arbitrary homogeneous sort"
+        },
+        {
+          "rule": "ite-then-true",
+          "lean": "LCTR.CoreSMTRewriteRules.ite_then_true",
+          "isabelle": "Core_SMT_Rewrite_Rules.ite_then_true",
+          "premises": [],
+          "domain": "Booleans"
+        }
+      ],
+      "finite_model": {
+        "tokens": 38,
+        "edges": 214,
+        "parallel_pairs": 111
+      },
+      "case_bindings": [
+        {
+          "case": "edge_rank",
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-int",
+            "arith-geq-ite-lift",
+            "arith-geq-tighten",
+            "arith-leq-ite-lift",
+            "arith-leq-norm",
+            "bool-double-not-elim",
+            "bool-eq-true",
+            "bool-impl-false1",
+            "eq-refl",
+            "ite-eq",
+            "ite-not-cond",
+            "ite-then-true"
+          ]
+        },
+        {
+          "case": "scalar_lex_equivalence",
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-int",
+            "arith-geq-ite-lift",
+            "arith-geq-norm1-int",
+            "arith-geq-tighten",
+            "arith-leq-ite-lift",
+            "arith-leq-norm",
+            "bool-double-not-elim",
+            "bool-eq-true",
+            "bool-impl-false1",
+            "eq-refl",
+            "eq-symm",
+            "ite-eq",
+            "ite-not-cond",
+            "ite-then-true"
+          ]
+        },
+        {
+          "case": "edge_series_allowed",
+          "required_rules": [
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-int",
+            "arith-leq-norm",
+            "bool-double-not-elim",
+            "bool-impl-false1",
+            "eq-refl"
+          ]
+        },
+        {
+          "case": "allowed_transitive",
+          "required_rules": [
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-int",
+            "arith-leq-norm",
+            "bool-double-not-elim"
+          ]
+        },
+        {
+          "case": "approx_vs_law_diff",
+          "required_rules": [
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-int",
+            "arith-leq-norm",
+            "bool-double-not-elim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "four_state_evaluation_smt",
+      "source_responsibilities": [
+        "semantic:def:failure-evaluation-states-and-failed-token-sets"
+      ],
+      "navigation_component_ids": [
+        "native-state/allowed-series-pair",
+        "native-state/approximation-failed-set",
+        "native-state/argument-and-state-section",
+        "native-state/direct-predecessors",
+        "native-state/failed-fibre",
+        "native-state/formation-and-evaluation-inputs",
+        "native-state/four-state-recursion",
+        "native-state/identity-and-projection-restrictions",
+        "native-state/native-domain-and-missing-input",
+        "native-state/predecessor-satisfaction",
+        "native-state/restriction-coherence",
+        "native-state/set-map-domains",
+        "native-state/state-fibres",
+        "native-state/state-function-type-and-existence",
+        "native-state/strict-failed-set",
+        "native-state/three-gates",
+        "native-state/typed-predecessor-argument"
+      ],
+      "scope": "The four-state local evaluation formula, with formation f and predecessor satisfaction p jointly gating formation, e gating evaluation, and c giving the evaluated condition. An injective encoding into four distinct integers is linked to the native state datatype by the published transfer theorems. Six unsatisfiable negations and two satisfiable wrong-formula controls are checked. This does not replace the native finite-DAG recursion theorem.",
+      "cases": [
+        "evaluation/failed_iff",
+        "evaluation/sat_iff",
+        "evaluation/missing_formation",
+        "evaluation/upstream_nonsat",
+        "evaluation/unevaluable_iff",
+        "evaluation/unformed_iff",
+        "evaluation/negative_ignore_predecessor",
+        "evaluation/negative_evaluation_before_formation"
+      ],
+      "pdf_locations": {
+        "semantic:def:failure-evaluation-states-and-failed-token-sets": {
+          "jp": {
+            "number": "6.21",
+            "page": 174,
+            "destination": "definition.6.21",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:failure-evaluation-states-and-failed-token-sets",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.21",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 174,
+                "printed_page": "174",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.21"
+              }
+            }
+          },
+          "en": {
+            "number": "6.21",
+            "page": 187,
+            "destination": "definition.6.21",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:failure-evaluation-states-and-failed-token-sets",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.21",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 187,
+                "printed_page": "187",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.21"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "gate_binding": {
+        "f": "FailInputSat^form(a)",
+        "e": "FailInputSat^eval(a)",
+        "p": "FailPredSat(a)",
+        "c": "FailEval(a)",
+        "formed": "f and p",
+        "ready": "p and f and e"
+      },
+      "encoding_correspondence": [
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.encode_injective",
+          "isabelle": "Core_Evaluation_SMT_Bridge.encode_injective"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.encode_eq_iff",
+          "isabelle": "Core_Evaluation_SMT_Bridge.encode_eq_iff"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.encode_image",
+          "isabelle": "Core_Evaluation_SMT_Bridge.encode_image"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.state_commutes",
+          "isabelle": "Core_Evaluation_SMT_Bridge.state_commutes"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.failed_iff_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.failed_iff_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.sat_iff_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.sat_iff_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.missing_formation_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.missing_formation_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.upstream_nonsat_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.upstream_nonsat_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.unevaluable_iff_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.unevaluable_iff_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.unformed_iff_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.unformed_iff_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.wrong_prior_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.wrong_prior_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.wrong_order_transfer",
+          "isabelle": "Core_Evaluation_SMT_Bridge.wrong_order_transfer"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.reject_ignored_predecessor",
+          "isabelle": "Core_Evaluation_SMT_Bridge.reject_ignored_predecessor"
+        },
+        {
+          "lean": "LCTR.CoreEvaluationSMTBridge.reject_early_evaluation",
+          "isabelle": "Core_Evaluation_SMT_Bridge.reject_early_evaluation"
+        },
+        {
+          "lean": "LCTR.CoreSMTBooleanRules.bool_eq_false",
+          "isabelle": "Core_SMT_Boolean_Rules.bool_eq_false"
+        },
+        {
+          "lean": "LCTR.CoreSMTBooleanRules.ite_false_cond",
+          "isabelle": "Core_SMT_Boolean_Rules.ite_false_cond"
+        }
+      ],
+      "new_rewrite_schemas": 2,
+      "native_counterexamples": {
+        "ignore_predecessor": {
+          "f": true,
+          "e": true,
+          "p": false,
+          "c": false
+        },
+        "evaluation_before_formation": {
+          "f": false,
+          "e": false,
+          "p": true,
+          "c": true
+        }
+      },
+      "case_bindings": [
+        {
+          "case": "failed_iff",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.failed_iff_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.failed_iff_transfer"
+        },
+        {
+          "case": "sat_iff",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.sat_iff_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.sat_iff_transfer"
+        },
+        {
+          "case": "missing_formation",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.missing_formation_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.missing_formation_transfer"
+        },
+        {
+          "case": "upstream_nonsat",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.upstream_nonsat_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.upstream_nonsat_transfer"
+        },
+        {
+          "case": "unevaluable_iff",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.unevaluable_iff_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.unevaluable_iff_transfer"
+        },
+        {
+          "case": "unformed_iff",
+          "solver_status": "unsat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.unformed_iff_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.unformed_iff_transfer"
+        },
+        {
+          "case": "negative_ignore_predecessor",
+          "solver_status": "sat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.wrong_prior_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.wrong_prior_transfer"
+        },
+        {
+          "case": "negative_evaluation_before_formation",
+          "solver_status": "sat",
+          "lean_transfer": "LCTR.CoreEvaluationSMTBridge.wrong_order_transfer",
+          "isabelle_transfer": "Core_Evaluation_SMT_Bridge.wrong_order_transfer"
+        }
+      ]
+    },
+    {
+      "id": "frequency_period_hz_cas",
+      "source_responsibilities": [
+        "semantic:def:frequency-representation",
+        "semantic:def:frequency-period-hz-representation-position",
+        "semantic:def:standard-frequency-value-as-representation",
+        "semantic:prop:frequency-representation-stage-position",
+        "semantic:prop:frequency-representation-stage-position#proof"
+      ],
+      "navigation_component_ids": [
+        "affine/frequency-period-product",
+        "affine/frequency-stage-assertion",
+        "affine/nonzero-count-step",
+        "affine/positive-window-difference",
+        "affine/realization-bundle",
+        "frequency/admissible-window",
+        "frequency/coordinate-difference",
+        "frequency/count-difference",
+        "frequency/endpoint",
+        "frequency/frequency-invariance",
+        "frequency/hz-number",
+        "frequency/hz-unit",
+        "frequency/period-invariance",
+        "frequency/raw-window",
+        "frequency/source-family",
+        "frequency/source-frequency",
+        "frequency/source-period",
+        "frequency/standard-frequency",
+        "frequency/standard-normalization",
+        "frequency/window-frequency",
+        "frequency/window-period"
+      ],
+      "scope": "Real scalar frequency, reciprocal period, and normalization identities on the stated positive/nonzero domain. Three identities, four positivity results, and two false-identity counterexamples are checked in each CAS. Physical realization, admitted windows and general ordered-field results use their separate native formalizations.",
+      "cases": [
+        "frequency_period_hz_cas/maxima",
+        "frequency_period_hz_cas/sympy"
+      ],
+      "pdf_locations": {
+        "semantic:def:frequency-representation": {
+          "jp": {
+            "number": "4.150",
+            "page": 81,
+            "destination": "definition.4.150",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-representation",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.150",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 81,
+                "printed_page": "81",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.150"
+              }
+            }
+          },
+          "en": {
+            "number": "4.150",
+            "page": 89,
+            "destination": "definition.4.150",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-representation",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.150",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 89,
+                "printed_page": "89",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.150"
+              }
+            }
+          }
+        },
+        "semantic:def:frequency-period-hz-representation-position": {
+          "jp": {
+            "number": "4.151",
+            "page": 81,
+            "destination": "definition.4.151",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-period-hz-representation-position",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.151",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 81,
+                "printed_page": "81",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.151"
+              }
+            }
+          },
+          "en": {
+            "number": "4.151",
+            "page": 90,
+            "destination": "definition.4.151",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-period-hz-representation-position",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.151",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 90,
+                "printed_page": "90",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.151"
+              }
+            }
+          }
+        },
+        "semantic:def:standard-frequency-value-as-representation": {
+          "jp": {
+            "number": "4.152",
+            "page": 82,
+            "destination": "definition.4.152",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:standard-frequency-value-as-representation",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.152",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 82,
+                "printed_page": "82",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.152"
+              }
+            }
+          },
+          "en": {
+            "number": "4.152",
+            "page": 90,
+            "destination": "definition.4.152",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:standard-frequency-value-as-representation",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.152",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 90,
+                "printed_page": "90",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.152"
+              }
+            }
+          }
+        },
+        "semantic:prop:frequency-representation-stage-position": {
+          "jp": {
+            "number": "4.153",
+            "page": 82,
+            "destination": "definition.4.153",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:frequency-representation-stage-position",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.153",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 82,
+                "printed_page": "82",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.153"
+              }
+            }
+          },
+          "en": {
+            "number": "4.153",
+            "page": 91,
+            "destination": "definition.4.153",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:frequency-representation-stage-position",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.153",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 91,
+                "printed_page": "91",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.153"
+              }
+            }
+          }
+        },
+        "semantic:prop:frequency-representation-stage-position#proof": {
+          "jp": {
+            "number": "4.153",
+            "page": 82,
+            "destination": "definition.4.153",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "proof_of_named_object",
+            "label": "prop:frequency-representation-stage-position",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.153",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 82,
+                "printed_page": "82",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.153"
+              }
+            }
+          },
+          "en": {
+            "number": "4.153",
+            "page": 91,
+            "destination": "definition.4.153",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "proof_of_named_object",
+            "label": "prop:frequency-representation-stage-position",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.153",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 91,
+                "printed_page": "91",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.153"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "scalar_binding": {
+        "n": "CntDiff = (k1-k0) * 1",
+        "d": "RepDiff of the admitted represented endpoints",
+        "v": "positive nu, and nu_std in the normalization case",
+        "u": "positive nu_unit",
+        "N": "positive N_std * 1"
+      },
+      "formal_correspondence": [
+        {
+          "unit": "CoreFrequencyWindows",
+          "lean": "LCTR.CoreFrequencyWindows.count_difference_positive",
+          "isabelle": "arrival_projection.count_difference_positive",
+          "role": "Admitted counts make n positive."
+        },
+        {
+          "unit": "CoreFrequencyWindows",
+          "lean": "LCTR.CoreFrequencyWindows.coordinate_difference_positive",
+          "isabelle": "native_frequency.coordinate_difference_positive",
+          "role": "Generated represented endpoints make d positive."
+        },
+        {
+          "unit": "CoreFrequencyWindows",
+          "lean": "LCTR.CoreFrequencyWindows.period_positive_and_product",
+          "isabelle": "native_frequency.period_positive_and_product",
+          "role": "Native frequency/period product on admitted windows."
+        },
+        {
+          "unit": "CoreAffineFrequency",
+          "lean": "LCTR.CoreAffineFrequency.frequency_positive",
+          "isabelle": "affine_frequency.frequency_positive",
+          "role": "Scalar quotient positivity under the retained order hypotheses."
+        },
+        {
+          "unit": "CoreAffineFrequency",
+          "lean": "LCTR.CoreAffineFrequency.hz_number_positive",
+          "isabelle": "hz_number_positive",
+          "role": "Relative Hz number is positive for positive value and unit."
+        },
+        {
+          "unit": "CoreAffineFrequency",
+          "lean": "LCTR.CoreAffineFrequency.standard_normalization",
+          "isabelle": "standard_normalization",
+          "role": "Source standard value divided by its normalized unit equals the positive integer convention."
+        }
+      ]
+    },
+    {
+      "id": "finite_jet_polynomial_cas",
+      "source_responsibilities": [
+        "semantic:prop:differential-local-jet-consequences#proof"
+      ],
+      "navigation_component_ids": [
+        "local-jet/finite-jet-realization",
+        "local-jet/germ-regularity"
+      ],
+      "scope": "Real polynomial jet witnesses of degrees 0 through 6, with derivative orders 0 through 7: 56 basis residuals, seven jet-coefficient residuals, one above-degree residual and two wrong-formula controls in each CAS. Arbitrary finite order, vector-valued jets and open-neighborhood conditions are covered by the native theorem, not by this finite CAS range.",
+      "cases": [
+        "finite_jet_polynomial_cas/maxima",
+        "finite_jet_polynomial_cas/sympy"
+      ],
+      "pdf_locations": {
+        "semantic:prop:differential-local-jet-consequences#proof": {
+          "jp": {
+            "number": "5.124",
+            "page": 142,
+            "destination": "definition.5.124",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "proof_of_named_object",
+            "label": "prop:differential-local-jet-consequences",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.5.124",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 142,
+                "printed_page": "142",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.5.124"
+              }
+            }
+          },
+          "en": {
+            "number": "5.124",
+            "page": 154,
+            "destination": "definition.5.124",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "proof_of_named_object",
+            "label": "prop:differential-local-jet-consequences",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.5.124",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 154,
+                "printed_page": "154",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.5.124"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "formal_correspondence": [
+        {
+          "unit": "CoreFiniteJets",
+          "lean": "LCTR.CoreFiniteJets.monomial_derivative",
+          "isabelle": "Core_Finite_Jets_Vector.monomial_derivative",
+          "role": "General derivative of normalized monomial, specialized by CAS to degrees 0..6 and derivative orders 0..7."
+        },
+        {
+          "unit": "CoreFiniteJets",
+          "lean": "LCTR.CoreFiniteJets.curve_derivative",
+          "isabelle": "Core_Finite_Jets_Vector.curve_derivative",
+          "role": "General vector-valued polynomial realizes the prescribed finite jet; CAS checks its real scalar degree-six instance."
+        },
+        {
+          "unit": "CoreFiniteJets",
+          "lean": "LCTR.CoreFiniteJets.finite_jet_realization",
+          "isabelle": "Core_Finite_Jets_Vector.finite_jet_realization",
+          "role": "General all-finite-order smooth witness supports the local polynomial realization paragraph; no CAS credit for the unrestricted theorem."
+        }
+      ]
+    },
+    {
+      "id": "law_partial_output_semantics",
+      "source_responsibilities": [
+        "semantic:prop:law-candidate-relation-partial-output-map"
+      ],
+      "navigation_component_ids": [
+        "chapter5-law-relations/unique-partial-output-and-literal-graph",
+        "law-output/graph-equality",
+        "law-output/output-map",
+        "law-output/right-unique",
+        "law-output/whole-statement"
+      ],
+      "scope": "LF typing of the law-candidate partial-output map, with a shared time carrier, the actual evaluation-domain subtype, the relation-domain subtype, right uniqueness, and extensional map uniqueness on that domain. One typed signature and five targeted type-error controls are checked by MMT. The three OpenMath/Content MathML expression pairs serialize the listed formula components; native Lean and Isabelle results provide existence and uniqueness.",
+      "cases": [
+        "mmt/bare_input_domain",
+        "mmt/bypass_evaluation_domain",
+        "mmt/positive",
+        "mmt/whole_eval_domain",
+        "mmt/wrong_datum_index",
+        "mmt/wrong_output_index"
+      ],
+      "pdf_locations": {
+        "semantic:prop:law-candidate-relation-partial-output-map": {
+          "jp": {
+            "number": "5.91",
+            "page": 127,
+            "destination": "definition.5.91",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:law-candidate-relation-partial-output-map",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.5.91",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 127,
+                "printed_page": "127",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.5.91"
+              }
+            }
+          },
+          "en": {
+            "number": "5.91",
+            "page": 139,
+            "destination": "definition.5.91",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "prop:law-candidate-relation-partial-output-map",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.5.91",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 139,
+                "printed_page": "139",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.5.91"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "carrier_correspondence": [
+        {
+          "paper": "Time × input space",
+          "lean": "T × d.InValSp a",
+          "isabelle": "'time × 'in",
+          "mmt": "RawEvalPoint d a; Time d shared by all a",
+          "role": "Ambient pair carrier only."
+        },
+        {
+          "paper": "EvalDom",
+          "lean": "EvalPoint d a = {p // p ∈ d.EvalDom a}",
+          "isabelle": "x∈E",
+          "mmt": "EvalPoint d a = evalSubtype d a (EvalDom d a)",
+          "role": "First restriction, before the candidate relation."
+        },
+        {
+          "paper": "CandRelDom",
+          "lean": "CandRelDom d a = {x : EvalPoint d a // ∃ y, relation d a x y}",
+          "isabelle": "cand_rel_dom E Y R",
+          "mmt": "LawDom d a = domainSubtype d a (DomainPredicate d a)",
+          "role": "Second restriction by output existence."
+        },
+        {
+          "paper": "OutValSp",
+          "lean": "d.OutValSp a",
+          "isabelle": "Y with maps_dom_into",
+          "mmt": "OutVal d a",
+          "role": "Same datum and same law index; no whole-carrier uniqueness claim for HOL functions outside their declared domain."
+        }
+      ],
+      "expression_to_MMT": [
+        {
+          "expression": "LCTR-DISP-00809",
+          "mmt": "FamilyRightUnique",
+          "binding": "LawDat ↦ d; bounded a in LawDat.LawIdx ↦ a:Index d; the body is right uniqueness of CandRel d a."
+        },
+        {
+          "expression": "LCTR-DISP-00810",
+          "mmt": "OutMap",
+          "binding": "At fixed d and a, LawDom d a is the subtype selected by exists y, CandRel d a x y; the codomain is OutVal d a."
+        },
+        {
+          "expression": "LCTR-DISP-00811",
+          "mmt": "GraphEquality",
+          "binding": "Relation equality is expanded into membership iff: CandRel d a x y iff some q:LawDom d a has underlying point x and map value y."
+        },
+        {
+          "expression": "Full source proposition, including prose quantifiers and unique existence",
+          "mmt": "PaperStatement",
+          "binding": "Every d, assuming all indexed relations are right-unique, has for every a exactly one map whose graph equals that relation; UniqueGraph includes extensional uniqueness over the same domain."
+        }
+      ],
+      "formal_correspondence": [
+        {
+          "unit": "RegionLawGluingBridge",
+          "lean": "LCTR.RegionLawGluingLeanBridgeV1.Law.candRelDom_is_exact_relation_domain",
+          "isabelle": "actual_law_component.alignment_candRelDom_is_exact_relation_domain",
+          "role": "The map domain is the relation's actual input projection."
+        },
+        {
+          "unit": "RegionLawGluingBridge",
+          "lean": "LCTR.RegionLawGluingLeanBridgeV1.Law.law_candidate_relation_partial_output_map",
+          "isabelle": "actual_law_component.alignment_law_candidate_relation_partial_output_map",
+          "role": "Existence and uniqueness for any typed right-unique relation."
+        },
+        {
+          "unit": "RegionLawGluingBridge",
+          "lean": "LCTR.RegionLawGluingLeanBridgeV1.Law.law_candidate_relation_literal_graph",
+          "isabelle": "actual_law_component.alignment_law_candidate_relation_literal_graph",
+          "role": "Literal set equality of the graph, including both containments."
+        },
+        {
+          "unit": "RegionLawGluingBridge",
+          "lean": "LCTR.RegionLawGluingLeanBridgeV1.Law.empty_relation_has_empty_domain",
+          "isabelle": "actual_law_component.alignment_empty_relation_has_empty_domain",
+          "role": "The empty relation has an empty input domain."
+        },
+        {
+          "unit": "RegionLawGluingBridge",
+          "lean": "LCTR.RegionLawGluingLeanBridgeV1.Law.no_graph_if_right_uniqueness_fails",
+          "isabelle": "actual_law_component.alignment_no_graph_if_right_uniqueness_fails",
+          "role": "The stated uniqueness premise cannot be dropped."
+        }
+      ]
+    },
+    {
+      "id": "finite_continuum_margin_smt",
+      "source_responsibilities": [
+        "semantic:def:extended-nonnegative-margin",
+        "semantic:def:dynamic-margin-and-excess",
+        "semantic:def:continuum-approximation-defect-family",
+        "semantic:thm:quantitative-continuum-validity"
+      ],
+      "navigation_component_ids": [
+        "continuum/component-excess",
+        "continuum/component-margin",
+        "continuum/condition-inequality",
+        "continuum/defect-family",
+        "continuum/eight-condition-equivalence",
+        "continuum/excess-type",
+        "continuum/extended-margin",
+        "continuum/margin-type",
+        "continuum/validity-margin-excess"
+      ],
+      "scope": "The finite-real branch of margin and excess, with ENNReal finite values represented by toReal. Four Real rewrite rules and four native encoding equalities link seven arithmetic obligations and three wrong-formula controls to the native definitions. Infinity branches and the nine-component validity quantifiers remain in the native proofs.",
+      "cases": [
+        "margin/margin_nonneg",
+        "margin/margin_zero",
+        "margin/margin_positive",
+        "margin/excess_zero",
+        "margin/excess_positive",
+        "margin/boolean_midpoint",
+        "margin/boolean_margin",
+        "margin/negative_reverse_margin",
+        "margin/negative_zero_threshold_robust",
+        "margin/negative_unit_threshold"
+      ],
+      "pdf_locations": {
+        "semantic:def:extended-nonnegative-margin": {
+          "jp": {
+            "number": "6.87",
+            "page": 205,
+            "destination": "definition.6.87",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:extended-nonnegative-margin",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.87",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 205,
+                "printed_page": "205",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.87"
+              }
+            }
+          },
+          "en": {
+            "number": "6.87",
+            "page": 219,
+            "destination": "definition.6.87",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:extended-nonnegative-margin",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.87",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 219,
+                "printed_page": "219",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.87"
+              }
+            }
+          }
+        },
+        "semantic:def:dynamic-margin-and-excess": {
+          "jp": {
+            "number": "6.88",
+            "page": 205,
+            "destination": "definition.6.88",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:dynamic-margin-and-excess",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.88",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 205,
+                "printed_page": "205",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.88"
+              }
+            }
+          },
+          "en": {
+            "number": "6.88",
+            "page": 219,
+            "destination": "definition.6.88",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:dynamic-margin-and-excess",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.88",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 219,
+                "printed_page": "219",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.88"
+              }
+            }
+          }
+        },
+        "semantic:def:continuum-approximation-defect-family": {
+          "jp": {
+            "number": "6.84",
+            "page": 204,
+            "destination": "definition.6.84",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:continuum-approximation-defect-family",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.84",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 204,
+                "printed_page": "204",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.84"
+              }
+            }
+          },
+          "en": {
+            "number": "6.84",
+            "page": 219,
+            "destination": "definition.6.84",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:continuum-approximation-defect-family",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.84",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 219,
+                "printed_page": "219",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.84"
+              }
+            }
+          }
+        },
+        "semantic:thm:quantitative-continuum-validity": {
+          "jp": {
+            "number": "6.95",
+            "page": 208,
+            "destination": "definition.6.95",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "thm:quantitative-continuum-validity",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.6.95",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 208,
+                "printed_page": "208",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.6.95"
+              }
+            }
+          },
+          "en": {
+            "number": "6.95",
+            "page": 222,
+            "destination": "definition.6.95",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "thm:quantitative-continuum-validity",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.6.95",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 222,
+                "printed_page": "222",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.6.95"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "rewrite_correspondence": [
+        {
+          "rule": "arith-elim-gt",
+          "domain": "Real",
+          "premises": [],
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_gt",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_gt"
+        },
+        {
+          "rule": "arith-elim-leq",
+          "domain": "Real",
+          "premises": [],
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_leq",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_leq"
+        },
+        {
+          "rule": "arith-elim-lt",
+          "domain": "Real",
+          "premises": [],
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_lt",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_lt"
+        },
+        {
+          "rule": "arith-eq-elim-real",
+          "domain": "Real",
+          "premises": [],
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_eq_elim_real",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_eq_elim_real"
+        },
+        {
+          "rule": "bool-double-not-elim",
+          "lean": "LCTR.CoreSMTRewriteRules.bool_double_not_elim",
+          "isabelle": "Core_SMT_Rewrite_Rules.bool_double_not_elim",
+          "premises": [],
+          "domain": "Bool"
+        },
+        {
+          "rule": "eq-refl",
+          "lean": "LCTR.CoreSMTRewriteRules.eq_refl",
+          "isabelle": "Core_SMT_Rewrite_Rules.eq_refl",
+          "premises": [],
+          "domain": "homogeneous-sort"
+        },
+        {
+          "rule": "eq-symm",
+          "lean": "LCTR.CoreSMTRewriteRules.eq_symm",
+          "isabelle": "Core_SMT_Rewrite_Rules.eq_symm",
+          "premises": [],
+          "domain": "homogeneous-sort"
+        },
+        {
+          "rule": "ite-eq",
+          "lean": "LCTR.CoreSMTRewriteRules.ite_eq",
+          "isabelle": "Core_SMT_Rewrite_Rules.ite_eq",
+          "premises": [],
+          "domain": "homogeneous-sort"
+        },
+        {
+          "rule": "ite-not-cond",
+          "lean": "LCTR.CoreSMTRewriteRules.ite_not_cond",
+          "isabelle": "Core_SMT_Rewrite_Rules.ite_not_cond",
+          "premises": [],
+          "domain": "homogeneous-sort"
+        }
+      ],
+      "auxiliary_root_correspondence": [
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_gt",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_gt"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_leq",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_leq"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_elim_lt",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_elim_lt"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.arith_eq_elim_real",
+          "isabelle": "Core_Finite_Margin_Bridge.arith_eq_elim_real"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.finite_margin",
+          "isabelle": "Core_Finite_Margin_Bridge.finite_margin"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.finite_excess",
+          "isabelle": "Core_Finite_Margin_Bridge.finite_excess"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.bool_defect_real",
+          "isabelle": "Core_Finite_Margin_Bridge.bool_defect_real"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.half_real",
+          "isabelle": "Core_Finite_Margin_Bridge.half_real"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.reject_reverse_margin",
+          "isabelle": "Core_Finite_Margin_Bridge.reject_reverse_margin"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.reject_zero_threshold_robust",
+          "isabelle": "Core_Finite_Margin_Bridge.reject_zero_threshold_robust"
+        },
+        {
+          "lean": "LCTR.CoreFiniteMarginBridge.reject_unit_threshold",
+          "isabelle": "Core_Finite_Margin_Bridge.reject_unit_threshold"
+        }
+      ],
+      "native_counterexamples": {
+        "negative_reverse_margin": {
+          "e": 1,
+          "d": 0
+        },
+        "negative_zero_threshold_robust": {
+          "b": true
+        },
+        "negative_unit_threshold": {
+          "b": false
+        }
+      },
+      "case_bindings": [
+        {
+          "case": "margin_nonneg",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumBoundary",
+            "lean": "LCTR.CoreContinuumBoundary.margin_nonneg",
+            "isabelle": "margin_nonneg"
+          },
+          "required_rules": [
+            "arith-elim-leq",
+            "eq-refl",
+            "eq-symm"
+          ]
+        },
+        {
+          "case": "margin_zero",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumBoundary",
+            "lean": "LCTR.CoreContinuumBoundary.margin_zero",
+            "isabelle": "margin_zero"
+          },
+          "required_rules": [
+            "eq-refl"
+          ]
+        },
+        {
+          "case": "margin_positive",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumBoundary",
+            "lean": "LCTR.CoreContinuumBoundary.margin_positive",
+            "isabelle": "margin_positive"
+          },
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "eq-refl",
+            "eq-symm"
+          ]
+        },
+        {
+          "case": "excess_zero",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumBoundary",
+            "lean": "LCTR.CoreContinuumBoundary.excess_zero",
+            "isabelle": "excess_zero"
+          },
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-real",
+            "bool-double-not-elim",
+            "eq-refl",
+            "eq-symm",
+            "ite-eq",
+            "ite-not-cond"
+          ]
+        },
+        {
+          "case": "excess_positive",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumBoundary",
+            "lean": "LCTR.CoreContinuumBoundary.excess_positive",
+            "isabelle": "excess_positive"
+          },
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "bool-double-not-elim",
+            "eq-refl",
+            "eq-symm",
+            "ite-eq",
+            "ite-not-cond"
+          ]
+        },
+        {
+          "case": "boolean_midpoint",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumEncoding",
+            "lean": "LCTR.CoreContinuumEncoding.midpoint_encoding",
+            "isabelle": "midpoint_encoding"
+          },
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "bool-double-not-elim",
+            "eq-refl",
+            "eq-symm",
+            "ite-eq"
+          ]
+        },
+        {
+          "case": "boolean_margin",
+          "solver_status": "unsat",
+          "native_correspondence": {
+            "unit": "CoreContinuumEncoding",
+            "lean": "LCTR.CoreContinuumEncoding.midpoint_margin",
+            "isabelle": "midpoint_margin"
+          },
+          "required_rules": [
+            "arith-elim-gt",
+            "arith-elim-leq",
+            "arith-elim-lt",
+            "arith-eq-elim-real",
+            "bool-double-not-elim",
+            "eq-refl",
+            "ite-eq"
+          ]
+        },
+        {
+          "case": "negative_reverse_margin",
+          "solver_status": "sat",
+          "native_correspondence": null,
+          "required_rules": []
+        },
+        {
+          "case": "negative_zero_threshold_robust",
+          "solver_status": "sat",
+          "native_correspondence": null,
+          "required_rules": []
+        },
+        {
+          "case": "negative_unit_threshold",
+          "solver_status": "sat",
+          "native_correspondence": null,
+          "required_rules": []
+        }
+      ]
+    },
+    {
+      "id": "frequency_coordinate_units",
+      "source_responsibilities": [
+        "semantic:def:frequency-representation",
+        "semantic:def:frequency-period-hz-representation-position",
+        "semantic:def:standard-frequency-value-as-representation"
+      ],
+      "navigation_component_ids": [
+        "frequency/admissible-window",
+        "frequency/coordinate-difference",
+        "frequency/count-difference",
+        "frequency/endpoint",
+        "frequency/frequency-invariance",
+        "frequency/hz-number",
+        "frequency/hz-unit",
+        "frequency/period-invariance",
+        "frequency/raw-window",
+        "frequency/source-family",
+        "frequency/source-frequency",
+        "frequency/source-period",
+        "frequency/standard-frequency",
+        "frequency/standard-normalization",
+        "frequency/window-frequency",
+        "frequency/window-period"
+      ],
+      "scope": "An explicitly declared generated-coordinate unit U, with dimensionless count and normalization factors. Nine assignments and three rejected operations are checked independently in Pint and Astropy. No SI second is an input; this check concerns units rather than numerical identities or physical realization.",
+      "cases": [
+        "frequency_coordinate_units/astropy",
+        "frequency_coordinate_units/pint"
+      ],
+      "pdf_locations": {
+        "semantic:def:frequency-representation": {
+          "jp": {
+            "number": "4.150",
+            "page": 81,
+            "destination": "definition.4.150",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-representation",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.150",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 81,
+                "printed_page": "81",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.150"
+              }
+            }
+          },
+          "en": {
+            "number": "4.150",
+            "page": 89,
+            "destination": "definition.4.150",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-representation",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.150",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 89,
+                "printed_page": "89",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.150"
+              }
+            }
+          }
+        },
+        "semantic:def:frequency-period-hz-representation-position": {
+          "jp": {
+            "number": "4.151",
+            "page": 81,
+            "destination": "definition.4.151",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-period-hz-representation-position",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.151",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 81,
+                "printed_page": "81",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.151"
+              }
+            }
+          },
+          "en": {
+            "number": "4.151",
+            "page": 90,
+            "destination": "definition.4.151",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:frequency-period-hz-representation-position",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.151",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 90,
+                "printed_page": "90",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.151"
+              }
+            }
+          }
+        },
+        "semantic:def:standard-frequency-value-as-representation": {
+          "jp": {
+            "number": "4.152",
+            "page": 82,
+            "destination": "definition.4.152",
+            "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+            "locator_kind": "named_object",
+            "label": "def:standard-frequency-value-as-representation",
+            "url": "pdf/lctr_main_supp_full_jp.pdf#nameddest=definition.4.152",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_jp.pdf",
+                "page": 82,
+                "printed_page": "82",
+                "url": "pdf/lctr_main_jp.pdf#nameddest=definition.4.152"
+              }
+            }
+          },
+          "en": {
+            "number": "4.152",
+            "page": 90,
+            "destination": "definition.4.152",
+            "pdf": "pdf/lctr_main_supp_full_en.pdf",
+            "locator_kind": "named_object",
+            "label": "def:standard-frequency-value-as-representation",
+            "url": "pdf/lctr_main_supp_full_en.pdf#nameddest=definition.4.152",
+            "edition_locations": {
+              "main": {
+                "pdf": "pdf/lctr_main_en.pdf",
+                "page": 90,
+                "printed_page": "90",
+                "url": "pdf/lctr_main_en.pdf#nameddest=definition.4.152"
+              }
+            }
+          }
+        }
+      },
+      "navigation_note": "Component links locate the surrounding mathematical contract; the scope and case bindings delimit what this auxiliary check establishes.",
+      "source_component_bindings": [
+        {
+          "case": "count_difference",
+          "component_id": "frequency/count-difference",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.countDifference",
+            "isabelle": "Core_Frequency_Windows.arrival_projection.count_difference"
+          },
+          "role": "input unit assignment"
+        },
+        {
+          "case": "coordinate_difference",
+          "component_id": "frequency/coordinate-difference",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.coordinateDifference",
+            "isabelle": "Core_Frequency_Windows.native_frequency.window_difference"
+          },
+          "role": "input unit assignment"
+        },
+        {
+          "case": "window_frequency",
+          "component_id": "frequency/window-frequency",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.frequency",
+            "isabelle": "Core_Frequency_Windows.native_frequency.frequency"
+          },
+          "role": "derived expression unit check"
+        },
+        {
+          "case": "window_period",
+          "component_id": "frequency/window-period",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.period",
+            "isabelle": "Core_Frequency_Windows.native_frequency.period"
+          },
+          "role": "derived expression unit check"
+        },
+        {
+          "case": "frequency_period_product",
+          "component_id": "frequency/window-period",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.period",
+            "isabelle": "Core_Frequency_Windows.native_frequency.period"
+          },
+          "role": "derived expression unit check"
+        },
+        {
+          "case": "standard_frequency",
+          "component_id": "frequency/standard-frequency",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreFrequencyWindows.source_values_unique",
+            "isabelle": "Core_Frequency_Windows.native_frequency.source_values_unique"
+          },
+          "role": "input unit assignment"
+        },
+        {
+          "case": "hz_unit",
+          "component_id": "frequency/hz-unit",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreAffineFrequency.hzUnit",
+            "isabelle": "Core_Affine_Frequency.hz_unit"
+          },
+          "role": "derived expression unit check"
+        },
+        {
+          "case": "hz_number",
+          "component_id": "frequency/hz-number",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreAffineFrequency.hzNumber",
+            "isabelle": "Core_Affine_Frequency.hz_number"
+          },
+          "role": "derived expression unit check"
+        },
+        {
+          "case": "standard_normalization",
+          "component_id": "frequency/standard-normalization",
+          "formal_definition_or_result": {
+            "lean": "LCTR.CoreAffineFrequency.standard_normalization",
+            "isabelle": "Core_Affine_Frequency.standard_normalization"
+          },
+          "role": "derived expression unit check"
+        }
+      ]
+    }
+  ],
+  "count": 7
+}

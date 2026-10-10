@@ -1,0 +1,19 @@
+{
+  "lean4export": {
+    "repository": "https://github.com/leanprover/lean4export.git",
+    "commit": "15f6055e299ad5b89345e533cc2192f4cc00f659",
+    "binary_sha256": "e775ccfbe86c08fa9fea1ec1fe45c46ed168cf48236ff8ba429aa28b05c0623e",
+    "build_toolchain": "leanprover/lean4:v4.33.0"
+  },
+  "nanoda": {
+    "repository": "https://github.com/robsimmons/nanoda_lib.git",
+    "commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840",
+    "binary_sha256": "a36c55dcaa71c2f972531b767e7e94fc6ea883535a73f9865a73d9466b95ff1b"
+  },
+  "con-leche": {
+    "repository": "https://github.com/leanprover/con-leche.git",
+    "commit": "a31e829790101f7c523e79b6b5ede03834b9e9f6",
+    "binary_sha256": "83b649740b9c3e43caded4b23613995f56a5034bcde5d07b8c8083fc41ac0de6",
+    "build_toolchain": "leanprover/lean4:v4.33.0"
+  }
+}

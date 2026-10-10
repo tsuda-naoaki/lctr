@@ -1,0 +1,4 @@
+'LCTR.DifferentialConditionDAG.edge_increases' depends on axioms: [propext, Quot.sound]
+'LCTR.DifferentialConditionDAG.path_increases' depends on axioms: [propext, Quot.sound]
+'LCTR.DifferentialConditionDAG.acyclic' depends on axioms: [propext, Quot.sound]
+'LCTR.DifferentialConditionDAG.truth_value_image_has_self_loop' does not depend on any axioms

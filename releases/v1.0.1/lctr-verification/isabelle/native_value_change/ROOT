@@ -1,0 +1,4 @@
+session LCTR_Native_Value_Change = LCTR_Native_Chart_Overlaps +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Finite_Directional_Value_Jets
+  theories Native_Value_Change

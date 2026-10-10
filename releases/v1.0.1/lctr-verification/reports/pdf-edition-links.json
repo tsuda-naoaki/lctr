@@ -1,0 +1,65 @@
+{
+  "accepted": true,
+  "basis": "Exact PDF hashes and split/link checks from edition-builder acceptance",
+  "editions": [
+    {
+      "pdf": "pdf/lctr_main_supp_full_jp.pdf",
+      "links": {
+        "other": 4262
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_jp.pdf",
+      "links": {
+        "other": 2911
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_jp.pdf",
+      "links": {
+        "other": 1361
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_supp_full_en.pdf",
+      "links": {
+        "other": 4262
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_main_en.pdf",
+      "links": {
+        "other": 2911
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_supp_en.pdf",
+      "links": {
+        "other": 1361
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_jp.pdf",
+      "links": {
+        "other": 6
+      },
+      "accepted": true
+    },
+    {
+      "pdf": "pdf/lctr_figures_en.pdf",
+      "links": {
+        "other": 6
+      },
+      "accepted": true
+    }
+  ],
+  "split_pages_byte_identical_to_full_content_streams": true,
+  "named_destination_page_mapping_verified": true,
+  "printed_page_labels_preserved": true
+}

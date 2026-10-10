@@ -1,0 +1,4 @@
+session LCTR_Modeled_Source_Value_Change = LCTR_Native_Atlas_Carriers +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Finite_Source_Value_Change
+  theories Modeled_Source_Value_Change

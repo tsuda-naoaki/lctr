@@ -1,0 +1,4 @@
+session LCTR_Core_Native_Law_Generation = LCTR_Core_Native_Law_Components +
+  options [quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Transport
+  theories Core_Native_Law_Generation

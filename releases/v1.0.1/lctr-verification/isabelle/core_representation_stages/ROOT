@@ -1,0 +1,3 @@
+session LCTR_Core_Representation_Stages = LCTR_Core_Exact_Structure +
+ options [quick_and_dirty = false]
+ theories Core_Representation_Stages

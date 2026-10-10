@@ -1,0 +1,3 @@
+session LCTR_Tagged_Lifts_Alignment = LCTR_Core_Tagged_Lifts +
+  options [document = false, quick_and_dirty = false]
+  theories Tagged_Lifts_Alignment

@@ -1,0 +1,3 @@
+session LCTR_Zero_Completed_Derivative = LCTR_Core_Finite_Jets_Vector +
+  options [quick_and_dirty = false]
+  theories Zero_Completed_Derivative

@@ -1,0 +1,23 @@
+session LCTR_Metadata_02_001 in "s001" = LCTR_Core_Audit_Tags +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_001
+
+session LCTR_Metadata_02_002 in "s002" = LCTR_Core_Dag_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_002
+
+session LCTR_Metadata_02_003 in "s003" = LCTR_Core_Preorder_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_003
+
+session LCTR_Metadata_02_004 in "s004" = LCTR_Core_Record_Codes +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_004
+
+session LCTR_Metadata_02_005 in "s005" = LCTR_Core_Source_Match_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_005
+
+session LCTR_Metadata_02_006 in "s006" = LCTR_Core_Typed_Words_Alignment +
+  options [quick_and_dirty = false]
+  theories Native_Metadata_02_006

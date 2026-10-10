@@ -1,0 +1,4 @@
+session LCTR_Core_Law_State = LCTR_Core_Evaluation +
+  options [document = false, quick_and_dirty = false]
+  sessions LCTR_Core_Native_Law_Family
+  theories Core_Law_State

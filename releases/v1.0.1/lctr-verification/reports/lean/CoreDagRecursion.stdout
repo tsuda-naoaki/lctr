@@ -1,0 +1,5 @@
+'LCTR.CoreDagRecursion.finite_dag_deterministic_state_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreDagRecursion.empty_vertices_allow_empty_states' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LCTR.CoreDagRecursion.cyclic_update_can_have_no_solution' depends on axioms: [propext]
+'LCTR.CoreDagRecursion.cyclic_update_can_have_multiple_solutions' does not depend on any axioms
+'LCTR.CoreDagRecursion.edge_orientation_control' depends on axioms: [propext]

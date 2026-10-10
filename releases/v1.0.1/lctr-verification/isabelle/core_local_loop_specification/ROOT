@@ -1,0 +1,3 @@
+session LCTR_Core_Local_Loop_Specification = HOL +
+  options [quick_and_dirty = false]
+  theories Core_Local_Loop_Specification

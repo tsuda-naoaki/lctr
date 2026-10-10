@@ -1,0 +1,2 @@
+session LCTR_Core_Trajectory_Descent = HOL +
+  theories Core_Trajectory_Descent

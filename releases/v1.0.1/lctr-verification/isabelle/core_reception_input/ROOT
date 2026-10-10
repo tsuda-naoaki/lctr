@@ -1,0 +1,3 @@
+session LCTR_Core_Reception_Input = LCTR_Core_Operational_Configuration +
+  options [quick_and_dirty = false]
+  theories Core_Reception_Input

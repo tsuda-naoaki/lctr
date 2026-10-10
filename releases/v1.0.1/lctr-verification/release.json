@@ -1,0 +1,258 @@
+{
+  "format": "LCTR verification release",
+  "release_id": "lctr-v1.0.1-level3-r1",
+  "scope": "chapters02-through06_formal_correspondence_and_72_source_finite_survey",
+  "depth": 3,
+  "depth_definition": "Proof bodies, definitions used, actual theorem dependencies, local premises and dependent-type or carrier conditions.",
+  "coverage": {
+    "source_responsibilities": 908,
+    "chapters": {
+      "2": 23,
+      "3": 48,
+      "4": 291,
+      "5": 217,
+      "6": 329
+    },
+    "assertions": 233,
+    "definitions": 348,
+    "proof_blocks": 231,
+    "contexts_and_restatements": 96,
+    "formal_units": 188,
+    "paired_roots": 1982,
+    "formal_component_references": 4847,
+    "components": 1200,
+    "formula_occurrences": 9066,
+    "construction_figure_panels": 6,
+    "bilingual_caption_references": 12,
+    "finite_survey": {
+      "sources": 72,
+      "time_contents": 2266,
+      "transfers": 820,
+      "results": 1411,
+      "local_reach_sources": 10,
+      "local_reach_items": 57,
+      "complete_generation_sources": 0,
+      "primitive_time_use_sources": 72,
+      "structural_signatures": 1955,
+      "time_axis_fibres": 16
+    }
+  },
+  "checks": {
+    "lean_positive_modules": 222,
+    "lean_expected_rejections": 2,
+    "isabelle_target_sessions": 191,
+    "isabelle_source_theories": 283,
+    "isabelle_execution_groups": 10,
+    "nanoda_roots": 1982,
+    "con_leche_roots": 1982,
+    "pdf_locations": 1816,
+    "auxiliary_groups": 7,
+    "auxiliary_tool_inputs": 35,
+    "auxiliary_proof_root_pairs": 46,
+    "smt_checked_traces": 18,
+    "smt_wrong_formula_controls": 5,
+    "trace_checker_rejection_controls": 2,
+    "serialization_pairs": 3,
+    "lean_native_dependency_roots": 1982,
+    "isabelle_native_dependency_roots": 1982,
+    "resolved_pdf_anchors": 12736,
+    "resolved_main_variant_locations": 12736,
+    "proof_body_correspondence_responsibilities": 908,
+    "resolved_proof_body_pdf_anchors": 1816
+  },
+  "scope_extension": "The finite survey computes reachability, structural signatures and counts for Chapters 7, 8 and the source appendix.",
+  "status": "fixed",
+  "public_archive": "lctr-verification.zip",
+  "expanded_root": "lctr-verification/",
+  "pdfs": [
+    {
+      "language": "jp",
+      "edition": "full",
+      "path": "pdf/lctr_main_supp_full_jp.pdf",
+      "sha256": "43333f8e352de3905bedd858c6259a8a43dd8276edac975ebab639c4bb3c8b80",
+      "pages": 1448,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          1,
+          1448
+        ]
+      ]
+    },
+    {
+      "language": "jp",
+      "edition": "main",
+      "path": "pdf/lctr_main_jp.pdf",
+      "sha256": "0893a4fa548b70032b2f3c270830c25bbce14e4622234b7ee42feecff8f03b2a",
+      "pages": 458,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          1,
+          452
+        ],
+        [
+          1443,
+          1448
+        ]
+      ]
+    },
+    {
+      "language": "jp",
+      "edition": "supp",
+      "path": "pdf/lctr_supp_jp.pdf",
+      "sha256": "e46a2aee0c2801ee8cdda560a4fd9dc4b3aa278ad6303a4c4a298f0b8d0cdee3",
+      "pages": 996,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          453,
+          1448
+        ]
+      ]
+    },
+    {
+      "language": "en",
+      "edition": "full",
+      "path": "pdf/lctr_main_supp_full_en.pdf",
+      "sha256": "3af0060f22887f13c93b2f9ebedecedacba381019c5a360a6b56a44c8bce0fbe",
+      "pages": 1740,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          1,
+          1740
+        ]
+      ]
+    },
+    {
+      "language": "en",
+      "edition": "main",
+      "path": "pdf/lctr_main_en.pdf",
+      "sha256": "beefee2f77890b02c4056fc2d6c7e496c74de7c0299251639bff001e20388eb3",
+      "pages": 522,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          1,
+          516
+        ],
+        [
+          1735,
+          1740
+        ]
+      ]
+    },
+    {
+      "language": "en",
+      "edition": "supp",
+      "path": "pdf/lctr_supp_en.pdf",
+      "sha256": "d47fa119dcfba59685771f6c6a3bd195971cc687cc4f22f8e7ca8aa529ff1748",
+      "pages": 1224,
+      "bundled": false,
+      "full_edition_page_ranges": [
+        [
+          517,
+          1740
+        ]
+      ]
+    },
+    {
+      "language": "jp",
+      "edition": "figures",
+      "path": "pdf/lctr_figures_jp.pdf",
+      "sha256": "aa28d2d438a7761326e553a0a1ff4d6fc5dc5c20c8132a4b8542e5bea936c1d7",
+      "pages": 32,
+      "bundled": false,
+      "figure_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "language": "en",
+      "edition": "figures",
+      "path": "pdf/lctr_figures_en.pdf",
+      "sha256": "621b0bcddd0d10a245b796b88be964c5d73b416f24431c02cebec0d9ad0fb6a1",
+      "pages": 32,
+      "bundled": false,
+      "figure_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  ],
+  "pdf_distribution": {
+    "bundled": false,
+    "verification_archives": 1,
+    "shared_verification_set": true,
+    "identities": "inventory/pdf-editions.json",
+    "checksums": "PDF-SHA256SUMS",
+    "placement": "pdf/README.txt"
+  },
+  "paper_version": "1.0.1",
+  "doi": "10.5281/zenodo.23273388",
+  "doi_url": "https://doi.org/10.5281/zenodo.23273388",
+  "public_file_count": 9,
+  "public_pdf_count": 8
+}
