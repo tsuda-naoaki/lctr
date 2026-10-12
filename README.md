@@ -6,6 +6,10 @@ Moving the Time Variable from a Premise of Physical Law to a Consequence:
 A General Theory of the Complete Description of Time Establishment through
 Local Comparison and Failure Classification
 
+時間参照の局所比較理論（Local-comparison theory of time reference; LCTR）は、非時間的な物理入力だけから物理時間を生成する完全な構成を初めて与える。その構成のどの段階でも、まだ生成していない時間量や時間的関係を前提として導入しない。
+
+The local-comparison theory of time reference (LCTR) provides the first complete construction of physical time from nontemporal physical inputs alone. At no stage does the construction presuppose temporal quantities or relations that it has not yet generated.
+
 著者 / Author: Naoaki Tsuda
 
 ORCID: [0009-0007-2506-4026](https://orcid.org/0009-0007-2506-4026)
@@ -21,6 +25,11 @@ The Japanese version is the original; an English version is provided alongside i
 - [Time mysteries and operational guarantees](https://tsuda-naoaki.github.io/lctr/time-mysteries/en.html)
 - [監査した72資料](https://tsuda-naoaki.github.io/lctr/sources/)
 - [The 72 audited sources](https://tsuda-naoaki.github.io/lctr/sources/en.html)
+
+- [時間の作り方](https://tsuda-naoaki.github.io/lctr/create-time/)
+- [How to construct time](https://tsuda-naoaki.github.io/lctr/create-time/en.html)
+- [なぜ従来の時間創発論は時間を生成できなかったのか](https://tsuda-naoaki.github.io/lctr/why-time-emergence-failed/)
+- [Why earlier attempts to derive time failed](https://tsuda-naoaki.github.io/lctr/why-time-emergence-failed/en.html)
 
 ## 論文 / Paper
 

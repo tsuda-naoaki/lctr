@@ -1,0 +1,23 @@
+/* World challenge. */
+.challenge{max-width:48rem;margin-inline:auto;padding-bottom:2rem}
+.challenge .paper-head{padding-bottom:.6rem}
+.challenge h1{overflow-wrap:normal;word-break:keep-all;font-size:clamp(2.1rem,5vw,3rem)}
+.challenge .challenge-lead{font-size:1.2em;line-height:1.85;font-weight:700;margin-bottom:2rem}
+.challenge p{margin-bottom:1.55rem}
+.challenge h2{font-size:1.4rem;line-height:1.65;padding-top:2rem;margin:2rem 0 1.5rem;border-top:1px solid #d6d9d9;text-wrap:pretty;word-break:normal}
+.challenge-quote{margin:2rem 0;padding:1.3rem 1.6rem;background:#f4eee3;border-left:4px solid #936332;font-size:1.06em;line-height:2}
+.challenge-quote p:last-child{margin-bottom:0}
+.challenge .challenge-emphasis{font-size:1.23em;font-weight:700;margin-block:1.8rem;line-height:1.8}
+.challenge-examples{list-style:none;padding:0;margin:2rem 0;font-size:.94em;line-height:1.9}
+.challenge-examples li{padding:1.2rem 0;border-top:1px solid #d6d9d9}
+.challenge-examples li strong{display:block;margin-bottom:.45rem;font-size:1.08em}
+.challenge-examples li a{display:inline-block;margin-left:.3rem}
+.challenge-table{margin:2rem 0}
+.challenge-table table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:.91em;line-height:1.8}
+.challenge-table th,.challenge-table td{width:50%;vertical-align:top;text-align:left;padding:.8rem .9rem;border-bottom:1px solid #d6d9d9;overflow-wrap:break-word}
+.challenge-table th{background:#eaf1ed;font-weight:700}
+.challenge-table td+td{border-left:1px solid #d6d9d9}
+.challenge-invitation{padding:1.3rem 1.5rem;border-left:4px solid #236b67;background:#eaf1ed;line-height:2.1}
+.challenge-reading{flex-wrap:wrap;padding:1.3rem 0 2rem;gap:.8rem 1.5rem;font-family:system-ui,sans-serif}
+@media(max-width:520px){.challenge-quote{padding:1rem .85rem;font-size:1em}.challenge .challenge-lead{font-size:1.12em}.challenge .challenge-emphasis{font-size:1.15em}.challenge h2{font-size:1.2rem}.challenge-table th,.challenge-table td{padding:.65rem .45rem;font-size:.94em}.challenge-invitation{padding:1rem}.challenge-examples li strong{font-size:1.02em}}
+@media print{.challenge-reading{display:none}.challenge-quote{break-inside:avoid}}

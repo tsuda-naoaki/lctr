@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="745" viewBox="0 0 1000 745" role="img" aria-labelledby="title desc">
+<title id="title">From coloured inputs to assigned real values</title><desc id="desc">The red-circle input c_red, blue-triangle input c_blue and green-diamond input c_green belong to separate classes T_red, T_blue and T_green. Each class enclosure retains its original input. They map to order coordinates [T_red], [T_blue] and [T_green] and then to assigned real values τ_red, τ_blue and τ_green.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 4.5L0 9Z" fill="#546573"/></marker></defs>
+<style>text{font-family:"Hiragino Sans","Noto Sans CJK JP",Arial,sans-serif} .symbol{font-family:"Times New Roman",serif}</style>
+<rect width="1000" height="745" rx="16" fill="white"/>
+<text x="28" y="42" font-size="28" fill="#223442" font-weight="700" text-anchor="start">From coloured inputs to assigned real values</text>
+<text x="28" y="81" font-size="21" fill="#b13434" font-weight="400" text-anchor="start">red circle</text>
+<text x="195" y="81" font-size="21" fill="#145b93" font-weight="400" text-anchor="start">blue triangle</text>
+<text x="398" y="81" font-size="21" fill="#25723f" font-weight="400" text-anchor="start">green diamond</text>
+<text x="108" y="125" font-size="22" fill="#223442" font-weight="700" text-anchor="middle">Input</text>
+<text x="339" y="125" font-size="22" fill="#70459c" font-weight="700" text-anchor="middle">Equivalence class</text>
+<text x="592" y="125" font-size="22" fill="#546573" font-weight="700" text-anchor="middle">Order coordinate</text>
+<text x="859" y="125" font-size="22" fill="#a13d0b" font-weight="700" text-anchor="middle">Assigned real value</text>
+<circle cx="108" cy="222" r="43" fill="#fff0ee" stroke="#b13434" stroke-width="3"/>
+<text x="108" y="224" font-size="25" fill="#b13434" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#b13434">red</tspan></text>
+<text x="108" y="292" font-size="21" fill="#b13434" font-weight="600" text-anchor="middle">Red position</text>
+<path d="M157 222L220 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="154" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="188" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#b13434">red</tspan></text>
+<circle cx="339" cy="245" r="32" fill="#fff0ee" stroke="#b13434" stroke-width="3"/>
+<text x="339" y="247" font-size="25" fill="#b13434" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#b13434">red</tspan></text>
+<text x="285" y="257" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="257" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 222L508 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="184" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="233" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#b13434">red</tspan>]</text>
+<path d="M674 222L756 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="161" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="169" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="218" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#b13434">red</tspan></text>
+<text x="863" y="266" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">real value</text>
+<path d="M108 352L161.75 438L54.25 438Z" fill="#e8f3ff" stroke="#145b93" stroke-width="3"/>
+<text x="108" y="408" font-size="25" fill="#145b93" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#145b93">blue</tspan></text>
+<text x="108" y="465" font-size="21" fill="#145b93" font-weight="600" text-anchor="middle">Blue position</text>
+<path d="M167.75 395L220 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="327" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="361" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#145b93">blue</tspan></text>
+<path d="M339 386L379.0 450L299.0 450Z" fill="#e8f3ff" stroke="#145b93" stroke-width="3"/>
+<text x="339" y="431" font-size="25" fill="#145b93" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#145b93">blue</tspan></text>
+<text x="285" y="430" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="430" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 395L508 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="357" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="406" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#145b93">blue</tspan>]</text>
+<path d="M674 395L756 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="334" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="342" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="391" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#145b93">blue</tspan></text>
+<text x="863" y="439" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">real value</text>
+<path d="M108 525L163.9 568L108 611L52.1 568Z" fill="#ecf7ec" stroke="#25723f" stroke-width="3"/>
+<text x="108" y="570" font-size="25" fill="#25723f" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#25723f">green</tspan></text>
+<text x="108" y="638" font-size="21" fill="#25723f" font-weight="600" text-anchor="middle">Green position</text>
+<path d="M169.9 568L220 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="500" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="534" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#25723f">green</tspan></text>
+<path d="M339 559L380.6 591L339 623L297.4 591Z" fill="#ecf7ec" stroke="#25723f" stroke-width="3"/>
+<text x="339" y="593" font-size="25" fill="#25723f" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5" fill="#25723f">green</tspan></text>
+<text x="285" y="603" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="603" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 568L508 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="530" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="579" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#25723f">green</tspan>]</text>
+<path d="M674 568L756 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="507" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="515" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="564" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#25723f">green</tspan></text>
+<text x="863" y="612" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">real value</text>
+<text x="28" y="692" font-size="22" fill="#223442" font-weight="400" text-anchor="start">Group inputs into classes → map to order coordinates → assign real values</text>
+<text x="28" y="728" font-size="22" fill="#223442" font-weight="400" text-anchor="start">The colour and shape inside each class identify its original input.</text>
+</svg>

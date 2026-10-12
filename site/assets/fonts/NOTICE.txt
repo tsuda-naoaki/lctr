@@ -1,0 +1,6 @@
+KaTeX_Fraktur-Regular.woff2
+Unmodified font from KaTeX 0.19.0.
+Source: https://registry.npmjs.org/katex/-/katex-0.19.0.tgz
+Font license: SIL Open Font License 1.1, see KaTeX-Fraktur-OFL.txt.
+Distribution license: see KaTeX-MIT-LICENSE.txt.
+SHA-256: 51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="745" viewBox="0 0 1000 745" role="img" aria-labelledby="title desc">
+<title id="title">赤・青・緑の入力から、それぞれに割り当てる実数値へ</title><desc id="desc">赤丸c_赤、青三角c_青、緑菱形c_緑は、別々の同値類T_赤、T_青、T_緑に属する。各囲みの中には元の入力を表示する。それぞれ順序座標[T_赤]、[T_青]、[T_緑]へ写し、実数値τ_赤、τ_青、τ_緑を割り当てる。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 4.5L0 9Z" fill="#546573"/></marker></defs>
+<style>text{font-family:"Hiragino Sans","Noto Sans CJK JP",Arial,sans-serif} .symbol{font-family:"Times New Roman",serif}</style>
+<rect width="1000" height="745" rx="16" fill="white"/>
+<text x="28" y="42" font-size="28" fill="#223442" font-weight="700" text-anchor="start">赤・青・緑の入力から、それぞれに割り当てる実数値へ</text>
+<text x="28" y="81" font-size="21" fill="#b13434" font-weight="400" text-anchor="start">赤 ●</text>
+<text x="195" y="81" font-size="21" fill="#145b93" font-weight="400" text-anchor="start">青 ▲</text>
+<text x="398" y="81" font-size="21" fill="#25723f" font-weight="400" text-anchor="start">緑 ◆</text>
+<text x="108" y="125" font-size="22" fill="#223442" font-weight="700" text-anchor="middle">入力</text>
+<text x="339" y="125" font-size="22" fill="#70459c" font-weight="700" text-anchor="middle">同値類</text>
+<text x="592" y="125" font-size="22" fill="#546573" font-weight="700" text-anchor="middle">順序座標</text>
+<text x="859" y="125" font-size="22" fill="#a13d0b" font-weight="700" text-anchor="middle">割り当てる実数値</text>
+<circle cx="108" cy="222" r="43" fill="#fff0ee" stroke="#b13434" stroke-width="3"/>
+<text x="108" y="230" font-size="31" fill="#b13434" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-6.2" fill="#b13434">赤</tspan></text>
+<text x="108" y="292" font-size="21" fill="#b13434" font-weight="600" text-anchor="middle">赤い位置</text>
+<path d="M157 222L220 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="154" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="188" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#b13434">赤</tspan></text>
+<circle cx="339" cy="245" r="32" fill="#fff0ee" stroke="#b13434" stroke-width="3"/>
+<text x="339" y="253" font-size="27" fill="#b13434" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5.4" fill="#b13434">赤</tspan></text>
+<text x="285" y="257" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="257" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 222L508 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="184" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="233" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#b13434">赤</tspan>]</text>
+<path d="M674 222L756 222" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="161" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="169" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="218" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#b13434">赤</tspan></text>
+<text x="863" y="266" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">実数値</text>
+<path d="M108 352L151 438L65 438Z" fill="#e8f3ff" stroke="#145b93" stroke-width="3"/>
+<text x="108" y="408" font-size="31" fill="#145b93" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-6.2" fill="#145b93">青</tspan></text>
+<text x="108" y="465" font-size="21" fill="#145b93" font-weight="600" text-anchor="middle">青い位置</text>
+<path d="M157 395L220 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="327" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="361" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#145b93">青</tspan></text>
+<path d="M339 386L371 450L307 450Z" fill="#e8f3ff" stroke="#145b93" stroke-width="3"/>
+<text x="339" y="431" font-size="27" fill="#145b93" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5.4" fill="#145b93">青</tspan></text>
+<text x="285" y="430" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="430" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 395L508 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="357" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="406" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#145b93">青</tspan>]</text>
+<path d="M674 395L756 395" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="334" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="342" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="391" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#145b93">青</tspan></text>
+<text x="863" y="439" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">実数値</text>
+<path d="M108 525L151 568L108 611L65 568Z" fill="#ecf7ec" stroke="#25723f" stroke-width="3"/>
+<text x="108" y="576" font-size="31" fill="#25723f" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-6.2" fill="#25723f">緑</tspan></text>
+<text x="108" y="638" font-size="21" fill="#25723f" font-weight="600" text-anchor="middle">緑の位置</text>
+<path d="M157 568L220 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="500" width="218" height="140" rx="25" fill="#f3edfc" stroke="#70459c" stroke-width="3"/>
+<text x="339" y="534" font-size="30" fill="#70459c" font-weight="700" text-anchor="middle" class="symbol">T<tspan font-size="68%" baseline-shift="-6" fill="#25723f">緑</tspan></text>
+<path d="M339 559L371 591L339 623L307 591Z" fill="#ecf7ec" stroke="#25723f" stroke-width="3"/>
+<text x="339" y="599" font-size="27" fill="#25723f" font-weight="600" text-anchor="middle" class="symbol">c<tspan font-size="68%" baseline-shift="-5.4" fill="#25723f">緑</tspan></text>
+<text x="285" y="603" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">{</text>
+<text x="393" y="603" font-size="44" fill="#70459c" font-weight="400" text-anchor="middle" class="symbol">}</text>
+<path d="M455 568L508 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="518" y="530" width="148" height="77" rx="4" fill="#f1f4f6" stroke="#546573" stroke-width="2"/>
+<text x="592" y="579" font-size="36" fill="#546573" font-weight="600" text-anchor="middle" class="symbol">[T<tspan font-size="68%" baseline-shift="-7.2" fill="#25723f">緑</tspan>]</text>
+<path d="M674 568L756 568" fill="none" stroke="#546573" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="766" y="507" width="196" height="122" rx="3" fill="#fff0e3" stroke="#a13d0b" stroke-width="3"/>
+<rect x="774" y="515" width="180" height="106" rx="1" fill="white" stroke="#a13d0b" stroke-width="1"/>
+<text x="863" y="564" font-size="48" fill="#a13d0b" font-weight="700" text-anchor="middle" class="symbol">τ<tspan font-size="68%" baseline-shift="-9.6" fill="#25723f">緑</tspan></text>
+<text x="863" y="612" font-size="18" fill="#a13d0b" font-weight="400" text-anchor="middle">実数値</text>
+<text x="28" y="692" font-size="22" fill="#223442" font-weight="400" text-anchor="start">入力を類にまとめる → 順序座標へ写す → 実数値を割り当てる</text>
+<text x="28" y="728" font-size="22" fill="#223442" font-weight="400" text-anchor="start">囲みの中の色と形で、元の入力を追える。</text>
+</svg>

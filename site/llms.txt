@@ -1,5 +1,7 @@
 # LCTR — 時間参照の局所比較理論 / Local-comparison theory of time reference
 
+> The local-comparison theory of time reference (LCTR) provides the first complete construction of physical time from nontemporal physical inputs alone. At no stage does the construction presuppose temporal quantities or relations that it has not yet generated.
+
 > LCTR transfers the time variable in physical laws from a primitive premise to a representation whose physical grounds are generated through local comparison. The paper provides generation conditions, validity domains, failure classification, and an audit of 72 sources.
 
 Author: Naoaki Tsuda. The Japanese paper is the original; an English translation is available. Release: v1.0.1. DOI: https://doi.org/10.5281/zenodo.23273388. ORCID: https://orcid.org/0009-0007-2506-4026.
@@ -24,7 +26,15 @@ The Markdown abstracts reproduce the published abstracts and the website's verif
 - [Verification assets and reproduction instructions](https://github.com/tsuda-naoaki/lctr/tree/main/releases/v1.0.1/lctr-verification): Lean 4, Isabelle/HOL, independent checking, auxiliary tools, correspondence inventories, and source-audit recomputation.
 - [MMT namespace](https://tsuda-naoaki.github.io/lctr/verification/law-candidate/): Entry page for the law-candidate formalization namespace.
 
-## Optional
+## Explanations and worked examples
+
+- [時間の作り方](https://tsuda-naoaki.github.io/lctr/create-time/): Worked three-record example using a counter, memory, a switch, and a coupling circuit: input identification, equivalence classes, order, time representation, state representation, and failure cases. Japanese.
+- [How to Create Time from Nontemporal Components](https://tsuda-naoaki.github.io/lctr/create-time/en.html): English counterpart with equations and links to the English paper.
+
+- [なぜ従来の時間創発論は時間を生成できなかったのか](https://tsuda-naoaki.github.io/lctr/why-time-emergence-failed/): Japanese explanation of temporal dependencies left in earlier derivations.
+- [Why Earlier Attempts to Derive Time Failed](https://tsuda-naoaki.github.io/lctr/why-time-emergence-failed/en.html): English counterpart.
+
+## Further reading
 
 - [時間の謎と連続・微分の動作保証](https://tsuda-naoaki.github.io/lctr/time-mysteries/): Japanese explanatory page.
 - [Time mysteries and operational guarantees](https://tsuda-naoaki.github.io/lctr/time-mysteries/en.html): English explanatory page.
