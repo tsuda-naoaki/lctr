@@ -1,0 +1,213 @@
+Isabelle2025-2 verification record
+Date: 2026-10-12
+Sessions: Thermal_Logical_Core; Thermal_Analytic_Core
+Build option: quick_and_dirty=false
+Build exit status: 0
+Dependency inspection: Thm_Deps.all_oracles and Thm_Deps.has_skip_proof
+Checked named collections: 167
+Checked theorem results: 189
+External oracle dependencies: 0
+Skipped proofs: 0
+
+Checked results
+
+Thermal_Logical_Core.Dependency_Grounding.reached_mono: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.finite_common_stage: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.grounded_iff_reached: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.ungrounded_cycle: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.independent_alternative: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.grounded_in_universe: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.finite_reachability_fixed_point: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.substitution_leaves: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Dependency_Grounding.selected_substitution_leaves: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.record_fibre_obstruction: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.two_point_error_lower_bound: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.record_fibre_error: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.admissible_scale_interval: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.coupling_upgrade_monotone: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.device_scale_example: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Observation_Bounds.correlation_error_composition: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.sample_models_agree: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.base_sample_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.perturbed_sample_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.derivative_at_samples: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.sample_value_error_bound: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.perturbed_derivative_positive: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.perturbed_strictly_increasing: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Sampling_Ambiguity.sampled_derivative_error: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.wrap_range: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.wrap_identity: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.wrap_add_wrap: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.wrap_one_lap: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.wrap_shift: results=1; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.circle_motion_group: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.endpoint_local_agreement: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.endpoint_after_first_crossing: results=2; oracles=0; skip_proof=false
+Thermal_Logical_Core.Endpoint_Completions.endpoint_difference: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.gaussian_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.gaussian_integrable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.gaussian_scaled_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_positive: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.density_exponent_identity: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_inner_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_normalized_iterated: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_nn_inner: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_density_nn_normalized: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Strip.thermal_state_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.gaussian_state_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.gaussian_state_null_sets: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.gaussian_interval_positive: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_state_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_rectangle_positive: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_state_space: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_state_sets: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_domain_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.positive_escape_rectangle: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.negative_escape_rectangle: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.strip_undefined_positive_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Strip_Flow.rescaled_strip_undefined: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Measurement_Integral_Bounds.finite_measure.supported_measurement_error: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Measurement_Integral_Bounds.finite_measure.quantum_measurement_error: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Stationary_Clock.prob_space.stationary_affine_reading: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Observable_Correspondence.separating_observables: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Observable_Correspondence.all_selection_correspondence: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Observable_Correspondence.sigma_finite_subalgebra.restricted_selection_correspondence: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gibbs_Calibration.constant_calibration_gibbs: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gibbs_Calibration.gibbs_constant_calibration: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gibbs_Calibration.gibbs_calibration_iff: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.thermal_generator: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.hamiltonian_q_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.hamiltonian_p_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.gaussian_coordinate_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.transformed_solution_derivatives: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.linearised_solution: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.gaussian_set_integral_bound: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.gaussian_coordinate_bound: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.nonzero_momentum_no_global_solution: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Hamiltonian_Transform.rescaled_no_global_solution: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Endpoint_Correlation.finite_measure.weighted_strict_gap: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Endpoint_Correlation.finite_measure.endpoint_correlation_gap: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.wrap_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.translation_emeasure: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.wrap_translation_emeasure: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.circle_motion_preserves_uniform: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.fiberwise_preserves_product: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Measure.circle_skew_motion_preserves_product: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_strict_mono: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_odd: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_limit: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_upper: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_bounds: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Coordinate_Range.gaussian_coordinate_range: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.inverse_gaussian_left: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.inverse_gaussian_right: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.inverse_gaussian_continuous: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.inverse_gaussian_derivative: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_flow_solves_hamilton: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_flow_unique: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_domain_interval: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_domain_structure: results=3; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_flow_initial: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Inverse_Flow.original_flow_maximal_domain: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Pushforward.nn_integral_incseq_sets: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Pushforward.gaussian_coordinate_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Pushforward.gaussian_coordinate_substitution: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Gaussian_Pushforward.gaussian_coordinate_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Flow_Calibration.observable_curve_calibration: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Flow_Calibration.hamiltonian_field_calibration: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Flow_Calibration.field_calibration_gibbs_iff: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.thermal_density_scaled: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.scaled_thermal_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.momentum_transform_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.momentum_transform_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.momentum_transform_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.thermal_coordinates_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.original_undefined_positive_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.original_flow_not_almost_everywhere: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Measure.rescaled_original_undefined: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Thermal_Smoothness.density_all_mixed_derivatives: results=3; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.interval_translation_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.interval_reflection_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.uniform_translation_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.uniform_reflection_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.gaussian_reflection_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.gaussian_positive_half_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Interval_Transport.uniform_equal_halves: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Completion_Conjugacy.transported_invariant_measure: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Completion_Conjugacy.transported_group_law: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Completion_Conjugacy.transported_identity: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Completion.reflection_fold_unfold: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Completion.reflection_unfold_fold: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Completion.reflection_local_agreement: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Completion.reflection_first_crossing: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Completion.reflection_maps_measurable: results=3; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.speed_state_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.unfolded_state_probability: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.reflection_unfold_integral: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.reflection_unfold_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.gaussian_nonzero: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.reflection_original_inverse: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Measure.reflection_fold_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Open_Measure.uniform_open_halfopen: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Open_Measure.circle_skew_motion_preserves_open_product: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Open_Measure.circle_skew_composition: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Circle_Open_Measure.circle_skew_identity: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Group.reflection_unfolded_inverse: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Group.reflection_preserves_state: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Group.reflection_group_law: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Reflection_Group.reflection_identity: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Completion.uniform_translation_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Completion.periodic_maps: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Completion.periodic_inverses: results=2; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Completion.periodic_unfold_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Completion.periodic_fold_pushforward: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Group.periodic_transport: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Group.periodic_preserves_state: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Group.periodic_group_law: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Group.periodic_local_agreement: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Periodic_Group.periodic_identity: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.bounded_position_bound: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.bounded_position_exact: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.crossing_rectangle_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.crossing_rectangle_bounds: results=3; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.crossing_rectangle_positive: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.bounded_position_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.periodic_motion_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.reflection_motion_strip_measurable: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.crossing_observable_gap: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.concrete_correlation_difference: results=1; oracles=0; skip_proof=false
+Thermal_Analytic_Core.Concrete_Correlation.concrete_correlations_distinct: results=1; oracles=0; skip_proof=false
+
+Source SHA-256
+
+1ce6d437fafc16bd45bf66012857ea19f7135b359439319a28865380d1cc89f2  ROOT
+f40eb69e0cf779699430a897ac8e6509c3b9a84134d4ca24d38aa918ef74df47  analytic/Circle_Measure.thy
+4f90ec6711252558d068f4541166531a4159bb8878c5b9b94fe4d024149d6b65  analytic/Circle_Open_Measure.thy
+411a0bc9738ccd3f6be21e67ebb1a4b2ea9dd00517c14d22b450a8eb37104b09  analytic/Completion_Conjugacy.thy
+89b49b7222b45b0d1b5bffb3f9893adc12cd7643dd4a6335297331d7a13b573b  analytic/Concrete_Correlation.thy
+bbe489a0ebdf4d2cd05dbc4edf2d98f8fe368342ba54502556c2d3bc646da3db  analytic/Endpoint_Correlation.thy
+ad4433b0f97a6d9dde5beb4a49486e6a7dd62fefc8402d0872050ee78f1e91f9  analytic/Flow_Calibration.thy
+a5b23cde4062e35804a226f4ed0dee871906b7d21827e55aa1d38541a664ceb4  analytic/Gaussian_Coordinate_Range.thy
+cd0588b29b4f476e872299965523dcb1add5fc34b7f472b293a6ac39a01ffcbb  analytic/Gaussian_Inverse_Flow.thy
+911564966081cd9610b73fe1fea3ca3490788999e12627b5aa510e7ce0abb3e5  analytic/Gaussian_Pushforward.thy
+ae57f9a78968121e269cea3305bfb90364c3ca27e4c1a1cb7ac4e3c45cccaf90  analytic/Gaussian_Strip.thy
+ff62c4724c39f4934b5f15eda346cd20e3d0fd2c7bf5928dfc3660da8e0dc17d  analytic/Gibbs_Calibration.thy
+8602d0417bc731872a6fc64d95d507d04b26495914658bed868e780c2734a812  analytic/Hamiltonian_Transform.thy
+9849a7d05707fe0b6aa2c0662b7618fa064a96043fb9424727f730973dd2f59d  analytic/Interval_Transport.thy
+4982e58da9f0eec8fca27606283f2cc9c08714e7618a571437ee701804c0d704  analytic/Measurement_Integral_Bounds.thy
+bae93535b5d2c638e533ae0adc6e74409876c0eec5479f44825d17120ed86e7a  analytic/Observable_Correspondence.thy
+8ad376b52e60b178f6a674a56a11ec4fb212a1c3a3548f43552444f745736ed6  analytic/Periodic_Completion.thy
+24bb81486283f46d4bd543e67acf4f5d6d8cc365a68b73710e3365ad150113de  analytic/Periodic_Group.thy
+1f927838b597932dfdcbe5298bee1d4efc102f2fe4f16fb33863d10b6b997993  analytic/Reflection_Completion.thy
+06f401d2e860caa58ccfd18efceb69d66f376b3aff667d3f39e9da45db7cec8f  analytic/Reflection_Group.thy
+fd5eca24a9361e43fabc1e8aaa48d5257bae8d7748581fa159985c5bc25fd016  analytic/Reflection_Measure.thy
+f6d6d1a04545bce53be4ee9928fb19b9842f30e2565b3f5ff86b5513256d986f  analytic/Stationary_Clock.thy
+375fccb36253a7064bf5c5a28f21c90f968a724f06c2cdf767f715a7ee30c148  analytic/Strip_Flow.thy
+be9cc8d34630f706549ca8465883e2e4d4f593d775be5a27463ddd5a05c79dd1  analytic/Thermal_Measure.thy
+ab5a3f17899efc1c702a4f6b4adb1d5da75670e299710a34e97da6b3f711312c  analytic/Thermal_Smoothness.thy
+1bf8409dda76940fa8837df6cb8689bba9f537882c643e3fb18014dc269a4c16  logical/Dependency_Grounding.thy
+918c4a7d3cc6f897df9b3cf859cf1bb3be80cd51fec3cf25ef7cca9911d24977  logical/Endpoint_Completions.thy
+c4e462c11ad66d6f2fae9eef129f1cfee39ac2159c452cc034d742513a8f3e88  logical/Observation_Bounds.thy
+80fd240f2f428ffbbf795a5641865503c43d330d8909c8bd725a002964dbb733  logical/Sampling_Ambiguity.thy
+

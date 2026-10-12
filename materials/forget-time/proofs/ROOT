@@ -1,0 +1,36 @@
+session Thermal_Logical_Core in logical = HOL +
+  options [document = false]
+  theories
+    Dependency_Grounding
+    Observation_Bounds
+    Sampling_Ambiguity
+    Endpoint_Completions
+
+session Thermal_Analytic_Core in analytic = "HOL-Probability" +
+  options [document = false]
+  sessions Thermal_Logical_Core
+  theories
+    Gaussian_Strip
+    Measurement_Integral_Bounds
+    Stationary_Clock
+    Strip_Flow
+    Observable_Correspondence
+    Gibbs_Calibration
+    Hamiltonian_Transform
+    Endpoint_Correlation
+    Circle_Measure
+    Gaussian_Coordinate_Range
+    Gaussian_Inverse_Flow
+  Gaussian_Pushforward
+  Flow_Calibration
+  Thermal_Measure
+  Thermal_Smoothness
+  Reflection_Completion
+  Interval_Transport
+  Completion_Conjugacy
+  Reflection_Measure
+  Circle_Open_Measure
+  Reflection_Group
+  Periodic_Completion
+  Periodic_Group
+  Concrete_Correlation

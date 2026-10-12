@@ -156,8 +156,12 @@ for path, doc in docs.items():
             else:
                 assert target in docs and fragment in docs[target].ids, (path, link)
     for link in doc.current_links:
-        assert link.get("aria-current") == "page", (path, "Unexpected current-link value")
-        assert "href" in link and local_target(path, link["href"]) == (path, ""), (path, "aria-current must identify the exact current page", link)
+        if path.parent == (SITE / "materials/forget-time").resolve() and link.get("aria-current") == "location":
+            hub = SITE / "public-questions" / ("en.html" if doc.lang == "en" else "index.html")
+            assert local_target(path, link["href"]) == (hub.resolve(), ""), (path, "Current section must identify the public-question index")
+        else:
+            assert link.get("aria-current") == "page", (path, "Unexpected current-link value")
+            assert "href" in link and local_target(path, link["href"]) == (path, ""), (path, "aria-current must identify the exact current page", link)
 
     # Every page provides the same visible routes; section anchors never mark a page current.
     filename = "en.html" if doc.lang == "en" else "index.html"
@@ -173,8 +177,9 @@ for path, doc in docs.items():
         ((SITE / "verification/law-candidate/index.html").resolve(), ""),
         (home, "materials-title"),
         ((SITE / "world-challenge" / filename).resolve(), ""),
+        ((SITE / "public-questions" / filename).resolve(), ""),
     ]
-    for class_name, expected in (("site-nav", expected_nav), ("site-footer-nav", [expected_nav[n] for n in (0, 1, 2, 3, 4, 7, 9)])):
+    for class_name, expected in (("site-nav", expected_nav), ("site-footer-nav", [expected_nav[n] for n in (0, 1, 2, 3, 4, 7, 9, 10)])):
         navs = [nav for nav in doc.navs if class_name in nav["attrs"].get("class", "").split()]
         assert len(navs) == 1, (path, "Expected one navigation landmark", class_name)
         nav = navs[0]
@@ -182,12 +187,13 @@ for path, doc in docs.items():
         assert "hidden" not in nav["attrs"], (path, "Site navigation must remain visible")
         assert all("href" in a and "hidden" not in a for a in nav["links"]), (path, class_name)
         assert [local_target(path, a["href"]) for a in nav["links"]] == expected, (path, "Incomplete or misordered site navigation", class_name)
-        current = [a for a in nav["links"] if a.get("aria-current") == "page"]
+        current_value = "location" if path.parent == (SITE / "materials/forget-time").resolve() else "page"
+        current = [a for a in nav["links"] if a.get("aria-current") == current_value]
         assert len(current) == 1, (path, "Navigation must mark the current page", class_name)
     assert re.search(r'<header class="masthead">.*?</header>\s*<nav class="site-nav"', path.read_text(), re.S), (path, "Site navigation must immediately follow the masthead")
 
 # The bilingual page pairs point reciprocally to their own translations.
-for directory in ("", "time-mysteries/", "sources/", "create-time/", "why-time-emergence-failed/", "world-challenge/"):
+for directory in ("", "time-mysteries/", "sources/", "create-time/", "why-time-emergence-failed/", "world-challenge/", "public-questions/", "materials/forget-time/"):
     expected_alternates = {"ja": BASE + directory, "en": BASE + directory + "en.html", "x-default": BASE + directory}
     for filename, lang in (("index.html", "ja"), ("en.html", "en")):
         path = (SITE / directory / filename).resolve()
@@ -200,6 +206,19 @@ for directory in ("", "time-mysteries/", "sources/", "create-time/", "why-time-e
             ((SITE / directory / "index.html").resolve(), ""),
             ((SITE / directory / "en.html").resolve(), ""),
         }, (path, "Visible language links must identify the paired translations")
+
+for filename in ("index.html", "en.html"):
+    detail = docs[(SITE / "materials/forget-time" / filename).resolve()]
+    assert {"q1", "q2", "q3", "q4", "q5", "formal-verification"} <= detail.ids
+    assert {"formal-q1", "formal-q2", "formal-q3", "formal-q4", "formal-q5"} <= detail.ids
+    for link in detail.links:
+        for prefix in ("https://github.com/tsuda-naoaki/lctr/blob/main/",
+                       "https://github.com/tsuda-naoaki/lctr/tree/main/"):
+            if link.startswith(prefix):
+                target = (ROOT / unquote(link.removeprefix(prefix))).resolve()
+                assert target.is_relative_to(ROOT) and target.exists(), (link, "Missing proof source")
+        if "zenodo.org/records/23320911/files/" in link:
+            assert not urlsplit(link).fragment, (link, "Document links use printed page guidance")
 
 for filename in ("index.html", "en.html"):
     path = (SITE / "create-time" / filename).resolve()

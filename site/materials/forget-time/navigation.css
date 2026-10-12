@@ -1,0 +1,36 @@
+html{scroll-behavior:auto}
+.documents{padding:1.3rem 1.5rem;background:#edf3f2;border-left:4px solid #175b73}
+.documents p{margin:.5rem 0}.documents h2{margin:0 0 .7rem}
+.question{border-top:1px solid #cdd6d8;padding:2.2rem 0;scroll-margin-top:1rem}
+.question h2{font-size:1.4rem;line-height:1.5;margin:.3rem 0 1rem}
+.question .eyebrow{margin:0}
+.pdf-links{font:600 .95rem/1.7 system-ui,sans-serif}
+.question table{width:100%;border-collapse:collapse;font-size:.91rem;line-height:1.55;table-layout:fixed}
+.question caption{text-align:left;font:600 .9rem/1.6 system-ui,sans-serif;padding:.3rem 0 .7rem}
+.question th,.question td{padding:.7rem .6rem;border-bottom:1px solid #d9dfdf;vertical-align:top;text-align:left}
+.question thead{background:#f0f4f3}.question th:first-child{width:54%}
+.question tbody th{font-weight:400}.question td{font-family:system-ui,sans-serif;font-size:.82rem}
+.question tr[id]{scroll-margin-top:1rem}.question tr:target{background:#fff1d1}
+.proof-note{padding:1rem 1.2rem;margin-top:1.5rem;border-left:3px solid #859d97;background:#f2f5f3}
+.proof-note h3{margin:0 0 .5rem}.proof-note p:last-child{margin:0}
+.locations,.code-links{font:.85rem/1.7 system-ui,sans-serif}.section-nav{margin:1rem 0}
+.proof-note p{font-size:.95rem}.wordmark{letter-spacing:.04em}
+.masthead nav{max-width:45%;text-align:right;flex-shrink:1}
+.paper-head .author{margin:0}
+.paper-head>p:last-child{font:.87rem/1.6 system-ui,sans-serif;margin-top:.6rem}
+.question:target{border-top:3px solid #175b73}
+@media(max-width:600px){
+  .documents{padding:1rem}.question h2{font-size:1.23rem}
+  .question{padding:1.6rem 0}.section-nav{gap:.65rem 1.3rem}.proof-note{padding:.9rem}
+  .question table{display:block;font-size:.93rem}
+  .question caption{display:block}
+  .question thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .question tbody{display:block}
+  .question tbody tr{display:grid;grid-template-columns:1fr 1fr;padding:.8rem .25rem;border-bottom:1px solid #d9dfdf}
+  .question tbody th{grid-column:1/-1;width:auto!important;padding:0 0 .4rem;border:0}
+  .question td{padding:.25rem .3rem 0 0;border:0;font-size:.8rem}
+  .question td:before{display:block;font-size:.72rem;color:#586868}
+  .question td:nth-child(2):before{content:"English PDF"}
+  .question td:nth-child(3):before{content:"日本語PDF"}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
