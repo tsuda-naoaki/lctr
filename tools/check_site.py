@@ -295,7 +295,17 @@ for path in docs:
             assert header[:8] == b"\x89PNG\r\n\x1a\n"
             assert struct.unpack(">II", header[16:24]) == expected_size
         images_checked += 1
-assert images_checked == 14
+assert images_checked == 16
+
+for filename, status in (("index.html", "PubPeerコメント：掲載拒否"), ("en.html", "PubPeer comment: refused")):
+    page = SITE / "public-questions" / filename
+    text = page.read_text()
+    assert status in text
+    assert "pubpeer-moderation" in docs[page.resolve()].ids
+    assert "[Moderator: we can't evaluate this. ]" in text
+    assert '<time datetime="2026-10-20">' in text
+    assert "evidence/forget-time-pubpeer-refusal-2026-10-20.png" in text
+    assert "掲載審査中" not in text and "awaiting moderation" not in text
 
 sitemap = ET.parse(SITE / "sitemap.xml")
 urls = [item.text for item in sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
