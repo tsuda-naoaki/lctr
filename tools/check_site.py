@@ -35,12 +35,16 @@ class Document(HTMLParser):
         self.details_depth = 0
         self.math_elements = 0
         self.math_inside_details = 0
+        self.sections = []
+        self.anchors = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if "id" in a:
             assert a["id"] not in self.ids, ("duplicate id", a["id"])
             self.ids.add(a["id"])
+        if tag in {"main", "article", "section", "aside", "li"}:
+            self.sections.append((tag, a.get("id")))
         if tag == "html":
             self.lang = a.get("lang")
         if tag == "h1":
@@ -50,6 +54,8 @@ class Document(HTMLParser):
             self.active_nav = {"attrs": a, "links": []}
             self.navs.append(self.active_nav)
         if tag == "a":
+            if "href" in a:
+                self.anchors.append((a["href"], {ident for _, ident in self.sections if ident}))
             if self.active_nav is not None:
                 self.active_nav["links"].append(a)
             if "aria-current" in a:
@@ -97,6 +103,8 @@ class Document(HTMLParser):
             self.analytics_body += text
 
     def handle_endtag(self, tag):
+        if self.sections and self.sections[-1][0] == tag:
+            self.sections.pop()
         if tag == "nav":
             self.active_nav = None
         if tag == "details":
@@ -155,10 +163,12 @@ for path, doc in docs.items():
                 assert re.fullmatch(r"page=[1-9][0-9]*", fragment), (path, "Invalid PDF page link", link)
             else:
                 assert target in docs and fragment in docs[target].ids, (path, link)
+    is_question_archive = path.parent in {(SITE / "materials/forget-time").resolve(),
+                                          (SITE / "public-questions").resolve()}
     for link in doc.current_links:
-        if path.parent == (SITE / "materials/forget-time").resolve() and link.get("aria-current") == "location":
-            hub = SITE / "public-questions" / ("en.html" if doc.lang == "en" else "index.html")
-            assert local_target(path, link["href"]) == (hub.resolve(), ""), (path, "Current section must identify the public-question index")
+        if is_question_archive and link.get("aria-current") == "location":
+            hub = SITE / "comment-papers" / ("en.html" if doc.lang == "en" else "index.html")
+            assert local_target(path, link["href"]) == (hub.resolve(), ""), (path, "Current section must identify the comment-paper index")
         else:
             assert link.get("aria-current") == "page", (path, "Unexpected current-link value")
             assert "href" in link and local_target(path, link["href"]) == (path, ""), (path, "aria-current must identify the exact current page", link)
@@ -177,7 +187,7 @@ for path, doc in docs.items():
         ((SITE / "verification/law-candidate/index.html").resolve(), ""),
         (home, "materials-title"),
         ((SITE / "world-challenge" / filename).resolve(), ""),
-        ((SITE / "public-questions" / filename).resolve(), ""),
+        ((SITE / "comment-papers" / filename).resolve(), ""),
     ]
     for class_name, expected in (("site-nav", expected_nav), ("site-footer-nav", [expected_nav[n] for n in (0, 1, 2, 3, 4, 7, 9, 10)])):
         navs = [nav for nav in doc.navs if class_name in nav["attrs"].get("class", "").split()]
@@ -187,13 +197,13 @@ for path, doc in docs.items():
         assert "hidden" not in nav["attrs"], (path, "Site navigation must remain visible")
         assert all("href" in a and "hidden" not in a for a in nav["links"]), (path, class_name)
         assert [local_target(path, a["href"]) for a in nav["links"]] == expected, (path, "Incomplete or misordered site navigation", class_name)
-        current_value = "location" if path.parent == (SITE / "materials/forget-time").resolve() else "page"
+        current_value = "location" if is_question_archive else "page"
         current = [a for a in nav["links"] if a.get("aria-current") == current_value]
         assert len(current) == 1, (path, "Navigation must mark the current page", class_name)
     assert re.search(r'<header class="masthead">.*?</header>\s*<nav class="site-nav"', path.read_text(), re.S), (path, "Site navigation must immediately follow the masthead")
 
 # The bilingual page pairs point reciprocally to their own translations.
-for directory in ("", "time-mysteries/", "sources/", "create-time/", "why-time-emergence-failed/", "world-challenge/", "public-questions/", "materials/forget-time/"):
+for directory in ("", "time-mysteries/", "sources/", "create-time/", "why-time-emergence-failed/", "world-challenge/", "comment-papers/", "public-questions/", "materials/forget-time/"):
     expected_alternates = {"ja": BASE + directory, "en": BASE + directory + "en.html", "x-default": BASE + directory}
     for filename, lang in (("index.html", "ja"), ("en.html", "en")):
         path = (SITE / directory / filename).resolve()
@@ -310,4 +320,51 @@ for filename, status in (("index.html", "PubPeerコメント：掲載拒否"), (
 sitemap = ET.parse(SITE / "sitemap.xml")
 urls = [item.text for item in sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
 assert set(urls) == {doc.canonical[0] for doc in docs.values()}
+
+orcid = "https://orcid.org/0009-0007-2506-4026"
+author_home = "https://tsuda-naoaki.github.io/"
+records = {
+    "forget-time": "https://doi.org/10.5281/zenodo.23608655",
+    "grsm": "https://doi.org/10.5281/zenodo.23852096",
+    "ds-cft": "https://doi.org/10.5281/zenodo.23979410",
+    "prior-questions": "https://doi.org/10.5281/zenodo.23320911",
+}
+originals = {
+    "forget-time": "https://doi.org/10.1007/s10701-011-9561-4",
+    "grsm": "https://doi.org/10.1103/PhysRevD.87.084055",
+    "ds-cft": "https://doi.org/10.1007/JHEP04(2026)072",
+}
+
+def matching_links(path, scope=None):
+    return [href for href, ancestors in docs[path].anchors if scope is None or scope in ancestors]
+
+def route_exists(path, scope, dest, fragment=""):
+    assert any(not urlsplit(href).scheme and not urlsplit(href).netloc
+               and local_target(path, href) == (dest, fragment)
+               for href in matching_links(path, scope)), (path, scope, "missing reader route", dest, fragment)
+
+for filename in ("index.html", "en.html"):
+    comments = SITE / "comment-papers" / filename
+    questions = SITE / "public-questions" / filename
+    details = SITE / "materials/forget-time" / filename
+    sources = SITE / "sources" / filename
+    examples = SITE / "why-time-emergence-failed" / filename
+    theory = SITE / "time-mysteries" / filename
+    assert docs[comments].meta["robots"] == "index,follow", comments
+    assert docs[comments].canonical[0] in urls and urls.count(docs[comments].canonical[0]) == 1
+    assert {orcid, author_home} <= set(matching_links(comments)), comments
+    for key, record in records.items():
+        assert record in matching_links(comments, key), (comments, key, "missing archived work")
+    for key, original in originals.items():
+        assert original in matching_links(comments, key), (comments, key, "missing target paper")
+    assert any(href == records["prior-questions"] and {"forget-time", "prior-questions"} <= scope
+               for href, scope in docs[comments].anchors), "The earlier note belongs under the Forget time comment"
+    for archive in (questions, details):
+        route_exists(comments, "prior-questions", archive)
+        route_exists(archive, None, comments, "forget-time")
+    for key, dest, anchor in (("forget-time", sources, "source-55"), ("grsm", examples, "example-35"),
+                              ("ds-cft", examples, "primitive-time-input"), ("ds-cft", theory, "evidence-inheritance")):
+        route_exists(comments, key, dest, anchor)
+        route_exists(dest, anchor, comments, key)
+
 print(json.dumps({"status": "pass", "html_documents": len(docs), "local_links_checked": sum(len(d.links) for d in docs.values()), "abstract_paragraphs": {"ja": 11, "en": 11}, "sitemap_urls": len(urls), "source_entries_per_language": 72, "figure_images": images_checked, "cloudflare_scripts": sum(d.analytics_scripts for d in docs.values()), "ga4_loaders": sum(d.ga4_scripts for d in docs.values())}))
