@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8"><title>Formal-Verification Assets · LCTR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://tsuda-naoaki.github.io/lctr/full-text/en/verification-assets.html">
+<link rel="alternate" hreflang="ja" href="https://tsuda-naoaki.github.io/lctr/full-text/ja/verification-assets.html">
+<link rel="alternate" hreflang="en" href="https://tsuda-naoaki.github.io/lctr/full-text/en/verification-assets.html">
+<meta name="description" content="LCTR v1.0.1 full text: Formal-Verification Assets · LCTR.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="LaTeXML.css">
+<link rel="stylesheet" href="ltx-article.css">
+<link rel="stylesheet" href="../preview.css">
+<style>.lctr-native-math{position:relative}.lctr-native-math>math{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}.lctr-native-block,.lctr-native-overflow{display:inline-block;max-width:100%;overflow-x:auto}.lctr-math-vector{max-width:none}</style>
+<!-- reader-navigation --><link rel="stylesheet" href="../reader-navigation.css">
+<!-- /reader-navigation -->
+<!-- section-preview --><link rel="stylesheet" href="../section-preview.css"><!-- /section-preview -->
+<link rel="stylesheet" href="../backmatter-preview.css">
+<link rel="stylesheet" href="../table-reflow.css">
+<script src="../backmatter-preview.js" defer></script>
+</head>
+<body class="preview-reader">
+<header class="masthead"><a class="wordmark" href="../../en.html">LCTR<span class="theory-name">v1.0.1</span></a><nav aria-label="Language"><a lang="ja" href="../ja/verification-assets.html">日本語</a><span aria-current="page">English</span></nav></header><nav class="site-nav" aria-label="Site navigation"><a href="../../en.html">Paper &amp; abstract</a><a href="../../create-time/en.html">Create time</a><a href="../../why-time-emergence-failed/en.html">Earlier attempts</a><a href="../../time-mysteries/en.html">Explore LCTR</a><a href="../../sources/en.html">72 sources</a><a href="../../en.html#figures">Figures</a><a href="../../en.html#verification">Verification</a><a href="../../verification/law-candidate/">MMT formalization</a><a href="../../en.html#materials-title">Downloads</a><a href="../../world-challenge/en.html" lang="en">Indictment of Physics</a><a href="../../comment-papers/en.html">Comment papers</a><a href="./" aria-current="page">Full text (HTML)</a></nav><nav class="preview-context"><a href="./">Full-text contents</a><a href="../../sources/en.html">72-source index</a></nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content"><nav class="backmatter-index" aria-label="Contents, supplement, and references"><a href="contents.html" title="Full-text contents">Full-text contents</a><a href="supplement.html" title="Supplement: Primitive-Time-Root Audit of 72 Sources">Supplement</a><a href="supplement-s1.html" title="S.1 Audited Source Set and Audit Scope">S.1 Audit scope</a><a href="supplement-s2.html" title="S.2 Complete Audits by Source">S.2 Source list</a><a href="supplement-s3.html" title="S.3 Cross-Source Audit">S.3 Cross-source audit</a><a href="verification-assets.html" aria-current="page" title="Formal-Verification Assets">Verification assets</a><a href="references.html" title="References">References</a></nav><section id="Sx4" class="ltx_section">
+<h1 class="ltx_title ltx_title_section">Formal-Verification Assets</h1>
+
+<div id="Sx4.p1" class="ltx_para">
+<p class="ltx_p">The supplementary archive <a href="https://zenodo.org/records/23273388/files/lctr-verification.zip?download=1" type="application/zip"><span class="ltx_text ltx_font_typewriter">lctr-verification.zip</span></a> contains formal-verification assets for Sections <a href="S2.html" title="2 Achievement Conditions for Time Description and the Local Time-Generation Task ‣ Moving the Time Variable from a Premise of Physical Law to a Consequence A General Theory of the Complete Description of Time Establishment through Local Comparison and Failure Classification" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a>–<a href="S6.html" title="6 Localization of Validity, Failure, and Approximation ‣ Moving the Time Variable from a Premise of Physical Law to a Consequence A General Theory of the Complete Description of Time Establishment through Local Comparison and Failure Classification" class="ltx_ref"><span class="ltx_text ltx_ref_tag">6</span></a>. Its top-level directory after extraction is <span class="ltx_text ltx_font_typewriter">lctr-verification/</span>. The assets include a complete inventory of the mathematical definitions, formulas, claims, and proof obligations in this scope for the same version as the published PDF, the Lean and Isabelle formalization sources, and a correspondence table linking locations in the Japanese and English PDFs to both formalizations. The table records types, quantification, premises, domains, all conclusions, and dependencies component by component, and links each formula occurrence to the mathematical object it expresses.</p>
+</div>
+<div id="Sx4.p2" class="ltx_para">
+<p class="ltx_p">The mathematical proof obligations in this scope are formalized in both Lean and Isabelle, and their proofs are checked by the Lean kernel and the Isabelle/Pure inference kernel. Lean proofs are additionally rechecked by the separate implementations nanoda and con-leche. For each formalized object in Lean and Isabelle, the assets include verification results, the axioms used, and theorem dependencies.</p>
+</div>
+<div id="Sx4.p3" class="ltx_para">
+<p class="ltx_p">For each proof obligation in the text, the assets include a comparison tracing the proof bodies, definitions used, actual theorem dependencies, and local assumptions in both formalizations. The comparison links the premises and conclusions in the text to the dependencies and dependent-type or carrier conditions in both formalizations.</p>
+</div>
+<div id="Sx4.p4" class="ltx_para">
+<p class="ltx_p">The partial output map of a law-candidate relation has machine-readable representations in MMT, OpenMath, and Content MathML, together with the results of checking these representations. The assets also include SMT proofs and checks of their proof traces, symbolic computations using computer algebra systems, unit and dimension checks, and results from checking counterexamples and boundary cases, together with the conditions under which each check applies. Each result is linked to its object in the text and records the domain and conditions checked.</p>
+</div>
+<div id="Sx4.p5" class="ltx_para">
+<p class="ltx_p">The release package contains pinned version information for the verifiers and their library dependencies, the inputs and outputs of every included check, reports for each object, and instructions for running each standard tool directly. To establish file identity, the accompanying file manifest associates the name of each published PDF, formalization source, check input, verification result, and rerun script with its SHA-256 hash. The <span class="ltx_text ltx_font_typewriter">reproduce.sh</span> script runs the included checks and regenerates their reports in the pinned verification environment. The release metadata identifies the verification-assets version corresponding to this PDF, its scope, and the checks performed.</p>
+</div>
+</section><nav class="reading-nav reading-bottom backmatter-steps" id="backmatter-navigation" aria-label="Previous and next"><a class="reading-prev" rel="prev" href="supplement-s3.html"><span class="reading-direction" aria-hidden="true">←</span><span class="reading-name">S.3 Cross-Source Audit</span></a><a class="reading-next" rel="next" href="references.html"><span class="reading-direction" aria-hidden="true">→</span><span class="reading-name">References</span></a></nav>
+<div id="p1" class="ltx_para">
+<p class="ltx_p"></p>
+</div>
+</div>
+<footer class="ltx_page_footer"></footer>
+</div>
+</body>
+</html>

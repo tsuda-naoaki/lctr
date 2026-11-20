@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,follow"><title>数式検索</title>
+<link rel="stylesheet" href="formula-search.css">
+<script src="formula-search-data.js" defer></script><script src="formula-search.js" defer></script>
+</head><body><main><a href="index.html">全文目次</a>
+<h1>数式検索</h1><p>Webに組版された数式を検索します。図中の数式は、変換で数式として抽出できたものを検索します。原典位置との全数照合は未実施です。</p>
+<label for="formula-query">LaTeX または Unicode で検索</label>
+<input type="search" id="formula-query" placeholder="\Delta t, Δt, x_i" autocomplete="off">
+<p id="formula-count" aria-live="polite" data-label="件"></p>
+<ol id="formula-results"></ol></main></body></html>

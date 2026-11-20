@@ -1,0 +1,47 @@
+.preview-reader .body-math-lines { display: none; }
+.preview-reader .lctr-native-math.body-math-reflowed {
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
+  overflow: visible;
+  white-space: normal;
+  text-align: start;
+  vertical-align: middle;
+}
+.preview-reader .body-math-reflowed > img.lctr-math-vector { display: none; }
+.preview-reader .body-math-reflowed > .body-math-lines {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  gap: .18em;
+  vertical-align: middle;
+}
+.preview-reader .body-math-slice {
+  display: block;
+  flex: none;
+  background-repeat: no-repeat;
+}
+@media (max-width: 650px) {
+  .preview-reader .ltx_page_content .reader-inline-scroll { text-indent: 0; }
+  .preview-reader .ltx_page_content .reader-inline-scroll .lctr-native-math > math {
+    inset-inline-start: 0;
+    inset-block-start: 0;
+  }
+}
+.preview-reader .body-math-table-wrap > table.ltx_eqn_table,
+.preview-reader .body-math-table-wrap > table.ltx_eqn_table > tbody,
+.preview-reader .body-math-table-wrap > table.ltx_eqn_table > tbody > tr {
+  display: block;
+  width: 100%;
+}
+.preview-reader .body-math-table-wrap > table.ltx_eqn_table > tbody > tr > td {
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  padding-inline: 0;
+  min-width: 0;
+  white-space: normal;
+}
+.preview-reader .body-math-table-wrap > table.ltx_eqn_table > tbody > tr > td:empty { display: none; }
+.preview-reader .body-math-table-wrap .ltx_eqn_eqno .ltx_tag { float: none; }

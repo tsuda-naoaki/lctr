@@ -1,0 +1,74 @@
+html:has(.preview-reader) { scroll-behavior: auto; }
+.preview-reader .masthead,
+.preview-reader .site-nav,
+.preview-reader .preview-context {
+  width: min(100% - 3rem, 1050px);
+  margin-inline: auto;
+}
+.preview-reader .masthead { padding-block: .8rem; }
+.preview-reader .preview-context {
+  display: flex; flex-wrap: wrap; gap: .8rem 1.2rem;
+  padding-block: .65rem;
+  font-family: system-ui, sans-serif;
+}
+.preview-reader .ltx_page_main { max-width: 1050px; }
+.preview-reader .ltx_page_header { display: none; }
+.preview-reader h1.ltx_title { overflow-wrap: anywhere; }
+.preview-reader .ltx_page_content { overflow-x: visible; }
+.preview-reader .lctr-math-accessible {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  display: block;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  contain: strict;
+}
+.preview-reader .lctr-native-block {
+  width: max-content; max-width: none; overflow: visible;
+}
+.preview-reader .lctr-native-overflow {
+  width: max-content; max-width: min(82vw, 850px);
+  overflow-x: auto; overflow-y: hidden;
+}
+.preview-reader .fixed-figure-link {
+  display: block; width: min(100%, 760px); margin-inline: auto;
+}
+.preview-reader .fixed-figure-art {
+  display: block; width: 100%; max-width: 100%; height: auto;
+  background: #fff;
+}
+.preview-reader .ltx_figure:has(.fixed-figure-art) {
+  margin-block: 1.6rem; max-width: 100%; scroll-margin-top: 1rem;
+}
+.preview-reader .ltx_figure:has(.fixed-figure-art) .ltx_caption {
+  margin: .7rem auto 0; max-width: 760px; text-align: start;
+}
+@media (max-width: 600px) {
+  .preview-reader .masthead, .preview-reader .site-nav,
+  .preview-reader .preview-context { width: calc(100% - 2.2rem); }
+}
+@media (max-width: 650px) {
+  .preview-reader li.ltx_item {
+    position: relative;
+    white-space: normal;
+  }
+  .preview-reader li.ltx_item > .ltx_tag:first-child {
+    position: absolute;
+    inset-inline-end: calc(100% + .35rem);
+    margin-inline-start: 0;
+  }
+  .preview-reader li.ltx_item > .ltx_tag + .ltx_para {
+    display: block;
+    min-width: 0;
+  }
+  .preview-reader .ltx_description p.ltx_p > .lctr-native-inline:not(:where(td *, th *)) {
+    display: inline-block;
+    max-inline-size: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+    overscroll-behavior-inline: contain;
+  }
+}

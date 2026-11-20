@@ -1,0 +1,205 @@
+.preview-reader .backmatter-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: .2rem 0 1.35rem;
+  padding-block: .65rem;
+  border-bottom: 1px solid #c8d7d2;
+  font: .86rem/1.5 system-ui, sans-serif;
+}
+.preview-reader .backmatter-index a {
+  padding: .32rem .48rem;
+  border: 1px solid #bbcec7;
+  border-radius: .25rem;
+  background: #f0f6f2;
+  color: #174f59;
+  text-decoration: none;
+}
+.preview-reader .backmatter-index a[aria-current="page"] {
+  color: #fff;
+  background: #174f59;
+}
+.preview-reader .backmatter-index a:hover { text-decoration: underline; }
+.preview-reader .backmatter-steps { margin-top: 2.5rem; }
+.preview-reader #bib .ltx_bibitem {
+  /* Long URLs in LaTeXML's bibliography notes may have no break points. */
+  overflow-wrap: anywhere;
+}
+.preview-reader .reference-locations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .2rem .65rem;
+  margin-block: .27rem .45rem;
+  font: .85rem/1.55 system-ui, sans-serif;
+}
+.preview-reader #bib .reference-locations > * {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+}
+.preview-reader .reference-location-label { color: #354e4b; }
+.preview-reader .reference-locations a {
+  color: #174f59;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .17em;
+}
+.preview-reader .reference-locations a:focus-visible { outline: 2px solid #24655e; outline-offset: 2px; }
+.preview-reader .backmatter-table {
+  width: 100%;
+  max-width: 100%;
+  margin: .5rem 0 1rem;
+  text-align: start;
+}
+.preview-reader .backmatter-table-viewport,
+.preview-reader .backmatter-equation {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.preview-reader .backmatter-table-viewport > table {
+  display: table;
+  min-width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: start;
+}
+.preview-reader .backmatter-table-viewport .lctr-native-overflow {
+  width: max-content;
+  max-width: none;
+  overflow: visible;
+}
+.preview-reader .backmatter-table-viewport .ltx_p[style*="width"]:has(.lctr-native-overflow) {
+  width: max-content !important;
+}
+.preview-reader .backmatter-summary-table .backmatter-table-viewport > table {
+  width: max-content;
+}
+.preview-reader .backmatter-summary-table :is(.ltx_p,.ltx_minipage)[style*="width"] {
+  width: auto !important;
+}
+.preview-reader .backmatter-summary-table :is(th,td) {
+  padding: .31rem .58rem;
+}
+.preview-reader .backmatter-summary-table thead tr[hidden] { display: none; }
+.preview-reader .backmatter-summary-table :is(th,td):first-child {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: 1;
+  background: #faf9f6;
+  box-shadow: 1px 0 #d0dbd6;
+}
+.preview-reader .backmatter-pan {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  width: 100%;
+  margin: 0 0 .38rem;
+  color: #314b48;
+  font: .81rem/1.4 system-ui, sans-serif;
+}
+.preview-reader .backmatter-pan[hidden] { display: none; }
+.preview-reader .backmatter-pan input {
+  min-width: 2.25rem;
+  width: 100%;
+  accent-color: #286b68;
+}
+.preview-reader .backmatter-table-viewport:focus-visible {
+  outline: 2px solid #24655e;
+  outline-offset: 2px;
+}
+.preview-reader .audit-directory {
+  display: block;
+  margin: 1.4rem 0 2.1rem;
+  padding: clamp(.75rem,2vw,1.2rem);
+  border: 1px solid #c2d3cc;
+  border-radius: .42rem;
+  background: #f0f5f1;
+  font: .92rem/1.45 system-ui, sans-serif;
+}
+.audit-directory .audit-directory-head {
+  display: flex;
+  justify-content: space-between;
+  gap: .55rem .9rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: .8rem;
+}
+.audit-directory .audit-directory-head h2 { margin: 0; font-size: 1.18rem; }
+.audit-directory .audit-directory-head a { font-size: .84rem; }
+.audit-directory .audit-directory-filter { margin-bottom: .9rem; }
+.audit-directory .audit-directory-filter label {
+  display: block;
+  margin: 0 0 .26rem;
+  font-weight: 600;
+  font-size: .83rem;
+}
+.audit-directory .audit-directory-filter > div { display: flex; align-items: center; gap: .65rem; }
+.audit-directory .audit-directory-filter input {
+  box-sizing: border-box;
+  width: min(100%,22rem);
+  min-width: 0;
+  padding: .55rem .65rem;
+  border: 1px solid #98b2a8;
+  border-radius: .28rem;
+  font: .94rem/1.35 system-ui, sans-serif;
+  color: #203739;
+  background: #fff;
+}
+.audit-directory .audit-directory-filter output {
+  white-space: nowrap;
+  color: #43625c;
+  font-variant-numeric: tabular-nums;
+  font-size: .8rem;
+}
+.audit-directory .audit-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: .43rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.audit-directory-grid li { min-width: 0; }
+.audit-directory-grid a {
+  display: grid;
+  grid-template-columns: 3.15rem minmax(0,1fr);
+  align-items: baseline;
+  column-gap: .35rem;
+  box-sizing: border-box;
+  min-height: 2.75rem;
+  height: 100%;
+  padding: .49rem .53rem;
+  border: 1px solid #c6d7d0;
+  border-radius: .29rem;
+  background: #fbfdfb;
+  color: #173f45;
+  text-decoration: none;
+}
+.audit-directory-grid .audit-directory-key {
+  font-size: .8rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.audit-directory-grid .audit-directory-name { overflow-wrap: anywhere; }
+.audit-directory-grid a:hover { background: #e1eee7; border-color: #719b8d; }
+.audit-directory :is(a,input):focus-visible { outline: 2px solid #24655e; outline-offset: 2px; }
+.audit-directory .audit-directory-empty { margin: .65rem 0 0; text-indent: 0; }
+.audit-directory [hidden], .audit-directory-original[hidden] { display: none !important; }
+#source-audit-method { display: block; scroll-margin-top: 1rem; }
+@media (max-width: 975px) {
+  .audit-directory .audit-directory-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+@media (max-width: 680px) {
+  .audit-directory .audit-directory-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .audit-directory-grid a { gap: .2rem; grid-template-columns: 2.8rem minmax(0,1fr); font-size: .85rem; }
+}
+@media (max-width: 410px) {
+  .audit-directory-grid a { grid-template-columns: minmax(0,1fr); gap: .12rem; }
+}
+@media print {
+  .preview-reader .audit-directory-filter { display: none !important; }
+  .preview-reader :is(.backmatter-pan,.backmatter-index,.backmatter-steps) { display: none !important; }
+}

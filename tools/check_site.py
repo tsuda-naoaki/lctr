@@ -4,11 +4,14 @@ import re
 import struct
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
+
+from check_web_reader import check_web_reader
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
+READER = SITE / "full-text"
 BASE = "https://tsuda-naoaki.github.io/lctr/"
 
 
@@ -125,6 +128,10 @@ docs = {}
 for path in sorted(SITE.rglob("*.html")):
     if path == verification:
         continue
+    # Article pages have their own contract: MathML, technical anchors and
+    # reader scripts instead of the promotional pages' analytics and schema.
+    if path.is_relative_to(READER):
+        continue
     doc = Document(allow_create_time=path.parent == SITE / "create-time")
     doc.feed(path.read_text())
     assert doc.lang in ("ja", "en"), path
@@ -189,7 +196,10 @@ for path, doc in docs.items():
         ((SITE / "world-challenge" / filename).resolve(), ""),
         ((SITE / "comment-papers" / filename).resolve(), ""),
     ]
-    for class_name, expected in (("site-nav", expected_nav), ("site-footer-nav", [expected_nav[n] for n in (0, 1, 2, 3, 4, 7, 9, 10)])):
+    expected_header = list(expected_nav)
+    if READER.is_dir():
+        expected_header.append(((READER / doc.lang / "index.html").resolve(), ""))
+    for class_name, expected in (("site-nav", expected_header), ("site-footer-nav", [expected_nav[n] for n in (0, 1, 2, 3, 4, 7, 9, 10)])):
         navs = [nav for nav in doc.navs if class_name in nav["attrs"].get("class", "").split()]
         assert len(navs) == 1, (path, "Expected one navigation landmark", class_name)
         nav = navs[0]
@@ -319,7 +329,10 @@ for filename, status in (("index.html", "PubPeerコメント：掲載拒否"), (
 
 sitemap = ET.parse(SITE / "sitemap.xml")
 urls = [item.text for item in sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-assert set(urls) == {doc.canonical[0] for doc in docs.values()}
+shell_urls = {doc.canonical[0] for doc in docs.values()}
+assert len(urls) == len(set(urls)) and shell_urls <= set(urls)
+reader_urls = set(urls) - shell_urls
+assert READER.is_dir() or not reader_urls
 
 orcid = "https://orcid.org/0009-0007-2506-4026"
 author_home = "https://tsuda-naoaki.github.io/"
@@ -367,4 +380,15 @@ for filename in ("index.html", "en.html"):
         route_exists(comments, key, dest, anchor)
         route_exists(dest, anchor, comments, key)
 
-print(json.dumps({"status": "pass", "html_documents": len(docs), "local_links_checked": sum(len(d.links) for d in docs.values()), "abstract_paragraphs": {"ja": 11, "en": 11}, "sitemap_urls": len(urls), "source_entries_per_language": 72, "figure_images": images_checked, "cloudflare_scripts": sum(d.analytics_scripts for d in docs.values()), "ga4_loaders": sum(d.ga4_scripts for d in docs.values())}))
+# The rehearsal also contains the separate author landing site.
+author_site = ROOT / "author-site"
+if author_site.is_dir():
+    author_doc = Document()
+    author_doc.feed((author_site / "index.html").read_text())
+    visible_urls = {urljoin(author_home, href) for href, _ in author_doc.anchors}
+    assert {orcid, *records.values()} <= visible_urls, "The author index must link all four records and the author's ORCID"
+    assert {BASE + "comment-papers/", BASE + "comment-papers/en.html"} <= visible_urls, "Both comment-paper languages should be reachable from the author index"
+summary = {"status": "pass", "html_documents": len(docs), "local_links_checked": sum(len(d.links) for d in docs.values()), "abstract_paragraphs": {"ja": 11, "en": 11}, "sitemap_urls": len(urls), "source_entries_per_language": 72, "figure_images": images_checked, "cloudflare_scripts": sum(d.analytics_scripts for d in docs.values()), "ga4_loaders": sum(d.ga4_scripts for d in docs.values())}
+if READER.is_dir():
+    summary["web_reader"] = check_web_reader(SITE, {path: doc.ids for path, doc in docs.items()}, reader_urls)
+print(json.dumps(summary))

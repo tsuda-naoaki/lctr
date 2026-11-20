@@ -1,0 +1,92 @@
+.preview-reader .table-reflow .backmatter-table-viewport {
+  overflow: visible;
+}
+.preview-reader .table-reflow .backmatter-table-viewport > table {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  table-layout: fixed;
+}
+.preview-reader .table-reflow :is(td,th) {
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  padding: .35rem .48rem;
+}
+.preview-reader .table-reflow :is(.ltx_p,.ltx_minipage)[style*="width:"] {
+  width: auto !important;
+  max-width: 100%;
+}
+.preview-reader .table-reflow .ltx_inline-block {
+  display: block;
+  max-width: 100%;
+}
+.preview-reader .table-reflow :is(td,th) .ltx_p {
+  margin-block: 0;
+  text-indent: 0;
+}
+.preview-reader .table-reflow .ltx_tr :is(td,th):first-child::after { display: none; }
+.preview-reader .table-reflow :is(.lctr-native-inline,.lctr-native-overflow) {
+  display: inline;
+  width: auto;
+  max-width: 100%;
+  overflow: visible;
+  white-space: normal;
+}
+.preview-reader .table-reflow :is(img.lctr-math-vector,.table-math-flow img) {
+  max-width: 100%;
+  height: auto !important;
+}
+.preview-reader .table-reflow .lctr-native-math:has(> .table-math-flow) > img.lctr-math-vector {
+  display: none;
+}
+.preview-reader .table-reflow .table-math-flow img:not(:last-child) { margin-inline-end: .11em; }
+.preview-reader .table-reflow .table-reflow-column { display: none; }
+.preview-reader .table-reflow.backmatter-summary-table :is(th,td):first-child {
+  position: static;
+  background: transparent;
+  box-shadow: none;
+}
+.preview-reader .table-reflow.backmatter-summary-table tbody tr:nth-child(even) {
+  background: #eff3ef;
+}
+
+@media (max-width: 680px) {
+  .preview-reader .table-reflow-stacked .backmatter-table-viewport > table,
+  .preview-reader .table-reflow-stacked tbody {
+    display: block;
+  }
+  .preview-reader .table-reflow-stacked colgroup { display: none; }
+  .preview-reader .table-reflow-stacked thead,
+  .preview-reader .table-reflow-stacked.table-reflow-first-header tbody > tr:first-child {
+    position: absolute;
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .preview-reader .table-reflow-stacked tbody > tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: .32rem;
+    margin: 0 0 .7rem;
+    padding: .45rem .6rem;
+    border: 1px solid #c9d8d1;
+    border-radius: .3rem;
+    background: #fbfdfb;
+  }
+  .preview-reader .table-reflow-stacked :is(td,th) {
+    display: block;
+    min-width: 0;
+    padding: .18rem .1rem;
+    border: 0;
+  }
+  .preview-reader .table-reflow-stacked .table-reflow-column {
+    display: block;
+    margin-bottom: .1rem;
+    color: #365651;
+    font: 650 .81rem/1.45 system-ui, sans-serif;
+  }
+}

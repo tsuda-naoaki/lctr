@@ -1,0 +1,728 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+<meta charset="utf-8"><title>4.2.8 表現段階の帰結 · LCTR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,follow">
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="LaTeXML.css">
+<link rel="stylesheet" href="ltx-article.css">
+<link rel="stylesheet" href="../preview.css">
+<style>.lctr-native-math{position:relative}.lctr-native-math>math{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}.lctr-native-block,.lctr-native-overflow{display:inline-block;max-width:100%;overflow-x:auto}.lctr-math-vector{max-width:none}</style>
+<link rel="stylesheet" href="../section-preview.css">
+<!-- chapter-reader-tools --><link rel="stylesheet" href="../chapter-reader-tools.css">
+<script src="../chapter-reader-tools.js" defer></script>
+<!-- /chapter-reader-tools -->
+<link rel="stylesheet" href="../body-math-flow.css?v=eac727412218"><script src="../body-math-flow.js?v=76b24b98a657" defer></script></head>
+<body class="preview-reader section-preview">
+<header class="masthead"><a class="wordmark" href="../../">LCTR<span class="theory-name"> v1.0.1</span></a><nav aria-label="Language"><span aria-current="page">日本語</span><a lang="en" href="../en/ch04-02-08.html">English</a></nav></header><nav class="site-nav" aria-label="サイト全体"><a href="../.././">論文・要旨</a><a href="../../create-time/">時間の作り方</a><a href="../../why-time-emergence-failed/">従来の時間創発</a><a href="../../time-mysteries/">LCTRの考え方</a><a href="../../sources/">72資料</a><a href="../.././#figures">図解</a><a href="../.././#verification">検証資産</a><a href="../../verification/law-candidate/">MMT形式化</a><a href="../.././#materials-title">公開資料</a><a href="../../world-challenge/" lang="ja">物理学への告発</a><a href="../../comment-papers/">コメント論文</a><a href="./" aria-current="page">全文（HTML）</a></nav><nav class="preview-context"><a href="./">全文目次</a><a href="../../sources/">72資料の一覧</a></nav>
+<div class="ltx_page_main pilot-main"><!-- chapter-reader-tools --><nav class="reader-locator" aria-label="章内ナビゲーション"><div class="locator-position" aria-label="現在地"><a class="locator-chapter" href="ch04.html" title="4 比較段階閉包と正準表現">第4章</a><span class="locator-separator" aria-hidden="true">›</span><a class="locator-current" data-initial-title="4.2.8 表現段階の帰結" data-initial-anchor="SS2.SSS8" href="#SS2.SSS8">4.2.8 表現段階の帰結</a></div><div class="locator-controls"><details class="locator-outline"><summary><span class="locator-step-full">節目次</span><span class="locator-step-short">節目次</span></summary><div class="locator-panel"><ul><li><a data-heading-id="SS1" href="ch04-01.html#SS1">4.1 正準比較商の生成</a><ul><li><a data-heading-id="SS1.SSS1" href="ch04-01.html#SS1.SSS1">4.1.1 比較段階構成の定義</a></li><li><a data-heading-id="SS1.SSS2" href="ch04-01.html#SS1.SSS2">4.1.2 比較段階判定条件</a></li><li><a data-heading-id="SS1.SSS3" href="ch04-01.html#SS1.SSS3">4.1.3 操作的骨格</a></li></ul></li><li><a data-heading-id="SS2" href="ch04-02.html#SS2">4.2 厳密操作的時間構造と表現アトラス</a><ul><li><a data-heading-id="SS2.SSS1" href="ch04-02-01.html#SS2.SSS1">4.2.1 ソース誘導到着前順序</a></li><li><a data-heading-id="SS2.SSS2" href="ch04-02-02.html#SS2.SSS2">4.2.2 大域順序座標商から得られる表現座標</a></li><li><a data-heading-id="SS2.SSS3" href="ch04-02-03.html#SS2.SSS3">4.2.3 表現段階の部分成立束と構造的完成</a></li><li><a data-heading-id="SS2.SSS4" href="ch04-02-04.html#SS2.SSS4">4.2.4 条件付き数量アフィン実現と振動数表現</a></li><li><a data-heading-id="SS2.SSS5" href="ch04-02-05.html#SS2.SSS5">4.2.5 有限操作粒度入力</a></li><li><a data-heading-id="SS2.SSS6" href="ch04-02-06.html#SS2.SSS6">4.2.6 𝔇由来記録セル表現像とℭトークン記録分離</a></li><li><a data-heading-id="SS2.SSS7" href="ch04-02-07.html#SS2.SSS7">4.2.7 連続近似評価入力</a></li><li><a data-heading-id="SS2.SSS8" href="#SS2.SSS8" aria-current="location">4.2.8 表現段階の帰結</a></li></ul></li><li><a data-heading-id="SS3" href="ch04-03.html#SS3">4.3 厳密操作可能性・正準一意性・普遍因子化</a><ul><li><a data-heading-id="SS3.SSS1" href="ch04-03.html#SS3.SSS1">4.3.1 操作可能性定理</a></li><li><a data-heading-id="SS3.SSS2" href="ch04-03.html#SS3.SSS2">4.3.2 正準一意性と普遍性</a></li></ul></li></ul></div></details><a class="locator-definitions" href="definitions-04.html">定義一覧 <span>108</span></a><div class="locator-steps"><a class="locator-prev" href="ch04-02-07.html#SS2.SSS7" title="前の区切り：4.2.7 連続近似評価入力" aria-label="前の区切り：4.2.7 連続近似評価入力" data-caption="前の区切り" data-start-href="ch04.html" data-start-caption="章の冒頭へ" data-edge-href="S3.html" data-edge-caption="前の章" data-edge-name="第3章" data-joiner="："><span class="locator-step-arrow" aria-hidden="true">↑</span> <span class="locator-step-full">前の区切り</span><span class="locator-step-short">前</span><span class="locator-step-number">4.2.7</span></a><a class="locator-next" href="ch04-03.html#SS3" title="次の区切り：4.3 厳密操作可能性・正準一意性・普遍因子化" aria-label="次の区切り：4.3 厳密操作可能性・正準一意性・普遍因子化" data-caption="次の区切り" data-edge-href="S5.html" data-edge-caption="次の章" data-edge-name="第5章" data-joiner="："><span class="locator-step-arrow" aria-hidden="true">↓</span> <span class="locator-step-full">次の区切り</span><span class="locator-step-short">次</span><span class="locator-step-number">4.3</span></a></div></div></nav><!-- /chapter-reader-tools -->
+<nav class="pilot-context"><a href="ch04.html">4 比較段階閉包と正準表現</a><a class="pilot-parent" href="ch04-02.html">4.2 厳密操作的時間構造と表現アトラス</a><a class="pilot-whole" href="S4.html#SS2.SSS8">章一括表示</a></nav><div class="pilot-layout pilot-reading"><details class="pilot-mobile"><summary>章内目次</summary><nav class="pilot-toc" aria-label="章内目次"><ul class="pilot-sections"><li><a href="ch04-01.html">4.1 正準比較商の生成</a><details data-pilot-group="SS1"><summary>小節一覧（3件）</summary><ul class="pilot-sublist"><li><a href="ch04-01.html#SS1.SSS1">4.1.1 比較段階構成の定義</a></li><li><a href="ch04-01.html#SS1.SSS2">4.1.2 比較段階判定条件</a></li><li><a href="ch04-01.html#SS1.SSS3">4.1.3 操作的骨格</a></li></ul></details></li><li><a href="ch04-02.html">4.2 厳密操作的時間構造と表現アトラス</a><ul class="pilot-sublist"><li><a href="ch04-02-01.html">4.2.1 ソース誘導到着前順序</a></li><li><a href="ch04-02-02.html">4.2.2 大域順序座標商から得られる表現座標</a></li><li><a href="ch04-02-03.html">4.2.3 表現段階の部分成立束と構造的完成</a></li><li><a href="ch04-02-04.html">4.2.4 条件付き数量アフィン実現と振動数表現</a></li><li><a href="ch04-02-05.html">4.2.5 有限操作粒度入力</a></li><li><a href="ch04-02-06.html">4.2.6 𝔇由来記録セル表現像とℭトークン記録分離</a></li><li><a href="ch04-02-07.html">4.2.7 連続近似評価入力</a></li><li><a href="ch04-02-08.html" aria-current="location">4.2.8 表現段階の帰結</a></li></ul></li><li><a href="ch04-03.html">4.3 厳密操作可能性・正準一意性・普遍因子化</a><details data-pilot-group="SS3"><summary>小節一覧（2件）</summary><ul class="pilot-sublist"><li><a href="ch04-03.html#SS3.SSS1">4.3.1 操作可能性定理</a></li><li><a href="ch04-03.html#SS3.SSS2">4.3.2 正準一意性と普遍性</a></li></ul></details></li></ul></nav></details><aside class="pilot-aside"><div class="pilot-aside-caption">章内目次</div><nav class="pilot-toc" aria-label="章内目次"><ul class="pilot-sections"><li><a href="ch04-01.html">4.1 正準比較商の生成</a><details data-pilot-group="SS1"><summary>小節一覧（3件）</summary><ul class="pilot-sublist"><li><a href="ch04-01.html#SS1.SSS1">4.1.1 比較段階構成の定義</a></li><li><a href="ch04-01.html#SS1.SSS2">4.1.2 比較段階判定条件</a></li><li><a href="ch04-01.html#SS1.SSS3">4.1.3 操作的骨格</a></li></ul></details></li><li><a href="ch04-02.html">4.2 厳密操作的時間構造と表現アトラス</a><ul class="pilot-sublist"><li><a href="ch04-02-01.html">4.2.1 ソース誘導到着前順序</a></li><li><a href="ch04-02-02.html">4.2.2 大域順序座標商から得られる表現座標</a></li><li><a href="ch04-02-03.html">4.2.3 表現段階の部分成立束と構造的完成</a></li><li><a href="ch04-02-04.html">4.2.4 条件付き数量アフィン実現と振動数表現</a></li><li><a href="ch04-02-05.html">4.2.5 有限操作粒度入力</a></li><li><a href="ch04-02-06.html">4.2.6 𝔇由来記録セル表現像とℭトークン記録分離</a></li><li><a href="ch04-02-07.html">4.2.7 連続近似評価入力</a></li><li><a href="ch04-02-08.html" aria-current="location">4.2.8 表現段階の帰結</a></li></ul></li><li><a href="ch04-03.html">4.3 厳密操作可能性・正準一意性・普遍因子化</a><details data-pilot-group="SS3"><summary>小節一覧（2件）</summary><ul class="pilot-sublist"><li><a href="ch04-03.html#SS3.SSS1">4.3.1 操作可能性定理</a></li><li><a href="ch04-03.html#SS3.SSS2">4.3.2 正準一意性と普遍性</a></li></ul></details></li></ul></nav></aside><div class="ltx_page_content"><section id="SS2.SSS8" class="ltx_subsubsection">
+<h1 class="pilot-primary ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">4.2.8 </span>表現段階の帰結</h1>
+
+<div id="Thmdefinition170" class="ltx_theorem ltx_theorem_proposition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">命題 4.170</span></span><span class="ltx_text ltx_font_bold"> </span>(表現段階構造と数量評価入力の分離)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition170.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p1.m1"><img class="lctr-math-vector" src="math-S4/fa16941d294920a94bdbfb968608c8e3bbcb5e8687c3a9de10b15963c4bdba9d.svg" alt="\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.25141em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p1.m1" class="ltx_Math" alttext="\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖢𝗍𝗑</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span> を仮定する。
+各 <span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p1.m2"><img class="lctr-math-vector" src="math-S4/7ea81211d31cc218d0b8b2df0365c1e86fb87985745554dce645b6d45cdb0c34.svg" alt="R\in\mathsf{Rol}^{\mathrm{cmp}}" aria-hidden="true" loading="lazy" decoding="async" style="width:4.83207em;height:0.93321em;vertical-align:-0.12243em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p1.m2" class="ltx_Math" alttext="R\in\mathsf{Rol}^{\mathrm{cmp}}" display="inline"><semantics><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow><annotation encoding="application/x-tex">R\in\mathsf{Rol}^{\mathrm{cmp}}</annotation></semantics></math></span></span> について、
+定義<a href="ch04-02-02.html#Thmdefinition140" title="定義 4.140 (選択順序値域と表現座標). ‣ 4.2.2 大域順序座標商から得られる表現座標 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.140</span></a>の<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p1.m3"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p1.m3" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来選択表現値域と
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p1.m4"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p1.m4" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来表現値域順序埋め込みを指定すると、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex627" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex627X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex627X.m2"><img class="lctr-math-vector" src="math-S4/54c9cb3310f9be4c59ba2c3078bc94c24304decb3b3e4267a70e14ab90a0559b.svg" alt="\displaystyle\mathsf{Repr}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:3.82342em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="Ex627X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Repr}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Repr}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex627X.m3"><img class="lctr-math-vector" src="math-S4/46a0d7150bd718878ba150e5453024d341d61c9514061c19851c57ebcdb38062.svg" alt="\displaystyle\Longrightarrow\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:7.19908em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="Ex627X.m3" class="ltx_Math" alttext="\displaystyle\Longrightarrow\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo stretchy="false">⟹</mo><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\Longrightarrow\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex627Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex627Xa.m2"><img class="lctr-math-vector" src="math-S4/5b203f4723b838c8e56c19c7d1fcc3764a188615c009e3e5542919b71c973b1d.svg" alt="\displaystyle\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:3.88331em;height:1.20888em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex627Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}]" display="inline"><semantics><mrow><msubsup><mi>𝖱𝖾𝗉</mi><mi>R</mi><mi>cmp</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}]</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex627Xa.m3"><img class="lctr-math-vector" src="math-S4/d8ca86c142dfeb89cf453a547718e5a1f5a77d7226e511bdccbd38581f483a3e.svg" alt="\displaystyle=\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}]\circ\mathsf{Prj}_%
+{R}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:11.79916em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex627Xa.m3" class="ltx_Math" alttext="\displaystyle=\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}]\circ\mathsf{Prj}_%
+{R}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}[\mathsf{I}]" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mrow><msubsup><mi>𝖱𝖾𝗉𝖤𝗆𝖻</mi><mi>R</mi><mi>ord</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo rspace="0.055em" stretchy="false">]</mo></mrow></mrow><mo rspace="0.222em">∘</mo><msubsup><mi>𝖯𝗋𝗃</mi><mi>R</mi><mrow><mi>ord</mi><mo>,</mo><mi>can</mi></mrow></msubsup></mrow><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}]\circ\mathsf{Prj}_%
+{R}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}[\mathsf{I}]</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が依存順に定まる。
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p1.m5"><img class="lctr-math-vector" src="math-S4/0dd7e9bca2aa201584d427b6ae728d9441648a66d27ab4ed9ae3caf75b86c6fb.svg" alt="\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.05441em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p1.m5" class="ltx_Math" alttext="\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span> の成分は、定義
+<a href="ch04-02-03.html#Thmdefinition144" title="定義 4.144 (表現段階生成構造束). ‣ 4.2.3 表現段階の部分成立束と構造的完成 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.144</span></a>で与えられる。</p>
+</div>
+<div id="Thmdefinition170.p2" class="ltx_para">
+<p class="ltx_p">さらに、定義<a href="ch04-02-04.html#Thmdefinition148" title="定義 4.148 (ℭ/𝔇由来条件付き数量アフィン実現). ‣ 4.2.4 条件付き数量アフィン実現と振動数表現 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.148</span></a>の
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p2.m1"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p2.m1" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来条件付き数量アフィン実現、
+定義<a href="ch04-02-05.html#Thmdefinition156" title="定義 4.156 (有限操作粒度入力). ‣ 4.2.5 有限操作粒度入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.156</span></a>の有限操作粒度データム、および
+定義<a href="ch04-02-07.html#Thmdefinition164" title="定義 4.164 (連続近似成分別評価入力). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.164</span></a>の六つの成分別評価入力を指定する。
+これらの指定のもとで、<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p2.m2"><img class="lctr-math-vector" src="math-S4/51ef8c9a5cfb2e5eb1b3dae2b43d33700b63e90cd80bfa405b8fa82b4fc5240c.svg" alt="\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:0.99824em;height:0.85807em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p2.m2" class="ltx_Math" alttext="\mathfrak{D}" display="inline"><semantics><mi>𝔇</mi><annotation encoding="application/x-tex">\mathfrak{D}</annotation></semantics></math></span></span>由来記録セル幅適合述語、
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition170.p2.m3"><img class="lctr-math-vector" src="math-S4/98959961a55d349f4111847c1249ab5c2a96fc270cea220424c6a269b7d03d90.svg" alt="\mathfrak{C}" aria-hidden="true" loading="lazy" decoding="async" style="width:0.77921em;height:0.85807em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="Thmdefinition170.p2.m3" class="ltx_Math" alttext="\mathfrak{C}" display="inline"><semantics><mi>ℭ</mi><annotation encoding="application/x-tex">\mathfrak{C}</annotation></semantics></math></span></span>トークン記録分離述語および順序位相座標候補が定まり、
+定義<a href="ch04-02-07.html#Thmdefinition168" title="定義 4.168 (連続近似評価入力データム). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.168</span></a>の連続近似評価入力データムを構成する。
+表現段階生成構造束と数量評価入力は、相異なる型と依存順を持つ。</p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">証明.</h6>
+<div id="SS2.SSS8.p1" class="ltx_para">
+<p class="ltx_p">定理<a href="ch04-02-03.html#Thmdefinition147" title="定理 4.147 (表現段階生成定理). ‣ 4.2.3 表現段階の部分成立束と構造的完成 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.147</span></a>が
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p1.m1"><img class="lctr-math-vector" src="math-S4/0dd7e9bca2aa201584d427b6ae728d9441648a66d27ab4ed9ae3caf75b86c6fb.svg" alt="\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.05441em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p1.m1" class="ltx_Math" alttext="\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span> を生成し、
+定義<a href="ch04-02-02.html#Thmdefinition140" title="定義 4.140 (選択順序値域と表現座標). ‣ 4.2.2 大域順序座標商から得られる表現座標 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.140</span></a>が
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p1.m2"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p1.m2" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来比較表現座標の因子化を与える。
+指定された数量アフィン実現は、定義<a href="ch04-02-04.html#Thmdefinition148" title="定義 4.148 (ℭ/𝔇由来条件付き数量アフィン実現). ‣ 4.2.4 条件付き数量アフィン実現と振動数表現 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.148</span></a>の
+両立条件を満たす。定義<a href="ch04-02-05.html#Thmdefinition156" title="定義 4.156 (有限操作粒度入力). ‣ 4.2.5 有限操作粒度入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.156</span></a>は、指定された
+五つの粒度成分を直積型データムにする。
+定義<a href="ch04-02-06.html#Thmdefinition160" title="定義 4.160 (𝔇由来記録セル幅適合). ‣ 4.2.6 𝔇由来記録セル表現像とℭトークン記録分離 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.160</span></a>および
+<a href="ch04-02-06.html#Thmdefinition162" title="定義 4.162 (ℭトークン記録分離). ‣ 4.2.6 𝔇由来記録セル表現像とℭトークン記録分離 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.162</span></a>は、生成済みの記録像と指定された入力から
+記録セル幅適合と記録分離を定める。
+定義<a href="ch04-02-07.html#Thmdefinition167" title="定義 4.167 (順序位相座標候補). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.167</span></a>は、選択された表現値域の順序と
+比較表現座標から順序位相座標候補を定める。
+定義<a href="ch04-02-07.html#Thmdefinition168" title="定義 4.168 (連続近似評価入力データム). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.168</span></a>は、これらを指定された
+六つの成分別評価入力とともに一つのtupleへ束ねる。
+したがって、表現段階生成構造束、<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p1.m3"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p1.m3" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来比較表現座標および
+数量評価入力は、命題に記した型と依存順を満たす。
+∎</p>
+</div>
+</div>
+<div id="Thmdefinition171" class="ltx_theorem ltx_theorem_definition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">定義 4.171</span></span><span class="ltx_text ltx_font_bold"> </span>(型付き生成閉包)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition171.p1" class="ltx_para">
+<p class="ltx_p">対象式および真理値式を成分とする型付き形式式全体を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex628" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex628.m1"><img class="lctr-math-vector" src="math-S4/dbaec2ed374323651330cf4544098ddb65417d658efbaab87d2d219b62b52909.svg" alt="\mathsf{Expr}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.03267em;height:1.05267em;vertical-align:-0.27733em"><span class="lctr-math-accessible"><math id="Ex628.m1" class="ltx_Math" alttext="\mathsf{Expr}" display="block"><semantics><mi>𝖤𝗑𝗉𝗋</mi><annotation encoding="application/x-tex">\mathsf{Expr}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって表す。有限tuple <span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition171.p1.m1"><img class="lctr-math-vector" src="math-S4/cf58784c35cbc35a961b9db7e5789b179d6fe738aaee74c3d666372c4ae272d7.svg" alt="T" aria-hidden="true" loading="lazy" decoding="async" style="width:0.87656em;height:0.85000em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="Thmdefinition171.p1.m1" class="ltx_Math" alttext="T" display="inline"><semantics><mi>T</mi><annotation encoding="application/x-tex">T</annotation></semantics></math></span></span> の成分添字集合を
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition171.p1.m2"><img class="lctr-math-vector" src="math-S4/343f0f5bc2df69fe04fcd6eb5a7e48592a5701439ec9013214a464b038d1089b.svg" alt="\operatorname{Idx}(T)" aria-hidden="true" loading="lazy" decoding="async" style="width:3.05212em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Thmdefinition171.p1.m2" class="ltx_Math" alttext="\operatorname{Idx}(T)" display="inline"><semantics><mrow><mi>Idx</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\operatorname{Idx}(T)</annotation></semantics></math></span></span> とし、成分関係を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex629" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex629X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex629X.m2"><img class="lctr-math-vector" src="math-S4/80721424393b78c988430cf6373d2ae147ca380a4c5520c874d85bb0e2dea92d.svg" alt="\displaystyle A\in_{\mathrm{comp}}T" aria-hidden="true" loading="lazy" decoding="async" style="width:4.52646em;height:1.12933em;vertical-align:-0.36267em"><span class="lctr-math-accessible"><math id="Ex629X.m2" class="ltx_Math" alttext="\displaystyle A\in_{\mathrm{comp}}T" display="inline"><semantics><mrow><mi>A</mi><msub><mo>∈</mo><mi>comp</mi></msub><mi>T</mi></mrow><annotation encoding="application/x-tex">\displaystyle A\in_{\mathrm{comp}}T</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex629X.m3"><img class="lctr-math-vector" src="math-S4/a3adf82bfeb727134b5c497246a6d66b68a05f16235db69277c922801815dd7e.svg" alt="\displaystyle\Longleftrightarrow\exists i\in\operatorname{Idx}(T)\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:7.54703em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex629X.m3" class="ltx_Math" alttext="\displaystyle\Longleftrightarrow\exists i\in\operatorname{Idx}(T)\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo stretchy="false">⟺</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>i</mi></mrow><mo>∈</mo><mrow><mi>Idx</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\Longleftrightarrow\exists i\in\operatorname{Idx}(T)\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex629Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex629Xa.m2"><img class="lctr-math-vector" src="math-S4/e3a8d305e55ecfeecab697b3b593545fb8e1ceedf3d4c6742dd99dfe8d8f24b7.svg" alt="\displaystyle\hskip 20.00003pt\operatorname{pr}_{i}(T)=A" aria-hidden="true" loading="lazy" decoding="async" style="width:6.56375em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex629Xa.m2" class="ltx_Math" alttext="\displaystyle\hskip 20.00003pt\operatorname{pr}_{i}(T)=A" display="inline"><semantics><mrow><mrow><msub><mi>pr</mi><mi>i</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>A</mi></mrow><annotation encoding="application/x-tex">\displaystyle\hskip 20.00003pt\operatorname{pr}_{i}(T)=A</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。対象集合 <span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition171.p1.m3"><img class="lctr-math-vector" src="math-S4/f50318cd7b831762c39e48682e6beee6d842bc59b25726149f9043fbdb716cc7.svg" alt="\mathsf{In}" aria-hidden="true" loading="lazy" decoding="async" style="width:0.93467em;height:0.86067em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="Thmdefinition171.p1.m3" class="ltx_Math" alttext="\mathsf{In}" display="inline"><semantics><mi>𝖨𝗇</mi><annotation encoding="application/x-tex">\mathsf{In}</annotation></semantics></math></span></span> と型付き生成依存規則族</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex630" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex630.m1"><img class="lctr-math-vector" src="math-S4/407f47d9b4c2deaae65ae60330474de87f4424abae3c6ec6d433df45919388d9.svg" alt="\mathsf{Dep}\subseteq\mathcal{P}(\mathsf{Expr})\times\mathsf{Expr}" aria-hidden="true" loading="lazy" decoding="async" style="width:9.63456em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex630.m1" class="ltx_Math" alttext="\mathsf{Dep}\subseteq\mathcal{P}(\mathsf{Expr})\times\mathsf{Expr}" display="block"><semantics><mrow><mi>𝖣𝖾𝗉</mi><mo>⊆</mo><mrow><mrow><mi class="ltx_font_mathcaligraphic">𝒫</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖤𝗑𝗉𝗋</mi><mo rspace="0.055em" stretchy="false">)</mo></mrow></mrow><mo rspace="0.222em">×</mo><mi>𝖤𝗑𝗉𝗋</mi></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Dep}\subseteq\mathcal{P}(\mathsf{Expr})\times\mathsf{Expr}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">に対し、生成閉包を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex631" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex631X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex631X.m2"><img class="lctr-math-vector" src="math-S4/b76637ca135f766dce211143618e3c53684506262edd73dec5e8f7cf9e46a534.svg" alt="\displaystyle\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In}):=\bigcap\Bigl{\{}%
+\mathsf{S}\subseteq\mathsf{Expr}\ \Bigm{|}" aria-hidden="true" loading="lazy" decoding="async" style="width:11.95622em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex631X.m2" class="ltx_math_unparsed" alttext="\displaystyle\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In}):=\bigcap\Bigl{\{}%
+\mathsf{S}\subseteq\mathsf{Expr}\ \Bigm{|}" display="inline"><semantics><mrow><msub><mi>Cl</mi><mi>𝖣𝖾𝗉</mi></msub><mrow><mo stretchy="false">(</mo><mi>𝖨𝗇</mi><mo rspace="0.278em" stretchy="false">)</mo></mrow><mo rspace="0.278em">:=</mo><mstyle displaystyle="true"><mo movablelimits="false">⋂</mo></mstyle><mrow><mo maxsize="160%" minsize="160%">{</mo><mi>𝖲</mi><mo>⊆</mo><mi>𝖤𝗑𝗉𝗋</mi><mo lspace="0.500em" mathsize="160%">|</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In}):=\bigcap\Bigl{\{}%
+\mathsf{S}\subseteq\mathsf{Expr}\ \Bigm{|}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex631X.m3"><img class="lctr-math-vector" src="math-S4/8a15d3ea9dfd9bc9e47f2672379a1a937736aba1be85bb408c25e69a76875670.svg" alt="\displaystyle\mathsf{In}\subseteq\mathsf{S}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:3.08398em;height:1.07611em;vertical-align:-0.27778em"><span class="lctr-math-accessible"><math id="Ex631X.m3" class="ltx_Math" alttext="\displaystyle\mathsf{In}\subseteq\mathsf{S}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi>𝖨𝗇</mi><mo>⊆</mo><mi>𝖲</mi></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{In}\subseteq\mathsf{S}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex631Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex631Xa.m2" data-body-math-cuts="[[1.938662,0],[3.410694,5],[4.355136,5],[6.407011,0],[6.907011,2],[8.359563,5],[9.415116,5],[10.23689,5],[12.109568,5],[13.17304,5],[14.117481,5]]"><img class="lctr-math-vector" src="math-S4/e9124db01d3b304d4b5764d662079678208ac90356f743df65edf07a87fa516c.svg" alt="\displaystyle\forall(\mathsf{A}\mathchar 44\relax\allowbreak Y)\in\mathsf{Dep}%
+\mathchar 44\relax\allowbreak\quad\mathsf{A}\subseteq\mathsf{S}\Longrightarrow
+Y%
+\in\mathsf{S}\Bigr{\}}" aria-hidden="true" loading="lazy" decoding="async" style="width:15.55037em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex631Xa.m2" class="ltx_math_unparsed" alttext="\displaystyle\forall(\mathsf{A}\mathchar 44\relax\allowbreak Y)\in\mathsf{Dep}%
+\mathchar 44\relax\allowbreak\quad\mathsf{A}\subseteq\mathsf{S}\Longrightarrow
+Y%
+\in\mathsf{S}\Bigr{\}}" display="inline"><semantics><mrow><mo>∀</mo><mrow><mo stretchy="false">(</mo><mi>𝖠</mi><mo>,</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>∈</mo><mi>𝖣𝖾𝗉</mi><mo rspace="1.167em">,</mo><mi>𝖠</mi><mo>⊆</mo><mi>𝖲</mi><mo stretchy="false">⟹</mo><mi>Y</mi><mo>∈</mo><mi>𝖲</mi><mo maxsize="160%" minsize="160%">}</mo></mrow><annotation encoding="application/x-tex">\displaystyle\forall(\mathsf{A}\mathchar 44\relax\allowbreak Y)\in\mathsf{Dep}%
+\mathchar 44\relax\allowbreak\quad\mathsf{A}\subseteq\mathsf{S}\Longrightarrow
+Y%
+\in\mathsf{S}\Bigr{\}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">とし、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex632" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex632.m1" data-body-math-cuts="[[5.817031,5],[6.372583,5],[7.79914,5],[9.910255,5],[10.973726,5],[11.918167,5]]"><img class="lctr-math-vector" src="math-S4/5732cf82ee603eecf34e7419a9f883de5afe8c5489701787ec6ff201645ce506.svg" alt="\mathsf{GenDef}_{\mathsf{Dep}}\left(Y\mid\mathsf{In}\right)\Longleftrightarrow
+Y%
+\in\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In})" aria-hidden="true" loading="lazy" decoding="async" style="width:15.88262em;height:1.19600em;vertical-align:-0.36267em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex632.m1" class="ltx_Math" alttext="\mathsf{GenDef}_{\mathsf{Dep}}\left(Y\mid\mathsf{In}\right)\Longleftrightarrow
+Y%
+\in\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In})" display="block"><semantics><mrow><mrow><msub><mi>𝖦𝖾𝗇𝖣𝖾𝖿</mi><mi>𝖣𝖾𝗉</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><mi>Y</mi><mo>∣</mo><mi>𝖨𝗇</mi></mrow><mo>)</mo></mrow></mrow><mo stretchy="false">⟺</mo><mrow><mi>Y</mi><mo>∈</mo><mrow><msub><mi>Cl</mi><mi>𝖣𝖾𝗉</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi>𝖨𝗇</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">\mathsf{GenDef}_{\mathsf{Dep}}\left(Y\mid\mathsf{In}\right)\Longleftrightarrow
+Y%
+\in\operatorname{Cl}_{\mathsf{Dep}}(\mathsf{In})</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって生成可能性を定める。</p>
+</div>
+</div>
+<div id="Thmdefinition172" class="ltx_theorem ltx_theorem_proposition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">命題 4.172</span></span><span class="ltx_text ltx_font_bold"> </span>(連続近似評価入力の生成閉包)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition172.p1" class="ltx_para">
+<p class="ltx_p">連続近似評価入力の直接入力集合を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex633" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex633X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex633X.m2" data-body-math-cuts="[[2.36922,5],[3.680548,5],[5.275677,5],[6.220119,5],[8.388006,9],[9.04734,9],[10.083247,5],[12.721355,5]]"><img class="lctr-math-vector" src="math-S4/163993aa44d2fc0708207abc6a530fecaa7654dc84d3413c3074990512c20ecf.svg" alt="\displaystyle\mathsf{In}^{\mathrm{cont}}:=\left\{A\in\mathsf{Expr}\ \middle|\ %
+A\in_{\mathrm{comp}}\mathsf{EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:20.01054em;height:1.36668em;vertical-align:-0.43334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex633X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{In}^{\mathrm{cont}}:=\left\{A\in\mathsf{Expr}\ \middle|\ %
+A\in_{\mathrm{comp}}\mathsf{EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><msup><mi>𝖨𝗇</mi><mi>cont</mi></msup><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mo>{</mo><mrow><mi>A</mi><mo>∈</mo><mi>𝖤𝗑𝗉𝗋</mi></mrow><mo lspace="0.500em" rspace="0.500em" stretchy="true">|</mo><mrow><mi>A</mi><msub><mo>∈</mo><mi>comp</mi></msub><mrow><msup><mi>𝖤𝗏𝖺𝗅𝖨𝗇𝗉𝗎𝗍</mi><mi>cont</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>}</mo></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{In}^{\mathrm{cont}}:=\left\{A\in\mathsf{Expr}\ \middle|\ %
+A\in_{\mathrm{comp}}\mathsf{EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex633Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex633Xa.m2" data-body-math-cuts="[[3.242221,5],[4.553549,5],[8.236429,0]]"><img class="lctr-math-vector" src="math-S4/def6bf4bf3d7c84adb1eb426f09d240333e65d36517687a978f34c656be639c2.svg" alt="\displaystyle\mathsf{Dep}^{\mathrm{cont}}:=\Bigl{\{}\bigl{(}\mathsf{In}^{%
+\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]\bigr{)}\Bigr{\}}" aria-hidden="true" loading="lazy" decoding="async" style="width:15.65641em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex633Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Dep}^{\mathrm{cont}}:=\Bigl{\{}\bigl{(}\mathsf{In}^{%
+\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]\bigr{)}\Bigr{\}}" display="inline"><semantics><mrow><msup><mi>𝖣𝖾𝗉</mi><mi>cont</mi></msup><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mo maxsize="160%" minsize="160%">{</mo><mrow><mo maxsize="120%" minsize="120%">(</mo><msup><mi>𝖨𝗇</mi><mi>cont</mi></msup><mo>,</mo><mrow><msup><mi>𝖤𝗏𝖺𝗅𝖨𝗇𝗉𝗎𝗍</mi><mi>cont</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo maxsize="120%" minsize="120%">)</mo></mrow><mo maxsize="160%" minsize="160%">}</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Dep}^{\mathrm{cont}}:=\Bigl{\{}\bigl{(}\mathsf{In}^{%
+\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]\bigr{)}\Bigr{\}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。このとき、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex634" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex634.m1" data-body-math-cuts="[[12.376646,9],[13.035979,9]]"><img class="lctr-math-vector" src="math-S4/44d2e662a315e826baada14f1c7aad0dc0731a8576f07a7a8149f0ac85e75f44.svg" alt="\mathsf{GenDef}_{\mathsf{Dep}^{\mathrm{cont}}}\left(\mathsf{EvalInput}^{%
+\mathrm{cont}}[\mathsf{I}]\ \middle|\ \mathsf{In}^{\mathrm{cont}}\right)" aria-hidden="true" loading="lazy" decoding="async" style="width:15.88765em;height:1.36668em;vertical-align:-0.43334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex634.m1" class="ltx_math_unparsed" alttext="\mathsf{GenDef}_{\mathsf{Dep}^{\mathrm{cont}}}\left(\mathsf{EvalInput}^{%
+\mathrm{cont}}[\mathsf{I}]\ \middle|\ \mathsf{In}^{\mathrm{cont}}\right)" display="block"><semantics><mrow><msub><mi>𝖦𝖾𝗇𝖣𝖾𝖿</mi><msup><mi>𝖣𝖾𝗉</mi><mi>cont</mi></msup></msub><mrow><mo>(</mo><msup><mi>𝖤𝗏𝖺𝗅𝖨𝗇𝗉𝗎𝗍</mi><mi>cont</mi></msup><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo rspace="0.222em" stretchy="false">]</mo></mrow><mo rspace="0.500em" stretchy="true">|</mo><msup><mi>𝖨𝗇</mi><mi>cont</mi></msup><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{GenDef}_{\mathsf{Dep}^{\mathrm{cont}}}\left(\mathsf{EvalInput}^{%
+\mathrm{cont}}[\mathsf{I}]\ \middle|\ \mathsf{In}^{\mathrm{cont}}\right)</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が成立する。</p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">証明.</h6>
+<div id="SS2.SSS8.p2" class="ltx_para">
+<p class="ltx_p">定義<a href="ch04-02-07.html#Thmdefinition168" title="定義 4.168 (連続近似評価入力データム). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.168</span></a>の右辺は
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p2.m1"><img class="lctr-math-vector" src="math-S4/4989ce7bf649e502a77fab9a819b07d036cfbec896a88e14e548f5072ad058b3.svg" alt="\mathsf{In}^{\mathrm{cont}}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.31367em;height:1.00678em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p2.m1" class="ltx_Math" alttext="\mathsf{In}^{\mathrm{cont}}" display="inline"><semantics><msup><mi>𝖨𝗇</mi><mi>cont</mi></msup><annotation encoding="application/x-tex">\mathsf{In}^{\mathrm{cont}}</annotation></semantics></math></span></span> の全要素を成分とするtupleである。
+したがって</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex635" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex635.m1" data-body-math-cuts="[[2.960657,0],[9.769521,5],[10.713962,5]]"><img class="lctr-math-vector" src="math-S4/93637028615afa5572a8a3006378746186a69949394a9c5dc2cd78494c7f62ea.svg" alt="\left(\mathsf{In}^{\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{%
+EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right)\in\mathsf{Dep}^{\mathrm{cont}}." aria-hidden="true" loading="lazy" decoding="async" style="width:14.22817em;height:1.36668em;vertical-align:-0.43334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex635.m1" class="ltx_Math" alttext="\left(\mathsf{In}^{\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{%
+EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right)\in\mathsf{Dep}^{\mathrm{cont}}." display="block"><semantics><mrow><mrow><mrow><mo>(</mo><msup><mi>𝖨𝗇</mi><mi>cont</mi></msup><mo>,</mo><mrow><msup><mi>𝖤𝗏𝖺𝗅𝖨𝗇𝗉𝗎𝗍</mi><mi>cont</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>)</mo></mrow><mo>∈</mo><msup><mi>𝖣𝖾𝗉</mi><mi>cont</mi></msup></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\left(\mathsf{In}^{\mathrm{cont}}\mathchar 44\relax\allowbreak\mathsf{%
+EvalInput}^{\mathrm{cont}}[\mathsf{I}]\right)\in\mathsf{Dep}^{\mathrm{cont}}.</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">定義<a href="#Thmdefinition171" title="定義 4.171 (型付き生成閉包). ‣ 4.2.8 表現段階の帰結 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.171</span></a>の生成閉包と生成可能性判定を
+順に適用する。
+∎</p>
+</div>
+</div>
+<div id="SS2.SSS8.p3" class="ltx_para">
+<p class="ltx_p">定義<a href="ch04-02-03.html#Thmdefinition144" title="定義 4.144 (表現段階生成構造束). ‣ 4.2.3 表現段階の部分成立束と構造的完成 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.144</span></a>、
+定理<a href="ch04-02-03.html#Thmdefinition147" title="定理 4.147 (表現段階生成定理). ‣ 4.2.3 表現段階の部分成立束と構造的完成 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.147</span></a>、命題
+<a href="#Thmdefinition170" title="命題 4.170 (表現段階構造と数量評価入力の分離). ‣ 4.2.8 表現段階の帰結 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.170</span></a>および命題
+<a href="#Thmdefinition172" title="命題 4.172 (連続近似評価入力の生成閉包). ‣ 4.2.8 表現段階の帰結 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.172</span></a>により、表現段階の構造的生成列は</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex636" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex636X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636X.m2"><img class="lctr-math-vector" src="math-S4/856a460c6abd6622e1744e4badf08353da55de9d50a884e080f3446b13e45983.svg" alt="\displaystyle\mathsf{Operative}(\mathcal{X})" aria-hidden="true" loading="lazy" decoding="async" style="width:5.71596em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex636X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Operative}(\mathcal{X})" display="inline"><semantics><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Operative}(\mathcal{X})</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636X.m3"><img class="lctr-math-vector" src="math-S4/9eada755751b78012c996f057ada3eb5ba38f30aa189cb44ede34d5e3bb309c7.svg" alt="\displaystyle\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{%
+\mathrm{cmp}}}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:8.00008em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex636X.m3" class="ltx_Math" alttext="\displaystyle\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{%
+\mathrm{cmp}}}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo stretchy="false">⟼</mo><msub><mrow><mo stretchy="false">(</mo><msubsup><mo lspace="0em" rspace="0em">⪯</mo><mi>R</mi><mi>arr</mi></msubsup><mo stretchy="false">)</mo></mrow><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></msub></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{%
+\mathrm{cmp}}}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex636Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636Xa.m2"><img class="lctr-math-vector" src="math-S4/330d118984bab3f557a71af30b884cc97732f3ae7f731ebda5c705c39a3323d8.svg" alt="\displaystyle\mathsf{Repr}_{\leq k}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:3.85582em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="Ex636Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Repr}_{\leq k}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo>≤</mo><mi>k</mi></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Repr}_{\leq k}[\mathsf{I}]</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636Xa.m3" data-body-math-cuts="[[1.833338,5],[7.164369,0],[8.164369,2],[10.012739,5],[10.957181,5],[12.357635,0],[13.285865,0]]"><img class="lctr-math-vector" src="math-S4/7c6d925fd388ad0bb318b5b3528a73b522aef7e65b1a907cf19e250c16107b0c.svg" alt="\displaystyle\longmapsto\mathsf{ReprStr}_{\leq k}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2\mathchar 44%
+\relax\allowbreak 3\}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:14.79743em;height:1.26474em;vertical-align:-0.43141em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex636Xa.m3" class="ltx_Math" alttext="\displaystyle\longmapsto\mathsf{ReprStr}_{\leq k}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2\mathchar 44%
+\relax\allowbreak 3\}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mrow><mi></mi><mo stretchy="false">⟼</mo><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo>≤</mo><mi>k</mi></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo rspace="2.167em">,</mo><mrow><mi>k</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy="false">}</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\longmapsto\mathsf{ReprStr}_{\leq k}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2\mathchar 44%
+\relax\allowbreak 3\}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex636Xb"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636Xb.m2" data-body-math-cuts="[[5.701406,0]]"><img class="lctr-math-vector" src="math-S4/eee4ccf3b7b5b1cbdfd9f8cc3570c4c9dd9b392067872d135fb2a125eaca1ce3.svg" alt="\displaystyle\left(\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak(\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}])_{R\in\mathsf{Rol}^%
+{\mathrm{cmp}}}\right)" aria-hidden="true" loading="lazy" decoding="async" style="width:15.65780em;height:1.40945em;vertical-align:-0.43334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex636Xb.m2" class="ltx_Math" alttext="\displaystyle\left(\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak(\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}])_{R\in\mathsf{Rol}^%
+{\mathrm{cmp}}}\right)" display="inline"><semantics><mrow><mo>(</mo><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo><msub><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>𝖱𝖾𝗉𝖤𝗆𝖻</mi><mi>R</mi><mi>ord</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">\displaystyle\left(\mathsf{ReprStr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak(\mathsf{RepEmb}^{\mathrm{ord}}_{R}[\mathsf{I}])_{R\in\mathsf{Rol}^%
+{\mathrm{cmp}}}\right)</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex636Xb.m3"><img class="lctr-math-vector" src="math-S4/34cef626dedb4564109d488623589f23d887c5113275ba687e3336f94af14d2e.svg" alt="\displaystyle\longmapsto(\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}])_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}." aria-hidden="true" loading="lazy" decoding="async" style="width:9.99127em;height:1.20888em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex636Xb.m3" class="ltx_Math" alttext="\displaystyle\longmapsto(\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}])_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}." display="inline"><semantics><mrow><mrow><mi></mi><mo stretchy="false">⟼</mo><msub><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>𝖱𝖾𝗉</mi><mi>R</mi><mi>cmp</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></msub></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\displaystyle\longmapsto(\mathsf{Rep}^{\mathrm{cmp}}_{R}[\mathsf{I}])_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}.</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+</div>
+<div id="SS2.SSS8.p4" class="ltx_para">
+<p class="ltx_p">定義<a href="ch04-02.html#Thmdefinition92" title="定義 4.92 (表現段階部分成立束). ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.92</span></a>の
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p4.m1"><img class="lctr-math-vector" src="math-S4/e4420ff8b4a7af070d26d49149a823efcca17fcff5441526a39c60090967ed9a.svg" alt="\mathsf{Repr}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:3.82342em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p4.m1" class="ltx_Math" alttext="\mathsf{Repr}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Repr}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span> は、三つの表現段階条件の連言を表す。
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p4.m2"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p4.m2" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来条件付き数量アフィン実現を指定すると、
+数量アフィン差と、許容計数窓を添字とする振動数・周期が定まる。
+ソース相対振動数には非空な窓族上の窓不変性が、Hz数値には正の単位スカラーが必要である。
+標準振動数による単位の指定には、基準ソースと正規化規約を用いる。
+有限操作粒度および六つの成分別評価入力をさらに指定すると、
+記録セル幅適合、記録分離および座標候補とともに、
+連続近似評価入力データムが定まる。
+命題<a href="#Thmdefinition172" title="命題 4.172 (連続近似評価入力の生成閉包). ‣ 4.2.8 表現段階の帰結 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.172</span></a>は、これらの直接入力が
+与えられたときのtuple構成を表す。</p>
+</div>
+<figure id="T2" class="ltx_table">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">表 2: </span>生成される表現段階対象の階層</figcaption>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_tt">
+<span class="ltx_inline-block ltx_minipage ltx_align_middle" style="width:433.6pt;">
+<span class="ltx_p"><span class="ltx_text" style="font-size:90%;">段階</span></span>
+</span>
+</th>
+<th class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left ltx_th ltx_th_column ltx_border_tt">
+<span class="ltx_inline-block ltx_minipage ltx_align_middle" style="width:433.6pt;">
+<span class="ltx_p"><span class="ltx_text" style="font-size:90%;">条件・生成対象</span></span>
+</span>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t"><span class="ltx_text" style="font-size:90%;">比較入力層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left ltx_border_t"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m1"><img class="lctr-math-vector" src="math-S4/38859558689e665e087112a07797bd0bae030330d38550c2c873e413949f8706.svg" alt="\mathsf{Operative}(\mathcal{X})\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}" aria-hidden="true" loading="lazy" decoding="async" style="width:13.55515em;height:1.17599em;vertical-align:-0.34266em"><span class="lctr-math-accessible"><math id="T2.m1" class="ltx_Math" alttext="\mathsf{Operative}(\mathcal{X})\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}" display="inline"><semantics><mrow><mrow><mi mathsize="90%">𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">(</mo><mi class="ltx_font_mathcaligraphic" mathsize="90%">𝒳</mi><mo maxsize="90%" minsize="90%">)</mo></mrow></mrow><mo mathsize="90%" stretchy="false">⟼</mo><msub><mrow><mo maxsize="90%" minsize="90%">(</mo><msubsup><mo lspace="0em" mathsize="90%" rspace="0em">⪯</mo><mi mathsize="90%">R</mi><mi mathsize="90%">arr</mi></msubsup><mo maxsize="90%" minsize="90%">)</mo></mrow><mrow><mi mathsize="90%">R</mi><mo mathsize="90%">∈</mo><msup><mi mathsize="90%">𝖱𝗈𝗅</mi><mi mathsize="90%">cmp</mi></msup></mrow></msub></mrow><annotation encoding="application/x-tex">\mathsf{Operative}(\mathcal{X})\longmapsto(\preceq_{R}^{\mathrm{arr}})_{R\in%
+\mathsf{Rol}^{\mathrm{cmp}}}</annotation></semantics></math></span></span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:90%;">正準順序層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m2"><img class="lctr-math-vector" src="math-S4/85c6de4e638edb041ec6a0e0e76ca8ff4ad226293d8cf7121db97aba8bbbc3a2.svg" alt="\mathsf{Repr}_{\leq 1}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 1}[\mathsf%
+{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:10.87783em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="T2.m2" class="ltx_Math" alttext="\mathsf{Repr}_{\leq 1}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 1}[\mathsf%
+{I}]" display="inline"><semantics><mrow><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">1</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow><mo mathsize="90%" stretchy="false">⟼</mo><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">1</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Repr}_{\leq 1}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 1}[\mathsf%
+{I}]</annotation></semantics></math></span></span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:90%;">局所順序座標層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m3"><img class="lctr-math-vector" src="math-S4/0d3ab26ad17cca7a3a990b5f5a0b3eaa64e472ac6e5576e6287b8223ce2b2432.svg" alt="\mathsf{Repr}_{\leq 2}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 2}[\mathsf%
+{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:10.87783em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="T2.m3" class="ltx_Math" alttext="\mathsf{Repr}_{\leq 2}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 2}[\mathsf%
+{I}]" display="inline"><semantics><mrow><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">2</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow><mo mathsize="90%" stretchy="false">⟼</mo><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">2</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Repr}_{\leq 2}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_{\leq 2}[\mathsf%
+{I}]</annotation></semantics></math></span></span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:90%;">大域順序座標層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m4"><img class="lctr-math-vector" src="math-S4/48eb92b02369df10bc7d4103492871eba252757362fd314f0da4cb0f064973d3.svg" alt="\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_%
+{\leq 3}[\mathsf{I}]\\
+\xrightarrow{\ \mathsf{RepEmb}^{\mathrm{ord}}_{R}\ }\mathsf{Rep}^{\mathrm{cmp}%
+}_{R}[\mathsf{I}]\end{gathered}" aria-hidden="true" loading="lazy" decoding="async" style="width:10.87783em;height:3.46249em;vertical-align:-1.48124em"><span class="lctr-math-accessible"><math id="T2.m4" class="ltx_Math" alttext="\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_%
+{\leq 3}[\mathsf{I}]\\
+\xrightarrow{\ \mathsf{RepEmb}^{\mathrm{ord}}_{R}\ }\mathsf{Rep}^{\mathrm{cmp}%
+}_{R}[\mathsf{I}]\end{gathered}" display="inline"><semantics><mtable rowspacing="0pt"><mtr><mtd><mrow><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">3</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow><mo mathsize="90%" stretchy="false">⟼</mo><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋𝖲𝗍𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">3</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow></mrow></mtd></mtr><mtr><mtd><mrow><mi></mi><mover accent="true"><mo mathsize="90%" stretchy="false">→</mo><msubsup><mi mathsize="90%">𝖱𝖾𝗉𝖤𝗆𝖻</mi><mi mathsize="90%">R</mi><mi mathsize="90%">ord</mi></msubsup></mover><mrow><msubsup><mi mathsize="90%">𝖱𝖾𝗉</mi><mi mathsize="90%">R</mi><mi mathsize="90%">cmp</mi></msubsup><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\longmapsto\mathsf{ReprStr}_%
+{\leq 3}[\mathsf{I}]\\
+\xrightarrow{\ \mathsf{RepEmb}^{\mathrm{ord}}_{R}\ }\mathsf{Rep}^{\mathrm{cmp}%
+}_{R}[\mathsf{I}]\end{gathered}</annotation></semantics></math></span></span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:90%;">数量表現層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m5"><img class="lctr-math-vector" src="math-S4/3bb4000009ae8544af0c2ce17ae649615c68d3ef66639addce9c28324ec210ee.svg" alt="\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\quad\mathsf{QtyAffReal}_{R}[\mathsf{I}]\quad(R\in\mathsf{Rol}^{%
+\mathrm{cmp}})\\
+\longmapsto\text{数量アフィン差、許容計数窓ごとの振動数・周期}\\
+\text{Hz数値には正の単位スカラーを追加指定}\end{gathered}" aria-hidden="true" loading="lazy" decoding="async" style="width:23.22438em;height:4.46018em;vertical-align:-1.98009em"><span class="lctr-math-accessible"><math id="T2.m5" class="ltx_Math" alttext="\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\quad\mathsf{QtyAffReal}_{R}[\mathsf{I}]\quad(R\in\mathsf{Rol}^{%
+\mathrm{cmp}})\\
+\longmapsto\text{数量アフィン差、許容計数窓ごとの振動数・周期}\\
+\text{Hz数値には正の単位スカラーを追加指定}\end{gathered}" display="inline"><semantics><mtable rowspacing="0pt"><mtr><mtd><mrow><mrow><msub><mi mathsize="90%">𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo mathsize="90%">≤</mo><mn mathsize="90%">3</mn></mrow></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow><mo mathsize="90%" rspace="1.067em">,</mo><mrow><msub><mi mathsize="90%">𝖰𝗍𝗒𝖠𝖿𝖿𝖱𝖾𝖺𝗅</mi><mi mathsize="90%">R</mi></msub><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow><mo lspace="0.900em">⁢</mo><mrow><mo maxsize="90%" minsize="90%">(</mo><mrow><mi mathsize="90%">R</mi><mo mathsize="90%">∈</mo><msup><mi mathsize="90%">𝖱𝗈𝗅</mi><mi mathsize="90%">cmp</mi></msup></mrow><mo maxsize="90%" minsize="90%">)</mo></mrow></mrow></mrow></mtd></mtr><mtr><mtd><mrow><mi></mi><mo mathsize="90%" stretchy="false">⟼</mo><mtext mathsize="90%">数量アフィン差、許容計数窓ごとの振動数・周期</mtext></mrow></mtd></mtr><mtr><mtd><mtext mathsize="90%">Hz数値には正の単位スカラーを追加指定</mtext></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{gathered}\mathsf{Repr}_{\leq 3}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\quad\mathsf{QtyAffReal}_{R}[\mathsf{I}]\quad(R\in\mathsf{Rol}^{%
+\mathrm{cmp}})\\
+\longmapsto\text{数量アフィン差、許容計数窓ごとの振動数・周期}\\
+\text{Hz数値には正の単位スカラーを追加指定}\end{gathered}</annotation></semantics></math></span></span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb"><span class="ltx_text" style="font-size:90%;">連続近似評価入力層</span></th>
+<td class="ltx_td ltx_nopad_l ltx_nopad_r ltx_align_left ltx_border_bb"><span class="lctr-native-math lctr-native-inline" data-formula-id="T2.m6"><img class="lctr-math-vector" src="math-S4/f48e3e3a280150971f8f70ae4326e177f901d3469a397bc316c57106f69ffd7b.svg" alt="\mathsf{In}^{\mathrm{cont}}\longmapsto\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:10.52531em;height:1.25678em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="T2.m6" class="ltx_Math" alttext="\mathsf{In}^{\mathrm{cont}}\longmapsto\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]" display="inline"><semantics><mrow><msup><mi mathsize="90%">𝖨𝗇</mi><mi mathsize="90%">cont</mi></msup><mo mathsize="90%" stretchy="false">⟼</mo><mrow><msup><mi mathsize="90%">𝖤𝗏𝖺𝗅𝖨𝗇𝗉𝗎𝗍</mi><mi mathsize="90%">cont</mi></msup><mo>⁢</mo><mrow><mo maxsize="90%" minsize="90%">[</mo><mi mathsize="90%">𝖨</mi><mo maxsize="90%" minsize="90%">]</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\mathsf{In}^{\mathrm{cont}}\longmapsto\mathsf{EvalInput}^{\mathrm{cont}}[%
+\mathsf{I}]</annotation></semantics></math></span></span></td>
+</tr>
+</tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+</figure>
+<div id="SS2.SSS8.p5" class="ltx_para">
+<p class="ltx_p">表<a href="#T2" title="表 2 ‣ 4.2.8 表現段階の帰結 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a>の各段階で生成される構造は次である。</p>
+<dl id="I2" class="ltx_description">
+<dt id="I2.ix1" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">比較入力層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix1.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix1.p1.m1"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix1.p1.m1" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>ソース側部分順序、比較側回復写像およびタグ付き比較到着受容空間から、<span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix1.p1.m2"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix1.p1.m2" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>ソース誘導到着前順序が定まる。</p>
+</div>
+</dd>
+<dt id="I2.ix2" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">正準順序層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix2.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix2.p1.m1"><img class="lctr-math-vector" src="math-S4/dd87ee4adf10be5933877beaa52add1b3c0fc6829d2df36467f5eefac05d8304.svg" alt="K^{\mathrm{repr}}_{\mathrm{CanOrdDesc}}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.77935em;height:1.23666em;vertical-align:-0.38222em"><span class="lctr-math-accessible"><math id="I2.ix2.p1.m1" class="ltx_Math" alttext="K^{\mathrm{repr}}_{\mathrm{CanOrdDesc}}[\mathsf{I}]" display="inline"><semantics><mrow><msubsup><mi>K</mi><mi>CanOrdDesc</mi><mi>repr</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">K^{\mathrm{repr}}_{\mathrm{CanOrdDesc}}[\mathsf{I}]</annotation></semantics></math></span></span>
+の成立により、ソース誘導到着前順序が比較同値類上へ降下し、
+<span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix2.p1.m2"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix2.p1.m2" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>正準部分順序と厳密操作的時間構造が定まる。</p>
+</div>
+</dd>
+<dt id="I2.ix3" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">局所順序座標層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix3.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix3.p1.m1"><img class="lctr-math-vector" src="math-S4/50236bc9a9ff78d3abdb46ff18785e3044cdebccacc9660e41f8eabecef4ad0e.svg" alt="K^{\mathrm{repr}}_{\mathrm{LocIncTrans}}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.74001em;height:1.21533em;vertical-align:-0.36088em"><span class="lctr-math-accessible"><math id="I2.ix3.p1.m1" class="ltx_Math" alttext="K^{\mathrm{repr}}_{\mathrm{LocIncTrans}}[\mathsf{I}]" display="inline"><semantics><mrow><msubsup><mi>K</mi><mi>LocIncTrans</mi><mi>repr</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">K^{\mathrm{repr}}_{\mathrm{LocIncTrans}}[\mathsf{I}]</annotation></semantics></math></span></span>
+の成立により、局所非比較可能性類の商、局所厳密線形順序、
+局所順序座標射影および局所比較チャートが定まる。
+局所順序座標チャート変更写像が比較順序アトラスを与える。</p>
+</div>
+</dd>
+<dt id="I2.ix4" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">大域順序座標層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix4.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix4.p1.m1"><img class="lctr-math-vector" src="math-S4/99d71148b0f5115bbea3ef225a1384a4b669e3c14df10340c8296ec6c37f3024.svg" alt="K^{\mathrm{repr}}_{\mathrm{GlobIncTrans}}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:6.12868em;height:1.23666em;vertical-align:-0.38222em"><span class="lctr-math-accessible"><math id="I2.ix4.p1.m1" class="ltx_Math" alttext="K^{\mathrm{repr}}_{\mathrm{GlobIncTrans}}[\mathsf{I}]" display="inline"><semantics><mrow><msubsup><mi>K</mi><mi>GlobIncTrans</mi><mi>repr</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">K^{\mathrm{repr}}_{\mathrm{GlobIncTrans}}[\mathsf{I}]</annotation></semantics></math></span></span>
+の成立により、大域非比較可能性類の商、大域厳密線形順序および
+正準大域順序座標射影が定まる。<span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix4.p1.m2"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix4.p1.m2" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来表現値域順序埋め込みとの合成が
+<span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix4.p1.m3"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix4.p1.m3" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来比較表現座標を与える。</p>
+</div>
+</dd>
+<dt id="I2.ix5" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">数量表現層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix5.p1" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="I2.ix5.p1.m1"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="I2.ix5.p1.m1" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>由来条件付き数量アフィン実現を指定すると、
+数量アフィン差と、許容計数窓を添字とする振動数・周期が定まる。
+ソース相対振動数とHz数値には、それぞれの定義で指定する
+窓族、窓不変性および単位正規化の入力を用いる。</p>
+</div>
+</dd>
+<dt id="I2.ix6" class="ltx_item"><span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">連続近似評価入力層</span></span></dt>
+<dd class="ltx_item">
+<div id="I2.ix6.p1" class="ltx_para">
+<p class="ltx_p">有限操作粒度データムと六つの成分別評価入力をさらに指定する。
+各評価入力は評価値域、部分順序、最小元、評価値および許容閾値を含む。
+記録セル幅適合、記録分離および順序位相座標候補を構成し、
+定義<a href="ch04-02-07.html#Thmdefinition168" title="定義 4.168 (連続近似評価入力データム). ‣ 4.2.7 連続近似評価入力 ‣ 4.2 厳密操作的時間構造と表現アトラス ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.168</span></a>のtupleに束ねる。</p>
+</div>
+</dd>
+</dl>
+</div>
+<div id="SS2.SSS8.p6" class="ltx_para">
+<p class="ltx_p"><span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p6.m1"><img class="lctr-math-vector" src="math-S4/5978507ba19700b4cfcbf88f24536e40b065ad64ab659768dab6c345e72b1ee4.svg" alt="\mathfrak{C}/\mathfrak{D}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.10037em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p6.m1" class="ltx_Math" alttext="\mathfrak{C}/\mathfrak{D}" display="inline"><semantics><mrow><mi>ℭ</mi><mo>/</mo><mi>𝔇</mi></mrow><annotation encoding="application/x-tex">\mathfrak{C}/\mathfrak{D}</annotation></semantics></math></span></span>ソース側部分順序、比較側回復写像および
+タグ付き比較到着受容空間は、
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p6.m2"><img class="lctr-math-vector" src="math-S4/6d31c91eb6a8b603ef69267efe960ceaa61b2822eac7e18070f302ffd55a2b50.svg" alt="(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{\mathrm{cmp}}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.83920em;height:1.17599em;vertical-align:-0.34266em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p6.m2" class="ltx_Math" alttext="(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{\mathrm{cmp}}}" display="inline"><semantics><msub><mrow><mo stretchy="false">(</mo><msubsup><mo lspace="0em" rspace="0em">⪯</mo><mi>R</mi><mi>arr</mi></msubsup><mo stretchy="false">)</mo></mrow><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></msub><annotation encoding="application/x-tex">(\preceq_{R}^{\mathrm{arr}})_{R\in\mathsf{Rol}^{\mathrm{cmp}}}</annotation></semantics></math></span></span> の生成入力である。</p>
+</div>
+<div id="Thmdefinition173" class="ltx_theorem ltx_theorem_definition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">定義 4.173</span></span><span class="ltx_text ltx_font_bold"> </span>(表現段階依存層)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition173.p1" class="ltx_para">
+<p class="ltx_p">入力 <span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition173.p1.m1"><img class="lctr-math-vector" src="math-S4/10b915c6f024fa8cad662c5b0585c8ea32f479fbb3869ce7ee489ba3387e857e.svg" alt="\mathsf{I}" aria-hidden="true" loading="lazy" decoding="async" style="width:0.43267em;height:0.86067em;vertical-align:-0.08333em"><span class="lctr-math-accessible"><math id="Thmdefinition173.p1.m1" class="ltx_Math" alttext="\mathsf{I}" display="inline"><semantics><mi>𝖨</mi><annotation encoding="application/x-tex">\mathsf{I}</annotation></semantics></math></span></span> を固定する。正準商と順序構造の出力を依存層ごとに</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex637" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex637.m1"><img class="lctr-math-vector" src="math-S4/7defe4b4cdc21e4c5288eb4feaafd12fcd08b3d98886ef60c74bd5f9c2c82749.svg" alt="\begin{gathered}\left(\mathsf{Out}^{\mathrm{repr}}_{k}\right)_{0\leq k\leq 3}:%
+=\\[-2.0pt]
+\left(\begin{gathered}\left\{\mathsf{Qu}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathcal{E}^{\mathrm{op}}[\mathsf{I}]\right\}\cup\bigcup_{R\in\mathsf{%
+Rol}^{\mathrm{cmp}}}\left\{\preceq_{R}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathsf{Atlas}^{\mathrm{ord}}[\mathsf{I}]\right\}\cup\bigcup_{\begin{%
+subarray}{c}R\in\mathsf{Rol}^{\mathrm{cmp}}\\
+u\in U\end{subarray}}\left\{\mathsf{Qu}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\mathsf{I}]\mathchar 44\relax\allowbreak\mathsf{Prj}^{\mathrm{%
+loc}}_{R\mathchar 44\relax\allowbreak u}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\mathsf{Chart}^{\mathrm{loc}}_{R\mathchar 44\relax\allowbreak u}[%
+\mathsf{I}]\right\}\mathchar 44\relax\allowbreak\\
+\displaystyle\bigcup_{R\in\mathsf{Rol}^{\mathrm{cmp}}}\left\{\mathsf{Qu}^{%
+\mathrm{ord\mathchar 44\relax\allowbreak can}}_{R}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\mathsf{Prj}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}_%
+{R}[\mathsf{I}]\right\}\end{gathered}\right).\end{gathered}" aria-hidden="true" loading="lazy" decoding="async" style="width:25.08664em;height:11.81185em;vertical-align:-5.65593em"><span class="lctr-math-accessible"><math id="Ex637.m1" class="ltx_Math" alttext="\begin{gathered}\left(\mathsf{Out}^{\mathrm{repr}}_{k}\right)_{0\leq k\leq 3}:%
+=\\[-2.0pt]
+\left(\begin{gathered}\left\{\mathsf{Qu}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathcal{E}^{\mathrm{op}}[\mathsf{I}]\right\}\cup\bigcup_{R\in\mathsf{%
+Rol}^{\mathrm{cmp}}}\left\{\preceq_{R}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathsf{Atlas}^{\mathrm{ord}}[\mathsf{I}]\right\}\cup\bigcup_{\begin{%
+subarray}{c}R\in\mathsf{Rol}^{\mathrm{cmp}}\\
+u\in U\end{subarray}}\left\{\mathsf{Qu}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\mathsf{I}]\mathchar 44\relax\allowbreak\mathsf{Prj}^{\mathrm{%
+loc}}_{R\mathchar 44\relax\allowbreak u}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\mathsf{Chart}^{\mathrm{loc}}_{R\mathchar 44\relax\allowbreak u}[%
+\mathsf{I}]\right\}\mathchar 44\relax\allowbreak\\
+\displaystyle\bigcup_{R\in\mathsf{Rol}^{\mathrm{cmp}}}\left\{\mathsf{Qu}^{%
+\mathrm{ord\mathchar 44\relax\allowbreak can}}_{R}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\mathsf{Prj}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}_%
+{R}[\mathsf{I}]\right\}\end{gathered}\right).\end{gathered}" display="block"><semantics><mtable displaystyle="true" rowspacing="0pt"><mtr><mtd><mrow><msub><mrow><mo>(</mo><msubsup><mi>𝖮𝗎𝗍</mi><mi>k</mi><mi>repr</mi></msubsup><mo>)</mo></mrow><mrow><mn>0</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>3</mn></mrow></msub><mo lspace="0.278em" rspace="0.278em">:=</mo><mi></mi></mrow></mtd></mtr><mtr><mtd><mrow><mrow><mo>(</mo><mtable displaystyle="true" rowspacing="0pt"><mtr><mtd><mrow><mrow><mo>{</mo><mrow><msup><mi>𝖰𝗎</mi><mi>can</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow><mo>,</mo></mrow></mtd></mtr><mtr><mtd><mrow><mrow><mrow><mrow><mo>{</mo><mrow><msup><mi class="ltx_font_mathcaligraphic">ℰ</mi><mi>op</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow><mo rspace="0.055em">∪</mo><munder><mo movablelimits="false">⋃</mo><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></munder></mrow><mspace width="0.3888888888888889em"></mspace><mrow><mo>{</mo><mrow><mi></mi><msubsup><mo>⪯</mo><mi>R</mi><mi>can</mi></msubsup><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow></mrow><mo>,</mo></mrow></mtd></mtr><mtr><mtd><mrow><mrow><mrow><mo>{</mo><mrow><msup><mi>𝖠𝗍𝗅𝖺𝗌</mi><mi>ord</mi></msup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow><mo rspace="0.055em">∪</mo><mrow><munder><mo movablelimits="false" rspace="0em">⋃</mo><mtable rowspacing="0pt"><mtr><mtd><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></mtd></mtr><mtr><mtd><mrow><mi>u</mi><mo>∈</mo><mi>U</mi></mrow></mtd></mtr></mtable></munder><mrow><mo>{</mo><mrow><msubsup><mi>𝖰𝗎</mi><mrow><mi>R</mi><mo>,</mo><mi>u</mi></mrow><mi>loc</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo><mrow><msubsup><mi>𝖯𝗋𝗃</mi><mrow><mi>R</mi><mo>,</mo><mi>u</mi></mrow><mi>loc</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo><mrow><msubsup><mi>𝖢𝗁𝖺𝗋𝗍</mi><mrow><mi>R</mi><mo>,</mo><mi>u</mi></mrow><mi>loc</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow></mrow></mrow><mo>,</mo></mrow></mtd></mtr><mtr><mtd><mrow><munder><mo movablelimits="false">⋃</mo><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝗈𝗅</mi><mi>cmp</mi></msup></mrow></munder><mrow><mo lspace="0em">{</mo><mrow><msubsup><mi>𝖰𝗎</mi><mi>R</mi><mrow><mi>ord</mi><mo>,</mo><mi>can</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo><mrow><msubsup><mi>𝖯𝗋𝗃</mi><mi>R</mi><mrow><mi>ord</mi><mo>,</mo><mi>can</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo lspace="0em">.</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{gathered}\left(\mathsf{Out}^{\mathrm{repr}}_{k}\right)_{0\leq k\leq 3}:%
+=\\[-2.0pt]
+\left(\begin{gathered}\left\{\mathsf{Qu}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathcal{E}^{\mathrm{op}}[\mathsf{I}]\right\}\cup\bigcup_{R\in\mathsf{%
+Rol}^{\mathrm{cmp}}}\left\{\preceq_{R}^{\mathrm{can}}[\mathsf{I}]\right\}%
+\mathchar 44\relax\allowbreak\\
+\left\{\mathsf{Atlas}^{\mathrm{ord}}[\mathsf{I}]\right\}\cup\bigcup_{\begin{%
+subarray}{c}R\in\mathsf{Rol}^{\mathrm{cmp}}\\
+u\in U\end{subarray}}\left\{\mathsf{Qu}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\mathsf{I}]\mathchar 44\relax\allowbreak\mathsf{Prj}^{\mathrm{%
+loc}}_{R\mathchar 44\relax\allowbreak u}[\mathsf{I}]\mathchar 44\relax%
+\allowbreak\mathsf{Chart}^{\mathrm{loc}}_{R\mathchar 44\relax\allowbreak u}[%
+\mathsf{I}]\right\}\mathchar 44\relax\allowbreak\\
+\displaystyle\bigcup_{R\in\mathsf{Rol}^{\mathrm{cmp}}}\left\{\mathsf{Qu}^{%
+\mathrm{ord\mathchar 44\relax\allowbreak can}}_{R}[\mathsf{I}]\mathchar 44%
+\relax\allowbreak\mathsf{Prj}^{\mathrm{ord\mathchar 44\relax\allowbreak can}}_%
+{R}[\mathsf{I}]\right\}\end{gathered}\right).\end{gathered}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">選択された表現値域・埋め込みと数量評価入力は、この正準構造出力族に含めない。
+各層の生成規則の前提式集合と正準構造の生成依存規則族を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex638" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex638X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638X.m2"><img class="lctr-math-vector" src="math-S4/4e91a14836fafdf1262d8d2f634e254aabccf929896af2a88b5cfdde8bd2bdbc.svg" alt="\displaystyle\mathsf{Req}^{\mathrm{repr}}_{0}" aria-hidden="true" loading="lazy" decoding="async" style="width:3.03533em;height:1.18296em;vertical-align:-0.32851em"><span class="lctr-math-accessible"><math id="Ex638X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Req}^{\mathrm{repr}}_{0}" display="inline"><semantics><msubsup><mi>𝖱𝖾𝗊</mi><mn>0</mn><mi>repr</mi></msubsup><annotation encoding="application/x-tex">\displaystyle\mathsf{Req}^{\mathrm{repr}}_{0}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638X.m3" data-body-math-cuts="[[1.255774,5],[2.76757,5],[3.712012,5],[5.8799,9],[6.483679,9],[7.519586,5],[10.157696,5],[11.173693,9],[12.06258,9]]"><img class="lctr-math-vector" src="math-S4/f91610b2cc58c8f5d836cb19eb50ba2c9c0df7eb83749e1ffb969a1aa48f61f6.svg" alt="\displaystyle:=\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf%
+{I}\right\}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:19.24497em;height:1.19600em;vertical-align:-0.36267em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex638X.m3" class="ltx_Math" alttext="\displaystyle:=\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf%
+{I}\right\}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mrow><mo>{</mo><mrow><mi>A</mi><mo>∈</mo><mi>𝖤𝗑𝗉𝗋</mi></mrow><mo lspace="0.500em" rspace="0.500em" stretchy="true">|</mo><mrow><mi>A</mi><msub><mo>∈</mo><mi>comp</mi></msub><mi>𝖨</mi></mrow><mo>}</mo></mrow><mo>∪</mo><mrow><mo>{</mo><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow><mo>}</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle:=\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf%
+{I}\right\}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex638Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xa.m2"><img class="lctr-math-vector" src="math-S4/ac36cdd37ce5356f8a347f30d17a79567b4a2441fb4c9b775d3f66f4c16fee67.svg" alt="\displaystyle\mathsf{Req}^{\mathrm{repr}}_{k}" aria-hidden="true" loading="lazy" decoding="async" style="width:3.03533em;height:1.21629em;vertical-align:-0.36185em"><span class="lctr-math-accessible"><math id="Ex638Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Req}^{\mathrm{repr}}_{k}" display="inline"><semantics><msubsup><mi>𝖱𝖾𝗊</mi><mi>k</mi><mi>repr</mi></msubsup><annotation encoding="application/x-tex">\displaystyle\mathsf{Req}^{\mathrm{repr}}_{k}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xa.m3" data-body-math-cuts="[[1.255774,5],[4.374437,9],[5.263324,9],[10.341371,9],[11.230258,9],[16.827188,0],[17.827188,2],[19.675559,5],[20.620001,5],[22.020455,0],[22.948685,0]]"><img class="lctr-math-vector" src="math-S4/663f6991cc12d1eaf593e23d194ae59c02f80c9d917ae7194ea2b0ce80fca17a.svg" alt="\displaystyle:=\mathsf{Req}^{\mathrm{repr}}_{0}\cup\left\{\mathsf{Repr}_{\leq k%
+}[\mathsf{I}]\right\}\cup\bigcup_{0\leq j&lt;k}\mathsf{Out}^{\mathrm{repr}}_{j}%
+\mathchar 44\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2%
+\mathchar 44\relax\allowbreak 3\}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:24.46025em;height:2.62594em;vertical-align:-1.49260em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex638Xa.m3" class="ltx_Math" alttext="\displaystyle:=\mathsf{Req}^{\mathrm{repr}}_{0}\cup\left\{\mathsf{Repr}_{\leq k%
+}[\mathsf{I}]\right\}\cup\bigcup_{0\leq j&lt;k}\mathsf{Out}^{\mathrm{repr}}_{j}%
+\mathchar 44\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2%
+\mathchar 44\relax\allowbreak 3\}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><msubsup><mi>𝖱𝖾𝗊</mi><mn>0</mn><mi>repr</mi></msubsup><mo>∪</mo><mrow><mo>{</mo><mrow><msub><mi>𝖱𝖾𝗉𝗋</mi><mrow><mi></mi><mo>≤</mo><mi>k</mi></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><mo>}</mo></mrow><mo>∪</mo><mrow><mstyle displaystyle="true"><munder><mo movablelimits="false">⋃</mo><mrow><mn>0</mn><mo>≤</mo><mi>j</mi><mo>&lt;</mo><mi>k</mi></mrow></munder></mstyle><msubsup><mi>𝖮𝗎𝗍</mi><mi>j</mi><mi>repr</mi></msubsup></mrow></mrow></mrow><mo rspace="2.167em">,</mo><mrow><mi>k</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy="false">}</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle:=\mathsf{Req}^{\mathrm{repr}}_{0}\cup\left\{\mathsf{Repr}_{\leq k%
+}[\mathsf{I}]\right\}\cup\bigcup_{0\leq j&lt;k}\mathsf{Out}^{\mathrm{repr}}_{j}%
+\mathchar 44\relax\allowbreak\qquad k\in\{1\mathchar 44\relax\allowbreak 2%
+\mathchar 44\relax\allowbreak 3\}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex638Xb"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xb.m2"><img class="lctr-math-vector" src="math-S4/b11117e54c8712572e0e279529c63dd526ebc7cf7a1a78673880f58d6c29cf31.svg" alt="\displaystyle\mathsf{Dep}^{\mathrm{repr}}" aria-hidden="true" loading="lazy" decoding="async" style="width:3.10933em;height:1.08811em;vertical-align:-0.27733em"><span class="lctr-math-accessible"><math id="Ex638Xb.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Dep}^{\mathrm{repr}}" display="inline"><semantics><msup><mi>𝖣𝖾𝗉</mi><mi>repr</mi></msup><annotation encoding="application/x-tex">\displaystyle\mathsf{Dep}^{\mathrm{repr}}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xb.m3" data-body-math-cuts="[[1.255774,5],[6.874449,0],[8.370594,9],[8.974373,9],[10.061958,5],[11.0064,5]]"><img class="lctr-math-vector" src="math-S4/0d2420c9b966fb78ae0929cee5d1526d566bcfa39b9c3390867364b65bae5edf.svg" alt="\displaystyle:=\bigcup_{k=0}^{3}\left\{\left(\mathsf{Req}^{\mathrm{repr}}_{k}%
+\mathchar 44\relax\allowbreak Y\right)\ \middle|\ Y\in\mathsf{Out}^{\mathrm{%
+repr}}_{k}\right\}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:15.04694em;height:3.22594em;vertical-align:-1.36297em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex638Xb.m3" class="ltx_Math" alttext="\displaystyle:=\bigcup_{k=0}^{3}\left\{\left(\mathsf{Req}^{\mathrm{repr}}_{k}%
+\mathchar 44\relax\allowbreak Y\right)\ \middle|\ Y\in\mathsf{Out}^{\mathrm{%
+repr}}_{k}\right\}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mstyle displaystyle="true"><munderover><mo movablelimits="false">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></munderover></mstyle><mrow><mo>{</mo><mrow><mo>(</mo><msubsup><mi>𝖱𝖾𝗊</mi><mi>k</mi><mi>repr</mi></msubsup><mo>,</mo><mi>Y</mi><mo rspace="0.222em">)</mo></mrow><mo rspace="0.500em" stretchy="true">|</mo><mrow><mi>Y</mi><mo>∈</mo><msubsup><mi>𝖮𝗎𝗍</mi><mi>k</mi><mi>repr</mi></msubsup></mrow><mo>}</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle:=\bigcup_{k=0}^{3}\left\{\left(\mathsf{Req}^{\mathrm{repr}}_{k}%
+\mathchar 44\relax\allowbreak Y\right)\ \middle|\ Y\in\mathsf{Out}^{\mathrm{%
+repr}}_{k}\right\}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex638Xc"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xc.m2"><img class="lctr-math-vector" src="math-S4/e889085f873806ea0654f13b3ad2340c225144a5256524d6e1b6b7b4fda65f2a.svg" alt="\displaystyle\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:3.04633em;height:1.22999em;vertical-align:-0.37555em"><span class="lctr-math-accessible"><math id="Ex638Xc.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}" display="inline"><semantics><msubsup><mi>𝖮𝗎𝗍</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup><annotation encoding="application/x-tex">\displaystyle\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex638Xc.m3"><img class="lctr-math-vector" src="math-S4/a9db73ad38a32318123202939d08184a56bca08f1d0ee89c16e8d94d7041997a.svg" alt="\displaystyle:=\bigcup_{k=0}^{3}\mathsf{Out}^{\mathrm{repr}}_{k}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.81601em;height:3.22594em;vertical-align:-1.36297em"><span class="lctr-math-accessible"><math id="Ex638Xc.m3" class="ltx_Math" alttext="\displaystyle:=\bigcup_{k=0}^{3}\mathsf{Out}^{\mathrm{repr}}_{k}" display="inline"><semantics><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mstyle displaystyle="true"><munderover><mo movablelimits="false">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></munderover></mstyle><msubsup><mi>𝖮𝗎𝗍</mi><mi>k</mi><mi>repr</mi></msubsup></mrow></mrow><annotation encoding="application/x-tex">\displaystyle:=\bigcup_{k=0}^{3}\mathsf{Out}^{\mathrm{repr}}_{k}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。大域貼り合わせ失効文脈を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex639" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex639X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex639X.m2"><img class="lctr-math-vector" src="math-S4/db78744267b645880c33d063cfafa85094874bfd5c1fe05f6c6aeaad417329d0.svg" alt="\displaystyle\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}:={}" aria-hidden="true" loading="lazy" decoding="async" style="width:4.48543em;height:1.22999em;vertical-align:-0.37555em"><span class="lctr-math-accessible"><math id="Ex639X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}:={}" display="inline"><semantics><mrow><msubsup><mi>𝖢𝗍𝗑</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup><mo lspace="0.278em" rspace="0.278em">:=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}:={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex639X.m3"><img class="lctr-math-vector" src="math-S4/debe707559dd3343b1a13755d6ad4bc494109c5d598e067e63cb8bf051317d06.svg" alt="\displaystyle\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf{I%
+}\right\}" aria-hidden="true" loading="lazy" decoding="async" style="width:9.83459em;height:1.19600em;vertical-align:-0.36267em"><span class="lctr-math-accessible"><math id="Ex639X.m3" class="ltx_Math" alttext="\displaystyle\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf{I%
+}\right\}" display="inline"><semantics><mrow><mo>{</mo><mrow><mi>A</mi><mo>∈</mo><mi>𝖤𝗑𝗉𝗋</mi></mrow><mo lspace="0.500em" rspace="0.500em" stretchy="true">|</mo><mrow><mi>A</mi><msub><mo>∈</mo><mi>comp</mi></msub><mi>𝖨</mi></mrow><mo>}</mo></mrow><annotation encoding="application/x-tex">\displaystyle\left\{A\in\mathsf{Expr}\ \middle|\ A\in_{\mathrm{comp}}\mathsf{I%
+}\right\}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex639Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex639Xa.m2" data-body-math-cuts="[[6.07907,0],[10.752033,0]]"><img class="lctr-math-vector" src="math-S4/3ae2e4051cab11478ba785fbc8d44af8d964878e4a9fa7f6c7ec0009856f4aa0.svg" alt="\displaystyle\cup\left\{\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{G}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{Operative}(\mathcal{X})\right\}" aria-hidden="true" loading="lazy" decoding="async" style="width:17.71799em;height:1.17907em;vertical-align:-0.34574em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex639Xa.m2" class="ltx_Math" alttext="\displaystyle\cup\left\{\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{G}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{Operative}(\mathcal{X})\right\}" display="inline"><semantics><mrow><mo rspace="0em">∪</mo><mrow><mo>{</mo><mrow><msub><mi>𝖫</mi><mrow><mi></mi><mo>≤</mo><mn>7</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mi>𝖤𝗏</mi><mi>cmp</mi></msup><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>𝖦</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mi>𝖤𝗏</mi><mi>cmp</mi></msup><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>,</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>}</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\cup\left\{\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{G}[\mathsf{Ev}^{\mathrm{cmp}}]%
+\mathchar 44\relax\allowbreak\neg\mathsf{Operative}(\mathcal{X})\right\}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">とする。</p>
+</div>
+</div>
+<div id="Thmdefinition174" class="ltx_theorem ltx_theorem_proposition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">命題 4.174</span></span><span class="ltx_text ltx_font_bold"> </span>(大域貼り合わせ失効による正準表現構造の生成不能性)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition174.p1" class="ltx_para">
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex640" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex640X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex640X.m2"><img class="lctr-math-vector" src="math-S4/8be74953df8a92b6549c9a57f8bf3da048aee15de2f0ed46807a366826ec08cd.svg" alt="\displaystyle\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]\wedge\neg\mathsf{%
+G}[\mathsf{Ev}^{\mathrm{cmp}}]" aria-hidden="true" loading="lazy" decoding="async" style="width:9.90250em;height:1.17907em;vertical-align:-0.34574em"><span class="lctr-math-accessible"><math id="Ex640X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]\wedge\neg\mathsf{%
+G}[\mathsf{Ev}^{\mathrm{cmp}}]" display="inline"><semantics><mrow><mrow><msub><mi>𝖫</mi><mrow><mi></mi><mo>≤</mo><mn>7</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mi>𝖤𝗏</mi><mi>cmp</mi></msup><mo stretchy="false">]</mo></mrow></mrow><mo>∧</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>𝖦</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mi>𝖤𝗏</mi><mi>cmp</mi></msup><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{L}_{\leq 7}[\mathsf{Ev}^{\mathrm{cmp}}]\wedge\neg\mathsf{%
+G}[\mathsf{Ev}^{\mathrm{cmp}}]</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex640Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex640Xa.m2" data-body-math-cuts="[[1.817125,5],[8.283081,9],[9.171968,9],[20.302956,5],[20.858508,5]]"><img class="lctr-math-vector" src="math-S4/89dc277b4264f3f5cabdc708bcd30be70a6baac5f6a4b6d6631c732237a26bc0.svg" alt="\displaystyle\Longrightarrow\neg\mathsf{Operative}(\mathcal{X})\wedge\bigwedge%
+_{Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}}\neg\mathsf{GenDef}_{%
+\mathsf{Dep}^{\mathrm{repr}}}\left(Y\mid\mathsf{Ctx}^{\mathrm{repr}}_{\neg%
+\mathsf{G}}\right)." aria-hidden="true" loading="lazy" decoding="async" style="width:24.62983em;height:2.83085em;vertical-align:-1.69751em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex640Xa.m2" class="ltx_Math" alttext="\displaystyle\Longrightarrow\neg\mathsf{Operative}(\mathcal{X})\wedge\bigwedge%
+_{Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}}\neg\mathsf{GenDef}_{%
+\mathsf{Dep}^{\mathrm{repr}}}\left(Y\mid\mathsf{Ctx}^{\mathrm{repr}}_{\neg%
+\mathsf{G}}\right)." display="inline"><semantics><mrow><mrow><mi></mi><mo stretchy="false">⟹</mo><mrow><mrow><mo rspace="0.167em">¬</mo><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∧</mo><mrow><mstyle displaystyle="true"><munder><mo movablelimits="false">⋀</mo><mrow><mi>Y</mi><mo>∈</mo><msubsup><mi>𝖮𝗎𝗍</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup></mrow></munder></mstyle><mrow><mo lspace="0.167em" rspace="0.167em">¬</mo><mrow><msub><mi>𝖦𝖾𝗇𝖣𝖾𝖿</mi><msup><mi>𝖣𝖾𝗉</mi><mi>repr</mi></msup></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><mi>Y</mi><mo>∣</mo><msubsup><mi>𝖢𝗍𝗑</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup></mrow><mo>)</mo></mrow></mrow></mrow></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\displaystyle\Longrightarrow\neg\mathsf{Operative}(\mathcal{X})\wedge\bigwedge%
+_{Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}}\neg\mathsf{GenDef}_{%
+\mathsf{Dep}^{\mathrm{repr}}}\left(Y\mid\mathsf{Ctx}^{\mathrm{repr}}_{\neg%
+\mathsf{G}}\right).</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">証明.</h6>
+<div id="SS2.SSS8.p7" class="ltx_para">
+<p class="ltx_p">定義<a href="ch04-01.html#Thmdefinition86" title="定義 4.86 (比較段階の操作可能性). ‣ 4.1.2 比較段階判定条件 ‣ 4.1 正準比較商の生成 ‣ 4 比較段階閉包と正準表現 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.86</span></a>の同値式により、前件から
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m1"><img class="lctr-math-vector" src="math-S4/4135060d41117dc09163bc226a465b54e8104cb7ef9902a10b12f7c553433e19.svg" alt="\neg\mathsf{Operative}(\mathcal{X})" aria-hidden="true" loading="lazy" decoding="async" style="width:6.38262em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m1" class="ltx_Math" alttext="\neg\mathsf{Operative}(\mathcal{X})" display="inline"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg\mathsf{Operative}(\mathcal{X})</annotation></semantics></math></span></span> を得る。集合</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex641" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex641.m1" data-body-math-cuts="[[1.752116,5],[3.063444,5],[5.179442,9],[5.901662,9],[9.384332,9],[10.273219,9]]"><img class="lctr-math-vector" src="math-S4/3af6b4cdde069ef2bf093c4c508faed15b07f567538309739e50edac7a1ef3c7.svg" alt="\mathsf{S}_{\neg\mathsf{G}}:=\mathsf{Expr}\setminus\left(\mathsf{Out}^{\mathrm%
+{repr}}_{\neg\mathsf{G}}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\right)" aria-hidden="true" loading="lazy" decoding="async" style="width:17.39774em;height:1.22999em;vertical-align:-0.37555em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex641.m1" class="ltx_Math" alttext="\mathsf{S}_{\neg\mathsf{G}}:=\mathsf{Expr}\setminus\left(\mathsf{Out}^{\mathrm%
+{repr}}_{\neg\mathsf{G}}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\right)" display="block"><semantics><mrow><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><mi>𝖤𝗑𝗉𝗋</mi><mo>∖</mo><mrow><mo>(</mo><mrow><msubsup><mi>𝖮𝗎𝗍</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup><mo>∪</mo><mrow><mo>{</mo><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow><mo>}</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\mathsf{S}_{\neg\mathsf{G}}:=\mathsf{Expr}\setminus\left(\mathsf{Out}^{\mathrm%
+{repr}}_{\neg\mathsf{G}}\cup\left\{\mathsf{Operative}(\mathcal{X})\right\}\right)</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">を取る。型により
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m2"><img class="lctr-math-vector" src="math-S4/9759fe87e7f5c978a81b6a293620f4353dc76b45065e5a4e1186016a75a9173f.svg" alt="\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}\subseteq\mathsf{S}_{\neg\mathsf{%
+G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.75956em;height:1.22999em;vertical-align:-0.37555em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m2" class="ltx_Math" alttext="\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}\subseteq\mathsf{S}_{\neg\mathsf{%
+G}}" display="inline"><semantics><mrow><msubsup><mi>𝖢𝗍𝗑</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup><mo>⊆</mo><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\mathsf{Ctx}^{\mathrm{repr}}_{\neg\mathsf{G}}\subseteq\mathsf{S}_{\neg\mathsf{%
+G}}</annotation></semantics></math></span></span>
+である。各
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m3"><img class="lctr-math-vector" src="math-S4/b131df93b4efbf7f3767fae64143592b8d2548b97baa8a8ccfb7c4bdcc4f221e.svg" alt="k\in\{0\mathchar 44\relax\allowbreak 1\mathchar 44\relax\allowbreak 2\mathchar
+4%
+4\relax\allowbreak 3\}" aria-hidden="true" loading="lazy" decoding="async" style="width:6.20597em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m3" class="ltx_Math" alttext="k\in\{0\mathchar 44\relax\allowbreak 1\mathchar 44\relax\allowbreak 2\mathchar
+4%
+4\relax\allowbreak 3\}" display="inline"><semantics><mrow><mi>k</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">k\in\{0\mathchar 44\relax\allowbreak 1\mathchar 44\relax\allowbreak 2\mathchar
+4%
+4\relax\allowbreak 3\}</annotation></semantics></math></span></span> について</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex642" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex642X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex642X.m2"><img class="lctr-math-vector" src="math-S4/856a460c6abd6622e1744e4badf08353da55de9d50a884e080f3446b13e45983.svg" alt="\displaystyle\mathsf{Operative}(\mathcal{X})" aria-hidden="true" loading="lazy" decoding="async" style="width:5.71596em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex642X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Operative}(\mathcal{X})" display="inline"><semantics><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Operative}(\mathcal{X})</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex642X.m3"><img class="lctr-math-vector" src="math-S4/96c5768ba9f83badab403b7f8934c3eb3512294a8b3e8bfe23b274767617b7f5.svg" alt="\displaystyle\in\mathsf{Req}^{\mathrm{repr}}_{k}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:4.25176em;height:1.21629em;vertical-align:-0.36185em"><span class="lctr-math-accessible"><math id="Ex642X.m3" class="ltx_Math" alttext="\displaystyle\in\mathsf{Req}^{\mathrm{repr}}_{k}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo>∈</mo><msubsup><mi>𝖱𝖾𝗊</mi><mi>k</mi><mi>repr</mi></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\in\mathsf{Req}^{\mathrm{repr}}_{k}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex642Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex642Xa.m2"><img class="lctr-math-vector" src="math-S4/856a460c6abd6622e1744e4badf08353da55de9d50a884e080f3446b13e45983.svg" alt="\displaystyle\mathsf{Operative}(\mathcal{X})" aria-hidden="true" loading="lazy" decoding="async" style="width:5.71596em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex642Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Operative}(\mathcal{X})" display="inline"><semantics><mrow><mi>𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗏𝖾</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi class="ltx_font_mathcaligraphic">𝒳</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Operative}(\mathcal{X})</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex642Xa.m3"><img class="lctr-math-vector" src="math-S4/098bca23b0fe031b9ab81f27f455ce80c8a3a175863a2a7b7ecc207091e061cc.svg" alt="\displaystyle\notin\mathsf{S}_{\neg\mathsf{G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:2.64100em;height:1.07333em;vertical-align:-0.24000em"><span class="lctr-math-accessible"><math id="Ex642Xa.m3" class="ltx_Math" alttext="\displaystyle\notin\mathsf{S}_{\neg\mathsf{G}}" display="inline"><semantics><mrow><mi></mi><mo>∉</mo><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\displaystyle\notin\mathsf{S}_{\neg\mathsf{G}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">であるから、
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m4"><img class="lctr-math-vector" src="math-S4/3174d66586d468193be2c0067eda9aef066a7cdc3a74f5d13799c189f81b77a1.svg" alt="\mathsf{Req}^{\mathrm{repr}}_{k}\nsubseteq\mathsf{S}_{\neg\mathsf{G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.89856em;height:1.26324em;vertical-align:-0.38607em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m4" class="ltx_Math" alttext="\mathsf{Req}^{\mathrm{repr}}_{k}\nsubseteq\mathsf{S}_{\neg\mathsf{G}}" display="inline"><semantics><mrow><msubsup><mi>𝖱𝖾𝗊</mi><mi>k</mi><mi>repr</mi></msubsup><mo>⊈</mo><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\mathsf{Req}^{\mathrm{repr}}_{k}\nsubseteq\mathsf{S}_{\neg\mathsf{G}}</annotation></semantics></math></span></span>
+である。したがって
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m5"><img class="lctr-math-vector" src="math-S4/608b0387aa2b027b00e2e4fd3c3c33470b20b7f0ffeda192fb0b14043e5abae4.svg" alt="\mathsf{S}_{\neg\mathsf{G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:1.69656em;height:1.03833em;vertical-align:-0.24000em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m5" class="ltx_Math" alttext="\mathsf{S}_{\neg\mathsf{G}}" display="inline"><semantics><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub><annotation encoding="application/x-tex">\mathsf{S}_{\neg\mathsf{G}}</annotation></semantics></math></span></span> は
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m6"><img class="lctr-math-vector" src="math-S4/b1e9e83c817ea7f8a278c64b41bc14f82d4ab25fd93d195b7ff0f795c615c0bd.svg" alt="\mathsf{Dep}^{\mathrm{repr}}" aria-hidden="true" loading="lazy" decoding="async" style="width:3.10933em;height:1.08811em;vertical-align:-0.27733em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m6" class="ltx_Math" alttext="\mathsf{Dep}^{\mathrm{repr}}" display="inline"><semantics><msup><mi>𝖣𝖾𝗉</mi><mi>repr</mi></msup><annotation encoding="application/x-tex">\mathsf{Dep}^{\mathrm{repr}}</annotation></semantics></math></span></span> の各規則について閉じている。
+生成閉包の最小性から</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex643" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex643.m1"><img class="lctr-math-vector" src="math-S4/180e169c3b89f4809f66b8ff9379a1b71d98c9a83585d839f63caa4dce51e72c.svg" alt="\operatorname{Cl}_{\mathsf{Dep}^{\mathrm{repr}}}\left(\mathsf{Ctx}^{\mathrm{%
+repr}}_{\neg\mathsf{G}}\right)\subseteq\mathsf{S}_{\neg\mathsf{G}}." aria-hidden="true" loading="lazy" decoding="async" style="width:10.30611em;height:1.22999em;vertical-align:-0.37555em"><span class="lctr-math-accessible"><math id="Ex643.m1" class="ltx_Math" alttext="\operatorname{Cl}_{\mathsf{Dep}^{\mathrm{repr}}}\left(\mathsf{Ctx}^{\mathrm{%
+repr}}_{\neg\mathsf{G}}\right)\subseteq\mathsf{S}_{\neg\mathsf{G}}." display="block"><semantics><mrow><mrow><mrow><msub><mi>Cl</mi><msup><mi>𝖣𝖾𝗉</mi><mi>repr</mi></msup></msub><mo>⁡</mo><mrow><mo>(</mo><msubsup><mi>𝖢𝗍𝗑</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup><mo>)</mo></mrow></mrow><mo>⊆</mo><msub><mi>𝖲</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow></msub></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\operatorname{Cl}_{\mathsf{Dep}^{\mathrm{repr}}}\left(\mathsf{Ctx}^{\mathrm{%
+repr}}_{\neg\mathsf{G}}\right)\subseteq\mathsf{S}_{\neg\mathsf{G}}.</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">よって各
+<span class="lctr-native-math lctr-native-inline" data-formula-id="SS2.SSS8.p7.m7"><img class="lctr-math-vector" src="math-S4/d95291d73b479821923c391ecd93af47360c41795bb057cd7fff526d9b0cfdb7.svg" alt="Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.05425em;height:1.22999em;vertical-align:-0.37555em"><span class="lctr-math-accessible"><math id="SS2.SSS8.p7.m7" class="ltx_Math" alttext="Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}" display="inline"><semantics><mrow><mi>Y</mi><mo>∈</mo><msubsup><mi>𝖮𝗎𝗍</mi><mrow><mo rspace="0.167em">¬</mo><mi>𝖦</mi></mrow><mi>repr</mi></msubsup></mrow><annotation encoding="application/x-tex">Y\in\mathsf{Out}^{\mathrm{repr}}_{\neg\mathsf{G}}</annotation></semantics></math></span></span> は生成閉包に
+属さない。生成可能性の定義により、命題の第二連言が成立する。
+∎</p>
+</div>
+</div>
+<figure id="F10" class="ltx_figure"><span id="F10.pic1"></span>
+<a class="fixed-figure-link" href="figures/figure-10.svg"><img class="fixed-figure-art" src="figures/figure-10.svg" alt="図10" width="250" height="222" style="max-width:100%;height:auto" loading="lazy" decoding="async"></a>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">図 10: </span><span class="lctr-native-math lctr-native-inline" data-formula-id="F10.m2"><img class="lctr-math-vector" src="math-S4/fa16941d294920a94bdbfb968608c8e3bbcb5e8687c3a9de10b15963c4bdba9d.svg" alt="\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.25141em;height:1.26474em;vertical-align:-0.43141em"><span class="lctr-math-accessible"><math id="F10.m2" class="ltx_Math" alttext="\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]" display="inline"><semantics><mrow><msub><mi>𝖱𝖾𝗉𝗋𝖢𝗍𝗑</mi><mrow><mi></mi><mo>≤</mo><mn>3</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>𝖨</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{ReprCtx}_{\leq 3}[\mathsf{I}]</annotation></semantics></math></span></span> のもとで、厳密操作的時間構造から局所順序座標と比較順序アトラス、大域順序座標商へ至る生成順。最後の比較表現座標は、選択した表現値域への順序埋め込みと正準大域順序座標射影の合成である。</figcaption><details data-figure-formulas="F10"><summary>図中の数式</summary><div><span class="lctr-native-math lctr-native-inline" data-formula-id="F10.pic1.m1"><img class="lctr-math-vector" src="math-S4/335bdac904766c2dba1a72c7e084a40637cd76f0c19aed60533ce0891128644a.svg" alt="\mathcal{E}^{\mathrm{op}}[\,\mathsf{I}\,]" aria-hidden="true" loading="lazy" decoding="async" style="width:2.71619em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="F10.pic1.m1" class="ltx_Math" alttext="\mathcal{E}^{\mathrm{op}}[\,\mathsf{I}\,]" display="inline"><semantics><mrow><msup><mi class="ltx_font_mathcaligraphic" mathsize="70%">ℰ</mi><mi mathsize="70%">op</mi></msup><mo>⁢</mo><mrow><mo maxsize="70%" minsize="70%" rspace="0.170em">[</mo><mi mathsize="70%">𝖨</mi><mo lspace="0.170em" maxsize="70%" minsize="70%">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{E}^{\mathrm{op}}[\,\mathsf{I}\,]</annotation></semantics></math></span></span></div>
+<div><span class="lctr-native-math lctr-native-inline" data-formula-id="F10.pic1.m2"><img class="lctr-math-vector" src="math-S4/a9ddab4326d9f0cc7282cc3286c9f289172865b93ceb5353c68d68566918cc2b.svg" alt="\begin{gathered}\mathsf{LinQuot}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\,\mathsf{I}\,]\\[-1.0pt]
+\mathsf{Atlas}^{\mathrm{ord}}[\,\mathsf{I}\,]\end{gathered}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.82514em;height:2.96257em;vertical-align:-1.23128em"><span class="lctr-math-accessible"><math id="F10.pic1.m2" class="ltx_Math" alttext="\begin{gathered}\mathsf{LinQuot}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\,\mathsf{I}\,]\\[-1.0pt]
+\mathsf{Atlas}^{\mathrm{ord}}[\,\mathsf{I}\,]\end{gathered}" display="inline"><semantics><mtable rowspacing="0pt"><mtr><mtd><mrow><msubsup><mi mathsize="70%">𝖫𝗂𝗇𝖰𝗎𝗈𝗍</mi><mrow><mi mathsize="70%">R</mi><mo mathsize="70%">,</mo><mi mathsize="70%">u</mi></mrow><mi mathsize="70%">loc</mi></msubsup><mo>⁢</mo><mrow><mo maxsize="70%" minsize="70%" rspace="0.170em">[</mo><mi mathsize="70%">𝖨</mi><mo lspace="0.170em" maxsize="70%" minsize="70%">]</mo></mrow></mrow></mtd></mtr><mtr><mtd><mrow><msup><mi mathsize="70%">𝖠𝗍𝗅𝖺𝗌</mi><mi mathsize="70%">ord</mi></msup><mo>⁢</mo><mrow><mo maxsize="70%" minsize="70%" rspace="0.170em">[</mo><mi mathsize="70%">𝖨</mi><mo lspace="0.170em" maxsize="70%" minsize="70%">]</mo></mrow></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{gathered}\mathsf{LinQuot}^{\mathrm{loc}}_{R\mathchar 44\relax%
+\allowbreak u}[\,\mathsf{I}\,]\\[-1.0pt]
+\mathsf{Atlas}^{\mathrm{ord}}[\,\mathsf{I}\,]\end{gathered}</annotation></semantics></math></span></span></div>
+<div><span class="lctr-native-math lctr-native-inline" data-formula-id="F10.pic1.m3"><img class="lctr-math-vector" src="math-S4/5d138371e322b983551e2d63acaef7f2d39832a620d14948b710fe5d4bf9ce92.svg" alt="\mathsf{LinQuot}^{\mathrm{can}}_{R}[\,\mathsf{I}\,]" aria-hidden="true" loading="lazy" decoding="async" style="width:5.74264em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="F10.pic1.m3" class="ltx_Math" alttext="\mathsf{LinQuot}^{\mathrm{can}}_{R}[\,\mathsf{I}\,]" display="inline"><semantics><mrow><msubsup><mi mathsize="70%">𝖫𝗂𝗇𝖰𝗎𝗈𝗍</mi><mi mathsize="70%">R</mi><mi mathsize="70%">can</mi></msubsup><mo>⁢</mo><mrow><mo maxsize="70%" minsize="70%" rspace="0.170em">[</mo><mi mathsize="70%">𝖨</mi><mo lspace="0.170em" maxsize="70%" minsize="70%">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{LinQuot}^{\mathrm{can}}_{R}[\,\mathsf{I}\,]</annotation></semantics></math></span></span></div>
+<div><span class="lctr-native-math lctr-native-inline" data-formula-id="F10.pic1.m4"><img class="lctr-math-vector" src="math-S4/364397be7578e625265a64bae1884bceca3a3a3d06bf0557e95afbe5459169ea.svg" alt="\mathsf{Rep}^{\mathrm{cmp}}_{R}[\,\mathsf{I}\,]" aria-hidden="true" loading="lazy" decoding="async" style="width:4.21664em;height:1.20888em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="F10.pic1.m4" class="ltx_Math" alttext="\mathsf{Rep}^{\mathrm{cmp}}_{R}[\,\mathsf{I}\,]" display="inline"><semantics><mrow><msubsup><mi mathsize="70%">𝖱𝖾𝗉</mi><mi mathsize="70%">R</mi><mi mathsize="70%">cmp</mi></msubsup><mo>⁢</mo><mrow><mo maxsize="70%" minsize="70%" rspace="0.170em">[</mo><mi mathsize="70%">𝖨</mi><mo lspace="0.170em" maxsize="70%" minsize="70%">]</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Rep}^{\mathrm{cmp}}_{R}[\,\mathsf{I}\,]</annotation></semantics></math></span></span></div></details>
+</figure>
+</section>
+<nav class="pilot-steps" id="section-navigation" aria-label="前後の移動"><a class="pilot-prev" rel="prev" href="ch04-02-07.html"><span class="pilot-step-direction"><span aria-hidden="true">←</span> 前の小節</span><span class="pilot-step-name">4.2.7 連続近似評価入力</span></a><a class="pilot-next" rel="next" href="ch04-03.html"><span class="pilot-step-direction"><span aria-hidden="true">→</span> 次の節</span><span class="pilot-step-name">4.3 厳密操作可能性・正準一意性・普遍因子化</span></a></nav></div></div></div></body></html>

@@ -1,0 +1,733 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+<meta charset="utf-8"><title>7.2.2 資料証拠層・依存有効層・意味監査境界 · LCTR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,follow">
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="LaTeXML.css">
+<link rel="stylesheet" href="ltx-article.css">
+<link rel="stylesheet" href="../preview.css">
+<style>.lctr-native-math{position:relative}.lctr-native-math>math{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}.lctr-native-block,.lctr-native-overflow{display:inline-block;max-width:100%;overflow-x:auto}.lctr-math-vector{max-width:none}</style>
+<link rel="stylesheet" href="../section-preview.css">
+<!-- chapter-reader-tools --><link rel="stylesheet" href="../chapter-reader-tools.css">
+<script src="../chapter-reader-tools.js" defer></script>
+<!-- /chapter-reader-tools -->
+<link rel="stylesheet" href="../body-math-flow.css?v=eac727412218"><script src="../body-math-flow.js?v=76b24b98a657" defer></script></head>
+<body class="preview-reader section-preview">
+<header class="masthead"><a class="wordmark" href="../../">LCTR<span class="theory-name"> v1.0.1</span></a><nav aria-label="Language"><span aria-current="page">日本語</span><a lang="en" href="../en/ch07-02-02.html">English</a></nav></header><nav class="site-nav" aria-label="サイト全体"><a href="../.././">論文・要旨</a><a href="../../create-time/">時間の作り方</a><a href="../../why-time-emergence-failed/">従来の時間創発</a><a href="../../time-mysteries/">LCTRの考え方</a><a href="../../sources/">72資料</a><a href="../.././#figures">図解</a><a href="../.././#verification">検証資産</a><a href="../../verification/law-candidate/">MMT形式化</a><a href="../.././#materials-title">公開資料</a><a href="../../world-challenge/" lang="ja">物理学への告発</a><a href="../../comment-papers/">コメント論文</a><a href="./" aria-current="page">全文（HTML）</a></nav><nav class="preview-context"><a href="./">全文目次</a><a href="../../sources/">72資料の一覧</a></nav>
+<div class="ltx_page_main pilot-main"><!-- chapter-reader-tools --><nav class="reader-locator" aria-label="章内ナビゲーション"><div class="locator-position" aria-label="現在地"><a class="locator-chapter" href="ch07.html" title="7 法則時間使用の監査と原始時間前提の不達成">第7章</a><span class="locator-separator" aria-hidden="true">›</span><a class="locator-current" data-initial-title="7.2.2 資料証拠層・依存有効層・意味監査境界" data-initial-anchor="SS2.SSS2" href="#SS2.SSS2">7.2.2 資料証拠層・依存有効層・意味監査境界</a></div><div class="locator-controls"><details class="locator-outline"><summary><span class="locator-step-full">節目次</span><span class="locator-step-short">節目次</span></summary><div class="locator-panel"><ul><li><a data-heading-id="SS1" href="ch07-01.html#SS1">7.1 物理時間成立資格と原始時間入力</a></li><li><a data-heading-id="SS2" href="ch07-02.html#SS2">7.2 証拠付き生成依存監査法</a><ul><li><a data-heading-id="SS2.SSS1" href="ch07-02-01.html#SS2.SSS1">7.2.1 時間担持表現の形式・言明別監査判定</a></li><li><a data-heading-id="SS2.SSS2" href="#SS2.SSS2" aria-current="location">7.2.2 資料証拠層・依存有効層・意味監査境界</a></li><li><a data-heading-id="SS2.SSS3" href="ch07-02-03.html#SS2.SSS3">7.2.3 辺制限監査到達と分枝支援</a></li><li><a data-heading-id="SS2.SSS4" href="ch07-02-04.html#SS2.SSS4">7.2.4 原典支援・終端残差・完全性計数</a></li><li><a data-heading-id="SS2.SSS5" href="ch07-02-05.html#SS2.SSS5">7.2.5 型付き有限監査入力</a></li><li><a data-heading-id="SS2.SSS6" href="ch07-02-06.html#SS2.SSS6">7.2.6 型付き有限監査入力の正準実現</a></li><li><a data-heading-id="SS2.SSS7" href="ch07-02-07.html#SS2.SSS7">7.2.7 監査表の型付き索引表示</a></li><li><a data-heading-id="SS2.SSS8" href="ch07-02-08.html#SS2.SSS8">7.2.8 資料別二軌証拠記録</a></li><li><a data-heading-id="SS2.SSS9" href="ch07-02-09.html#SS2.SSS9">7.2.9 資料別監査表の証拠欄と局所キー</a></li><li><a data-heading-id="SS2.SSS10" href="ch07-02-10.html#SS2.SSS10">7.2.10 資料別監査の公称と成果保存域</a></li><li><a data-heading-id="SS2.SSS11" href="ch07-02-11.html#SS2.SSS11">7.2.11 証拠効力境界と限定成果の無制限継承</a></li><li><a data-heading-id="SS2.SSS12" href="ch07-02-12.html#SS2.SSS12">7.2.12 監査境界有向超グラフの入力整合性</a></li></ul></li><li><a data-heading-id="SS3" href="ch07-03.html#SS3">7.3 形式証拠・原典言明と代表監査</a><ul><li><a data-heading-id="SS3.SSS1" href="ch07-03.html#SS3.SSS1">7.3.1 明示的絶対時間と操作的批判</a></li><li><a data-heading-id="SS3.SSS2" href="ch07-03.html#SS3.SSS2">7.3.2 同期・座標時・固有時</a></li><li><a data-heading-id="SS3.SSS3" href="ch07-03.html#SS3.SSS3">7.3.3 単位標準・分散時計・実験時計差</a></li><li><a data-heading-id="SS3.SSS4" href="ch07-03.html#SS3.SSS4">7.3.4 量子測定・記録・デコヒーレンス</a></li><li><a data-heading-id="SS3.SSS5" href="ch07-03.html#SS3.SSS5">7.3.5 内部時計・熱時間・局所到達判定</a></li><li><a data-heading-id="SS3.SSS6" href="ch07-03.html#SS3.SSS6">7.3.6 正準重力・時間問題・宇宙境界</a></li><li><a data-heading-id="SS3.SSS7" href="ch07-03.html#SS3.SSS7">7.3.7 時間の矢・重力的矢・時間流動</a></li><li><a data-heading-id="SS3.SSS8" href="ch07-03.html#SS3.SSS8">7.3.8 ブラックホール熱力学・放射・情報</a></li><li><a data-heading-id="SS3.SSS9" href="ch07-03.html#SS3.SSS9">7.3.9 双対性・エントロピー・時空創発</a></li><li><a data-heading-id="SS3.SSS10" href="ch07-03.html#SS3.SSS10">7.3.10 宇宙定数・加速観測・膨張語彙</a></li><li><a data-heading-id="SS3.SSS11" href="ch07-03.html#SS3.SSS11">7.3.11 原典言明と形式記述の照合</a></li><li><a data-heading-id="SS3.SSS12" href="ch07-03.html#SS3.SSS12">7.3.12 原始時間の明示形と物理学横断使用</a></li><li><a data-heading-id="SS3.SSS13" href="ch07-03.html#SS3.SSS13">7.3.13 評価成功と物理時間成立資格</a></li><li><a data-heading-id="SS3.SSS14" href="ch07-03.html#SS3.SSS14">7.3.14 隣接時間問題と完全時間生成</a></li><li><a data-heading-id="SS3.SSS15" href="ch07-03.html#SS3.SSS15">7.3.15 形式成果と言明対象の差</a><ul><li><a data-heading-id="SS3.SSS15.Px1" href="ch07-03.html#SS3.SSS15.Px1">時間非存在言明と時間属性言明の代表照合</a></li></ul></li><li><a data-heading-id="SS3.SSS16" href="ch07-03.html#SS3.SSS16">7.3.16 時間担持量の形式証拠と言明証拠</a><ul><li><a data-heading-id="SS3.SSS16.Px1" href="ch07-03.html#SS3.SSS16.Px1">光速度表現の生成順序と適用域</a></li></ul></li><li><a data-heading-id="SS3.SSS17" href="ch07-03.html#SS3.SSS17">7.3.17 時計・時間属性・生命適用の証拠段階</a><ul><li><a data-heading-id="SS3.SSS17.Px1" href="ch07-03.html#SS3.SSS17.Px1">生命適用の代表言明</a></li></ul></li><li><a data-heading-id="SS3.SSS18" href="ch07-03.html#SS3.SSS18">7.3.18 全資料言明の代表論証への接続</a><ul><li><a data-heading-id="SS3.SSS18.Px1" href="ch07-03.html#SS3.SSS18.Px1">操作的批判と言明された構成不足</a></li><li><a data-heading-id="SS3.SSS18.Px2" href="ch07-03.html#SS3.SSS18.Px2">同期・座標時・固有時</a></li><li><a data-heading-id="SS3.SSS18.Px3" href="ch07-03.html#SS3.SSS18.Px3">計量標準・時計差・直接測定</a></li><li><a data-heading-id="SS3.SSS18.Px4" href="ch07-03.html#SS3.SSS18.Px4">量子測定とデコヒーレンス</a></li><li><a data-heading-id="SS3.SSS18.Px5" href="ch07-03.html#SS3.SSS18.Px5">正準重力・内在時間・時間問題</a></li><li><a data-heading-id="SS3.SSS18.Px6" href="ch07-03.html#SS3.SSS18.Px6">時間の矢と因果順序</a></li><li><a data-heading-id="SS3.SSS18.Px7" href="ch07-03.html#SS3.SSS18.Px7">ブラックホール熱力学・放射・情報</a></li><li><a data-heading-id="SS3.SSS18.Px8" href="ch07-03.html#SS3.SSS18.Px8">双対性・もつれ・時空創発</a></li><li><a data-heading-id="SS3.SSS18.Px9" href="ch07-03.html#SS3.SSS18.Px9">宇宙論・膨張・観測量</a></li><li><a data-heading-id="SS3.SSS18.Px10" href="ch07-03.html#SS3.SSS18.Px10">時間定義と原始時間</a></li><li><a data-heading-id="SS3.SSS18.Px11" href="ch07-03.html#SS3.SSS18.Px11">隣接時間問題と時間流動</a></li><li><a data-heading-id="SS3.SSS18.Px12" href="ch07-03.html#SS3.SSS18.Px12">寿命・周波数・線幅などの時間担持量</a></li><li><a data-heading-id="SS3.SSS18.Px13" href="ch07-03.html#SS3.SSS18.Px13">時計関係・時間属性・生命適用</a></li></ul></li></ul></li><li><a data-heading-id="SS4" href="ch07-04.html#SS4">7.4 監査72資料の横断結果</a><ul><li><a data-heading-id="SS4.SSS1" href="ch07-04.html#SS4.SSS1">7.4.1 時間内容分類と構造署名の資料横断結果</a></li></ul></li><li><a data-heading-id="SS5" href="ch07-05.html#SS5">7.5 生成完成時間との対照と物理的成立根拠</a></li></ul></div></details><a class="locator-definitions" href="definitions-07.html">定義一覧 <span>79</span></a><div class="locator-steps"><a class="locator-prev" href="ch07-02-01.html#SS2.SSS1" title="前の区切り：7.2.1 時間担持表現の形式・言明別監査判定" aria-label="前の区切り：7.2.1 時間担持表現の形式・言明別監査判定" data-caption="前の区切り" data-start-href="ch07.html" data-start-caption="章の冒頭へ" data-edge-href="S6.html" data-edge-caption="前の章" data-edge-name="第6章" data-joiner="："><span class="locator-step-arrow" aria-hidden="true">↑</span> <span class="locator-step-full">前の区切り</span><span class="locator-step-short">前</span><span class="locator-step-number">7.2.1</span></a><a class="locator-next" href="ch07-02-03.html#SS2.SSS3" title="次の区切り：7.2.3 辺制限監査到達と分枝支援" aria-label="次の区切り：7.2.3 辺制限監査到達と分枝支援" data-caption="次の区切り" data-edge-href="S8.html" data-edge-caption="次の章" data-edge-name="第8章" data-joiner="："><span class="locator-step-arrow" aria-hidden="true">↓</span> <span class="locator-step-full">次の区切り</span><span class="locator-step-short">次</span><span class="locator-step-number">7.2.3</span></a></div></div></nav><!-- /chapter-reader-tools -->
+<nav class="pilot-context"><a href="ch07.html">7 法則時間使用の監査と原始時間前提の不達成</a><a class="pilot-parent" href="ch07-02.html">7.2 証拠付き生成依存監査法</a><a class="pilot-whole" href="S7.html#SS2.SSS2">章一括表示</a></nav><div class="pilot-layout pilot-reading"><details class="pilot-mobile"><summary>章内目次</summary><nav class="pilot-toc" aria-label="章内目次"><ul class="pilot-sections"><li><a href="ch07-01.html">7.1 物理時間成立資格と原始時間入力</a></li><li><a href="ch07-02.html">7.2 証拠付き生成依存監査法</a><ul class="pilot-sublist"><li><a href="ch07-02-01.html">7.2.1 時間担持表現の形式・言明別監査判定</a></li><li><a href="ch07-02-02.html" aria-current="location">7.2.2 資料証拠層・依存有効層・意味監査境界</a></li><li><a href="ch07-02-03.html">7.2.3 辺制限監査到達と分枝支援</a></li><li><a href="ch07-02-04.html">7.2.4 原典支援・終端残差・完全性計数</a></li><li><a href="ch07-02-05.html">7.2.5 型付き有限監査入力</a></li><li><a href="ch07-02-06.html">7.2.6 型付き有限監査入力の正準実現</a></li><li><a href="ch07-02-07.html">7.2.7 監査表の型付き索引表示</a></li><li><a href="ch07-02-08.html">7.2.8 資料別二軌証拠記録</a></li><li><a href="ch07-02-09.html">7.2.9 資料別監査表の証拠欄と局所キー</a></li><li><a href="ch07-02-10.html">7.2.10 資料別監査の公称と成果保存域</a></li><li><a href="ch07-02-11.html">7.2.11 証拠効力境界と限定成果の無制限継承</a></li><li><a href="ch07-02-12.html">7.2.12 監査境界有向超グラフの入力整合性</a></li></ul></li><li><a href="ch07-03.html">7.3 形式証拠・原典言明と代表監査</a><details data-pilot-group="SS3"><summary>小節一覧（18件）</summary><ul class="pilot-sublist"><li><a href="ch07-03.html#SS3.SSS1">7.3.1 明示的絶対時間と操作的批判</a></li><li><a href="ch07-03.html#SS3.SSS2">7.3.2 同期・座標時・固有時</a></li><li><a href="ch07-03.html#SS3.SSS3">7.3.3 単位標準・分散時計・実験時計差</a></li><li><a href="ch07-03.html#SS3.SSS4">7.3.4 量子測定・記録・デコヒーレンス</a></li><li><a href="ch07-03.html#SS3.SSS5">7.3.5 内部時計・熱時間・局所到達判定</a></li><li><a href="ch07-03.html#SS3.SSS6">7.3.6 正準重力・時間問題・宇宙境界</a></li><li><a href="ch07-03.html#SS3.SSS7">7.3.7 時間の矢・重力的矢・時間流動</a></li><li><a href="ch07-03.html#SS3.SSS8">7.3.8 ブラックホール熱力学・放射・情報</a></li><li><a href="ch07-03.html#SS3.SSS9">7.3.9 双対性・エントロピー・時空創発</a></li><li><a href="ch07-03.html#SS3.SSS10">7.3.10 宇宙定数・加速観測・膨張語彙</a></li><li><a href="ch07-03.html#SS3.SSS11">7.3.11 原典言明と形式記述の照合</a></li><li><a href="ch07-03.html#SS3.SSS12">7.3.12 原始時間の明示形と物理学横断使用</a></li><li><a href="ch07-03.html#SS3.SSS13">7.3.13 評価成功と物理時間成立資格</a></li><li><a href="ch07-03.html#SS3.SSS14">7.3.14 隣接時間問題と完全時間生成</a></li><li><a href="ch07-03.html#SS3.SSS15">7.3.15 形式成果と言明対象の差</a></li><li><a href="ch07-03.html#SS3.SSS16">7.3.16 時間担持量の形式証拠と言明証拠</a></li><li><a href="ch07-03.html#SS3.SSS17">7.3.17 時計・時間属性・生命適用の証拠段階</a></li><li><a href="ch07-03.html#SS3.SSS18">7.3.18 全資料言明の代表論証への接続</a></li></ul></details></li><li><a href="ch07-04.html">7.4 監査72資料の横断結果</a><details data-pilot-group="SS4"><summary>小節一覧（1件）</summary><ul class="pilot-sublist"><li><a href="ch07-04.html#SS4.SSS1">7.4.1 時間内容分類と構造署名の資料横断結果</a></li></ul></details></li><li><a href="ch07-05.html">7.5 生成完成時間との対照と物理的成立根拠</a></li></ul></nav></details><aside class="pilot-aside"><div class="pilot-aside-caption">章内目次</div><nav class="pilot-toc" aria-label="章内目次"><ul class="pilot-sections"><li><a href="ch07-01.html">7.1 物理時間成立資格と原始時間入力</a></li><li><a href="ch07-02.html">7.2 証拠付き生成依存監査法</a><ul class="pilot-sublist"><li><a href="ch07-02-01.html">7.2.1 時間担持表現の形式・言明別監査判定</a></li><li><a href="ch07-02-02.html" aria-current="location">7.2.2 資料証拠層・依存有効層・意味監査境界</a></li><li><a href="ch07-02-03.html">7.2.3 辺制限監査到達と分枝支援</a></li><li><a href="ch07-02-04.html">7.2.4 原典支援・終端残差・完全性計数</a></li><li><a href="ch07-02-05.html">7.2.5 型付き有限監査入力</a></li><li><a href="ch07-02-06.html">7.2.6 型付き有限監査入力の正準実現</a></li><li><a href="ch07-02-07.html">7.2.7 監査表の型付き索引表示</a></li><li><a href="ch07-02-08.html">7.2.8 資料別二軌証拠記録</a></li><li><a href="ch07-02-09.html">7.2.9 資料別監査表の証拠欄と局所キー</a></li><li><a href="ch07-02-10.html">7.2.10 資料別監査の公称と成果保存域</a></li><li><a href="ch07-02-11.html">7.2.11 証拠効力境界と限定成果の無制限継承</a></li><li><a href="ch07-02-12.html">7.2.12 監査境界有向超グラフの入力整合性</a></li></ul></li><li><a href="ch07-03.html">7.3 形式証拠・原典言明と代表監査</a><details data-pilot-group="SS3"><summary>小節一覧（18件）</summary><ul class="pilot-sublist"><li><a href="ch07-03.html#SS3.SSS1">7.3.1 明示的絶対時間と操作的批判</a></li><li><a href="ch07-03.html#SS3.SSS2">7.3.2 同期・座標時・固有時</a></li><li><a href="ch07-03.html#SS3.SSS3">7.3.3 単位標準・分散時計・実験時計差</a></li><li><a href="ch07-03.html#SS3.SSS4">7.3.4 量子測定・記録・デコヒーレンス</a></li><li><a href="ch07-03.html#SS3.SSS5">7.3.5 内部時計・熱時間・局所到達判定</a></li><li><a href="ch07-03.html#SS3.SSS6">7.3.6 正準重力・時間問題・宇宙境界</a></li><li><a href="ch07-03.html#SS3.SSS7">7.3.7 時間の矢・重力的矢・時間流動</a></li><li><a href="ch07-03.html#SS3.SSS8">7.3.8 ブラックホール熱力学・放射・情報</a></li><li><a href="ch07-03.html#SS3.SSS9">7.3.9 双対性・エントロピー・時空創発</a></li><li><a href="ch07-03.html#SS3.SSS10">7.3.10 宇宙定数・加速観測・膨張語彙</a></li><li><a href="ch07-03.html#SS3.SSS11">7.3.11 原典言明と形式記述の照合</a></li><li><a href="ch07-03.html#SS3.SSS12">7.3.12 原始時間の明示形と物理学横断使用</a></li><li><a href="ch07-03.html#SS3.SSS13">7.3.13 評価成功と物理時間成立資格</a></li><li><a href="ch07-03.html#SS3.SSS14">7.3.14 隣接時間問題と完全時間生成</a></li><li><a href="ch07-03.html#SS3.SSS15">7.3.15 形式成果と言明対象の差</a></li><li><a href="ch07-03.html#SS3.SSS16">7.3.16 時間担持量の形式証拠と言明証拠</a></li><li><a href="ch07-03.html#SS3.SSS17">7.3.17 時計・時間属性・生命適用の証拠段階</a></li><li><a href="ch07-03.html#SS3.SSS18">7.3.18 全資料言明の代表論証への接続</a></li></ul></details></li><li><a href="ch07-04.html">7.4 監査72資料の横断結果</a><details data-pilot-group="SS4"><summary>小節一覧（1件）</summary><ul class="pilot-sublist"><li><a href="ch07-04.html#SS4.SSS1">7.4.1 時間内容分類と構造署名の資料横断結果</a></li></ul></details></li><li><a href="ch07-05.html">7.5 生成完成時間との対照と物理的成立根拠</a></li></ul></nav></aside><div class="ltx_page_content"><section id="SS2.SSS2" class="ltx_subsubsection">
+<h1 class="pilot-primary ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">7.2.2 </span>資料証拠層・依存有効層・意味監査境界</h1>
+
+<div id="Thmdefinition79" class="ltx_theorem ltx_theorem_definition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">定義 7.79</span></span><span class="ltx_text ltx_font_bold"> </span>(資料証拠層・依存有効層・意味監査境界)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition79.p1" class="ltx_para">
+<p class="ltx_p">各<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition79.p1.m1"><img class="lctr-math-vector" src="math-S7/964feae05fc7610d025d5b3385b13d4f1a3ea88a3d7615e7ea2faf91b6cf3af0.svg" alt="R\in\mathsf{Ref}^{\mathrm{audit}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.16074em;height:1.10854em;vertical-align:-0.12243em"><span class="lctr-math-accessible"><math id="Thmdefinition79.p1.m1" class="ltx_Math" alttext="R\in\mathsf{Ref}^{\mathrm{audit}}" display="inline"><semantics><mrow><mi>R</mi><mo>∈</mo><msup><mi>𝖱𝖾𝖿</mi><mi>audit</mi></msup></mrow><annotation encoding="application/x-tex">R\in\mathsf{Ref}^{\mathrm{audit}}</annotation></semantics></math></span></span>について、
+有限集合</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2239" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2239.m1" data-body-math-cuts="[[5.306751,0],[6.306751,2],[14.152929,0],[15.152929,2]]"><img class="lctr-math-vector" src="math-S7/c26352b91ee1919bbbf119042db1a8c60323354ef1ae924c1bcd2375aae35f3a.svg" alt="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{R}\mathchar 4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathchar 44\relax%
+\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+rootuse%
+}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:22.61369em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2239.m1" class="ltx_Math" alttext="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{R}\mathchar 4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathchar 44\relax%
+\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+rootuse%
+}}_{R}" display="block"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>use</mi></mrow></msubsup><mo rspace="2.167em">,</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup><mo rspace="2.167em">,</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>rootuse</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{R}\mathchar 4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathchar 44\relax%
+\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+rootuse%
+}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が与えられているとする。これらと</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2240" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2240.m1"><img class="lctr-math-vector" src="math-S7/a6b3f799d1c515f3aced962d20b0f25cd761bec984b385d1da12b81e2206f157.svg" alt="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}_{R}\mathchar
+4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak result}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:13.92084em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2240.m1" class="ltx_Math" alttext="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}_{R}\mathchar
+4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak result}}_{R}" display="block"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mo rspace="2.167em">,</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}_{R}\mathchar
+4%
+4\relax\allowbreak\qquad\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak result}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">は互いに素であるとする。</p>
+</div>
+<div id="Thmdefinition79.p2" class="ltx_para">
+<p class="ltx_p">資料証拠全節点集合を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2241" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2241X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2241X.m2"><img class="lctr-math-vector" src="math-S7/3557c6dc68e1ab7976170e5314713817e972c56485585dac2a9a908b849e8721.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_%
+{R}:={}" aria-hidden="true" loading="lazy" decoding="async" style="width:6.99853em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2241X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_%
+{R}:={}" display="inline"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_%
+{R}:={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2241X.m3"><img class="lctr-math-vector" src="math-S7/9ccb19d76d9fcc18e7011c3a24fbf950383bb7e7b66def09c313be57998a46a9.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak use}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:11.84530em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2241X.m3" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak use}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>use</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak use}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2241Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2241Xa.m2" data-body-math-cuts="[[7.268636,9],[8.157523,9]]"><img class="lctr-math-vector" src="math-S7/57bd0f2ea0d3f1df352d602efafd9858ebebd7ec9d43012dd0bd6ca612f42209.svg" alt="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathbin{\dot{%
+\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak rootuse}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:14.56273em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2241Xa.m2" class="ltx_Math" alttext="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathbin{\dot{%
+\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak rootuse}}_{R}" display="inline"><semantics><mrow><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>rootuse</mi></mrow></msubsup></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}\mathbin{\dot{%
+\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak rootuse}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2241Xb"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2241Xb.m2"><img class="lctr-math-vector" src="math-S7/84aaad4f0b668005059f14e2bf9de72c3efc163da90cdf447819a4b1d5087de2.svg" alt="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:6.53276em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2241Xb.m2" class="ltx_Math" alttext="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}" display="inline"><semantics><mrow><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。依存有効節点集合を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2242" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2242X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2242X.m2"><img class="lctr-math-vector" src="math-S7/2850a26e3a16673f3c8b276f470c5597bf81a959e41e324f2db8541426fc6968.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{%
+R}:={}" aria-hidden="true" loading="lazy" decoding="async" style="width:6.82120em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2242X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{%
+R}:={}" display="inline"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{%
+R}:={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2242X.m3"><img class="lctr-math-vector" src="math-S7/ad061c2738d3e41ef59c329e8e3d2b0805e68abaf588d861caaa4d1163bee1c8.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:13.30139em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2242X.m3" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak claim}}%
+_{R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak time\mathchar 44\relax\allowbreak src}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2242Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2242Xa.m2"><img class="lctr-math-vector" src="math-S7/84aaad4f0b668005059f14e2bf9de72c3efc163da90cdf447819a4b1d5087de2.svg" alt="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:6.53276em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2242Xa.m2" class="ltx_Math" alttext="\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}" display="inline"><semantics><mrow><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak result}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。</p>
+</div>
+<div id="Thmdefinition79.p3" class="ltx_para">
+<p class="ltx_p">資料証拠節点型集合を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2243" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2243X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2243X.m2"><img class="lctr-math-vector" src="math-S7/0f91d2e09d6e0672fa27fc846a10321c04a9383c797c600b5a9237fec0c827b5.svg" alt="\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}:={}" aria-hidden="true" loading="lazy" decoding="async" style="width:8.59063em;height:1.25845em;vertical-align:-0.28733em"><span class="lctr-math-accessible"><math id="Ex2243X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}:={}" display="inline"><semantics><mrow><msup><mi>𝖳𝗒𝗉𝖾</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi><mo>,</mo><mi>node</mi></mrow></msup><mo lspace="0.278em" rspace="0.278em">:=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}:={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2243X.m3"><img class="lctr-math-vector" src="math-S7/c3c9b4138b651a3984ee2a65eb964fb83272de8c554d695240b346efa3d7d3f4.svg" alt="\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.52610em;height:1.25845em;vertical-align:-0.28733em"><span class="lctr-math-accessible"><math id="Ex2243X.m3" class="ltx_Math" alttext="\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}" display="inline"><semantics><msup><mi>𝖳𝗒𝗉𝖾</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msup><annotation encoding="application/x-tex">\displaystyle\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2243Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2243Xa.m2"><img class="lctr-math-vector" src="math-S7/67719f808de0ff1ef5a7b3c114f0fca6dac1605152ecd1ef40c61f5317840daa.svg" alt="\displaystyle\cup\left\{\mathsf{Type}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\mathsf{Type}^{%
+\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{rootuse}}\right\}" aria-hidden="true" loading="lazy" decoding="async" style="width:13.49085em;height:1.96668em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2243Xa.m2" class="ltx_Math" alttext="\displaystyle\cup\left\{\mathsf{Type}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\mathsf{Type}^{%
+\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{rootuse}}\right\}" display="inline"><semantics><mrow><mo rspace="0em">∪</mo><mrow><mo>{</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>use</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo>,</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>rootuse</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo>}</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\cup\left\{\mathsf{Type}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\mathsf{Type}^{%
+\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{rootuse}}\right\}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。資料証拠節点型写像</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2244" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2244X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2244X.m2" data-body-math-cuts="[[8.078078,5],[8.627839,5]]"><img class="lctr-math-vector" src="math-S7/02692a9607631f9f22646f4218d456f39de59979d1505d71384efbef2b99e12d.svg" alt="\displaystyle\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak evid}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:14.09282em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2244X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak evid}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖳𝗒𝗉𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak evid%
+\mathchar 44\relax\allowbreak node}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak evid}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2244Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2244Xa.m2" data-body-math-cuts="[[8.500017,5]]"><img class="lctr-math-vector" src="math-S7/8e1db4c3fc12f722eac8a4abe41f5bba341c74fb0fc6f6439794dda1cc1a1fc8.svg" alt="\displaystyle\hskip 80.00012pt\longrightarrow\mathsf{Type}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}" aria-hidden="true" loading="lazy" decoding="async" style="width:15.55710em;height:1.25845em;vertical-align:-0.28733em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2244Xa.m2" class="ltx_Math" alttext="\displaystyle\hskip 80.00012pt\longrightarrow\mathsf{Type}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}" display="inline"><semantics><mrow><mi></mi><mo lspace="8.278em" stretchy="false">⟶</mo><msup><mi>𝖳𝗒𝗉𝖾</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi><mo>,</mo><mi>node</mi></mrow></msup></mrow><annotation encoding="application/x-tex">\displaystyle\hskip 80.00012pt\longrightarrow\mathsf{Type}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">を、各直和成分上でそれぞれ</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2245" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2245.m1" data-body-math-cuts="[[5.714752,0],[6.214752,2],[12.512836,0],[13.012836,2],[19.310919,0],[19.810919,2],[26.109002,0],[26.609002,2]]"><img class="lctr-math-vector" src="math-S7/1003e6d65c32812eba1be718afadebb6248d0713412ac7fe024f0d03dbe413c7.svg" alt="\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+claim}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{time%
+}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak node}}_{\mathrm{rootuse}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+result}}" aria-hidden="true" loading="lazy" decoding="async" style="width:32.71843em;height:1.38829em;vertical-align:-0.36822em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2245.m1" class="ltx_Math" alttext="\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+claim}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{time%
+}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak node}}_{\mathrm{rootuse}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+result}}" display="block"><semantics><mrow><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>claim</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo rspace="1.167em">,</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>use</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo rspace="1.167em">,</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>time</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo rspace="1.167em">,</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>rootuse</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo rspace="1.167em">,</mo><msubsup><mi>𝖳𝗒𝗉𝖾</mi><mi>result</mi><mrow><mi>audit</mi><mo>,</mo><mi>node</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+claim}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak node}}_{\mathrm{use}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{time%
+}}\mathchar 44\relax\allowbreak\quad\mathsf{Type}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak node}}_{\mathrm{rootuse}}\mathchar 44\relax\allowbreak\quad%
+\mathsf{Type}^{\mathrm{audit\mathchar 44\relax\allowbreak node}}_{\mathrm{%
+result}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">を値として持つ写像として定める。依存有効節点型写像を</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2246" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2246.m1" data-body-math-cuts="[[7.900747,5],[9.212074,5]]"><img class="lctr-math-vector" src="math-S7/5f1f499cec3a6b5a8a3dde105b7d66dfc94f23cbf84eeb2a17aa3ef32b579e41.svg" alt="\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak dep\mathchar 44%
+\relax\allowbreak node}}_{R}:=\left.\mathsf{TypeOf}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}_{R}\right|_{\mathsf%
+{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}}" aria-hidden="true" loading="lazy" decoding="async" style="width:21.87830em;height:2.24039em;vertical-align:-1.00705em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2246.m1" class="ltx_Math" alttext="\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak dep\mathchar 44%
+\relax\allowbreak node}}_{R}:=\left.\mathsf{TypeOf}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}_{R}\right|_{\mathsf%
+{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}}" display="block"><semantics><mrow><msubsup><mi>𝖳𝗒𝗉𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:=</mo><msub><mrow><msubsup><mi>𝖳𝗒𝗉𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo>|</mo></mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup></msub></mrow><annotation encoding="application/x-tex">\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak dep\mathchar 44%
+\relax\allowbreak node}}_{R}:=\left.\mathsf{TypeOf}^{\mathrm{audit\mathchar 44%
+\relax\allowbreak evid\mathchar 44\relax\allowbreak node}}_{R}\right|_{\mathsf%
+{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。</p>
+</div>
+<div id="Thmdefinition79.p4" class="ltx_para">
+<p class="ltx_p">資料固有内容対応</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2247" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2247X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2247X.m2" data-body-math-cuts="[[7.733983,5],[8.283745,5]]"><img class="lctr-math-vector" src="math-S7/5b6f4aaaf64f48df8535d480680f141dcffa6835829283bfba224e7b55299284.svg" alt="\displaystyle\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak time\mathchar
+4%
+4\relax\allowbreak src}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:14.91349em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2247X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak time\mathchar
+4%
+4\relax\allowbreak src}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖢𝗈𝗇𝗍𝖾𝗇𝗍𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+}}_{R}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak time\mathchar
+4%
+4\relax\allowbreak src}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2247Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2247Xa.m2" data-body-math-cuts="[[7.8889,5]]"><img class="lctr-math-vector" src="math-S7/f285d935c8809938e1ec00376dc0649f7295deb973f94b376030e6330a7bf302.svg" alt="\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{TimeContent}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:14.06041em;height:1.02167em;vertical-align:-0.23333em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2247Xa.m2" class="ltx_Math" alttext="\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{TimeContent}_{R}" display="inline"><semantics><mrow><mi></mi><mo lspace="8.278em" stretchy="false">↠</mo><msub><mi>𝖳𝗂𝗆𝖾𝖢𝗈𝗇𝗍𝖾𝗇𝗍</mi><mi>R</mi></msub></mrow><annotation encoding="application/x-tex">\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{TimeContent}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が与えられているとする。依存有効節点の境界縮約写像</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2248" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2248X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2248X.m2"><img class="lctr-math-vector" src="math-S7/bad37cfe840a6a1441c94a40a5b291cea4c983ae188c2bcc378b85ed198628ee.svg" alt="\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:10.76539em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2248X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}:\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2248Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2248Xa.m2"><img class="lctr-math-vector" src="math-S7/936af38ae7275623dd59562a5e9c185eb5342cc9d8e792dfed5dfe65c3c5116b.svg" alt="\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak bd}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:12.86188em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2248Xa.m2" class="ltx_Math" alttext="\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak bd}}_{R}" display="inline"><semantics><mrow><mi></mi><mo lspace="8.278em" stretchy="false">↠</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\hskip 80.00012pt\twoheadrightarrow\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak bd}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">を次の二つの作用によって定める。まず、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2249" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2249.m1" data-body-math-cuts="[[4.57022,5],[5.514661,5],[11.380752,9],[12.269639,9]]"><img class="lctr-math-vector" src="math-S7/aa7c6a9b4891c9f8b70917bd85248e10508edf71e58ad2614b4662600b20f897.svg" alt="\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\cup\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak result}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:18.16351em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2249.m1" class="ltx_Math" alttext="\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\cup\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak result}}_{R}" display="block"><semantics><mrow><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi><mo>∈</mo><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mo>∪</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup></mrow></mrow><annotation encoding="application/x-tex">\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\cup\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak result}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">について</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2250" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2250.m1" data-body-math-cuts="[[10.037551,5],[11.348879,5]]"><img class="lctr-math-vector" src="math-S7/ed5c3adec376604e14ed15c452e35ed20171a44959682a597e2ff8e72b00ee67.svg" alt="\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}(\mathsf{%
+AuditNode}):=\mathsf{AuditNode}" aria-hidden="true" loading="lazy" decoding="async" style="width:15.91910em;height:1.37451em;vertical-align:-0.35444em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2250.m1" class="ltx_Math" alttext="\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}(\mathsf{%
+AuditNode}):=\mathsf{AuditNode}" display="block"><semantics><mrow><mrow><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi><mo rspace="0.278em" stretchy="false">)</mo></mrow></mrow><mo rspace="0.278em">:=</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi></mrow><annotation encoding="application/x-tex">\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}(\mathsf{%
+AuditNode}):=\mathsf{AuditNode}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">と定める。次に、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2251" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2251.m1"><img class="lctr-math-vector" src="math-S7/b00b14a6e29d5c6c28ca9572d3b69ad2b8dc6692e9300541cf0e20bcc5910c59.svg" alt="\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:12.14441em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2251.m1" class="ltx_Math" alttext="\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}" display="block"><semantics><mrow><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi><mo>∈</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{AuditNode}\in\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">について</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2252" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2252X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2252X.m2"><img class="lctr-math-vector" src="math-S7/2b1bc733a595bc18ac0c427b9fce4673ab45098ff708c596bcacadfb8d5632fb.svg" alt="\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}(\mathsf{AuditNode})" aria-hidden="true" loading="lazy" decoding="async" style="width:9.98200em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2252X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}(\mathsf{AuditNode})" display="inline"><semantics><mrow><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R%
+}(\mathsf{AuditNode})</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2252Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2252Xa.m2" data-body-math-cuts="[[1.255774,5]]"><img class="lctr-math-vector" src="math-S7/acfe14388c70fffadaa884e57f86448e53b7ee59ce856dc4e7a3c4e96ba02b9a.svg" alt="\displaystyle:=\mathsf{NodeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}\left(\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}(\mathsf{AuditNode})\right)" aria-hidden="true" loading="lazy" decoding="async" style="width:21.82220em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2252Xa.m2" class="ltx_Math" alttext="\displaystyle:=\mathsf{NodeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}\left(\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}(\mathsf{AuditNode})\right)" display="inline"><semantics><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:=</mo><mrow><msubsup><mi>𝖭𝗈𝖽𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi></mrow></msubsup><mo>⁢</mo><mrow><mo>(</mo><mrow><msubsup><mi>𝖢𝗈𝗇𝗍𝖾𝗇𝗍𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖭𝗈𝖽𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle:=\mathsf{NodeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}\left(\mathsf{ContentOf}^{\mathrm{audit\mathchar 44\relax\allowbreak time%
+}}_{R}(\mathsf{AuditNode})\right)</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。</p>
+</div>
+<div id="Thmdefinition79.p5" class="ltx_para">
+<p class="ltx_p">資料固有依存入力写像および出力写像</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2253" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2253X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2253X.m2" data-body-math-cuts="[[3.94265,5],[4.492412,5],[9.417949,5],[11.306841,5]]"><img class="lctr-math-vector" src="math-S7/d1319094a1b82057f243c5db9d73e9e46f2a1b5cefa400049d38c35447df45d1.svg" alt="\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:19.93815em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2253X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><msubsup><mi>𝖨𝗇</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msubsup><mi>𝖤𝖽𝗀𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo stretchy="false">⟶</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">𝒫</mi><mi>fin</mi></msub><mo>⁢</mo><mrow><mo>(</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2253Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2253Xa.m2" data-body-math-cuts="[[4.752651,5],[5.302413,5],[10.227951,5],[12.116843,5]]"><img class="lctr-math-vector" src="math-S7/6090475cf72905e6ea77781cac86ff58bba51871b2a37c359ad67f9a0c82e9d3.svg" alt="\displaystyle\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R%
+}:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)" aria-hidden="true" loading="lazy" decoding="async" style="width:20.30950em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2253Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R%
+}:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)" display="inline"><semantics><mrow><msubsup><mi>𝖮𝗎𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msubsup><mi>𝖤𝖽𝗀𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo stretchy="false">⟶</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">𝒫</mi><mi>fin</mi></msub><mo>⁢</mo><mrow><mo>(</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R%
+}:\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}%
+\longrightarrow\mathcal{P}_{\mathrm{fin}}\left(\mathsf{Node}^{\mathrm{audit%
+\mathchar 44\relax\allowbreak dep}}_{R}\right)</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が与えられているとする。各層</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2254" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2254.m1"><img class="lctr-math-vector" src="math-S7/fbd31b3bfd01cc564e7e83915d81635fd6e4e207094dc8e9002e2d4a9aefd33c.svg" alt="\mathsf{Layer}\in\{\mathsf{evid}\mathchar 44\relax\allowbreak\mathsf{dep}\}" aria-hidden="true" loading="lazy" decoding="async" style="width:8.09554em;height:1.16667em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex2254.m1" class="ltx_Math" alttext="\mathsf{Layer}\in\{\mathsf{evid}\mathchar 44\relax\allowbreak\mathsf{dep}\}" display="block"><semantics><mrow><mi>𝖫𝖺𝗒𝖾𝗋</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mi>𝖾𝗏𝗂𝖽</mi><mo>,</mo><mi>𝖽𝖾𝗉</mi><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">\mathsf{Layer}\in\{\mathsf{evid}\mathchar 44\relax\allowbreak\mathsf{dep}\}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">について、資料証拠層および依存有効層の有限有向超グラフを一括して</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2255" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2255X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2255X.m2"><img class="lctr-math-vector" src="math-S7/51a397da3809eb65f1d68b2d53bca3a4b242fd333c19e8aa9d9348cee28d2c49.svg" alt="\displaystyle\mathsf{Hypergraph}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}}_{R}:=\Bigl{(}" aria-hidden="true" loading="lazy" decoding="async" style="width:10.51276em;height:1.96668em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2255X.m2" class="ltx_math_unparsed" alttext="\displaystyle\mathsf{Hypergraph}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}}_{R}:=\Bigl{(}" display="inline"><semantics><mrow><msubsup><mi>𝖧𝗒𝗉𝖾𝗋𝗀𝗋𝖺𝗉𝗁</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>𝖫𝖺𝗒𝖾𝗋</mi></mrow></msubsup><mo lspace="0.278em" rspace="0.278em">:=</mo><mo maxsize="160%" minsize="160%">(</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Hypergraph}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}}_{R}:=\Bigl{(}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2255X.m3"><img class="lctr-math-vector" src="math-S7/aa88e786dd64ab71afe928f22f752307129258e4f3a4afaa92252406545095e2.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit}\mathchar 44\relax\allowbreak\mathsf%
+{Layer}}_{R}\mathchar 44\relax\allowbreak\mathsf{Edge}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak bd}}_{R}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:11.09783em;height:1.38088em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2255X.m3" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit}\mathchar 44\relax\allowbreak\mathsf%
+{Layer}}_{R}\mathchar 44\relax\allowbreak\mathsf{Edge}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak bd}}_{R}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>𝖫𝖺𝗒𝖾𝗋</mi></mrow></msubsup><mo>,</mo><msubsup><mi>𝖤𝖽𝗀𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit}\mathchar 44\relax\allowbreak\mathsf%
+{Layer}}_{R}\mathchar 44\relax\allowbreak\mathsf{Edge}^{\mathrm{audit\mathchar
+4%
+4\relax\allowbreak bd}}_{R}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2255Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2255Xa.m2"><img class="lctr-math-vector" src="math-S7/af06be2a0d7c1db9af53b9b00234a9b78d02d82885441dee04c95bc02240421b.svg" alt="\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+\mathchar 44\relax\allowbreak\mathsf{Out}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak dep}}_{R}\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:9.12817em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2255Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+\mathchar 44\relax\allowbreak\mathsf{Out}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak dep}}_{R}\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><msubsup><mi>𝖨𝗇</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>,</mo><msubsup><mi>𝖮𝗎𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}%
+\mathchar 44\relax\allowbreak\mathsf{Out}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak dep}}_{R}\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2255Xb"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2255Xb.m2" data-body-math-cuts="[[8.541183,0]]"><img class="lctr-math-vector" src="math-S7/aeddf4f9011b24b8de98258d83529a9dfa0fc7ae877473409c48953c4834d5d0.svg" alt="\displaystyle\mathsf{TypeOf}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}\mathchar 44\relax\allowbreak\mathrm{node}}_{R}\mathchar 44%
+\relax\allowbreak\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+edge%
+}}_{R}\Bigr{)}" aria-hidden="true" loading="lazy" decoding="async" style="width:15.69017em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2255Xb.m2" class="ltx_math_unparsed" alttext="\displaystyle\mathsf{TypeOf}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}\mathchar 44\relax\allowbreak\mathrm{node}}_{R}\mathchar 44%
+\relax\allowbreak\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+edge%
+}}_{R}\Bigr{)}" display="inline"><semantics><mrow><msubsup><mi>𝖳𝗒𝗉𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>𝖫𝖺𝗒𝖾𝗋</mi><mo>,</mo><mi>node</mi></mrow></msubsup><mo>,</mo><msubsup><mi>𝖳𝗒𝗉𝖾𝖮𝖿</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>edge</mi></mrow></msubsup><mo maxsize="160%" minsize="160%">)</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{TypeOf}^{\mathrm{audit}\mathchar 44\relax\allowbreak%
+\mathsf{Layer}\mathchar 44\relax\allowbreak\mathrm{node}}_{R}\mathchar 44%
+\relax\allowbreak\mathsf{TypeOf}^{\mathrm{audit\mathchar 44\relax\allowbreak
+edge%
+}}_{R}\Bigr{)}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって定める。</p>
+</div>
+<div id="Thmdefinition79.p6" class="ltx_para">
+<p class="ltx_p">各
+<span class="lctr-native-math lctr-native-inline" data-formula-id="Thmdefinition79.p6.m1"><img class="lctr-math-vector" src="math-S7/83d5a68b74ae0502316d3198cf61fa81122970c387c1e19de5c37ac97cc04a58.svg" alt="\mathsf{AuditEdge}\in\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak
+bd%
+}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:10.28165em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Thmdefinition79.p6.m1" class="ltx_Math" alttext="\mathsf{AuditEdge}\in\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak
+bd%
+}}_{R}" display="inline"><semantics><mrow><mi>𝖠𝗎𝖽𝗂𝗍𝖤𝖽𝗀𝖾</mi><mo>∈</mo><msubsup><mi>𝖤𝖽𝗀𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{AuditEdge}\in\mathsf{Edge}^{\mathrm{audit\mathchar 44\relax\allowbreak
+bd%
+}}_{R}</annotation></semantics></math></span></span>
+について</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2256" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2256X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2256X.m2"><img class="lctr-math-vector" src="math-S7/2256b425f72339f423f6899386b30b426ab7422988d8222038990141e23046b4.svg" alt="\displaystyle\mathsf{In}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})" aria-hidden="true" loading="lazy" decoding="async" style="width:7.59557em;height:1.30944em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex2256X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{In}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})" display="inline"><semantics><mrow><msubsup><mi>𝖨𝗇</mi><mi>R</mi><mi>audit</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖤𝖽𝗀𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{In}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2256X.m3" data-body-math-cuts="[[0.983786,5]]"><img class="lctr-math-vector" src="math-S7/1deeb5794f4d8d03a6eef6bcfc2c70cc709681fd2dc191668700a65505abbcb6.svg" alt="\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:16.18853em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2256X.m3" class="ltx_Math" alttext="\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo>⁢</mo><mrow><mo>[</mo><mrow><msubsup><mi>𝖨𝗇</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖤𝖽𝗀𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{In}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2256Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2256Xa.m2"><img class="lctr-math-vector" src="math-S7/3658f6b2b1dfde2ed2a50ca430784343d152327b536e667f72c5dab31f44d5b4.svg" alt="\displaystyle\mathsf{Out}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})" aria-hidden="true" loading="lazy" decoding="async" style="width:8.40557em;height:1.33044em;vertical-align:-0.33333em"><span class="lctr-math-accessible"><math id="Ex2256Xa.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Out}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})" display="inline"><semantics><mrow><msubsup><mi>𝖮𝗎𝗍</mi><mi>R</mi><mi>audit</mi></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖤𝖽𝗀𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Out}^{\mathrm{audit}}_{R}(\mathsf{AuditEdge})</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2256Xa.m3" data-body-math-cuts="[[0.983786,5]]"><img class="lctr-math-vector" src="math-S7/6f731a2d14cc537768f0aaa7e82d1cf8ba6b0183bffa0b0f9e5fd74d3bd91c8e.svg" alt="\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]" aria-hidden="true" loading="lazy" decoding="async" style="width:16.55988em;height:1.96668em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2256Xa.m3" class="ltx_Math" alttext="\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><mo>⁢</mo><mrow><mo>[</mo><mrow><msubsup><mi>𝖮𝗎𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>𝖠𝗎𝖽𝗂𝗍𝖤𝖽𝗀𝖾</mi><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{%
+R}\left[\mathsf{Out}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}(%
+\mathsf{AuditEdge})\right]</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が成立するとき、三つの超グラフは境界縮約に関して両立するという。</p>
+</div>
+</div>
+<div id="Thmdefinition80" class="ltx_theorem ltx_theorem_proposition">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">命題 7.80</span></span><span class="ltx_text ltx_font_bold"> </span>(資料証拠層・依存有効層・意味監査境界の関係)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmdefinition80.p1" class="ltx_para">
+<p class="ltx_p">定義
+<a href="#Thmdefinition79" title="定義 7.79 (資料証拠層・依存有効層・意味監査境界). ‣ 7.2.2 資料証拠層・依存有効層・意味監査境界 ‣ 7.2 証拠付き生成依存監査法 ‣ 7 法則時間使用の監査と原始時間前提の不達成 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">7.79</span></a>
+のもとで、</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2257" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2257.m1"><img class="lctr-math-vector" src="math-S7/c2c97f95ea620489f0ae084e053b44d1c12e13551e699c397b1eb23c14571b8d.svg" alt="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}\subseteq%
+\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:11.80819em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2257.m1" class="ltx_Math" alttext="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}\subseteq%
+\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_{R}" display="block"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>⊆</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}\subseteq%
+\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">が成立し、全辺の入力節点と出力節点は</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2258" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2258.m1"><img class="lctr-math-vector" src="math-S7/383a2152a96c8937d7c787251bd0f9a5f70a486b5bfea0621abed36e73ab95cb.svg" alt="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:5.23210em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2258.m1" class="ltx_Math" alttext="\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" display="block"><semantics><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><annotation encoding="application/x-tex">\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">に属する。したがって</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2259" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2259X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2259X.m2"><img class="lctr-math-vector" src="math-S7/abd1747e70f164121d0833be09150bd2800aad5d5e629547dddccfa583b2baff.svg" alt="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{%
+R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak rootuse}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:12.43997em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2259X.m2" class="ltx_Math" alttext="\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{%
+R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak rootuse}}_{R}" display="inline"><semantics><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>use</mi></mrow></msubsup><mover accent="true"><mo>∪</mo><mo>˙</mo></mover><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>rootuse</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\displaystyle\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak use}}_{%
+R}\mathbin{\dot{\cup}}\mathsf{Node}^{\mathrm{audit\mathchar 44\relax%
+\allowbreak rootuse}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2259Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2259Xa.m2"><img class="lctr-math-vector" src="math-S7/9ece97665402a1e93a7a77ee90349e1bdd7ccbdc95b9707a362b5cd021e582f1.svg" alt="\displaystyle=\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}%
+_{R}\setminus\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:12.45864em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2259Xa.m2" class="ltx_Math" alttext="\displaystyle=\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}%
+_{R}\setminus\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi></mrow></msubsup><mo>∖</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak evid}}%
+_{R}\setminus\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak dep}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">の各節点は、資料証拠有限有向超グラフの孤立節点である。</p>
+</div>
+<div id="Thmdefinition80.p2" class="ltx_para">
+<p class="ltx_p">三つの超グラフが境界縮約に関して両立するとき、境界縮約写像</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2260" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><span class="lctr-native-math lctr-native-block" data-formula-id="Ex2260.m1"><img class="lctr-math-vector" src="math-S7/31153c73f5bad0a0ecbd6c58e9a19b8715d41785179dfd0149544069219be4fc.svg" alt="\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}" aria-hidden="true" loading="lazy" decoding="async" style="width:4.87243em;height:1.37451em;vertical-align:-0.35444em"><span class="lctr-math-accessible"><math id="Ex2260.m1" class="ltx_Math" alttext="\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}" display="block"><semantics><msubsup><mi>𝖰𝗎𝗈𝗍</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>bd</mi></mrow></msubsup><annotation encoding="application/x-tex">\mathsf{Quot}^{\mathrm{audit\mathchar 44\relax\allowbreak bd}}_{R}</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">は依存有効有限有向超グラフから監査境界有向超グラフへの全射な有向超グラフ射を与える。</p>
+</div>
+<div id="Thmdefinition80.p3" class="ltx_para">
+<p class="ltx_p">各節点集合の濃度は</p>
+<!-- chapter-reader-tools --><div class="reader-table-scroll"><!-- /chapter-reader-tools -->
+<table id="Ex2261" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="Ex2261X"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261X.m2"><img class="lctr-math-vector" src="math-S7/bbf8932ad770b90ef11c29f5976f63c04ac05a7ace73120b7c91ee07b08040a9.svg" alt="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+evid%
+}}_{R}\right|={}" aria-hidden="true" loading="lazy" decoding="async" style="width:7.39321em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2261X.m2" class="ltx_Math" alttext="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+evid%
+}}_{R}\right|={}" display="inline"><semantics><mrow><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>evid</mi></mrow></msubsup><mo>|</mo></mrow><mo>=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+evid%
+}}_{R}\right|={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261X.m3"><img class="lctr-math-vector" src="math-S7/b2d1dc17a2d6c9cde351f05ff38974b3e36e946bedd64d04b9ec70dd1833727f.svg" alt="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+use%
+}}_{R}\right|" aria-hidden="true" loading="lazy" decoding="async" style="width:13.27353em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2261X.m3" class="ltx_Math" alttext="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+use%
+}}_{R}\right|" display="inline"><semantics><mrow><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mo>|</mo></mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>use</mi></mrow></msubsup><mo>|</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+use%
+}}_{R}\right|</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2261Xa"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261Xa.m2" data-body-math-cuts="[[8.196864,9],[9.180649,9]]"><img class="lctr-math-vector" src="math-S7/316d0cb1267a48e7e7a242e030b2b8946736229a1f1c8ded37d4e1a76cab7049.svg" alt="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{%
+audit\mathchar 44\relax\allowbreak rootuse}}_{R}\right|" aria-hidden="true" loading="lazy" decoding="async" style="width:16.25252em;height:1.96669em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2261Xa.m2" class="ltx_Math" alttext="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{%
+audit\mathchar 44\relax\allowbreak rootuse}}_{R}\right|" display="inline"><semantics><mrow><mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup><mo>|</mo></mrow></mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>rootuse</mi></mrow></msubsup><mo>|</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{%
+audit\mathchar 44\relax\allowbreak rootuse}}_{R}\right|</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2261Xb"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261Xb.m2"><img class="lctr-math-vector" src="math-S7/4105aaafc3e02f2568eaa13c8ce697465e82c06448cc388fae3a53c35e85b8b1.svg" alt="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|\mathchar 44\relax\allowbreak" aria-hidden="true" loading="lazy" decoding="async" style="width:7.89965em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2261Xb.m2" class="ltx_Math" alttext="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|\mathchar 44\relax\allowbreak" display="inline"><semantics><mrow><mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup><mo>|</mo></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|\mathchar 44\relax\allowbreak</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2261Xc"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261Xc.m2"><img class="lctr-math-vector" src="math-S7/920718930200e14a9d9e66a483a0dc1058b4847fa61b967d04a47d9ec1372a45.svg" alt="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+dep%
+}}_{R}\right|={}" aria-hidden="true" loading="lazy" decoding="async" style="width:7.21588em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2261Xc.m2" class="ltx_Math" alttext="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+dep%
+}}_{R}\right|={}" display="inline"><semantics><mrow><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>dep</mi></mrow></msubsup><mo>|</mo></mrow><mo>=</mo><mi></mi></mrow><annotation encoding="application/x-tex">\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+dep%
+}}_{R}\right|={}</annotation></semantics></math></span></span></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261Xc.m3" data-body-math-cuts="[[6.477208,9],[7.460993,9]]"><img class="lctr-math-vector" src="math-S7/38fa4702cd28ef3c14b839ca8c9bac3f2d39c6f4f03c574d24c91a6de70e42a9.svg" alt="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|" aria-hidden="true" loading="lazy" decoding="async" style="width:14.72963em;height:1.96669em;vertical-align:-0.73334em"><span class="body-math-lines" aria-hidden="true"></span><span class="lctr-math-accessible"><math id="Ex2261Xc.m3" class="ltx_Math" alttext="\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|" display="inline"><semantics><mrow><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>claim</mi></mrow></msubsup><mo>|</mo></mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>time</mi><mo>,</mo><mi>src</mi></mrow></msubsup><mo>|</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+claim%
+}}_{R}\right|+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+time%
+\mathchar 44\relax\allowbreak src}}_{R}\right|</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="Ex2261Xd"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><span class="lctr-native-math lctr-native-inline" data-formula-id="Ex2261Xd.m2"><img class="lctr-math-vector" src="math-S7/c584a4bf292fd329d04be5a4b21b59e6cbca3440e445a9b483342a842a2e708c.svg" alt="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|" aria-hidden="true" loading="lazy" decoding="async" style="width:7.46099em;height:1.96669em;vertical-align:-0.73334em"><span class="lctr-math-accessible"><math id="Ex2261Xd.m2" class="ltx_Math" alttext="\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|" display="inline"><semantics><mrow><mo>+</mo><mrow><mo>|</mo><msubsup><mi>𝖭𝗈𝖽𝖾</mi><mi>R</mi><mrow><mi>audit</mi><mo>,</mo><mi>result</mi></mrow></msubsup><mo>|</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle+\left|\mathsf{Node}^{\mathrm{audit\mathchar 44\relax\allowbreak
+result%
+}}_{R}\right|</annotation></semantics></math></span></span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table><!-- chapter-reader-tools --></div><!-- /chapter-reader-tools -->
+
+<p class="ltx_p">によって与えられる。</p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">証明.</h6>
+<div id="SS2.SSS2.p1" class="ltx_para">
+<p class="ltx_p">二つの節点集合の包含関係、その差集合の表示および差集合の各節点の孤立性は、定義
+<a href="#Thmdefinition79" title="定義 7.79 (資料証拠層・依存有効層・意味監査境界). ‣ 7.2.2 資料証拠層・依存有効層・意味監査境界 ‣ 7.2 証拠付き生成依存監査法 ‣ 7 法則時間使用の監査と原始時間前提の不達成 ‣ 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_tag">7.79</span></a>
+の直和分解および入力・出力写像の終域から従う。</p>
+</div>
+<div id="SS2.SSS2.p2" class="ltx_para">
+<p class="ltx_p">境界縮約写像は、主張節点集合と成果節点集合では恒等写像として全射である。時間内容節点集合では、資料固有内容対応と時間内容節点化写像の合成として全射である。三つの直和成分上の全射から、境界縮約写像は監査境界節点集合への全射となる。三つの超グラフが両立するとき、入力集合と出力集合に関する両立式により、各超辺の入力と出力は境界縮約写像で保存される。</p>
+</div>
+<div id="SS2.SSS2.p3" class="ltx_para">
+<p class="ltx_p">二つの濃度式は、対応する有限直和分解から従う。
+∎</p>
+</div>
+</div>
+</section>
+<nav class="pilot-steps" id="section-navigation" aria-label="前後の移動"><a class="pilot-prev" rel="prev" href="ch07-02-01.html"><span class="pilot-step-direction"><span aria-hidden="true">←</span> 前の小節</span><span class="pilot-step-name">7.2.1 時間担持表現の形式・言明別監査判定</span></a><a class="pilot-next" rel="next" href="ch07-02-03.html"><span class="pilot-step-direction"><span aria-hidden="true">→</span> 次の小節</span><span class="pilot-step-name">7.2.3 辺制限監査到達と分枝支援</span></a></nav></div></div></div></body></html>

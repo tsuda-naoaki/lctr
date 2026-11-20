@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+<meta charset="utf-8"><title>時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://tsuda-naoaki.github.io/lctr/full-text/ja/contents.html">
+<link rel="alternate" hreflang="ja" href="https://tsuda-naoaki.github.io/lctr/full-text/ja/contents.html">
+<link rel="alternate" hreflang="en" href="https://tsuda-naoaki.github.io/lctr/full-text/en/contents.html">
+<meta name="description" content="LCTR v1.0.1のWeb全文：時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論。">
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="LaTeXML.css">
+<link rel="stylesheet" href="ltx-article.css">
+<link rel="stylesheet" href="../preview.css">
+<style>.lctr-native-math{position:relative}.lctr-native-math>math{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}.lctr-native-block,.lctr-native-overflow{display:inline-block;max-width:100%;overflow-x:auto}.lctr-math-vector{max-width:none}</style>
+<!-- reader-navigation --><link rel="stylesheet" href="../reader-navigation.css">
+<!-- /reader-navigation -->
+<!-- section-preview --><link rel="stylesheet" href="../section-preview.css"><!-- /section-preview -->
+<link rel="stylesheet" href="../backmatter-preview.css">
+<link rel="stylesheet" href="../table-reflow.css">
+<script src="../backmatter-preview.js" defer></script>
+</head>
+<body class="preview-reader">
+<header class="masthead"><a class="wordmark" href="../../">LCTR<span class="theory-name"> v1.0.1</span></a><nav aria-label="Language"><span aria-current="page">日本語</span><a lang="en" href="../en/contents.html">English</a></nav></header><nav class="site-nav" aria-label="サイト全体"><a href="../.././">論文・要旨</a><a href="../../create-time/">時間の作り方</a><a href="../../why-time-emergence-failed/">従来の時間創発</a><a href="../../time-mysteries/">LCTRの考え方</a><a href="../../sources/">72資料</a><a href="../.././#figures">図解</a><a href="../.././#verification">検証資産</a><a href="../../verification/law-candidate/">MMT形式化</a><a href="../.././#materials-title">公開資料</a><a href="../../world-challenge/" lang="ja">物理学への告発</a><a href="../../comment-papers/">コメント論文</a><a href="./" aria-current="page">全文（HTML）</a></nav><nav class="preview-context"><a href="./">全文目次</a><a href="../../sources/">72資料の一覧</a></nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content"><nav class="backmatter-index" aria-label="本文・補遺・資料の目次"><a href="contents.html" aria-current="page" title="全文目次">全文目次</a><a href="supplement.html" title="補遺：72資料の原始時間根監査">補遺の冒頭</a><a href="supplement-s1.html" title="S.1 監査資料集合と監査範囲">S.1 監査範囲</a><a href="supplement-s2.html" title="S.2 資料別完全監査">S.2 資料一覧</a><a href="supplement-s3.html" title="S.3 資料横断監査">S.3 横断監査</a><a href="verification-assets.html" title="形式検証資産">形式検証資産</a><a href="references.html" title="参考文献">参考文献</a><a href="formula-search.html">数式検索</a></nav><article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document" style="font-size:120%;">
+<span class="ltx_text" style="font-size:83%;">時間変数を物理法則の前提から帰結へ移す
+<br class="ltx_break"></span>局所比較による時間成立の完全記述と破綻分類の一般理論</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">
+Naoaki Tsuda
+<br class="ltx_break">慶應義塾大学 環境情報学部 卒業（湘南藤沢キャンパス）
+<br class="ltx_break">独立研究者
+<br class="ltx_break"><span class="ltx_text ltx_font_typewriter">tsuda.naoaki@gmail.com</span>
+</span></span>
+</div>
+<div class="ltx_dates">(2026)</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">時間参照の局所比較理論（LCTR）は、物理法則に現れる時間変数を、法則記述の原始前提から、理論内部で物理的成立根拠を生成した後に使用できる表現へ移す。本稿が変更する対象は、時間変数を法則へ投入する以前に、その成立根拠と使用資格を構成しなければならないという、理論物理が法則を記述する際の前提順序である。</p>
+<p class="ltx_p">その理論構造は、計算機科学の型、依存、状態および変更影響に関する設計原理を、物理時間の生成、使用資格、失効局在化および下流再生成を規定する数理構造として統合する。</p>
+<p class="ltx_p">この構成は、装置や対象に生じた局所的な表示と状態差を記録として保持し、比較に必要な情報がどこで結び付くかを、時間量を用いずに確定するところから始まる。そこから比較結果の統合と順序、運動記述と時間表現、法則内で使用できる時間変数の構成へ進む。連続近似の有効域と微分形式についても、それぞれの成立条件を定める。時間変数の使用は、当該使用に至る生成依存上の成立条件が満たされる場合にのみ許される。LCTRは、この生成によって時間内容の同一性、前後関係、比較可能性と比較不能性、線形順序および実数値表現の成立条件を順に与え、時間構造の成立と時間座標の選択を分離する。この構成により、LCTRは物理時間を語義ではなく成立条件によって構成的に定義する。</p>
+<p class="ltx_p">生成過程の条件が満たされない場合、本稿の監査は、生成依存上で最初に失われた条件を特定し、その位置に不成立を局在化する。そのうえで、時間変数の成立域、最初の失効位置の集合、近似尺度の境界情報、失効原因、および構造上の負担を返す。これにより、連続近似と微分形式について、使用できる範囲、失効する位置と理由、および修復して再生成または再計算すべき対象を、一つの依存順序に沿って示す。したがって、この監査は連続と微分に対し、使用条件と失効原因を伴う条件付きの動作保証を与える。LCTRは、古典的連続時間の成立上の位置を、法則記述の原始前提から、物理的成立条件と最大有効域をもつ生成済み近似表現へ変更する。</p>
+<p class="ltx_p">この監査は、形式的な理論条件と物理的実現条件の双方を監査対象とする。理論条件と工学条件を異なる種類の条件として区別したまま、物理担体、記録、通信、有限分解能および証拠の来歴を一つの監査上の依存関係へ接続し、物理的実現と使用可能範囲の提示までを理論の成立責任に含める。複数対象を同一の時間表現上で記述し、同時刻判定、同期および共通時間表現を使用する資格は、各対象の物理担体、記録、情報結合、通信および多対象関係が成立する領域で得られ、遠隔または大域的な構成では輸送と貼り合わせの整合条件をさらに要する。</p>
+<p class="ltx_p">本稿では、時間内容を非時間的物理入力から成立させる完全な生成経路を欠いたまま、その時間内容を法則の演算または成果の導出へ投入することを原始時間入力と呼ぶ。数学的一貫性、予測性能および経験的適合は、原始時間入力に欠落している生成経路を補わない。測定、予測、模型適合または計算の成功が直接支持する範囲を証拠効力域と定める。成果を別の対象、述語、証拠の型、成立条件または適用域へ移す主張は、その証拠効力域を越える。</p>
+<p class="ltx_p">この基準により、古代から現代までの理論、実験、計量標準および工学にまたがる代表的72資料を監査した。その全てに原始時間入力とそれに依存する成果があった。使用する時間内容の全体を非時間的な物理入力から生成した資料は一件もなかった。生成過程の一部に相当する物理的関係を備えた資料でも、使用する時間内容全体の生成には到達しておらず、原始時間入力とそれに依存する成果が残る。この全件一致は、原始時間入力が特定の時代や分野に限られず、物理学の歴史を通じて反復してきたことを示す。</p>
+<p class="ltx_p">原始時間入力を含む現行の理論記述は、物理時間成立資格を満たさない。したがって、現代物理学は現在の時間変数使用のままでは成立しない。原始時間入力が使用に必要な条件を背景化し、独立証拠が同じ条件の実失効と下流成果への依存到達を確定する場合、その成果自体も当該評価領域で使用資格を失い、修復後の再生成または再計算を要する。一方、既存の数学的、実験的、工学的成果と物理関係は証拠効力域内で保持され、時間内容とその成立根拠を生成し、成立域と失効位置を監査した範囲で安全に再使用できる。時間次元を含むか、時間を用いて定義される物理量についても、物理関係の保持と時間依存表現の使用資格を分離し、後者を時間生成後の成立域で定める。</p>
+<p class="ltx_p">原始時間前提の資格失効、既存成果の保持および安全な再使用を統合する成果保存的再基礎化は、外部時間の除去と物理時間の生成を、別の責務として区別する。記録、比較、対象状態の差異および観測者側での情報結合から、法則内で使用できる時間を生成する。時間順序の生成と因果順序の構成は別の責務であり、因果順序の成立から時計尺度、時間間隔または法則時間の成立は導かれない。この生成順序は、周期、振動数およびHzを生成後の計量成果として定め、ローレンツ変換の作用対象を生成済み時間表現と空間表示として確定し、局所固有時と大域法則時間を別の成立段階へ分離する。量子重力の時間問題を法則時間の使用資格の問題へ変更し、時間の矢を生成済み時間表現への後続の向きづけ条件として定め、時間の創出、創発、回復および非存在に、生成経路または代替構造と全時間内容・後続成果からの原始時間依存排除を証明する責務を課す。その生成依存上で、従来別個の時間問題として論じられてきた各問題を、異なる失効位置へ配置する。これにより、古典物理から相対論、計量・工学、量子重力・宇宙論までを、時間を成立させるための負担、有効域および失効位置という共通の軸で比較できる。</p>
+<p class="ltx_p">この共通の軸のもとで形式証拠と言明証拠を照合すると、相対論の時間伸縮説には二段階の誤認が認められる。第一段階では、物理的成立根拠が生成されていない時間を、時計、振動子、信号、記録などの物理担体から独立した「時間そのもの」として法則に先行させる。第二段階では、重力や運動に応答した物理担体上の比較差を、その「時間そのもの」の伸縮へ帰属させる。また、時間の不存在を述べる言明と時間そのものへの属性付与が同じ説明体系に併置される場合、両者が同一の時間内容型と適用域を対象とすれば両立せず、異なる対象または適用域を対象とすればその切替の明示を要する。時計指示差、時計率差、固有時差、座標差その他の関係量への切替から、物理担体と独立した「時間そのもの」の属性変化は導かれない。さらに、その時間属性を生命過程へ移し、物理担体についての実験成果の効力を生命過程の直接実証へ拡張する連鎖は、生命適用を伴う三段階誤認をなす。より一般には、限定された計算、予測、模型適合または実験の成功が、数式全体の物理的成立、未生成時間の資格、未測定対象への適用、時間に関する存在論的主張へ移される、同じ構造の越境が複数分野で反復している。本稿はこれを限定成果の無制限継承として特定する。成果の効力は、その成果が直接支持する対象、述語、証拠の型、成立条件および適用域に限定される。</p>
+<p class="ltx_p">現代物理学が時間に関する独立した謎としてきた問題のうち、未生成時間への依存を成立条件とするものを考える。生成済みの物理関係と未生成の「時間そのもの」への属性帰属を区別し、時間を物理的に生成すると、その成立条件は除去される。その結果、これらの謎はすべて独立した問題としての成立根拠を失い、消滅する。その後に残る課題は、生成済み時間表現の成立条件、有効域、最初の失効位置、破綻分類、修復順序および次に取得すべき証拠の確定である。物理法則で時間変数を使うには、その時間内容と物理的成立根拠を法則使用に先立って生成しなければならない。物理法則の時間変数は原始前提では成立しない。</p>
+</div>
+<section id="Sx1" class="ltx_section ltx_pruned_first">
+<h2 class="ltx_title ltx_title_section">理論名</h2>
+
+<div id="Sx1.p2" class="ltx_para">
+<p class="ltx_p">日本語正式名：時間参照の局所比較理論</p>
+</div>
+<div id="Sx1.p4" class="ltx_para">
+<p class="ltx_p">英語正式名：<span class="ltx_text ltx_font_italic">the local-comparison theory of time reference</span></p>
+</div>
+<div id="Sx1.p6" class="ltx_para">
+<p class="ltx_p">英語略名：<span class="ltx_text ltx_font_smallcaps">LCTR</span></p>
+</div>
+</section>
+<section id="Sx2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">原典について</h2>
+
+<div id="Sx2.p1" class="ltx_para">
+<p class="ltx_p">本稿は、著者の主要な思考言語である日本語で執筆された原典であり、
+本稿に対応する英語版は国際的な学術利用のために準備された翻訳版である。
+理論構造の根幹は両者で同一であるが、
+概念の精度・語感・意味的配置については、
+著者の思考様式に基づく日本語版が最も忠実である。</p>
+</div>
+</section>
+<!-- reader-navigation --><span id="reading-contents"></span>
+<!-- /reader-navigation -->
+<nav class="ltx_TOC">
+<ol class="ltx_toclist ltx_toclist_document">
+<li class="ltx_tocentry"><a href="S1.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>導入</span></a></li>
+<li class="ltx_tocentry"><a href="S2.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>時間記述の達成条件と局所時間生成課題</span></a></li>
+<li class="ltx_tocentry"><a href="S3.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>物理担体実現と操作入力形成</span></a></li>
+<li class="ltx_tocentry"><a href="ch04.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>比較段階閉包と正準表現</span></a><!-- section-preview --> <a class="section-preview-entry" href="S4.html" aria-label="第4章を一括表示">章一括表示</a><!-- /section-preview -->
+</li>
+<li class="ltx_tocentry"><a href="S5.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>運動記述段階における観測者時間生成</span></a></li>
+<li class="ltx_tocentry"><a href="S6.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>妥当性・破綻・近似の局在化</span></a></li>
+<li class="ltx_tocentry"><a href="ch07.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">7 </span>法則時間使用の監査と原始時間前提の不達成</span></a><!-- section-preview --> <a class="section-preview-entry" href="S7.html" aria-label="第7章を一括表示">章一括表示</a><!-- /section-preview -->
+</li>
+<li class="ltx_tocentry"><a href="S8.html" title="In 時間変数を物理法則の前提から帰結へ移す 局所比較による時間成立の完全記述と破綻分類の一般理論" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">8 </span>代表スキーム・古典時間・最終総合</span></a></li>
+</ol></nav>
+
+<div id="p1" class="ltx_para">
+<p class="ltx_p"></p>
+</div>
+</article></div>
+<footer class="ltx_page_footer"></footer>
+</div>
+</body>
+</html>
