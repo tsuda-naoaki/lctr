@@ -10,6 +10,15 @@ Local Comparison and Failure Classification
 
 The local-comparison theory of time reference (LCTR) **claims to be the first theory in human history to construct physical time from start to finish using only nontemporal physical inputs.** At no stage does the construction presuppose temporal quantities or relations that it has not yet generated.
 
+## Web全文 / Web edition
+
+v1.0.1の本文8章と、72資料の監査を含む補遺をブラウザで読めます。
+
+Read all eight chapters of v1.0.1 and its supplement, including the audits of 72 sources, in your browser.
+
+- [日本語原典：本文・補遺（Web）](https://tsuda-naoaki.github.io/lctr/full-text/ja/)
+- [English translation: full text and supplement (Web)](https://tsuda-naoaki.github.io/lctr/full-text/en/)
+
 ## 物理学への告発、世界への挑戦状
 
 LCTRは、物理学における二つの不正を告発する。
